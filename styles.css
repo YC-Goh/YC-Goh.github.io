@@ -44,3 +44,14 @@ h4.menu > a {
     text-decoration: none;
     color: inherit;
 }
+
+div.section {
+    padding: 0 6px;
+}
+
+div.section > h5 {
+    margin: 12px 0;
+    padding: 12px 0;
+    border-bottom: 2px solid #f0f0f0;
+    width: fit-content;
+}
