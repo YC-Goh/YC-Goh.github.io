@@ -49,9 +49,15 @@ div.section {
     padding: 0 6px;
 }
 
-div.section > h5 {
+div.section > h4 {
     margin: 12px 0;
     padding: 12px 0;
     border-bottom: 2px solid #f0f0f0;
     width: fit-content;
+}
+
+p > a.in-line-link {
+    color: #9df8ff;
+    font-size: inherit;
+    text-decoration: none;
 }
