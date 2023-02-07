@@ -1,12 +1,27 @@
 {
-  "name": "YC-Goh.GitHub.io: a Personal Homepage",
+  "name": "yc-goh.github.io",
   "version": "0.1.0",
   "description": "This is the personal homepage of Goh Yeow Chong. Description to come.",
   "main": "index.js",
   "scripts": {
-    "run": "node run"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "keywords": [],
   "author": "YC-Goh",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.58.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.13.0",
+    "@types/react": "18.0.27",
+    "typescript": "4.9.5"
+  }
 }
