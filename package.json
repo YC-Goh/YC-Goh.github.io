@@ -1,0 +1,12 @@
+{
+  "name": "YC-Goh.GitHub.io: a Personal Homepage",
+  "version": "0.1.0",
+  "description": "This is the personal homepage of Goh Yeow Chong. Description to come.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node run"
+  },
+  "keywords": [],
+  "author": "YC-Goh",
+  "license": "MIT"
+}
