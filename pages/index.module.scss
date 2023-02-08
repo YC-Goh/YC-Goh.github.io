@@ -2,5 +2,9 @@
 @use '../styles/common';
 
 .app {
-    @include common.reset-margins;
+    margin: {
+        top: 0;
+        bottom: 0;
+    };
+    padding: 0;
 };
