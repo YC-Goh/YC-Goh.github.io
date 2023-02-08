@@ -2,26 +2,31 @@
 @use '../styles/common';
 
 .header {
-    @include common.test-stack;
-    .title, .menu {
-        @include common.test-stack;
-        p {
-            @include common.test-stack;
-        };
+    margin: {
+        top: 0;
+        bottom: 0;
     };
-    .title {
-        display: block;
-        width: 100%;
-        text: {
-            align: center;
-        };
+    padding: {
+        top: 0;
+        bottom: 0;
     };
-    .menu {
-        display: flex;
-        justify-content: space-evenly;
-        flex: {
-            direction: row;
-            wrap: wrap;
+    background-color: black;
+    color: white;
+    &-title {
+        @extend .header;
+        border: 1px solid white;
+        text-align: center;
+    };
+    &-menu {
+        @extend .header;
+        &-link {
+            @extend .header;
+            display: block;
+            text-decoration: none;
+            color: black;
         };
+        &-link-label {
+            @extend .header-title;
+        }
     };
 };

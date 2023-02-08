@@ -1,5 +1,6 @@
 
 import './next.scss';
+import '../node_modules/bootstrap/scss/bootstrap-grid.scss';
 import {ComponentType} from 'react';
 
 export default function App ({Component, pageProps} : {Component: ComponentType, pageProps: {}}) {
