@@ -2,6 +2,6 @@
 @use '../styles/common';
 
 .app {
-    @include common.reset-margins;
+    @include common.test-stack;
     border: common.$border-test-stack;
 };

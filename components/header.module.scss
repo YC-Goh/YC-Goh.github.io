@@ -2,6 +2,26 @@
 @use '../styles/common';
 
 .header {
-    @include common.reset-margins;
-    border: common.$border-test-stack;
+    @include common.test-stack;
+    .title, .menu {
+        @include common.test-stack;
+        p {
+            @include common.test-stack;
+        };
+    };
+    .title {
+        display: block;
+        width: 100%;
+        text: {
+            align: center;
+        };
+    };
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        flex: {
+            direction: row;
+            wrap: wrap;
+        };
+    };
 };
