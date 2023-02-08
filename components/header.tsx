@@ -7,14 +7,14 @@ export default function Header () {
             <h1 className={`${styles['header-title']}`}>Hello World!</h1>
         </div>
         <nav className={`${styles['header-menu']} navbar row g-0`}>
-            {menuLink('/', 'Home')}
-            {menuLink('/', 'Projects')}
-            {menuLink('/', 'TODO')}
+            {MenuLink('/', 'Home')}
+            {MenuLink('/', 'Projects')}
+            {MenuLink('/', 'TODO')}
         </nav>
     </div>);
 };
 
-function menuLink (href: string, label: string) {
+function MenuLink (href: string, label: string) {
     return (<div className='col g-0'>
         <a href={href} className={`${styles['header-menu-link']}`}>
             <h4 className={`${styles['header-menu-link-label']}`}>{label}</h4>
