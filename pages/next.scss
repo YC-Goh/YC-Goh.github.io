@@ -1,7 +1,6 @@
 
 @use '../styles/common';
 
-.header {
+body {
     @include common.reset-margins;
-    border: common.$border-test-stack;
-};
+}
