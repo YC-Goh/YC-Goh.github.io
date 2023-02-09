@@ -1,11 +1,9 @@
 
 import PageTemplate from '../components/page-template';
-import * as React from 'react';
+import Content from '../components/content';
 
 export default function App () {
-    let bodyText: JSX.Element[] = [];
-    for (let i = 0; i < 1000; i++) {
-        bodyText.push(<p key={`key-${i}`}>Hello World</p>)
-    }
-    return (PageTemplate(bodyText));
+    return (PageTemplate(
+        Content('Hello Home')
+    ));
 };
