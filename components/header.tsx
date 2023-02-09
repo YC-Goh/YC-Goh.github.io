@@ -1,5 +1,6 @@
 
 import styles from './header.module.scss';
+import Link from 'next/link';
 
 export default function Header () {
     return (<div className={`${styles['header']} sticky-sm-top`}>
@@ -8,16 +9,16 @@ export default function Header () {
         </div>
         <nav className={`${styles['header-menu']} navbar row g-0`}>
             {MenuLink('/', 'Home')}
-            {MenuLink('/', 'Projects')}
-            {MenuLink('/', 'TODO')}
+            {MenuLink('/projects', 'Projects')}
+            {MenuLink('/todo', 'TODO')}
         </nav>
     </div>);
 };
 
 function MenuLink (href: string, label: string) {
     return (<div className='col g-0'>
-        <a href={href} className={`${styles['header-menu-link']}`}>
+        <Link href={href} className={`${styles['header-menu-link']}`}>
             <h4 className={`${styles['header-menu-link-label']}`}>{label}</h4>
-        </a>
+        </Link>
     </div>)
 };
