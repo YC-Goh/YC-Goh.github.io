@@ -3,7 +3,7 @@ import styles from './footer.module.scss';
 import { faEnvelope, IconDefinition } from '@fortawesome/free-regular-svg-icons';
 import { faLinkedin, faGithub, faReact, faSass, faBootstrap, faFontAwesome } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faN, faT } from '@fortawesome/free-solid-svg-icons';
+import { faN, faT, faU } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer () {
     return (<div className={`${styles['footer']}`}>
@@ -32,6 +32,7 @@ export default function Footer () {
                     ['https://reactjs.org/', faReact],
                     ['https://www.typescriptlang.org/', faT],
                     ['https://sass-lang.com/', faSass],
+                    ['https://unifiedjs.com/', faU],
                     ['https://getbootstrap.com/docs/5.3/layout/grid/', faBootstrap],
                     ['https://fontawesome.com/docs/web/use-with/react/', faFontAwesome]
                 ]
@@ -55,7 +56,7 @@ function FooterSection (sectionName: string, sectionWidth: number, iconProps: [s
 
 function FooterLinkedIcon (link: string, iconName: IconDefinition, key: string) {
     return (
-        <a href={link} className={styles['footer-link']}>
+        <a href={link} target='_blank' className={styles['footer-link']}>
             <FontAwesomeIcon 
             icon={iconName} 
             className={styles['footer-icon']} 
