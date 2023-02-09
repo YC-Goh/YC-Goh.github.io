@@ -1,0 +1,11 @@
+
+@use '../styles/common';
+
+.footer {
+    background-color: black;
+    color: white;
+    &-text {
+        display: block;
+        border: 1px solid white;
+    };
+};
