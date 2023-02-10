@@ -5,7 +5,6 @@ import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import rehypeSanitize from 'rehype-sanitize';
 import rehypeReact from 'rehype-react';
-import rehypeStringify from 'rehype-stringify';
 
 function parseMarkdown (markdownSchema: string) {
     return unified()
