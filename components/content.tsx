@@ -6,8 +6,8 @@ import remarkRehype from 'remark-rehype';
 import rehypeSanitize from 'rehype-sanitize';
 import rehypeReact from 'rehype-react';
 
-function parseMarkdown (markdownSchema: string) {
-    return unified()
+export default function Content (markdownSchema: string) {
+    let componentSchema = unified()
     .use(remarkParse)
     .use(remarkRehype)
     .use(rehypeSanitize)
@@ -17,10 +17,6 @@ function parseMarkdown (markdownSchema: string) {
     })
     .processSync(markdownSchema)
     .result;
-};
-
-export default function Content (markdownSchema: string) {
-    let componentSchema = parseMarkdown(markdownSchema);
     return (
         <div className='row p-0 m-0'>
             {componentSchema}

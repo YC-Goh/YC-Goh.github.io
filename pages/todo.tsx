@@ -9,8 +9,8 @@ export default function App () {
 let contentMarkdown = `
 ## Hello TODOs
 
-1. Figure out how to add classNames to components generated using Unified.js.
-2. Restyle contents using Bootstrap.js + SCSS.
-3. Update contents to actual contents.
-4. Figure out how Next.js SSG works.
+1. Use plugins to alter properties of HTML tags generated through the unified.js remark-rehype process.
+2. Use tag properties to style page contents using Bootstrap.js + SCSS.
+3. Update the projects page with actual content and planned projects.
+4. Incorporate notebook and math/LaTeX rendering for future project.
 `;
