@@ -44,9 +44,9 @@ export default function Footer () {
 function FooterSection (sectionName: string, sectionWidth: number, iconProps: [string, IconDefinition][]) {
     return (
         <div className={`col-${sectionWidth} p-3 m-0`}>
-            <h2 className={`${styles['footer-section']} p-0 m-0`}>
+            <h3 className={`${styles['footer-section']} p-0 m-0`}>
                 {sectionName}
-            </h2>
+            </h3>
             {iconProps.map(
                 ([link, iconName], i) => FooterLinkedIcon(link, iconName, `section-icon-${i}`)
             )}
