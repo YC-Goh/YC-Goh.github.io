@@ -12,5 +12,5 @@ let contentMarkdown = `
 This is my home page.
 Details will be filled in later.
 
-The terrible blue colouring is not permanent.
+The inconsistent styling is not permanent.
 `;

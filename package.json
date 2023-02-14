@@ -30,15 +30,15 @@
   "devDependencies": {
     "@types/node": "18.13.0",
     "@types/react": "18.0.27",
-    "typescript": "4.9.5",
     "rehype-react": "^7.1.2",
     "rehype-sanitize": "^5.0.1",
-    "rehype-stringify": "^9.0.3",
     "remark-gfm": "^3.0.1",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
     "sass": "^1.58.0",
+    "typescript": "4.9.5",
     "unified": "^10.1.2",
-    "unified-stream": "^2.0.0"
+    "unified-stream": "^2.0.0",
+    "unist-util-visit": "^4.1.2"
   }
 }

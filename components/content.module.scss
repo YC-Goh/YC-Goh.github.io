@@ -1,0 +1,24 @@
+
+.content {
+    color: black;
+    &-superheading {
+        @extend .content;
+    };
+    &-heading {
+        @extend .content;
+    };
+    &-subheading {
+        @extend .content;
+    };
+    &-text {
+        @extend .content;
+    };
+    &-list {
+        &-item {
+            @extend .content;
+        }
+    };
+    &-other {
+        @extend .content;
+    };
+};
