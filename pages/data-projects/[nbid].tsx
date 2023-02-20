@@ -8,13 +8,14 @@ import PageTemplate from '../../components/page-template';
 import Content from '../../components/content';
 import fs from 'fs/promises';
 import path from 'path';
+import 'katex/dist/katex.css';
 
 export default function NoteBook (props: {nbContent: string}) {
-    return (PageTemplate(Content(props.nbContent)));
+    return (PageTemplate(Content(props.nbContent, 'markdown')));
 };
 
 export let getStaticProps: GetStaticProps<{nbContent:string}> = async (context) => {
-    let nbContent = await fs.readFile(path.resolve('pages', 'data-projects', `${context.params!.nbid}.md`), {'encoding': 'utf8'})
+    let nbContent = await fs.readFile(path.resolve('public', 'data-projects', `${context.params!.nbid}.md`), {'encoding': 'utf8'})
     return {
         props: {
             nbContent

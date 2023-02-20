@@ -1,24 +1,51 @@
 
 .content {
     color: black;
-    &-superheading {
+    &-page-heading {
         @extend .content;
     };
-    &-heading {
+    &-content-heading {
         @extend .content;
     };
-    &-subheading {
+    &-section-heading {
+        @extend .content;
+    };
+    &-subsection-heading {
         @extend .content;
     };
     &-text {
-        @extend .content;
+        &-content {
+            @extend .content;
+        };
+        &-link {
+            @extend .content;
+            text-decoration: none;
+        };
     };
     &-list {
         &-item {
             @extend .content;
         }
     };
-    &-other {
-        @extend .content;
+    &-code {
+        &-container {
+            width: 90%;
+            padding: 1em 0;
+            margin: 0 auto;
+            overflow: scroll;
+        };
+        &-text {
+            color: skyblue;
+        };
+    };
+    &-math {
+        &-text {
+            @extend .content;
+        };
+    };
+    &-table {
+        &-cell {
+            @extend .content;
+        };
     };
 };

@@ -3,7 +3,7 @@ import PageTemplate from '../components/page-template';
 import Content from '../components/content';
 
 export default function App () {
-    return (PageTemplate(Content(contentMarkdown)));
+    return (PageTemplate(Content(contentMarkdown, 'markdown')));
 };
 
 let contentMarkdown = `
