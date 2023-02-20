@@ -1,7 +1,8 @@
 
 import * as React from 'react';
 import { unified } from 'unified';
-import { visit } from 'unist-util-visit';
+import { visit, Test } from 'unist-util-visit';
+import { Node } from 'unist-util-visit/lib';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -10,11 +11,13 @@ import rehypeRaw from 'rehype-raw';
 import rehypeParse from 'rehype-parse';
 import rehypeSanitize, {defaultSchema} from 'rehype-sanitize';
 import rehypeKatex from 'rehype-katex';
+import rehypeHighlight from 'rehype-highlight';
 import rehypeReact from 'rehype-react';
 import { Root, Element } from 'hast';
 import styles from './content.module.scss';
+import 'highlight.js/styles/github-dark-dimmed.css';
 
-let mathSanitizeSchema = { ...defaultSchema };
+let mathSanitizeSchema = structuredClone(defaultSchema);
 
 if (!mathSanitizeSchema.attributes) {
     mathSanitizeSchema.attributes = {};
@@ -30,6 +33,12 @@ if (!mathSanitizeSchema.attributes.span) {
     mathSanitizeSchema.attributes.span = [['className', 'math', 'math-inline']];
 } else {
     mathSanitizeSchema.attributes.span.push(['className', 'math', 'math-inline']);
+}
+
+if (!mathSanitizeSchema.attributes.code) {
+    mathSanitizeSchema.attributes.code = [['className', /^language-[a-z]+/i]];
+} else {
+    mathSanitizeSchema.attributes.code.push(['className', /^language-[a-z]+/i]);
 }
 
 function rehypeSetStylesRaw () {
@@ -49,6 +58,7 @@ function rehypeAddAttr () {
                 node.properties = {};
             };
             node.properties.id = `content-${node.tagName}-${index}`;
+            node.properties.key = node.properties.id;
             switch (node.tagName) {
                 case 'h1':
                     node.properties.className = `${styles['content-page-heading']}`
@@ -81,7 +91,9 @@ function rehypeAddAttr () {
                     node.properties.className = `${styles['content-code-container']}`
                     break
                 case 'code':
-                    node.properties.className = `${styles['content-code-text']}`
+                    if (!node.properties.className) {
+                        node.properties.className = `${styles['content-code-text']}`
+                    }
                     break
                 case 'math':
                 case 'mrow':
@@ -116,7 +128,6 @@ function rehypeAddAttr () {
 function rehypeLinkImgTags () {
     return function (tree: Root) {
         visit(tree, {tagName: 'img'}, function (node: Element) {
-            console.log(node);
             node.properties!.src = `/data-projects/${node.properties!.src}`;
         });
     };
@@ -137,6 +148,7 @@ export default function Content (contentText: string, format: 'markdown'|'html')
                 .use(rehypeKatex, {output: 'mathml'})
                 .use(rehypeAddAttr)
                 .use(rehypeLinkImgTags)
+                .use(rehypeHighlight)
                 .use(rehypeReact, {createElement: React.createElement})
                 .processSync(contentText)
                 .result}
@@ -152,6 +164,7 @@ export default function Content (contentText: string, format: 'markdown'|'html')
                 .use(rehypeSanitize, mathSanitizeSchema)
                 .use(rehypeKatex, {output: 'mathml'})
                 .use(rehypeAddAttr)
+                .use(rehypeHighlight)
                 .use(rehypeReact, {createElement: React.createElement})
                 .processSync(contentText)
                 .result}

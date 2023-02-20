@@ -31,6 +31,7 @@
     "@types/node": "18.13.0",
     "@types/react": "18.0.27",
     "katex": "^0.16.4",
+    "rehype-highlight": "^6.0.0",
     "rehype-katex": "^6.0.2",
     "rehype-parse": "^8.0.4",
     "rehype-raw": "^6.1.1",
