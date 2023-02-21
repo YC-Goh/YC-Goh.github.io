@@ -17,7 +17,7 @@ import { Root, Element } from 'hast';
 import styles from './content.module.scss';
 import 'highlight.js/styles/github-dark-dimmed.css';
 
-let mathSanitizeSchema = structuredClone(defaultSchema);
+let mathSanitizeSchema = {...defaultSchema};
 
 if (!mathSanitizeSchema.attributes) {
     mathSanitizeSchema.attributes = {};
