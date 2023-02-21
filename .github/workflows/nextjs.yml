@@ -37,10 +37,13 @@ jobs:
       - name: Setup Conda
         uses: conda-incubator/setup-miniconda@v2
         with:
-          activate-environment: base-python
           auto-update-conda: true
+          auto-activate-base: false
           environment-file: py-env.yml
-      - run: jupyter nbconvert --to markdown ./public/*/*.ipynb
+          activate-environment: base-python
+      - name: Convert notebooks
+        shell: bash -el {0}
+        run: jupyter nbconvert --to markdown ./public/*/*.ipynb
       - name: Detect package manager
         id: detect-package-manager
         run: |
