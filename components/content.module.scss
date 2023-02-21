@@ -1,51 +1,73 @@
 
+$main-content-colour: black;
+$monospace-content-colour: midnightblue;
+$mouseover-content-colour: darkslateblue;
+
 .content {
-    color: black;
     &-page-heading {
-        @extend .content;
+        color: $main-content-colour;
     };
     &-content-heading {
-        @extend .content;
+        color: $main-content-colour;
     };
     &-section-heading {
-        @extend .content;
+        color: $main-content-colour;
     };
     &-subsection-heading {
-        @extend .content;
+        color: $main-content-colour;
     };
     &-text {
         &-content {
-            @extend .content;
+            color: $main-content-colour;
         };
         &-link {
-            @extend .content;
+            color: $monospace-content-colour;
             text-decoration: none;
+            &:hover {
+                color: $mouseover-content-colour;
+            };
+        };
+        &-wrapper {
+            white-space: pre-line;
+            width: auto;
         };
     };
+    &-image {
+        &-wrapper {
+            width: auto;
+            overflow: scroll;
+        }
+    }
     &-list {
         &-item {
-            @extend .content;
+            color: $main-content-colour;
         }
     };
     &-code {
         &-container {
-            width: 90%;
-            padding: 1em 0;
-            margin: 0 auto;
             overflow: scroll;
         };
         &-text {
-            color: midnightblue;
+            color: $monospace-content-colour;
         }
     };
     &-math {
         &-text {
-            @extend .content;
+            color: $main-content-colour;
         };
     };
     &-table {
+        &-wrapper {
+            width: auto;
+            overflow: scroll;
+        };
+        &-container {
+            border-collapse: collapse;
+            border: none;
+        };
         &-cell {
-            @extend .content;
+            color: $main-content-colour;
+            border: 1px solid $main-content-colour;
         };
     };
 };
