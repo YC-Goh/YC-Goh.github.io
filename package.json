@@ -4,8 +4,8 @@
   "description": "This is the personal homepage of Goh Yeow Chong. Description to come.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
+    "dev": "bash nbconvert.sh && next dev",
+    "build": "bash nbconvert.sh && next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
