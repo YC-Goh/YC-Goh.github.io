@@ -4,13 +4,13 @@ import { GetStaticProps } from "next";
 import { GetStaticPaths } from "next";
 // import { ParsedUrlQuery } from "querystring";
 // import { AppProps } from "next/app";
-import PageTemplate from '../../components/page-template';
-import Content from '../../components/content';
+import PageTemplate from '../../../components/page-template';
+import Content from '../../../components/content';
 import fs from 'fs/promises';
 import path from 'path';
 import 'katex/dist/katex.css';
 
-let thisPublicPath = ['public', 'data-projects']
+let thisPublicPath = ['public', 'projects', 'sg-open-data']
 
 export default function NoteBook (props: {nbContent: string}) {
     return (PageTemplate(Content(props.nbContent, 'markdown')));

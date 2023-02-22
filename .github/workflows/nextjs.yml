@@ -43,7 +43,7 @@ jobs:
           activate-environment: base-python
       - name: Convert notebooks
         shell: bash -el {0}
-        run: jupyter nbconvert --to markdown ./public/*/*.ipynb
+        run: jupyter nbconvert --to markdown $(find -name *.ipynb | grep "^./public")
       - name: Detect package manager
         id: detect-package-manager
         run: |

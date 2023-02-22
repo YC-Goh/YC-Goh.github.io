@@ -10,14 +10,14 @@ export default function Footer () {
         <div className='row p-0 m-0'>
             {FooterSection(
                 'Contact:', 
-                2, 
+                3, 
                 [
                     ['', faEnvelope]
                 ]
             )}
             {FooterSection(
                 'Profile:', 
-                4, 
+                3, 
                 [
                     ['https://www.linkedin.com/in/yeow-chong-goh-3aab5818b/', faLinkedin], 
                     ['https://github.com/YC-Goh', faGithub]
