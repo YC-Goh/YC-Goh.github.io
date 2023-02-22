@@ -12,5 +12,7 @@ let contentMarkdown = `
 This is my home page.
 Details will be filled in later.
 
-The inconsistent styling is not permanent.
+## Recently changed
+
+- I have configured the build steps to create pages from notebook files. You can see the first example [here](/data-projects/sg-marriages-pam).
 `;

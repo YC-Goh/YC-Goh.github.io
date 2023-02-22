@@ -9,7 +9,6 @@ export default function App () {
 let contentMarkdown = `
 ## Hello TODOs
 
-1. Use class-name and potentially style to style page contents using Bootstrap.js + SCSS.
-2. Update the projects page with actual content and planned projects.
-3. Incorporate notebook and math/LaTeX rendering for future project.
+1. Update projects with planned projects.
+2. Further update page styling at some point to make use of bootstrap colour themes.
 `;
