@@ -35,7 +35,7 @@ $mouseover-content-colour: darkslateblue;
     &-image {
         &-wrapper {
             width: auto;
-            overflow: scroll;
+            overflow-x: auto;
         }
     }
     &-list {
@@ -45,7 +45,7 @@ $mouseover-content-colour: darkslateblue;
     };
     &-code {
         &-container {
-            overflow: scroll;
+            overflow-x: auto;
         };
         &-text {
             color: $monospace-content-colour;
@@ -59,7 +59,7 @@ $mouseover-content-colour: darkslateblue;
     &-table {
         &-wrapper {
             width: auto;
-            overflow: scroll;
+            overflow-x: auto;
         };
         &-container {
             border-collapse: collapse;

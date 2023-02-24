@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Header (): JSX.Element {
     let menuLinks: {[index: string]: string} = {'Home':'/', 'Projects':'/projects', 'TODO':'/todo'};
     return (
-        <div className={`${styles['header']} sticky-md-top row px-0 py-3 m-0 text-bg-dark`}>
+        <div className={`${styles['header']} sticky-lg-top row px-0 py-3 m-0 text-bg-dark`}>
             <nav className={`${styles['header-menu']} p-0 m-0`} role='navigation'>
                 <h2 className={`${styles['header-title']} px-3 py-0 m-0`}>
                     YC-Goh
