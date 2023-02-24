@@ -13,7 +13,8 @@ import 'katex/dist/katex.css';
 let thisPublicPath = ['public', 'projects', 'sg-open-data']
 
 export default function NoteBook (props: {nbContent: string}) {
-    return (PageTemplate(Content(props.nbContent, 'markdown')));
+    let foldPath: string = thisPublicPath.slice(1,).reduce((prev, cur) => prev.concat('/', cur), '')
+    return (PageTemplate(Content(props.nbContent, 'markdown', foldPath)));
 };
 
 export let getStaticProps: GetStaticProps<{nbContent:string}> = async (context) => {

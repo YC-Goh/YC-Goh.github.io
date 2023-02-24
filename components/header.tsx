@@ -2,23 +2,24 @@
 import styles from './header.module.scss';
 import Link from 'next/link';
 
-export default function Header () {
-    return (<div className={`${styles['header']} sticky-md-top`}>
-        <div className='row g-0'>
-            <h1 className={`${styles['header-title']}`}>Hello World!</h1>
+export default function Header (): JSX.Element {
+    let menuLinks: {[index: string]: string} = {'Home':'/', 'Projects':'/projects', 'TODO':'/todo'};
+    return (
+        <div className={`${styles['header']} sticky-md-top row px-0 py-3 m-0 text-bg-dark`}>
+            <nav className={`${styles['header-menu']} p-0 m-0`} role='navigation'>
+                <h2 className={`${styles['header-title']} px-3 py-0 m-0`}>
+                    YC-Goh
+                </h2>
+                {Object.keys(menuLinks).map((label) => MenuLink(menuLinks[label], label))}
+            </nav>
         </div>
-        <nav className={`${styles['header-menu']} navbar row g-0`}>
-            {MenuLink('/', 'Home')}
-            {MenuLink('/projects', 'Projects')}
-            {MenuLink('/todo', 'TODO')}
-        </nav>
-    </div>);
+    );
 };
 
-function MenuLink (href: string, label: string) {
-    return (<div className='col g-0'>
-        <Link href={href} className={`${styles['header-menu-link']}`}>
-            <h4 className={`${styles['header-menu-link-label']}`}>{label}</h4>
+function MenuLink (href: string, label: string): JSX.Element {
+    return (
+        <Link href={href} className={`${styles['header-link']} px-3 py-0 m-0`} key={label}>
+            {label}
         </Link>
-    </div>)
+    )
 };

@@ -2,13 +2,12 @@
 import PageTemplate from '../components/page-template';
 import Content from '../components/content';
 
-export default function App () {
+export default function App (): JSX.Element {
     return (PageTemplate(Content(contentMarkdown, 'markdown')));
 };
 
 let contentMarkdown = `
-## Hello Projects
+## Projects
 
-This is my projects page.
 Details will be filled in later.
 `;

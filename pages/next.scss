@@ -1,7 +1,12 @@
 
 @use '../styles/common';
 
-body {
-    @include common.reset-margins;
-    background-color: gray;
-}
+@import "bootstrap/scss/mixins/banner";
+@include bsBanner("");
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";

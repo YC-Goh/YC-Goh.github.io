@@ -217,19 +217,22 @@ function rehypeSpaceTopElements () {
     };
 }
 
-function rehypeLinkImgTags () {
+function rehypeLinkImgTags (foldPath: string) {
     return function (tree: Root) {
         visit(tree, {tagName: 'img'}, function (node) {
-            node.properties!.src = `/data-projects/${node.properties!.src}`;
+            node.properties!.src = `${foldPath}/${node.properties!.src}`;
         });
     };
 };
 
-export default function Content (contentText: string, format: 'markdown'|'html'): JSX.Element {
-    const { createElement, Fragment } = React;
+export default function Content (contentText: string, format: 'markdown'|'html', foldPath?: string): JSX.Element {
+    let { createElement, Fragment } = React;
+    if (!foldPath) {
+        foldPath = ''
+    };
     if (format === 'markdown') {
         return (
-            <div className='row p-3 m-0 justify-content-center'>
+            <div className={`${styles['content']} row p-3 m-0 justify-content-center`}>
                 {unified()
                 .use(remarkParse)
                 .use(remarkGfm)
@@ -241,7 +244,7 @@ export default function Content (contentText: string, format: 'markdown'|'html')
                 .use(rehypeKatex, {output: 'mathml'})
                 .use(rehypeAddAttr)
                 .use(rehypeSpaceTopElements)
-                .use(rehypeLinkImgTags)
+                .use(rehypeLinkImgTags, foldPath)
                 .use(rehypeHighlight)
                 .use(rehypeReact, { createElement, Fragment })
                 .processSync(contentText)
@@ -250,7 +253,7 @@ export default function Content (contentText: string, format: 'markdown'|'html')
         );
     } else {
         return (
-            <div className='row p-3 m-0 justify-content-center'>
+            <div className={`${styles['content']} row p-3 m-0 justify-content-center`}>
                 {unified()
                 .use(rehypeParse, {fragment: true, space: 'html'})
                 .use(rehypeRaw)
