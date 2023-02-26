@@ -7,7 +7,7 @@ export default function App (): JSX.Element {
 };
 
 let contentMarkdown = `
-## TODO:
+## TODO
 
 - Update projects with planned projects, maybe after actually getting some progress.
 - Redo colour scheme of the main content area, but this is not that important now.
