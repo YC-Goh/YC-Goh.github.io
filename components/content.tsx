@@ -13,7 +13,7 @@ import rehypeSanitize, {defaultSchema} from 'rehype-sanitize';
 import rehypeKatex from 'rehype-katex';
 import rehypeHighlight from 'rehype-highlight';
 import rehypeReact from 'rehype-react';
-import { Root, Element } from 'hast';
+import { Root } from 'hast';
 import styles from './content.module.scss';
 import 'highlight.js/styles/github-dark-dimmed.css';
 
@@ -43,7 +43,7 @@ if (!mathSanitizeSchema.attributes.code) {
 
 function rehypeSetStylesRaw () {
     return function (tree: Root) {
-        visit(tree, {type: 'element', tagName: 'style'}, function (node: Element) {
+        visit(tree, {type: 'element', tagName: 'style'}, function (node) {
             for (let i in node.children) {
                 node.children[i].type = 'raw';
             };
