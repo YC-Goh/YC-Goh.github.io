@@ -17,10 +17,11 @@ if __name__ == '__main__':
     getdir = lambda f: path.join(thisdir, f)
     with open(getdir('district_table.html'), 'rt') as f:
         pss = pd.read_html(io=f, header=[0])[0].iloc[:,1].str.replace(r'\s','',regex=True).str.split(',').aggregate('sum')
-    bldgs = list(map(''.join,itertools.product(list(map(str,range(10))),list(map(str,range(10))))))
+    digs = list(map(str,range(10)))
+    bldgs = list(map(''.join,itertools.product(digs,digs,digs,digs)))
     for ps in pss:
         for bg in bldgs:
-            s = ps + bg + '??'
+            s = ps + bg
             try:
                 print('[{0}] Searching for: {1}'.format(time.ctime(time.time()), s))
             except OverflowError as e:
