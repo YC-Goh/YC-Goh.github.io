@@ -24,4 +24,6 @@ Aspiring data scientist trained in the macro-econometrics tradition of empirical
 - [HackerRank](https://www.hackerrank.com/gohyc1993), [LeetCode](https://leetcode.com/YC-Goh/), [freeCodeCamp](https://www.freecodecamp.org/yc-goh).
   - Focus is on databases, data structures and algorithms.
   - Recently finished: basic data structures (LeetCode), basic SQL (LeetCode \& HackerRank), intermediate SQL (HackerRank).
+- Playing with [Tableau](https://public.tableau.com/app/profile/goh.yeow.chong).
+  - Started because of some assignments in this DS/AI course but going to just do some of my own because why not.
 `;
