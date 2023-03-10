@@ -57,3 +57,13 @@ if __name__ == '__main__':
     getDownload(url='https://data.gov.sg/dataset/becee961-7685-4ba5-a147-01abc7fcce6c/download', extract_list=[1])
     #   URA Sub Zones: One version of administrative boundaries
     getDownload(url='https://data.gov.sg/dataset/c754450d-ecbd-4b7d-8dc1-c07ee842c6d1/download', extract_list=[1])
+    #   MOE School Information: One important class of local amenities (access to education)
+    getDownload(url='https://data.gov.sg/dataset/c004b703-5e64-47db-a504-e60e74fd3b32/download', extract_list=[1,2,3,4,5])
+    #   ECDA Child Care Centre Information: Another important class of local amenities (access to child raising services)
+    getDownload(url='https://data.gov.sg/dataset/b0c265a0-37c0-421c-829b-fee6929175c4/download', extract_list=[1])
+    #   ECDA Child Care Centre Charges Information: Some details about the child care centres
+    getDownload(url='https://data.gov.sg/dataset/21ea214e-59fb-47e0-b190-8cadc0d42b11/download', extract_list=[1])
+    #   ACRA Business Information: Another important class of local amenities (access to general services)
+    getDownload(url='https://data.gov.sg/dataset/21d477f2-6e1b-4232-82b3-59e804dc2f6a/download', extract_list=list(range(1,28)))
+    #   ACRA Business Information: Less intense version of the above data set
+    getDownload(url='https://data.gov.sg/dataset/1434a08c-5a81-4453-9d7a-ed7a76c1869c/download', extract_list=[1,2])
