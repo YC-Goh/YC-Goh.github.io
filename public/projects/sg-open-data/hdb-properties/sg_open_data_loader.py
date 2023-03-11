@@ -2,24 +2,24 @@ import pandas as pd
 import geopandas as gpd
 import fiona
 
-def getDataInFrame(filename:str, tolower:bool=True, todrop:list=None, dropduplicatesby:list=None)->pd.DataFrame:
+def getDataInFrame(filename:str, foldname:str = './hdb-properties', tolower:bool=True, todrop:list[str]=None, dropduplicatesby:list[str]=None, **kwargs)->pd.DataFrame:
     ext = filename.rsplit('.', maxsplit=1)[-1]
-    fileloc = './hdb-properties/{}'.format(filename)
+    fileloc = '{0}/{1}'.format(foldname,filename)
     if ext == 'json':
         try:
-            df = pd.read_json(fileloc, encoding='utf-8')
+            df = pd.read_json(fileloc, encoding='utf-8', **kwargs)
         except ValueError as e:
-            df = pd.read_json(fileloc, encoding='utf-8', lines=True)
+            df = pd.read_json(fileloc, encoding='utf-8', lines=True, **kwargs)
         except Exception as e:
             raise e
     elif ext == 'csv':
         try:
-            df = pd.read_csv(fileloc, encoding='utf-8')
+            df = pd.read_csv(fileloc, encoding='utf-8', **kwargs)
         except Exception as e:
             raise e
     elif ext == 'kml':
         fiona.drvsupport.supported_drivers['LIBKML'] = 'rw'
-        df = gpd.read_file(fileloc, driver='LIBKML')
+        df = gpd.read_file(fileloc, driver='LIBKML', **kwargs)
         df = df.drop(columns=['description'])
     if tolower:
         df = df.rename(columns=dict(zip(df.columns,df.columns.str.lower())))
