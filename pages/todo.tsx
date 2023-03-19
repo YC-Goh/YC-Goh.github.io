@@ -13,4 +13,5 @@ let contentMarkdown = `
   - This is necessary to handle interactive graphics on this site in the future.
   - Interactive graphics, like tables, tend to be implemented as nested HTML blocks.
   - This is naturally the \`MDX\` file format.
+  - On-Hold while I figure out all the necessary courses and certifications for breaking the entry barrier into DS/ML.
 `;

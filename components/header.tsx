@@ -3,7 +3,7 @@ import styles from './header.module.scss';
 import Link from 'next/link';
 
 export default function Header (): JSX.Element {
-    let menuLinks: {[index: string]: string} = {'Home':'/', 'Projects':'/projects', 'TODO':'/todo'};
+    let menuLinks: {[index: string]: string} = {'Home':'/', 'TODO':'/todo'};
     return (
         <div className={`${styles['header']} sticky-lg-top row px-0 py-3 m-0 text-bg-dark`}>
             <nav className={`${styles['header-menu']} p-0 m-0`} role='navigation'>
