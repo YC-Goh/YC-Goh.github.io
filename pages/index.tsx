@@ -23,18 +23,17 @@ Aspiring data scientist coming from the more traditional econometrics way of thi
 ## What else am I doing now
 
 - [HackerRank](https://www.hackerrank.com/gohyc1993), [LeetCode](https://leetcode.com/YC-Goh/).
-  - Doing: database theory.
-  - Done: basic data structures, basic algorithms, basic SQL.
-- Doing the [SQL tutorial](https://mode.com/sql-tutorial/introduction-to-sql/) on Mode Analytics.
+  - Basic data structures, basic algorithms, basic SQL.
+- [SQL tutorial](https://mode.com/sql-tutorial/introduction-to-sql/) on Mode Analytics.
   - Course requirement in this DS/AI course.
-  - Forgot to do each example exercise in a separate query (even though it is pointless: the answers are also given and public).
-- Doing the [Neo4j tutorial](https://graphacademy.neo4j.com/u/5bbf4d76-7300-4c0f-9adf-3b389d478109/).
-- Doing the [Data Science in Python Boot Camp](https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/) on Udemy.
-  - As an additional supplement to the DS/AI course.
-  - For the certification as well to show on LinkedIn.
-  - Because it is free via the [National Library Board](https://eresources.nlb.gov.sg/main) subscription to Udemy.
+  - The answers in the tutorial are given and public.
+- [Neo4j tutorial](https://graphacademy.neo4j.com/u/5bbf4d76-7300-4c0f-9adf-3b389d478109/).
+- [Data Science in Python Boot Camp](https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/) on Udemy.
+  - As a supplement.
+  - Done.
+  - Free via [National Library Board](https://eresources.nlb.gov.sg/main) subscription to Udemy.
 - [freeCodeCamp](https://www.freecodecamp.org/yc-goh).
-  - Kind of on-hold: time is not unlimited and there is a lot of ground to cover between even SMM/SML estimation methods and the frontier of DS/ML/AI.
-- Playing with [Tableau](https://public.tableau.com/app/profile/goh.yeow.chong).
-  - Started because of some assignments in this DS/AI course but going to just do some of my own because why not.
+  - On-Hold: time is not unlimited and there is a lot of ground to cover between even SMM/SML estimation methods and the frontier of DS/ML/AI.
+- [Tableau](https://public.tableau.com/app/profile/goh.yeow.chong).
+  - Had been on hold but will resume soon.
 `;
