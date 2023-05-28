@@ -9,8 +9,23 @@ export default function App (): JSX.Element {
 let contentMarkdown = `
 ## Home
 
+Aspiring data analyst.
+
+Temporarily cleared the home screen as there is no point displaying such outdated information without proper formatting or contextualisation.
+
+## What am I doing now
+
+0. From a long time ago in industry timeline terms: Configured my website project to automatically build pages from notebook files.
+  - [Example](/projects/sg-open-data/marriages-pam-educ).
+1. Doing something with Canadian Labour Force Survey data (the public-use version). Exactly what is not clear yet, but I just like toying around with labour force data.
+  - [Just finished downloading data](/projects/can-open-data/lfs/0-download).
+  - [Preprocess SPSS syntax files to recover value labels](/projects/can-open-data/lfs/1-1-get-value-labels).
+
+`;
+
+/*
 Aspiring data scientist coming from the more traditional econometrics way of thinking about statistics and inference.
-- Profile: [LinkedIn](https://www.linkedin.com/in/yeow-chong-goh-3aab5818b/)
+- Profile: 
 
 ## Recently changed
 
@@ -36,4 +51,4 @@ Aspiring data scientist coming from the more traditional econometrics way of thi
   - On-Hold: time is not unlimited and there is a lot of ground to cover between even SMM/SML estimation methods and the frontier of DS/ML/AI.
 - [Tableau](https://public.tableau.com/app/profile/goh.yeow.chong).
   - Had been on hold but will resume soon.
-`;
+*/
