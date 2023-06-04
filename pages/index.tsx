@@ -20,6 +20,7 @@ Temporarily cleared the home screen as there is no point displaying such outdate
 1. Doing something with Canadian Labour Force Survey data (the public-use version). Exactly what is not clear yet, but I just like toying around with labour force data.
   - [Just finished downloading data](/projects/can-open-data/lfs/0-download).
   - [Preprocess SPSS syntax files to recover value labels](/projects/can-open-data/lfs/1-1-get-value-labels).
+  - [Checked for changes in value labels for all syntax files marked as 2023 recode](/projects/can-open-data/lfs/1-2-check-value-labels).
 
 `;
 
