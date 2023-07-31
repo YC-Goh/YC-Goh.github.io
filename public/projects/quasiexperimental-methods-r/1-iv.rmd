@@ -1,0 +1,805 @@
+
+# Basics of Instrumental Variables
+
+## Intuition
+
+In a linear model, endogeneity occurs when a covariate is correlated with the unexplained disturbances of the outcome variable.
+Figure 1 from [Bollen (2012)](https://doi.org/10.1146/annurev-soc-081309-150141), reproduced below, shows the path diagram of this problem:
+![Endogeneity problem path diagram](./figs/bollen2012_fig1.png "Endogeneity problem path diagram")
+
+Whatever the source of this problem, the end result is that OLS estimates are biased and inconsistent.
+To see this, recall the OLS estimator:
+\[
+    \beta^{OLS} = \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime}\mathbf{Y} \right) 
+\]
+where $\mathbf{X}$ is a $n \times k$ matrix of covariates (row$=$observation, column$=$variable/feature/measure) and $\mathbf{Y}$ is a $n \times 1$ column vector of outcomes.
+Unbiasedness is the property $\mathbb{E}[\theta^{estimator}_{n}] = \theta$ while consistency is the property $\theta^{estimator}_{n} \underset{n \rightarrow \infty}{\rightarrow} \theta$.
+Applying this to the OLS estimator, we get
+\[
+    \begin{align*}
+        \mathbb{E}[\beta^{OLS}] &= \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime}\mathbf{Y} \right) \right] \\
+        &= \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime} \left( \mathbf{X}\beta + \mathbf{\epsilon} \right) \right) \right] \\
+        &= \beta + \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime}\mathbf{\epsilon} \right) \right]
+    \end{align*}
+\]
+Consistency is relatively involved to prove but only requires the uncorrelatedness assumption $\mathbb{E}[\mathbf{X}^{\prime}\epsilon] = 0$.
+On the other hand, unbiasedness requires one of the following stronger assumptions but is easier to prove:
+
+1. $\mathbf{X}$ fixed: This is a true science experiment where all covariate values are strictly controlled by the researcher.
+    Under this condition,
+    \[
+        \begin{align*}
+            \mathbb{E}[\beta^{OLS}] &= \beta + \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime}\mathbf{\epsilon} \right) \right] \\
+            &= \beta + \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime} \mathbb{E}\left[ \mathbf{\epsilon} \right] \right) \\
+            &= \beta
+        \end{align*}
+    \]
+2. $\mathbf{X}$ stochastic but independent: $x_{i} \perp \epsilon_{i}$.
+    Under this condition,
+    \[
+        \begin{align*}
+            \mathbb{E}[\beta^{OLS}] &= \beta + \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime}\mathbf{\epsilon} \right) \right] \\
+            &= \beta + \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \mathbf{X}^{\prime} \right] \mathbb{E}\left[ \mathbf{\epsilon} \right] \\
+            &= \beta
+        \end{align*}
+    \]
+3. $\mathbf{X}$ stochastic but mean independent: $\mathbf{E}[\epsilon \mid \mathbf{X}] = 0$.
+    Under this condition,
+    \[
+        \begin{align*}
+            \mathbb{E}[\beta^{OLS}] &= \beta + \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime}\mathbf{\epsilon} \right) \right] \\
+            &= \beta + \mathbb{E}\left[ \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime}\mathbf{\epsilon} \right) \mid \mathbf{X} \right] \right] \\
+            &= \beta + \mathbb{E}\left[ \left( \mathbf{X}^{\prime}\mathbf{X} \right)^{-1} \left( \mathbf{X}^{\prime} \mathbb{E}\left[ \mathbf{\epsilon} \mid \mathbf{X} \right] \right) \right] \\
+            &= \beta
+        \end{align*}
+    \]
+Now, observe that if $\mathbb{E}[\mathbf{X}^{\prime}\epsilon] \ne 0$, none of these proofs hold and therefore we are left with the conclusion that under endogeneity, OLS is biased
+\[
+    \mathbb{E}[\theta^{estimator}_{n}] = \theta
+\]
+and inconsistent
+\[
+    \theta^{estimator}_{n} \underset{n \rightarrow \infty}{\rightarrow} \theta
+\]
+
+Now, we can discuss solutions to this problem when one is interested in estimating the true DGP of a hypothesised system (in Econometrics, this is also known as Causal Inference as the hypothesised DGP is the causal mechanism of interest).
+Instrumental Variables (IV) is one of the first methods popularised by econometricians to resolve this issue.
+The intuition is simple:
+Use an independent exogenous variable--the instrument--that is unrelated to the outcome directly to induce exogeneity in the endogeneous variable.
+
+The instrument must satisfy three properties:
+
+1. Relevance: The instrument must be correlated with the endogenous variable.
+2. Excludability: Conditional on the endogenous variable, the instrument should provide no further explanatory power over the outcome variable.
+3. Independence: The instrument should not itself be correlated with the unobserved disturbances of the outcome variable.
+
+If these conditions are satisfied, the classical method of estimating instrumental variables is by Two-Stage Least Squares (2SLS):
+
+\[
+    \begin{align*}
+        x_{i} &= a + b \cdot z_{i} + \mathbf{w}_{i} \cdot \mathbf{g}^{\prime} + e_{i} \\
+        y_{i} &= \alpha + \beta \hat{x}_{i} + \mathbf{w}_{i} \cdot \mathbf{\gamma}^{\prime} + \epsilon_{i}
+    \end{align*}
+\]
+
+Where $\hat{x}_{i}$ is the prediction of $x_{i}$ from the first-stage.
+Intuitively, the Instrument is partialling out the component of the covariate of interest $x_{i}$ that was correlated with the unobserved disturbances of the outcome.
+As a result, the remaining variation in $\hat{x}_{i}$ is no longer endogenous and we can consistently estimate the true causal effect of the covariate.
+
+## Monte Carlo Examples
+
+### Omitted Relevant Variables
+
+One classic scenario for IV use is when the regression model suffers from omitted variables bias (OVB).
+This problem is best exemplified by a classic question in the intersection of Labour and Education Economics:
+What is the earnings value of an additional year of schooling?
+
+For the classic paper in the Economics of Education, see:
+
+[Angrist and Krueger (1991). Does Compulsory School Attendance Affect Schooling and Earnings?](https://doi.org/10.2307/2937954)
+
+For a more recent application of similar principles, see:
+
+[Pishke and von Wachter (2008). Zero Returns to Compulsory Schooling in Germany.](https://doi.org/10.1162/rest.90.3.592)
+
+and also:
+
+[Stephens Jr. and Yang (2014). Compulsory Education and the Benefits of Schooling.](https://doi.org/10.1257/aer.104.6.1777)
+
+Economists do not believe that one can na&iuml;vely regress earnings on years of schooling and demographic, occupational, industry, and spatial controls and obtain an unbiased estimate of the labour market value of an additional year of schooling.
+This is because of a hypothesised unobserved variable--"natural ability"--that is believed to co-determine years of schooling and wages.
+
+We now proceed with the Monte Carlo experiment.
+
+```{r}
+library(tidyverse)
+library(stargazer)
+library(MASS)
+source("sim_functions.r")
+set.seed(202307)
+n <- 1000
+reps <- 1000
+```
+
+We use a generic structural model of the following form:
+\[
+    \begin{align*}
+        \begin{bmatrix}y_{i}\\x_{i}\end{bmatrix} &= \begin{bmatrix}\alpha\\\mu\end{bmatrix} + \begin{bmatrix}y_{i}\\x_{i}\end{bmatrix}^{\prime} \begin{bmatrix}0 & \beta \\ 0 & 0\end{bmatrix} + z_{i} \begin{bmatrix}0\\\pi\end{bmatrix} + \mathbf{w}_{i}^{\prime} \Gamma + \begin{bmatrix}\epsilon_{y,i}\\\epsilon_{x,i}\end{bmatrix}
+    \end{align*}
+\]
+In the base case, let us assume that the instrument, exogenous variables, and unobserved disturbances are uncorrelated.
+Let us also assume that the last covariate in $\mathbf{w}_{i}$ is unobserved to the econometrician (i.e., we never actually use it in our regressions).
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 0),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, 0, 0),
+            c(0, 1, 0, 0, 0, 0),
+            c(0, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 1),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(0, 1),
+            c(-.5, .5),
+            c(1, -1),
+            c(-2, 2)
+        )
+    )
+    lm_res <- lm(y1 ~ y2 + x2 + x3, data = data)
+    coefs[i] <- lm_res$coefficients["y2"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "OLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of OLS Coefficient Estimates
+    True Value = 1
+    "
+)
+```
+
+Even in this simple case, the presence of one omitted variable biases all estimates (the true coefficients are $1$, $-0.5$, and $1$):
+
+```{r}
+stargazer(lm(y1 ~ y2 + x2 + x3, data = data), type = "text")
+```
+
+Notice that none of these estimates are close to the true parameter values (`-2`, `-1`, `1` respectively).
+Now observe what happens when we do 2SLS (manually).
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 1),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, 0, 0),
+            c(0, 1, 0, 0, 0, 0),
+            c(0, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 1),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(0, 1),
+            c(-.5, .5),
+            c(1, -1),
+            c(-2, 2)
+        )
+    )
+    fs_res <- lm(y2 ~ x1 + x2 + x3, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y1 ~ x_hat + x2 + x3, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = 1
+    "
+)
+```
+
+In fact, 2SLS also fixed the estimates for all other coefficients.
+
+```{r}
+stargazer(lm(y1 ~ x_hat + x2 + x3, data = data), type = "text")
+```
+
+Notice that the constant is still biased.
+This is due to the constant absorbing the mean of all remaining unobserved disturbances.
+This is why Econometricians typically either do not report or do not interpret the constant in IV regression.
+
+### Correlated Covariates
+
+IV functions well even when the exogenous variables and instrument are correlated.
+In fact, the independent components of the unobserved disturbances of the first-stage and structural equation can also be correlated.
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 1),
+        sigma_xe = rbind(
+            c(1, .5, .3, 0, 0, 0),
+            c(.5, 1, .5, 0, 0, 0),
+            c(.3, .5, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 1, .5),
+            c(0, 0, 0, 0, .5, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 1),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(0, 1),
+            c(-.5, .5),
+            c(1, -1),
+            c(-2, 2)
+        )
+    )
+    fs_res <- lm(y2 ~ x1 + x2 + x3, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y1 ~ x_hat + x2 + x3, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = 1
+    "
+)
+```
+
+However, the instrument cannot itself be endogenous (even if the ground truth is that it does not enter the structural equation).
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 1),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, .7, 0),
+            c(0, 1, 0, 0, 0, 0),
+            c(0, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(.7, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 1),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(0, 1),
+            c(-.5, .5),
+            c(1, -1),
+            c(-2, 2)
+        )
+    )
+    fs_res <- lm(y2 ~ x1 + x2 + x3, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y1 ~ x_hat + x2 + x3, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = 1
+    "
+)
+```
+
+Further, there cannot be multiple endogenous variables.
+Any endogenous variable not corrected using an instrument can bias all estimates, even for the endogenous variables that are instrumented!
+Put differently, every endogenous variable must be instrumented with a separate instrument.
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0, 0),
+        mu_x = c(0, 0, 0, 1),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, 0, 0, 0),
+            c(0, 1, 0, 0, 0, 0, 0),
+            c(0, 0, 1, 0, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 1, -1),
+            c(0, 0, 0),
+            c(0, 0, 0)
+        ),
+        gamma_x = rbind(
+            c(0, 2, -2),
+            c(1, 0, 0),
+            c(-1, 0, 0),
+            c(1, 1, -1)
+        )
+    )
+    fs_res <- lm(y2 ~ x1 + x2 + x3, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y1 ~ x_hat + y3 + x2 + x3, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = 1
+    "
+)
+```
+
+Methodologically, exogenous covariates entering both the first-stage and structural equation are not redundant.
+If they are omitted in the first stage and are correlated with the instrument, then IV will yield biased structural equation estimates.
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 1),
+        sigma_xe = rbind(
+            c(1, .5, -.5, 0, 0, 0),
+            c(.5, 1, 0, 0, 0, 0),
+            c(-.5, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 1),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(0, 2),
+            c(1, -1),
+            c(-1, 1),
+            c(1, -1)
+        )
+    )
+    fs_res <- lm(y2 ~ x1, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y1 ~ x_hat + x2 + x3, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = 1
+    "
+)
+```
+
+Recall that bias in OLS yields because the covariates are correlated with the unexplained disturbances of the outcome.
+For IV to resolve this problem, the part of the endogenous variables that are correlated with the error must be partialled out as completely as possible.
+When exogenous variables are omitted from the first stage and are correlated with the instrument, the estimator on the instrument itself becomes biased and causes the predicted endogenous variable to not fully reflect the exogenous variation of the instrument, resulting in biased estimates.
+
+### Measurement Error in Covariates Variable
+
+Na&iuml;vely regressing the outcome variable on a covariate of interest measured with error--even classical, surprisingly--yields biased estimates.
+One way to understand this is to look at the structure of such a system:
+\[
+    \begin{align*}
+        y_{i} &= \alpha + \beta z_{i} + \gamma w_{i} + \epsilon_{i} \\
+        x_{i} &= \mu + \rho z_{i} + \xi_{i}
+    \end{align*}
+\]
+Even under the best case scenario that all unobserved disturbances and exogenous covariates are uncorrelated and the measurement error is classical, OLS is biased.
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0),
+            c(0, 1, 0, 0),
+            c(0, 0, 1, 0),
+            c(0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 0),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(1, 1),
+            c(-1, 0)
+        )
+    )
+    lm_res <- lm(y1 ~ y2 + x2, data = data)
+    coefs[i] <- lm_res$coefficients["y2"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "OLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of OLS Coefficient Estimates
+    True Value = 1
+    "
+)
+```
+
+In fact, just to show what kind of bias this is, we can switch around the signs of the coefficients and observe that in fact the bias is towards zero.
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0),
+            c(0, 1, 0, 0),
+            c(0, 0, 1, 0),
+            c(0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 0),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(-1, 1),
+            c(-1, 0)
+        )
+    )
+    lm_res <- lm(y1 ~ y2 + x2, data = data)
+    coefs[i] <- lm_res$coefficients["y2"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "OLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of OLS Coefficient Estimates
+    True Value = -1
+    "
+)
+```
+
+Intuitively, measurement errors in covariates creates more noise for OLS to cut through.
+But since OLS is unable to completely separate the noise from the true signal, it is unable to partition the marginal effect of the covariate of interest correctly.
+
+And to drive the point home that measurement error in the dependent variable is not minor issue, we can see that the OLS estimator is biased for any covariate that is correlated with the mismeasured covariate.
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0),
+        sigma_xe = rbind(
+            c(1, .5, 0, 0),
+            c(.5, 1, 0, 0),
+            c(0, 0, 1, 0),
+            c(0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 0),
+            c(0, 0)
+        ),
+        gamma_x = rbind(
+            c(-1, 1),
+            c(-1, 0)
+        )
+    )
+    lm_res <- lm(y1 ~ y2 + x2, data = data)
+    coefs[i] <- lm_res$coefficients["x2"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "OLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of OLS Coefficient Estimates
+    True Value = -1
+    "
+)
+```
+
+Now that we have established that measurement error also causes bias, how can we resolve it?
+Interestingly (or not?), IV can also resolve this.
+As applied in the Economics of Education, the canonical problem statement is:
+What is the unbiased marginal effect of an additional year of schooling on earnings given that most schooling survey data comes from respondent recall, which can often come with error and inconsistency?
+
+The classic study that Economists cite for this methodology is:
+
+[Ashenfelter and Krueger (1994). Estimates of the Economic Return to Schooling from a New Sample of Twins.](https://www.jstor.org/stable/2117766)
+
+Consider a modification to the measurement error framework:
+\[
+    \begin{align*}
+        y_{i} &= \alpha + \beta r_{i} + \gamma w_{i} + \epsilon_{i} \\
+        x_{i} &= r_{i} + \xi_{i} \\
+        z_{i} &= r_{i} + \eta_{i}
+    \end{align*}
+\]
+Where the unobserved disturbances $\xi_{i}$ and $\eta_{i}$ are uncorrelated.
+Intuitively, one can apply IV to partial out the additional measurement error in covariate of interest and obtain unbiased estimates:
+\[
+    \begin{align*}
+        x_{i} &= a + \pi z_{i} + e_{i} \\
+        y_{i} &= \alpha + \beta \hat{x}_{i} + \gamma w_{i} + \epsilon_{i}
+    \end{align*}
+\]
+We demonstrate this below.
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0, 0),
+        mu_x = c(0, 0),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, 0),
+            c(0, 1, 0, 0, 0),
+            c(0, 0, 1, 0, 0),
+            c(0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, 0, 0),
+            c(0, 0, 0),
+            c(0, 0, 0)
+        ),
+        gamma_x = rbind(
+            c(-1, 1, 1),
+            c(-1, 0, 0)
+        )
+    )
+    fs_res <- lm(y2 ~ y3 + x2, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y1 ~ x_hat + x2, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = -1
+    "
+)
+```
+
+### Simultaneity
+
+Phenomena with simultaneity are also known as General Equilibrium (GE) systems in Economics, so-called because of General Equilibrium models of Supply and Demand.
+In the simplest form, GE systems are characterised by simultaneous equations where two variables are outcomes in one equation and covariates in the other:
+
+\[
+    \begin{align*}
+        y_{i} &= \alpha + \beta x_{i} + \gamma_{1} w_{1,i} + \gamma_{2} w_{2,i} + \epsilon_{i} \\
+        x_{i} &= \mu + \pi y_{i} + \delta_{1} w_{1,i} + \delta_{2} w_{2,i} + \xi_{i}
+    \end{align*}
+\]
+
+GE systems can also arise with spillover effects such as spatial spillovers (e.g., development in a core city raises residential and educational demand in its suburbs) and labour market spillovers (e.g., more lower-skilled workers raises the demand for higher-skilled workers to supply complementary goods and managerial services).
+All GE systems are exceptionally difficult to make causal estimates of, though IV provides a way out by utilising what Economists call "supply shifters" and "demand shifters".
+
+Intuitively, this methodology exploits natural variation in variables that we understand in the system to affect only one equation or the other.
+Using "demand shifters" allows us to estimate the "supply" equation and conversely using "supply shifters" allows us to estimate the "demand" equation.
+
+\[
+    \begin{align*}
+        y_{i} &= \alpha + \beta x_{i} + \gamma_{1} w_{1,i} + \gamma_{2} w_{2,i} + \tau DS_{i} + \epsilon_{i} \\
+        x_{i} &= \mu + \pi y_{i} + \delta_{1} w_{1,i} + \delta_{2} w_{2,i} + \eta SS_{i} + \xi_{i}
+    \end{align*}
+\]
+
+In the above system of equations, it suffices that the Demand Shifter (`DS`) does not enter the "supply" equation and is uncorrelated with unexplained disturbances, and the Supply Shifter (`SS`) does not enter the "demand" equation and is uncorrelated with the unexplained disturbances.
+Below we show with a MC experiment.
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 0),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, 0, 0),
+            c(0, 1, 0, 0, 0, 0),
+            c(0, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, -.5),
+            c(.5, 0)
+        ),
+        gamma_x = rbind(
+            c(1, -1),
+            c(-2, 2),
+            c(-1, 0),
+            c(0, 1)
+        )
+    )
+    lm_res <- lm(y1 ~ y2 + x1 + x2, data = data)
+    coefs[i] <- lm_res$coefficients["y2"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "OLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of OLS Coefficient Estimates
+    True Value = -0.5
+    "
+)
+```
+
+Notice that in this system, the OLS estimate is attenuated because this is a stabilising GE system: `x` increases `y` but `y` decreases `x`.
+Now we see that by utilising the "supply" shifter in the `x` equation, we can recover the true causal effect of `x` on `y`.
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 0),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, 0, 0),
+            c(0, 1, 0, 0, 0, 0),
+            c(0, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, -.5),
+            c(.5, 0)
+        ),
+        gamma_x = rbind(
+            c(1, -1),
+            c(-2, 2),
+            c(-1, 0),
+            c(0, 1)
+        )
+    )
+    fs_res <- lm(y2 ~ x1 + x2 + x4, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y1 ~ x_hat + x1 + x2, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = -0.5
+    "
+)
+```
+
+Very similarly, by shifting roles around, we can recover the true causal effect of `y` on `x` by utilising the "demand shifter".
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    data <- sim_eq_data(
+        n = n,
+        mu_y = c(0, 0),
+        mu_x = c(0, 0, 0, 0),
+        sigma_xe = rbind(
+            c(1, 0, 0, 0, 0, 0),
+            c(0, 1, 0, 0, 0, 0),
+            c(0, 0, 1, 0, 0, 0),
+            c(0, 0, 0, 1, 0, 0),
+            c(0, 0, 0, 0, 1, 0),
+            c(0, 0, 0, 0, 0, 1)
+        ),
+        gamma_y = rbind(
+            c(0, -.5),
+            c(.5, 0)
+        ),
+        gamma_x = rbind(
+            c(1, -1),
+            c(-2, 2),
+            c(-1, 0),
+            c(0, 1)
+        )
+    )
+    fs_res <- lm(y1 ~ x1 + x2 + x3, data = data)
+    data$x_hat <- predict(fs_res)
+    sm_res <- lm(y2 ~ x_hat + x1 + x2, data = data)
+    coefs[i] <- sm_res$coefficients["x_hat"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "2SLS Coefficient Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of 2SLS Coefficient Estimates
+    True Value = 0.5
+    "
+)
+```
+
+## Summary
+
+OLS is highly susceptible to violations of the exogeneity assumption.
+When exogeneity is violated or suspected of being violated, OLS point estimates cannot be interpreted as the marginal causal effect of the covariates on the outcome.
+Among the social sciences, this is a particularly serious problem in Economics because of the relative lack of plausible methods to run controlled trials for many interesting research questions
+(e.g.,
+What is the true wage elasticity of demand in the labour market?
+What is the true price elasticity of demand for college education?).
+Hence, Econometricians investigated the IV method to help practitioners perform causal inference in observational data.
+
+In this notebook, I demonstrate by Monte Carlo experiments 3 major violations of exogeneity in which IVs can successfully recover the true causal effect of the endogenous variable: omitted variables bias, measurement error in covariates, and simultaneity.
+IV is widely-used in Economics research and many advanced methods and theorems exist for more unusual or complicated cases.

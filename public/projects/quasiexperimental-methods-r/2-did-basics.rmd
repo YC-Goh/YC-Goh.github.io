@@ -1,0 +1,194 @@
+
+# Basics of Difference-in-Difference
+
+## Intuition
+
+Many interesting social phenomena and questions have a pretest-posttest flavour.
+For example, did the influx of refugees into Germany in 2015 reduce German natives' wage growth?
+Did the expansion of Career Conversion Programmes in Singapore increase local firms' productivity?
+
+Difference-in-Differences (DID) is both a method and conceptual framework for approaching causal inference in non-controlled pretest-posttest settings.
+First, to understand why DID is necessary (especially in Economics, where it was first popularised), it is necessary to understand when other na&iuml;ve treatment effects estimators fail.
+Using the Rubin-Neyman Potential Outcomes Model (POM), we define:
+
+- $D_{i}=0,1$ as the treatment assignment of $i$ in period $1$.
+- $t=0,1$ as the periods (before and after).
+- $Y_{i,t}(d)$ as the potential outcome of $i$ in period $t=0,1$ given assignment $d=0,1$.
+- $Y_{i,t}$ as the actual realised outcome of $i$ in period $t=0,1$.
+- $\Delta_{i,t}=Y_{i,t}(1)-Y_{i,t}(0)$ as the Treatment Effect for $i$ in period $t=0,1$.
+
+With pretest-posttest settings, there are two na&iuml;ve methods to estimate the Average Treatment Effect (ATE).
+
+1. The Before-After Estimator:
+    \[
+        \begin{align*}
+            \theta^{BA} &= \mathbb{E}[Y_{i,1} - Y_{i,0} \mid D_{i}=1] \\
+            &= \mathbb{E}[Y_{i,1}(1) - Y_{i,0}(0) \mid D_{i}=1] \\
+            &= \mathbb{E}[Y_{i,1}(1) - Y_{i,1}(0) + Y_{i,1}(0) - Y_{i,0}(0) \mid D_{i}=1] \\
+            &= \mathbb{E}[\Delta_{i,1} \mid D_{i}=1] + \mathbb{E}[Y_{i,1}(0) - Y_{i,0}(0) \mid D_{i}=1]
+        \end{align*} 
+    \]
+2. The Treatment-Control Estimator:
+    \[
+        \begin{align*}
+            \theta^{TC} &= \mathbb{E}[Y_{i,1} \mid D_{i}=1] - \mathbb{E}[Y_{i,1} \mid D_{i}=0] \\
+            &= \mathbb{E}[Y_{i,1}(1) \mid D_{i}=1] - \mathbb{E}[Y_{i,1}(0) \mid D_{i}=0] \\
+            &= \mathbb{E}[Y_{i,1}(1) - Y_{i,1}(0) \mid D_{i}=1] \\
+            &\quad + \mathbb{E}[Y_{i,1}(0) \mid D_{i}=1] - \mathbb{E}[Y_{i,1}(0) \mid D_{i}=0] \\
+            &= \mathbb{E}[\Delta_{i,1} \mid D_{i}=1] \\
+            &\quad + \mathbb{E}[Y_{i,1}(0) \mid D_{i}=1] - \mathbb{E}[Y_{i,1}(0) \mid D_{i}=0]
+        \end{align*} 
+    \]
+
+In both cases, it is clear that in observational data, the additional term is generally non-zero.
+In the first case, $\mathbb{E}[Y_{i,1}(0) - Y_{i,0}(0) \mid D_{i}=1]$ is the time trend.
+In the second case, $\mathbb{E}[Y_{i,1}(0) \mid D_{i}=1] - \mathbb{E}[Y_{i,1}(0) \mid D_{i}=0]$ is the selection bias.
+
+Experimentalists will recognise that selection bias is eliminated in randomised controlled trials (RCTs) because under random assignment, $D_{i} \perp Y_{i,t}(0), Y_{i,t}(1)$.
+However, note that causal inference methods are in general for situations where RCTs were _not_ possible.
+In the absence of RCTs, DID can be applied if the Common Trends Assumption (CTA) is reasonable:
+\[
+    \mathbb{E}[Y_{i,1}(0) - Y_{i,0}(0) \mid D_{i}=1] = \mathbb{E}[Y_{i,1}(0) - Y_{i,0}(0) \mid D_{i}=0]
+\]
+Under this assumption, observe:
+\[
+    \begin{align*}
+        \theta^{DID} &= \mathbb{E}[Y_{i,1} - Y_{i,0} \mid D_{i}=1] - \mathbb{E}[Y_{i,1} - Y_{i,0} \mid D_{i}=0] \\
+        &= \mathbb{E}[\Delta_{i,1} \mid D_{i}=1] \\
+        &\quad + \mathbb{E}[Y_{i,1}(0) - Y_{i,0}(0) \mid D_{i}=1] \\
+        &\quad - \mathbb{E}[Y_{i,1}(0) - Y_{i,0}(0) \mid D_{i}=0] \\
+        &= \mathbb{E}[\Delta_{i,1} \mid D_{i}=1]
+    \end{align*} 
+\]
+The DID yields exactly the ATE of the treated group in the posttest (after) period.
+
+## Before-After Estimator bias
+
+```{r}
+library(tidyverse)
+library(stargazer)
+library(MASS)
+set.seed(202307)
+n <- 100
+reps <- 100
+```
+
+DID DGP requirements are not difficult and as such complex functions will not be used.
+
+```{r}
+e <- mvrnorm(n = 2 * n, mu = c(0, 0), Sigma = diag(2))
+x <- matrix(e[, 1], ncol = 1)
+e <- matrix(e[, 2], ncol = 1)
+t <- matrix(c(rep(0, n), rep(1, n)), ncol = 1)
+d_assign <- matrix(rep(1 * (x[1:n,] > 0), 2), ncol = 1)
+d <- 1 * (t == 1) * (d_assign == 1)
+y_pom_0 <- 3 * (d_assign == 1) + 1 * (t == 1) + e
+y_pom_1 <- y_pom_0 + 2
+y <- y_pom_0 * (d == 0) + y_pom_1 * (d == 1)
+data <- tibble(t, d_assign, d, y_pom_0, y_pom_1, y, x, e)
+data
+```
+
+The DGP has been made unnecessarily verbose to make clear what the true parameters of this system are.
+In this setting, the true ATE is $2$.
+
+We can now investigate what the BA estimator returns:
+```{r}
+stargazer(lm(y ~ t, data = filter(data, d_assign == 1)), type = "text")
+```
+
+The estimator seems centred on $3$, which is not surprising since the ATE is $2$ and the time trend is $1$.
+Note that we are not controlling for $x$ as in most observational data where DID is used, the running variable that codetermines the potential outcome and treatment assignment is unknown.
+
+## Treatment-Control Estimator bias
+
+For completeness' sake, we can also observe what the TC estimator returns:
+```{r}
+stargazer(lm(y ~ d_assign, data = filter(data, t == 1)), type = "text")
+```
+
+This is also not surprising, since the ATE is $2$ and the selection bias is $3$.
+
+## The DID Estimator
+
+Given the introduction, it should not be surprising that DID resolves this issue and generates an unbiased estimate of the ATE.
+Note that although the DID is presented as a Method of Moments estimator, in practice it is easily estimated by a saturated linear model.
+
+```{r}
+stargazer(lm(y ~ d_assign + t + I(d_assign*t), data = data), type = "text")
+```
+
+Or in Monte Carlo format, 
+
+```{r}
+coefs <- rep(0, reps)
+for (i in 1:reps) {
+    e <- mvrnorm(n = 2 * n, mu = c(0, 0), Sigma = diag(2))
+    x <- matrix(e[, 1], ncol = 1)
+    e <- matrix(e[, 2], ncol = 1)
+    t <- matrix(c(rep(0, n), rep(1, n)), ncol = 1)
+    d_assign <- matrix(rep(1 * (x[1:n,] > 0), 2), ncol = 1)
+    d <- 1 * (t == 1) * (d_assign == 1)
+    y_pom_0 <- 3 * (d_assign == 1) + 1 * (t == 1) + e
+    y_pom_1 <- y_pom_0 + 2
+    y <- y_pom_0 * (d == 0) + y_pom_1 * (d == 1)
+    data <- tibble(t, d_assign, d, y_pom_0, y_pom_1, y, x, e)
+    lm_res <- lm(y ~ d_assign + t + I(d_assign*t), data = data)
+    coefs[i] <- lm_res$coefficients["I(d_assign * t)"]
+}
+hist(
+    coefs,
+    freq = FALSE,
+    breaks = 25,
+    xlab = "DID ATE Point Estimates",
+    ylab = "Density",
+    main = "
+    Distribution of DID ATE Estimates
+    True Value = 2
+    "
+)
+```
+
+## Extensions
+
+Like IV, DID is a family of methods.
+Of all the extensions, two in particular stand out for their wide usage:
+
+1. Event Study: This method conceptually extends DID to the case of multiple pre- and post-test periods.
+    Suppose the existence of a longer panel with time periods $t=h,h+1,\cdots,-1,0,1,\cdots,k$ where $t$ denotes "periods after treatment" (i.e., $t=0$ is the period when treatment is applied).
+    In this case, the usual procedure is to use $t=-1$ as the base case and estimate
+    \[
+        y_{i,t} = \alpha + \beta D_{i} + \sum_{\tau=h,\tau\ne-1}^{k} \gamma_{\tau} \mathbf{1}\{\tau=t\} +  \sum_{\tau=h,\tau\ne-1}^{k} \delta_{\tau} \mathbf{1}\{\tau=t\} \times D_{i} + \epsilon_{i,t}
+    \]
+    Which yields $\delta_{\tau}$ as the ATE in period $\tau$ for the treated group.
+
+    For $\tau<-1$, estimates of $\delta_{\tau}$ serve as a proxy test of the CTA as well.
+    If $\delta_{\tau}\ne0$ for any $\tau<-1$, this calls into question the CTA.
+2. Triple Difference: This method conceptually extends DID into the realm of heterogeneous treatment effects.
+    Suppose that treatment effects differ by gender.
+    Then, similar to the Event Study case, we set one gender as the base case (typically "male") and estimate
+    \[
+        \begin{align*}
+            y_{i,t} &= \alpha + \beta D_{i} + \gamma t + \sum_{g \in \mathcal{G}} \eta_{g} \mathbf{1}\{gender_{i}=g\} \\
+            &\quad + \delta D_{i} t + \sum_{g \in \mathcal{G}} \pi_{g} D_{i} \mathbf{1}\{gender_{i}=g\} + \sum_{g \in \mathcal{G}} \sigma_{g} t \mathbf{1}\{gender_{i}=g\} \\
+            &\quad + \sum_{g \in \mathcal{G}} \Delta_{g} t D_{i} \mathbf{1}\{gender_{i}=g\}+ \epsilon_{i,t}
+        \end{align*}
+    \]
+    In which case $\delta + \Delta_{g}$ comprise the ATE for $g$.
+    Note that gender is merely being used as an example here and any group by which ATEs are heterogeneous may be used.
+
+## Repeated Cross-Section Data
+
+A notable implication of DID being a Method of Moments estimator is that actual longitudinal data is not a requirement.
+Specifically, repeated cross-sections may also be used, as long as the sample in all periods are representative of the same underlying population and the treated group is identifiable in all periods.
+In fact, one of the first studies using DID actually used repeated cross-section data:
+
+[Card, D. (1990). The impact of the Mariel boatlift on the Miami labor market.](https://doi.org/10.1177/001979399004300205)
+
+## Summary
+
+In observational data, treatments cannot be evaluated using a na&iuml;ve pretest-posttest methodology despite the presence of a control group due to unobserved time trends and selection bias.
+Instead, Econometricians investigated the DID method to help practitioners perform causal inference in such situations.
+
+In this notebook, I briefly demonstrate the canonical case where both the before-after and treatment-control estimators are biased and inconsistent and show that DID is unbiased and consistent under the same circumstances.
+I further discuss two conceptual extensions to multiple time periods and heterogeneous ATEs and one use-case extension to repeated cross-section data, for which the actual experiment to prove the unbiasedness and consistency of DID under these settings are left as a future exercise.
