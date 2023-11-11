@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && touch out/.nojekyll && git subtree push --prefix out remote gh-pages && rm -r out"
+    "deploy": "next build && touch out/.nojekyll && git add out && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out remote gh-pages && git reset --soft HEAD && git reset"
   },
   "dependencies": {
     "@types/node": "20.6.4",
