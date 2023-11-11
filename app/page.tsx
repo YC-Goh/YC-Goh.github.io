@@ -33,7 +33,7 @@ export default function Home() {
             <h2 className="text-lg">Main</h2>
             <p className="text-xs">Python</p>
             <h2 className="text-lg">Other</h2>
-            <p className="text-xs">R<br/>Julia<br/>STATA syntax<br/>SQL (DDL, DML, DQL)<br/>C# (currently learning)<br/>HTML+JavaScript (this website!)</p>
+            <p className="text-xs">R<br/>Julia<br/>SQL<br/><a className="hover:text-slate-500" href="https://www.freecodecamp.org/certification/yc-goh/foundational-c-sharp-with-microsoft">C#</a> (currently learning)<br/>JavaScript (currently learning)</p>
           </div>
         </div>
         <div className="flex">
