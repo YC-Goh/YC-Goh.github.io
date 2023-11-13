@@ -1,19 +1,26 @@
 
 #   README
 
-##  Introduction
+##  Who
+
+Research assistant at the Centre for Research in Child Development, National Institute of Education.
+Working on data engineering and classical data analysis.
+Occasionally, also on documentation and literature review.
+
+Aspiring Data Analyst.
+Econometrics-trained (familiar with causality, identification, and inference).
+Data science-trained (professional certificate from the [Institute of Data (Singapore Branch)](https://www.institutedata.com/sg/)).
+
+##  What
 
 This is my personal website.
-It will probably forever be a work in progress and will contain links to stuff that I do that are coding related such as:
-1. Data Analysis (traditional statistics or using ML/AI)
-2. Numerical Computing
-3. Game Development (hobby only; intention is to use Godot with `C#` or `Python`)
+It will be a permanent WIP.
+Future content will include coding and data related personal hobby work in:
+1. Data analysis on interesting data sets.
+2. Numerical computing and Monte Carlo experiments (with `Julia` or `R`).
+3. Game development (Godot with `C#` or `Python`/`PyGame`).
 
 ##  Version
 
-This should probably be version `2.0.0`.
-There was a working website using the `Next/React` framework previously but I have been wanting to revamp the entire thing to simplify the design and publishing steps for a while.
-
-##  Who Am I
-
-Currently a research assistant at the National Institute of Education, Centre for Research in Child Development; working mostly on data-related tasks (i.e., simple data engineering and data analysis using traditional statistical methods), and occasionally on documentation and literature review. Aspiring Data Analyst. Econometrics-trained (hence familiar with causality, identification, and inference) with a data science certificate from the [Institute of Data (Singapore Branch)](https://www.institutedata.com/sg/).
+This should probably be version `2.0.0`, though I reset the numbering.
+There was a working website using `Next`/`React` previously but I have planned to overhaul design and deployment for some time.
