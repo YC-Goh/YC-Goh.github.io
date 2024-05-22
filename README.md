@@ -5,7 +5,7 @@
 
 Senior research assistant, the Centre for Research in Child Development, National Institute of Education Singapore.
 
-Data processing, exploratory and inferential data analysis. Also trained in applied Econometrics.
+Data processing, exploratory and inferential data analysis. Also trained in applied Econometrics and Machine Learning.
 
 Aspiring Data Analyst.
 
