@@ -18,7 +18,7 @@ export function LeftCellLayout({ children }: { children: React.ReactNode }) {
 
 export function RightCellLayout({ children }: { children: React.ReactNode }) {
     return (
-        <div className="text-left flex flex-col w-1/2 px-2 py-1">
+        <div className="text-left flex flex-col w-1/2 px-2">
             { children }
         </div>
     )
