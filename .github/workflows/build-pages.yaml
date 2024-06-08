@@ -1,6 +1,9 @@
 name: build-pages
 run-name: build the static website
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
