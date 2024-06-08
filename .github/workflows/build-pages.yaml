@@ -1,0 +1,32 @@
+name: build-pages
+run-name: build the static website
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'
+      - run: npm install
+      - uses: actions/configure-pages@v5
+        with:
+          static_site_generator: next
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: site_pages
+          path: out/
+          retention-days: 1
+          overwrite: true
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
