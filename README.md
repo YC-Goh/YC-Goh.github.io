@@ -1,16 +1,14 @@
 
-#   READMEa
+#   README
 
-##  Current Role
+##  Who
 
-Research Assistant, Centre for Research in Child Development, National Institute of Education Singapore.
+Senior research assistant, the Centre for Research in Child Development, National Institute of Education Singapore.
 
-##  Welcome
+Data processing, exploratory and inferential data analysis. Also trained in applied Econometrics and Machine Learning.
 
-URL: https://yc-goh.github.io
+Aspiring Data Analyst.
 
-Framework: Next.js
+##  What
 
-CI: Not yet implemented.
-
-CD: [build-pages.yaml](/.github/workflows/build-pages.yaml)
+This is my personal website where I intend to upload pet projects.
