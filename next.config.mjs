@@ -15,7 +15,8 @@ const withMDX = createMDX({
     options: {
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
-    }
+    },
+    extension: /\.(md|mdx)$/
 })
 
 export default withMDX(nextConfig)

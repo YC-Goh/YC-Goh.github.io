@@ -6,10 +6,11 @@
     So just download it once and save it to search locally
 '''
 
+import os
 import requests
 import time
+import json
 import pandas as pd
-import os
 
 #%%
 
@@ -84,7 +85,7 @@ class DatasetsList():
                 mask = mask&term_mask
         if mask is None:
             mask = pd.Series([True] * self.datasets.index.size)
-        return self.datasets.loc[mask,'name'].to_dict()
+        print(json.dumps(self.datasets.loc[mask,'name'].to_dict(), indent=2))
     
     def _try_request(self, url:str, params:dict, max_tries:int=5):
         for _ in range(max_tries):
