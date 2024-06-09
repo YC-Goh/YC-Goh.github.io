@@ -58,3 +58,88 @@ if __name__ == '__main__':
     data = main(0.1, os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, 'data')))
 
 #%%
+
+class DatasetsList():
+
+    dataset_list_api = ''
+    dataset_data_api = 'https://data.gov.sg/api/action/datastore_search'
+    loaded_data:dict[str,pd.DataFrame] = dict()
+
+    def __init__(self, datasets_location:str):
+        self.datasets = pd.read_csv(datasets_location, index_col=['datasetId'])
+    
+    def search(self, search_list:list[str], invert:bool|list[bool]=False, regex:bool|list[bool]=True):
+        if isinstance(invert, bool):
+            invert = [invert] * len(search_list)
+        if isinstance(regex, bool):
+            regex = [regex] * len(search_list)
+        mask = None
+        for search_term, term_invert, term_regex in zip(search_list, invert, regex):
+            term_mask = self.datasets['name'].str.contains(search_term, regex=term_regex)
+            if term_invert:
+                term_mask = ~term_mask
+            if mask is None:
+                mask = term_mask
+            else:
+                mask = mask&term_mask
+        if mask is None:
+            mask = pd.Series([True] * self.datasets.index.size)
+        return self.datasets.loc[mask,'name'].to_dict()
+    
+    def _try_request(self, url:str, params:dict, max_tries:int=5):
+        for _ in range(max_tries):
+            resp = requests.get(url, params=params)
+            if resp.status_code == 200:
+                return resp
+            else:
+                for _ in range(int(1e6)):
+                    pass
+        raise ConnectionError()
+    
+    def retrieve_dataset(self, datasetid:str):
+        '''
+            To prevent repeatedly calling the API while testing reshaping data,
+            instead save any datasets called in the session in state
+            and simply return this dataset whenever the same ID is requested again.
+        '''
+        if datasetid in self.loaded_data.keys():
+            return self.loaded_data[datasetid]
+        else:
+            data = list()
+            has_new_data = True
+            offset = 0
+            limit = 1000
+            while has_new_data:
+                try:
+                    resp = self._try_request(self.dataset_data_api, {'resource_id': datasetid, 'offset': offset, 'limit': limit})
+                except ConnectionError:
+                    raise ConnectionError(f'Could not get a success response from {self.dataset_data_api} for key {datasetid}.')
+                except Exception as e:
+                    raise e
+                if len(resp.json()['result']['records']) > 0:
+                    data = [*data, *resp.json()['result']['records']]
+                    offset += 1000
+                else:
+                    has_new_data = False
+            data = pd.DataFrame.from_records(data)
+            def _to_numeric(series:pd.Series):
+                try:
+                    return pd.to_numeric(series, errors='raise', downcast='integer')
+                except:
+                    return series
+            def _to_int(value:bool|str|float|int):
+                try:
+                    value = float(value)
+                    if value == int(value):
+                        return int(value)
+                    else:
+                        return value
+                except:
+                    return value
+            data = data.apply(_to_numeric, axis=0)
+            data = data.rename(columns=_to_int)
+            data = data.rename(index=_to_int)
+            self.loaded_data[datasetid] = data.copy(deep=True)
+            return self.loaded_data[datasetid]
+
+#%%
