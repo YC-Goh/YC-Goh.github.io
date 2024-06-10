@@ -1,6 +1,7 @@
 import createMDX from "@next/mdx"
 import remarkMath from "remark-math"
 import rehypeKatex from "rehype-katex"
+import rehypeRaw from "rehype-raw"
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -15,7 +16,17 @@ const withMDX = createMDX({
     options: {
         remarkPlugins: [remarkMath],
         rehypePlugins: [rehypeKatex],
-    }
+    },
+    extension: /\.mdx$/
 })
 
-export default withMDX(nextConfig)
+const withMarkdown = createMDX({
+    //  Add plugins as necessary
+    options: {
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex, rehypeRaw],
+    },
+    extension: /\.md$/
+})
+
+export default withMDX(withMarkdown(nextConfig))
