@@ -633,8 +633,8 @@ plt.close(plt.gcf())
 df_m_p_simp = pd.DataFrame.from_dict(
     {
         'Equal': df_m_p.loc[:,df_m_p.columns.get_level_values('Brides')==df_m_p.columns.get_level_values('Grooms')].sum(axis=1), 
-        'Bride': df_m_p.loc[:,df_m_p.columns.get_level_values('Brides')>df_m_p.columns.get_level_values('Grooms')].sum(axis=1), 
-        'Groom': df_m_p.loc[:,df_m_p.columns.get_level_values('Brides')<df_m_p.columns.get_level_values('Grooms')].sum(axis=1), 
+        'Bride > Groom': df_m_p.loc[:,df_m_p.columns.get_level_values('Brides')>df_m_p.columns.get_level_values('Grooms')].sum(axis=1), 
+        'Groom > Bride': df_m_p.loc[:,df_m_p.columns.get_level_values('Brides')<df_m_p.columns.get_level_values('Grooms')].sum(axis=1), 
     }, 
     orient='columns'
 )
@@ -654,7 +654,9 @@ plt.close(plt.gcf())
 
 
 ```python
-df_m_p_b:pd.DataFrame = df_m.stack(level=['Grooms']).copy(deep=True)
+df_m_p_b = df_m.stack(level=['Grooms'], future_stack=True).copy(deep=True)
+if not isinstance(df_m_p_b, pd.DataFrame):
+    df_m_p_b = df_m_p_b.to_frame()
 df_m_p_b = df_m_p_b.div(df_m_p_b.groupby(by=['Year']).sum()).mul(100)
 _, axs = plt.subplots(1, 3, figsize=(12,3), sharey=True)
 for i in range(3):
@@ -667,19 +669,17 @@ plt.gcf().clear()
 plt.close(plt.gcf())
 ```
 
-    /tmp/ipykernel_11695/2974830437.py:1: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
-      df_m_p_b:pd.DataFrame = df_m.stack(level=['Grooms']).copy(deep=True)
-
-
 
     
-![svg](/blog/marriage-patterns/output_14_1.svg)
+![svg](/blog/marriage-patterns/output_14_0.svg)
     
 
 
 
 ```python
-df_m_p_g:pd.DataFrame = df_m.stack(level=['Brides']).copy(deep=True)
+df_m_p_g = df_m.stack(level=['Brides'], future_stack=True).copy(deep=True)
+if not isinstance(df_m_p_g, pd.DataFrame):
+    df_m_p_g = df_m_p_g.to_frame()
 df_m_p_g = df_m_p_g.div(df_m_p_g.groupby(by=['Year']).sum()).mul(100)
 _, axs = plt.subplots(1, 3, figsize=(12,3), sharey=True)
 for i in range(3):
@@ -692,30 +692,29 @@ plt.gcf().clear()
 plt.close(plt.gcf())
 ```
 
-    /tmp/ipykernel_11695/2238162695.py:1: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
-      df_m_p_g:pd.DataFrame = df_m.stack(level=['Brides']).copy(deep=True)
-
-
 
     
-![svg](/blog/marriage-patterns/output_15_1.svg)
+![svg](/blog/marriage-patterns/output_15_0.svg)
     
 
 
 In addition to basic statistics, we can run basic inferential tests:
 1.  Association tests:\
-    These follow the same intuition as the basic chi-square tests of association.
-    For these tests,\
+    Basically the same intuition as the basic chi-square tests of association.\
     1 = perfect association, 0 = no association.\
     Which means that the test statistic can be interpreted as a scale.
 2.  Correlation tests:\
-    These differ from association tests in the sense that the test statistic has a sign and the sign is meaningful.\
+    Difference from association tests is that the test statistic has a sign and the sign is meaningful.\
     1 = perfect positive association, 0 = no association, -1 = perfect negative association.\
     By definition, correlation tests can only be used on ordered variables (which we have here).
 
 
 ```python
-sns.lineplot(df_m.apply(lambda row: sps.contingency.association(row.unstack(level=['Grooms']), method='pearson'), axis=1))
+def _contingency_association_test(data:pd.Series, method:str='pearson'):
+    datamat = data.unstack(level='Grooms')
+    assoctest = sps.contingency.association(datamat, method=method)
+    return assoctest
+sns.lineplot(df_m.apply(_contingency_association_test, axis=1))
 plt.title('Association between Bride and Groom educational qualifications')
 plt.ylabel('Pearson Association Coefficient')
 plt.show()
@@ -746,7 +745,7 @@ def _kendalltau_contingency(contingency_table:pd.Series|pd.DataFrame):
     contingency_table = contingency_table.unstack()
     result = sps.kendalltau(*contingency_table.to_numpy().T)
     return result.statistic
-sns.lineplot(df_m.apply(lambda row: _kendalltau_contingency(row), axis=1))
+sns.lineplot(df_m.apply(_kendalltau_contingency, axis=1))
 plt.title('Kendall-Tau correlation between Bride and Groom educational qualifications')
 plt.ylabel('Kendall-Tau Correlation Coefficient')
 plt.show()
@@ -760,7 +759,7 @@ plt.close(plt.gcf())
     
 
 
-These basic statistics show 2 main stories:
+There seem to be 2 main stories:
 1.  Positive Assortative Matching:\
     The most common kind of marriage is between people with similar education levels.
     In fact the level of matching is above chance levels.
@@ -1898,11 +1897,11 @@ plt.close(plt.gcf())
 df_a_p_simp = pd.DataFrame.from_dict(
     dict(
         **{
-            f'Bride {i*5} Older': df_a_p.loc[:,df_a_p.columns.get_level_values('Brides').codes-df_a_p.columns.get_level_values('Grooms').codes==i].sum(axis=1) for i in range(4, 0, -1)
+            f'Bride {i*5} Years Older': df_a_p.loc[:,df_a_p.columns.get_level_values('Brides').codes-df_a_p.columns.get_level_values('Grooms').codes==i].sum(axis=1) for i in range(4, 0, -1)
         }, 
         **{'Equal Age Groups': df_a_p.loc[:,df_a_p.columns.get_level_values('Brides')==df_a_p.columns.get_level_values('Grooms')].sum(axis=1)}, 
         **{
-            f'Bride {i*5} Younger': df_a_p.loc[:,df_a_p.columns.get_level_values('Brides').codes-df_a_p.columns.get_level_values('Grooms').codes==-i].sum(axis=1) for i in range(1, 5, 1)
+            f'Bride {i*5} Years Younger': df_a_p.loc[:,df_a_p.columns.get_level_values('Brides').codes-df_a_p.columns.get_level_values('Grooms').codes==-i].sum(axis=1) for i in range(1, 5, 1)
         }, 
     ), 
     orient='columns'
@@ -1923,7 +1922,9 @@ plt.close(plt.gcf())
 
 
 ```python
-df_a_p_b:pd.DataFrame = df_a.stack(level=['Grooms']).copy(deep=True)
+df_a_p_b = df_a.stack(level=['Grooms'], future_stack=True).copy(deep=True)
+if not isinstance(df_a_p_b, pd.DataFrame):
+    df_a_p_b = df_a_p_b.to_frame()
 df_a_p_b = df_a_p_b.div(df_a_p_b.groupby(by=['Year']).sum()).mul(100)
 _, axs = plt.subplots(3, 3, figsize=(15, 12), sharey=True, sharex=True)
 for ax, i in zip(axs.flat, range(9)):
@@ -1937,19 +1938,17 @@ plt.gcf().clear()
 plt.close(plt.gcf())
 ```
 
-    /tmp/ipykernel_11695/3569779269.py:1: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
-      df_a_p_b:pd.DataFrame = df_a.stack(level=['Grooms']).copy(deep=True)
-
-
 
     
-![svg](/blog/marriage-patterns/output_27_1.svg)
+![svg](/blog/marriage-patterns/output_27_0.svg)
     
 
 
 
 ```python
-df_a_p_g:pd.DataFrame = df_a.stack(level=['Brides']).copy(deep=True)
+df_a_p_g = df_a.stack(level=['Brides'], future_stack=True).copy(deep=True)
+if not isinstance(df_a_p_g, pd.DataFrame):
+    df_a_p_g = df_a_p_g.to_frame()
 df_a_p_g = df_a_p_g.div(df_a_p_g.groupby(by=['Year']).sum()).mul(100)
 _, axs = plt.subplots(3, 3, figsize=(15, 12), sharey=True, sharex=True)
 for ax, i in zip(axs.flat, range(9)):
@@ -1963,17 +1962,13 @@ plt.gcf().clear()
 plt.close(plt.gcf())
 ```
 
-    /tmp/ipykernel_11695/1408206701.py:1: FutureWarning: The previous implementation of stack is deprecated and will be removed in a future version of pandas. See the What's New notes for pandas 2.1.0 for details. Specify future_stack=True to adopt the new implementation and silence this warning.
-      df_a_p_g:pd.DataFrame = df_a.stack(level=['Brides']).copy(deep=True)
-
-
 
     
-![svg](/blog/marriage-patterns/output_28_1.svg)
+![svg](/blog/marriage-patterns/output_28_0.svg)
     
 
 
-These basic statistics show 2 main stories: Grooms are typically older than brides, but otherwise brides and grooms generally try to marry within their age range.
+The story is straightforward: Grooms are typically older than brides, but otherwise brides and grooms generally try to marry within their age range.
 
 This looks like a story about culture and tradition.
 Traditionally, arguably there is stigma around males dating and marrying women much older than them (unless they are still very young),
@@ -2155,9 +2150,9 @@ plt.gcf().clear()
 plt.close(plt.gcf())
 ```
 
-    /tmp/ipykernel_11695/282482770.py:7: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+    /tmp/ipykernel_15530/282482770.py:7: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
       axs[0].set_xticklabels(axs[0].get_xticklabels(), rotation=45)
-    /tmp/ipykernel_11695/282482770.py:10: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
+    /tmp/ipykernel_15530/282482770.py:10: UserWarning: set_ticklabels() should only be used with a fixed number of ticks, i.e. after set_ticks() or using a FixedLocator.
       axs[1].set_xticklabels(axs[1].get_xticklabels(), rotation=45)
 
 
@@ -2172,7 +2167,7 @@ This is because knowing the relative amount of choices that either side of a mat
 
 
 ```python
-df_age_r = df_age['NonMarried'].unstack(level=['Sex']).apply(lambda row: row['Male'] / row['Female'], axis=1).rename('Ratio').to_frame()
+df_age_r = df_age['NonMarried'].unstack(level='Sex').apply(lambda row: row['Male'] / row['Female'], axis=1).rename('Ratio').to_frame()
 sns.lineplot(df_age_r, x='Age', y='Ratio', hue='Year', palette='viridis_r')
 plt.title('Male-Female Tightness Ratio, by Age-Group, Year')
 plt.xticks(rotation=45)
@@ -2189,7 +2184,7 @@ Another way to display this information is by birth cohort.
 
 
 ```python
-df_bc = df_age['NonMarried'].unstack(level=['Sex']).copy(deep=True)
+df_bc = df_age['NonMarried'].unstack(level='Sex').copy(deep=True)
 df_bc['Cohort'] = df_bc.index.get_level_values('Year') - (df_bc.index.get_level_values('Age').codes + 3) * 5
 df_bc = df_bc.set_index(keys=['Cohort'], append=True)
 df_bc = df_bc.droplevel(level=['Year'], axis=0)
@@ -2209,13 +2204,13 @@ plt.show()
 
 
 All representations are consistent with the same story:
-Over the years, the tightness curve has flattened dramatically, driven mechanically primarily by a drastic fall in the marriage rates of women.
+Over the years, the tightness curve has flattened, driven mechanically by a fall in the marriage rates of women.
 
-In the past, men overwhelmingly married much later than women and married women much younger than them.
-One can see this in the high rates of marriage of women and the earlier peak in marriage rates compared to men.
-In more recent times, men married much more within their age groups/birth cohorts than in the past,
-leading to more older non-married men in recent years and less younger non-married men compared to in past years.
-Mechanically, the low marriage rates of men in earlier years would likely be due to competition with older men who were likely to be much more attractive due to higher socioeconomic status and stability compared to younger men.
+Previously, men married later than women and married women younger than them.
+This is seen in the high rates of marriage of women and the earlier peak in marriage rates compared to men.
+More recently, men married more within their age groups/birth cohorts,
+leading to more older non-married men and less younger non-married men.
+Mechanically, the low marriage rates of men in earlier years would likely be due to competition with older men who may have been more attractive due to higher socioeconomic status and stability.
 
 Another striking fact is that cohort subcurves seem to occupy quite distinct levels on the overall tightness ratio curve, indicating that much of the observed shift in the tightness ratio curve is being driven by differential marriage patterns between cohorts, with younger cohorts flattening out at a relatively rapid pace.
 
