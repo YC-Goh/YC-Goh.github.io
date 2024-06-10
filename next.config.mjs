@@ -15,9 +15,18 @@ const withMDX = createMDX({
     //  Add plugins as necessary
     options: {
         remarkPlugins: [remarkMath],
-        rehypePlugins: [rehypeKatex, rehypeRaw],
+        rehypePlugins: [rehypeKatex],
     },
-    extension: /\.(md|mdx)$/
+    extension: /\.mdx$/
 })
 
-export default withMDX(nextConfig)
+const withMarkdown = createMDX({
+    //  Add plugins as necessary
+    options: {
+        remarkPlugins: [remarkMath],
+        rehypePlugins: [rehypeKatex, rehypeRaw],
+    },
+    extension: /\.md$/
+})
+
+export default withMDX(withMarkdown(nextConfig))
