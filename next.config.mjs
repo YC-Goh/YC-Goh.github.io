@@ -6,6 +6,7 @@ export default (phase, { defaultConfig }) => {
    */
   const nextConfig = {
     /* config options here */
+    basePath: '/out'
   }
   return nextConfig
 }
