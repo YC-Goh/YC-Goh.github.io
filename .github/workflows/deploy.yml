@@ -28,20 +28,23 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - uses: pnpm/action-setup@v4
-        name: Install pnpm
-        with:
-          version: 10
-          run_install: false
+      # - uses: pnpm/action-setup@v4
+      #   name: Install pnpm
+      #   with:
+      #     version: 10
+      #     run_install: false
 
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: 'pnpm'
+          # cache: 'pnpm'
 
       - name: Install dependencies
-        run: pnpm install
+        run: npm install
+
+      # - name: Install dependencies
+      #   run: pnpm install
 
       - name: Setup Pages
         id: setup_pages
@@ -59,9 +62,14 @@ jobs:
       #       ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
 
       - name: Build with Next.js
-        run: pnpm run build
+        run: npm run build
         env:
           PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
+
+      # - name: Build with Next.js
+      #   run: pnpm run build
+      #   env:
+      #     PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
