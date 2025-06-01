@@ -6,7 +6,7 @@ export default function PageTitle({
     children: React.ReactNode
 }) {
     return (
-        <StandardTitle sizevalue="5" alignment="center">
+        <StandardTitle text_size_class="text-5xl" text_alignment_class="text-center">
             {children}
         </StandardTitle>
     )

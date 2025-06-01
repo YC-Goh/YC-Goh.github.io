@@ -6,7 +6,7 @@ export default function SectionTitleLeftColumm({
     children: React.ReactNode
 }) {
     return (
-        <StandardTitle sizevalue="3" alignment="right">
+        <StandardTitle text_size_class="text-3xl" text_alignment_class="text-right">
             {children}
         </StandardTitle>
     )
@@ -18,7 +18,7 @@ export function SectionTitleRightColumm({
     children: React.ReactNode
 }) {
     return (
-        <StandardTitle sizevalue="3" alignment="left">
+        <StandardTitle text_size_class="text-3xl" text_alignment_class="text-left">
             {children}
         </StandardTitle>
     )
