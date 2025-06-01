@@ -7,7 +7,7 @@ export default (phase, { defaultConfig }) => {
   const nextConfig = {
     /* config options here */
     output: 'export', 
-    basePath: '/out'
+    basePath: process.env.PAGES_BASE_PATH, 
   }
   return nextConfig
 }
