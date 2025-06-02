@@ -1,5 +1,5 @@
 import PageTitle from "../components/pagetitle"
-import StandardHeaderLink from "./standardlink"
+import HeaderLink from "./headerlink"
 
 export default function PageTemplate({
     children, 
@@ -15,19 +15,22 @@ export default function PageTemplate({
                     {pagetitle}
                 </PageTitle>
             </div>
-            <div className="p-2 flex flex-row justify-center border-b-2 border-sky-100">
-                <StandardHeaderLink href="/" padding="px-1">
+            <div className="p-2 flex flex-row justify-center border-b-2 border-sky-100 divide-x-1 divide-sky-100">
+                <HeaderLink href="/">
                     Home
-                </StandardHeaderLink>
-                <StandardHeaderLink href="/daily" padding="px-1">
+                </HeaderLink>
+                <HeaderLink href="/daily">
                     Daily
-                </StandardHeaderLink>
-                <StandardHeaderLink href="/weekly" padding="px-1">
+                </HeaderLink>
+                <HeaderLink href="/weekly">
                     Weekly
-                </StandardHeaderLink>
-                <StandardHeaderLink href="/monthly" padding="px-1">
+                </HeaderLink>
+                <HeaderLink href="/monthly">
                     Monthly
-                </StandardHeaderLink>
+                </HeaderLink>
+                <HeaderLink href="https://github.com/yc-goh/yc-goh.github.io">
+                    Repo
+                </HeaderLink>
             </div>
             <div className="flex flex-row flex-wrap justify-center">
                 {children}
