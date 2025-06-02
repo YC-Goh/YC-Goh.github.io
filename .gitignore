@@ -179,3 +179,6 @@ node_modules/
 # Next stuff
 .next/
 next-env.d.ts
+
+# Hide data
+src/data/

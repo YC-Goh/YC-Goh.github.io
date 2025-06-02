@@ -2,7 +2,7 @@ import PageTemplate from "../../../components/pagetemplate"
 import { SectionTextBoxRightColumm } from "../../../components/sectiontextbox"
 
 export async function generateStaticParams() {
-  return [{ ymd: '1' }, { ymd: '2' }, { ymd: '3' }]
+  return [{ ymd: 'test' }, ]
 }
 
 export default async function Page({
@@ -11,11 +11,11 @@ export default async function Page({
     params: Promise<{ ymd: string }>
 }) {
     const { ymd } = await params
+    const { default: Post } = await import(`/src/code/daily/${ymd}.mdx`)
+    
     return (
         <PageTemplate pagetitle="No Commentary">
-            <SectionTextBoxRightColumm>
-                {ymd}
-            </SectionTextBoxRightColumm>
+            <Post />
         </PageTemplate>
     )
 }
