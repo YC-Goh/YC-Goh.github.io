@@ -6,7 +6,7 @@ export default function SectionTextBoxLeftColumm({
     children: React.ReactNode
 }) {
     return (
-        <StandardTextBox alignment="right">
+        <StandardTextBox text_alignment_class="text-right">
             {children}
         </StandardTextBox>
     )
@@ -18,7 +18,7 @@ export function SectionTextBoxRightColumm({
     children: React.ReactNode
 }) {
     return (
-        <StandardTextBox alignment="left">
+        <StandardTextBox text_alignment_class="text-left">
             {children}
         </StandardTextBox>
     )

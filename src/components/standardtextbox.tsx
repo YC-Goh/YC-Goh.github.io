@@ -1,13 +1,13 @@
 export default function StandardTextBox({
     children,
-    alignment
+    text_alignment_class
 }: {
     children: React.ReactNode,
-    alignment: string
+    text_alignment_class: string
 }) {
     return (
-        <h1 className={`px-1 text-base font-normal text-${alignment} text-slate-200`}>
+        <p className={`px-1 text-base font-normal ${text_alignment_class} text-slate-200`}>
             {children}
-        </h1>
+        </p>
     )
 }
