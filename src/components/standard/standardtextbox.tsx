@@ -8,7 +8,7 @@ export default function StandardTextBox({
     reference_class?: string, 
 }) {
     return (
-        <p className={`text-base font-normal ${text_alignment_class} text-slate-200 ${reference_class}`}>
+        <p className={`text-sm sm:text-base font-normal ${text_alignment_class} text-slate-200 ${reference_class}`}>
             {children}
         </p>
     )

@@ -14,7 +14,7 @@ export default function StandardLink({
     reference_class?: string, 
 }) {
     return (
-        <Link className={`${padding_class} text-base font-normal ${text_alignment_class} text-slate-200 ${reference_class}`} href={`${href}`}>
+        <Link className={`${padding_class} text-sm sm:text-base font-normal ${text_alignment_class} text-slate-200 ${reference_class}`} href={`${href}`}>
             {children}
         </Link>
     )
