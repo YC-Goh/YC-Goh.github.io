@@ -12,7 +12,7 @@ export default function PageTemplate({
         <div className="w-9/10 flex flex-col justify-center">
             <div className="p-2 border-b-2 border-sky-100">
                 <PageTitle>
-                    {pagetitle}
+                    { pagetitle }
                 </PageTitle>
             </div>
             <div className="p-2 flex flex-row justify-center border-b-2 border-sky-100 divide-x-1 divide-sky-100">
@@ -33,7 +33,7 @@ export default function PageTemplate({
                 </HeaderLink>
             </div>
             <div className="flex flex-row flex-wrap justify-center">
-                {children}
+                { children }
             </div>
         </div>
     )

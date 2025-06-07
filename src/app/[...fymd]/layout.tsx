@@ -1,5 +1,4 @@
 import PageTemplate from "../../components/page/pagetemplate"
-import ContentTemplate from "../../components/page/contenttemplate"
 import generateStaticParamsGenerator from "../../components/functions/generateStaticParams"
 
 export const generateStaticParams = generateStaticParamsGenerator("src/code")
@@ -31,9 +30,7 @@ export default async function PageLayout({
 
     return (
         <PageTemplate pagetitle={ page_title }>
-            <ContentTemplate>
-                { children }
-            </ContentTemplate>
+            { children }
         </PageTemplate>
     )
 }
