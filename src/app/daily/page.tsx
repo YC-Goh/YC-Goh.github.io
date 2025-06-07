@@ -1,12 +1,12 @@
 import PageTemplate from "../../components/pagetemplate"
-import { SectionTextBoxRightColumm } from "../../components/sectiontextbox"
+import { SectionTextBoxRightColumn } from "../../components/sectiontextbox"
 
 export default function Page() {
     return (
         <PageTemplate pagetitle="No Commentary">
-            <SectionTextBoxRightColumm>
+            <SectionTextBoxRightColumn>
                 Hello!
-            </SectionTextBoxRightColumm>
+            </SectionTextBoxRightColumn>
         </PageTemplate>
     )
 }

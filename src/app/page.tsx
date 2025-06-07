@@ -1,42 +1,42 @@
 import PageTemplate from "../components/pagetemplate"
-import SectionTitleLeftColumm, { SectionTitleRightColumm } from "../components/sectiontitle"
-import SectionTextBoxLeftColumm, { SectionTextBoxRightColumm } from "../components/sectiontextbox"
+import SectionTitleLeftColumn, { SectionTitleRightColumn } from "../components/sectiontitle"
+import SectionTextBoxLeftColumn, { SectionTextBoxRightColumn } from "../components/sectiontextbox"
 import SectionLink from "../components/sectionlink"
 
 export default function Page() {
     return (
         <PageTemplate pagetitle="Goh Yeow Chong">
             <div className="w-1/2 py-2 px-4 flex flex-col justify-right">
-                <SectionTitleLeftColumm>
+                <SectionTitleLeftColumn>
                     Stack
-                </SectionTitleLeftColumm>
-                <SectionTextBoxLeftColumm>
+                </SectionTitleLeftColumn>
+                <SectionTextBoxLeftColumn>
                     Next.js (Next Framework + React + TailwindCSS)
-                </SectionTextBoxLeftColumm>
-                <SectionTitleLeftColumm>
+                </SectionTextBoxLeftColumn>
+                <SectionTitleLeftColumn>
                     Contact
-                </SectionTitleLeftColumm>
-                <SectionTextBoxLeftColumm>
+                </SectionTitleLeftColumn>
+                <SectionTextBoxLeftColumn>
                     Squatting on <SectionLink href="https://bsky.app/profile/gohyc1993.bsky.social">BlueSky</SectionLink>
-                </SectionTextBoxLeftColumm>
+                </SectionTextBoxLeftColumn>
             </div>
             <div className="w-1/2 py-2 px-4 flex flex-col justify-left">
-                <SectionTitleRightColumm>
+                <SectionTitleRightColumn>
                     Current
-                </SectionTitleRightColumm>
-                <SectionTextBoxRightColumm>
+                </SectionTitleRightColumn>
+                <SectionTextBoxRightColumn>
                     Junior Data Analyst
-                </SectionTextBoxRightColumm>
-                <SectionTitleRightColumm>
+                </SectionTextBoxRightColumn>
+                <SectionTitleRightColumn>
                     Aspiring
-                </SectionTitleRightColumm>
-                <SectionTextBoxRightColumm>
+                </SectionTitleRightColumn>
+                <SectionTextBoxRightColumn>
                     Data Engineer
                     <br></br>
                     Lecturer
                     <br></br>
                     Sketch + Digital Artist
-                </SectionTextBoxRightColumm>
+                </SectionTextBoxRightColumn>
             </div>
         </PageTemplate>
     )

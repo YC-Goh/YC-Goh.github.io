@@ -1,16 +1,17 @@
 import React from "react"
 import PageTemplate from "../../../components/pagetemplate"
 import { readdir } from "fs/promises"
+import ContentTemplate from "../../../components/contenttemplate"
 
 export async function generateStaticParams() {
-    const codeLocationDaily = "src/code/daily/"
+    const codeLocationDaily = "src/code/daily"
     const files = await readdir(codeLocationDaily, { recursive: true, withFileTypes: true }).then(
         (fileList) => fileList.filter(
             (file) => file.isFile()
         ).filter(
             (file) => /\.mdx?$/i.test(file.name)
         ).map(
-            (file) => ({ ymd : [...file.parentPath.replace(codeLocationDaily, "").split("/"), file.name.replace(/\.mdx?$/i, "")] })
+            (file) => ({ ymd : [...file.parentPath.replace(`${codeLocationDaily}/`, "").split("/"), file.name.replace(/\.mdx?$/i, "")] })
         )
     )
     return files
@@ -32,7 +33,12 @@ export default async function Page({
     
     return (
         <PageTemplate pagetitle="No Commentary">
-            <Post />
+            <ContentTemplate>
+                {[
+                    <h1>Hi</h1>, 
+                    <Post />
+                ]}
+            </ContentTemplate>
         </PageTemplate>
     )
 }

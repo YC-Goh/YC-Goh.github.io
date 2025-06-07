@@ -8,7 +8,7 @@ export default function SectionLink({
     href: string, 
 }) {
     return (
-        <StandardLink href={`${href}`} padding="px-0">
+        <StandardLink href={`${href}`} padding="px-0" reference_class="section-link">
             {children}
         </StandardLink>
     )

@@ -1,4 +1,4 @@
-import PageTitle from "../components/pagetitle"
+import PageTitle from "./pagetitle"
 import HeaderLink from "./headerlink"
 
 export default function PageTemplate({
