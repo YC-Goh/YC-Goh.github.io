@@ -1,4 +1,4 @@
-import StandardLink from "./standardlink"
+import StandardLink from "../standard/standardlink"
 
 export default function HeaderLink({
     children, 

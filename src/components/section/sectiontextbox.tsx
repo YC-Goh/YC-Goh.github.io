@@ -1,4 +1,4 @@
-import StandardTextBox from "./standardtextbox"
+import StandardTextBox from "../standard/standardtextbox"
 
 export default function SectionTextBoxLeftColumn({
     children,

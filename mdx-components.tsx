@@ -1,6 +1,6 @@
 import type { MDXComponents } from 'mdx/types'
-import StandardTitle from './src/components/standardtitle'
-import StandardTextBox from './src/components/standardtextbox'
+import StandardTitle from './src/components/standard/standardtitle'
+import StandardTextBox from './src/components/standard/standardtextbox'
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
     return {

@@ -1,4 +1,4 @@
-import StandardTitle from "./standardtitle"
+import StandardTitle from "../standard/standardtitle"
 
 export default function PageTitle({
     children,

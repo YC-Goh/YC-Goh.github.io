@@ -1,7 +1,7 @@
-import PageTemplate from "../components/pagetemplate"
-import SectionTitleLeftColumn, { SectionTitleRightColumn } from "../components/sectiontitle"
-import SectionTextBoxLeftColumn, { SectionTextBoxRightColumn } from "../components/sectiontextbox"
-import SectionLink from "../components/sectionlink"
+import PageTemplate from "../components/page/pagetemplate"
+import SectionTitleLeftColumn, { SectionTitleRightColumn } from "../components/section/sectiontitle"
+import SectionTextBoxLeftColumn, { SectionTextBoxRightColumn } from "../components/section/sectiontextbox"
+import SectionLink from "../components/section/sectionlink"
 
 export default function Page() {
     return (

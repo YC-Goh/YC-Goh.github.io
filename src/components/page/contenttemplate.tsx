@@ -10,7 +10,7 @@ export default function ContentTemplate({
                 { children[0] }
             </div>
             <div className="flex flex-col flex-nowrap w-5/8 p-2">
-                { children[1] }
+                { children }
             </div>
             <div className="flex flex-col flex-nowrap w-1/8 p-2">
             </div>
