@@ -10,8 +10,8 @@ export default function StandardUnsortedList({
     reference_class?: string, 
 }) {
     return (
-        <ul className={`ml-4 text-sm sm:text-base font-normal ${text_alignment_class} ${list_type} text-slate-200 ${reference_class}`}>
-            {children}
+        <ul className={ `ml-4 text-sm md:text-base font-normal ${ text_alignment_class } ${ list_type } text-slate-200 ${ reference_class }` }>
+            { children }
         </ul>
     )
 }

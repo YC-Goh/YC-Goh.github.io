@@ -12,8 +12,8 @@ export default function StandardTitle({
     reference_class?: string, 
 }) {
     return (
-        <h1 className={`${margin_class} ${text_size_class} font-medium ${text_alignment_class} text-sky-200 ${reference_class}`}>
-            {children}
+        <h1 className={`${ margin_class } ${ text_size_class } font-medium ${ text_alignment_class } text-sky-200 ${ reference_class }` }>
+            { children }
         </h1>
     )
 }

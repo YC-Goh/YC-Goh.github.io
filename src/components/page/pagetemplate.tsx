@@ -9,7 +9,7 @@ export default function PageTemplate({
     pagetitle: string, 
 }) {
     return (
-        <div className="w-9/10 flex flex-col justify-center">
+        <div className="w-1/1 lg:w-9/10 flex flex-col justify-center">
             <div className="p-2 border-b-2 border-sky-100">
                 <PageTitle>
                     { pagetitle }
