@@ -8,7 +8,7 @@ export function StandardTableCaption({
     reference_class?: string, 
 }) {
     return (
-        <caption className={ `text-sm md:text-base text-bold ${ text_alignment_class } text-slate-200 ${ reference_class }` }>{ children }</caption>
+        <caption className={ `text-xs md:text-sm text-bold ${ text_alignment_class } text-slate-200 ${ reference_class }` }>{ children }</caption>
     )
 }
 
@@ -22,7 +22,7 @@ export function StandardTableDataCell({
     reference_class?: string, 
 }) {
     return (
-        <td className={ `p-1 text-sm md:text-base text-normal ${ text_alignment_class } align-top text-slate-200 ${ reference_class }` }>{ children }</td>
+        <td className={ `p-1 text-xs md:text-sm text-normal ${ text_alignment_class } align-top text-slate-200 ${ reference_class }` }>{ children }</td>
     )
 }
 
@@ -30,15 +30,17 @@ export function StandardTableHeaderCell({
     children, 
     colspan, 
     text_alignment_class, 
+    column_width_class, 
     reference_class = "standard-table-header-cell", 
 }: {
     children: React.ReactNode, 
     colspan: number, 
     text_alignment_class: string, 
+    column_width_class: string, 
     reference_class?: string, 
 }) {
     return (
-        <th colSpan={ colspan } className={ `p-1 text-sm md:text-base text-bold ${ text_alignment_class } text-slate-200 ${ reference_class }` }>{ children }</th>
+        <th colSpan={ colspan } className={ `p-1 text-xs md:text-sm text-bold ${ text_alignment_class } ${ column_width_class } text-slate-200 ${ reference_class }` }>{ children }</th>
     )
 }
 
@@ -68,7 +70,7 @@ export default function StandardTable({
     reference_class = "standard-table", 
 }: {
     children: React.ReactNode, 
-    headers: Array<[number, string|number|boolean]>, 
+    headers: Array<[number, string, string|number|boolean]>, 
     data: Array<Array<string|number|boolean>>, 
     headers_alignment_class?: string, 
     data_alignment_class?: string, 
@@ -77,10 +79,7 @@ export default function StandardTable({
 }) {
 
     const header_nodes = headers.map(
-        (value, colnum, arr) => {
-
-            return (<StandardTableHeaderCell colspan={ value[0] } text_alignment_class={ headers_alignment_class } key={ `header-${ colnum }` }>{ value[1] }</StandardTableHeaderCell>)
-        }
+        (value, colnum, arr) => (<StandardTableHeaderCell colspan={ value[0] } text_alignment_class={ headers_alignment_class } column_width_class={ value[1] } key={ `header-${ colnum }` }>{ value[2] }</StandardTableHeaderCell>)
     )
 
     const data_nodes = data.map(
@@ -88,14 +87,12 @@ export default function StandardTable({
             const values_nodes = values.map(
                 (value, colnum, _) => (<StandardTableDataCell text_alignment_class={ data_alignment_class } key={ `data-${ rownum }-${ colnum }` }>{ value }</StandardTableDataCell>)
             )
-            return (
-                <StandardTableRow border_class="" key={ `row-${ rownum }` }>{ values_nodes }</StandardTableRow>
-            )
+            return (<StandardTableRow border_class="" key={ `row-${ rownum }` }>{ values_nodes }</StandardTableRow>)
         }
     )
 
     return (
-        <table className={ `table-auto ${ border_class } ${ reference_class }` }>
+        <table className={ `table-fixed ${ border_class } ${ reference_class }` }>
             <StandardTableCaption text_alignment_class="text-left">{ children }</StandardTableCaption>
             <thead>
                 <StandardTableRow>
