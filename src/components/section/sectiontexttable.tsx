@@ -6,7 +6,7 @@ export default function SectionTextTable({
     data, 
 }: {
     children: React.ReactNode, 
-    headers: Array<[number, string|number|boolean]>, 
+    headers: Array<[number, string, string|number|boolean]>, 
     data: Array<Array<string|number|boolean>>, 
 }) {
     return (
