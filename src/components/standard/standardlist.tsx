@@ -1,4 +1,4 @@
-export default function StandardUnsortedList({
+export default function StandardList({
     children, 
     text_alignment_class, 
     list_type = "list-disc", 

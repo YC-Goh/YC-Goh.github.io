@@ -8,7 +8,7 @@ export default function HeaderLink({
     href: string, 
 }) {
     return (
-        <StandardLink href={`${href}`} padding_class="px-4" text_alignment_class="text-center" reference_class="header-link">
+        <StandardLink padding_class="px-4" text_size_class="text-sm md:text-base" text_alignment_class="text-center" href={ href } reference_class="header-link">
             {children}
         </StandardLink>
     )

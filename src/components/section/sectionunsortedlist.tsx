@@ -1,4 +1,4 @@
-import StandardUnsortedList from "../standard/standardunsortedlist"
+import StandardList from "../standard/standardlist"
 
 export default function SectionUnsortedList({
     children, 
@@ -6,8 +6,8 @@ export default function SectionUnsortedList({
     children: React.ReactNode, 
 }) {
     return (
-        <StandardUnsortedList text_alignment_class="text-left" reference_class="section-unsorted-list">
+        <StandardList text_alignment_class="text-left" list_type="list-disc" reference_class="section-unsorted-list">
             {children}
-        </StandardUnsortedList>
+        </StandardList>
     )
 }

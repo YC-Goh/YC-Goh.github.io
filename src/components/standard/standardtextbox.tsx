@@ -1,9 +1,11 @@
 export default function StandardTextBox({
     children, 
+    text_size_class, 
     text_alignment_class, 
     reference_class = "standard-title", 
 }: {
     children: React.ReactNode, 
+    text_size_class: string, 
     text_alignment_class: string, 
     reference_class?: string, 
 }) {
