@@ -1,6 +1,6 @@
 // @ts-check
 import createMDX from '@next/mdx'
-// import remarkGfm from 'remark-gfm'
+import remarkGfm from 'remark-gfm'
 
 export default (phase, { defaultConfig }) => {
     /**
@@ -17,10 +17,10 @@ export default (phase, { defaultConfig }) => {
     const withMDX = createMDX({
         extension: /\.(md|mdx)$/,
         // Add markdown plugins here, as desired
-        // options: {
-        //     remarkPlugins: [remarkGfm],
-        //     rehypePlugins: [],
-        // },
+        options: {
+            remarkPlugins: [remarkGfm],
+            rehypePlugins: [],
+        },
     })
 
     return withMDX(nextConfig)

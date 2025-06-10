@@ -46,21 +46,68 @@ export function StandardTableHeaderCell({
 
 export function StandardTableRow({
     children, 
-    border_class = "border-y-2 border-sky-200", 
     reference_class = "standard-table-row", 
+}: {
+    children: React.ReactNode, 
+    reference_class?: string, 
+}) {
+    return (
+        <tr className={ `${ reference_class }` }>
+            { children }
+        </tr>
+    )
+}
+
+export function StandardTableBody({
+    children, 
+    border_class = "border-y-2 border-sky-200", 
+    reference_class = "standard-table-body", 
 }: {
     children: React.ReactNode, 
     border_class?: string, 
     reference_class?: string, 
 }) {
     return (
-        <tr className={ `${ border_class } ${ reference_class }` }>
+        <tbody className={ `${ border_class } ${ reference_class }` }>
             { children }
-        </tr>
+        </tbody>
+    )
+}
+
+export function StandardTableHead({
+    children, 
+    border_class = "border-y-2 border-sky-200", 
+    reference_class = "standard-table-head", 
+}: {
+    children: React.ReactNode, 
+    border_class?: string, 
+    reference_class?: string, 
+}) {
+    return (
+        <thead className={ `${ border_class } ${ reference_class }` }>
+            { children }
+        </thead>
     )
 }
 
 export default function StandardTable({
+    children, 
+    border_class = "border-y-2 border-sky-200", 
+    reference_class = "standard-table", 
+}: {
+    children: React.ReactNode, 
+    border_class?: string, 
+    reference_class?: string, 
+}) {
+
+    return (
+        <table className={ `table-fixed ${ border_class } ${ reference_class }` }>
+            { children }
+        </table>
+    )
+}
+
+export function StandardCaptionedTable({
     children, 
     headers, 
     data, 
@@ -87,21 +134,21 @@ export default function StandardTable({
             const values_nodes = values.map(
                 (value, colnum, _) => (<StandardTableDataCell text_alignment_class={ data_alignment_class } key={ `data-${ rownum }-${ colnum }` }>{ value }</StandardTableDataCell>)
             )
-            return (<StandardTableRow border_class="" key={ `row-${ rownum }` }>{ values_nodes }</StandardTableRow>)
+            return (<StandardTableRow key={ `row-${ rownum }` }>{ values_nodes }</StandardTableRow>)
         }
     )
 
     return (
         <table className={ `table-fixed ${ border_class } ${ reference_class }` }>
             <StandardTableCaption text_alignment_class="text-left">{ children }</StandardTableCaption>
-            <thead>
+            <StandardTableHead border_class={ border_class } reference_class={ `${ reference_class }-head` }>
                 <StandardTableRow>
                     { header_nodes }
                 </StandardTableRow>
-            </thead>
-            <tbody>
+            </StandardTableHead>
+            <StandardTableBody border_class={ border_class } reference_class={ `${ reference_class }-body` }>
                 { data_nodes }
-            </tbody>
+            </StandardTableBody>
         </table>
     )
 }

@@ -1,4 +1,4 @@
-import StandardTable from "../standard/standardtableelems"
+import { StandardCaptionedTable } from "../standard/standardtableelems"
 
 export default function SectionTextTable({
     children, 
@@ -10,6 +10,6 @@ export default function SectionTextTable({
     data: Array<Array<string|number|boolean>>, 
 }) {
     return (
-        <StandardTable headers={ headers } data={ data }>{ children }</StandardTable>
+        <StandardCaptionedTable headers={ headers } data={ data }>{ children }</StandardCaptionedTable>
     )
 }

@@ -3,6 +3,7 @@ import StandardTitle, { StandardHeading, StandardSubheading, StandardSubtitle } 
 import StandardTextBox from './src/components/standard/standardtextbox'
 import StandardList from './src/components/standard/standardlist'
 import StandardLink from './src/components/standard/standardlink'
+import StandardTable, { StandardTableBody, StandardTableDataCell, StandardTableHead, StandardTableHeaderCell, StandardTableRow } from './src/components/standard/standardtableelems'
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
     return {
@@ -45,6 +46,46 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
             <StandardList text_alignment_class="text-left" list_type="list-decimal" reference_class="mdx-sorted-list">
                 { children }
             </StandardList>
+        ), 
+        table: ({ children }) => (
+            <StandardTable border_class="border-y-2 border-sky-200" reference_class="mdx-table">
+                { children }
+            </StandardTable>
+        ), 
+        thead: ({ children }) => (
+            <StandardTableHead border_class="border-y-2 border-sky-200" reference_class="mdx-table-head">
+                { children }
+            </StandardTableHead>
+        ), 
+        tbody: ({ children }) => (
+            <StandardTableBody border_class="border-y-2 border-sky-200" reference_class="mdx-table-head">
+                { children }
+            </StandardTableBody>
+        ), 
+        tr: ({ children }) => (
+            <StandardTableRow reference_class="mdx-table-row">
+                { children }
+            </StandardTableRow>
+        ), 
+        th: ({ children }) => {
+            let column_width_class: string
+            column_width_class = ""
+            if (typeof children == "string") {
+                if (/^\{w-.+?\}/i.test(children)) {
+                    column_width_class = /^\{(w-.+?)\}/i.exec(children)[1]
+                    children = children.replace(/^\{w-.+?\}/i, "")
+                }
+            }
+            return (
+                <StandardTableHeaderCell colspan={ 1 } text_alignment_class="text-left" column_width_class={ column_width_class } reference_class="mdx-table-row">
+                    { children }
+                </StandardTableHeaderCell>
+            )
+        }, 
+        td: ({ children }) => (
+            <StandardTableDataCell text_alignment_class="text-left" reference_class="mdx-table-row">
+                { children }
+            </StandardTableDataCell>
         ), 
         ...components,
     }
