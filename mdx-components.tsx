@@ -76,6 +76,19 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
                     children = children.replace(/^\{w-.+?\}/i, "")
                 }
             }
+            switch (column_width_class) {
+                case "w-1/3":
+                    <div className="w-1/3"></div>
+                    break;
+                case "w-1/4":
+                    <div className="w-1/4"></div>
+                    break;
+                case "w-1/8":
+                    <div className="w-1/8"></div>
+                    break;
+                default:
+                    break;
+            }
             return (
                 <StandardTableHeaderCell colspan={ 1 } text_alignment_class="text-left" column_width_class={ column_width_class } reference_class="mdx-table-row">
                     { children }

@@ -1,1 +1,43 @@
-#   Reserved
+#   Wish it Rained at Night, Overnight
+
+UK Autumn all-evening drizzles would suit this country so well.
+Add in songs for the mood:
+Fragrance.
+Running through the rain.
+Are you well.
+Snow Rain.
+
+Well... it's nice to dream.
+
+##  Speculation
+
+### [The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity](https://machinelearning.apple.com/research/illusion-of-thinking?utm_source=alphasignal)
+
+1.  Not a surprise to those who still keep in mind that the underlying engines of RAGs and Reasoning Models are LLMs,
+    which are fundamentally still next-word prediciton tokens.
+2.  Brings to mind Anthropic AI research that showed that 
+    [activation regions in LLMs correspond to logical semantic spaces](https://www.anthropic.com/news/mapping-mind-language-model),
+    and that deactivating certain regions meaningfully alters LLM outputs.
+3.  Neither of these actually come to mean that LLMs develop logical reasoning as an emergent property.
+4.  Very likely, what happens is that suppose we have an out-of-sample test T with expected answer Z,
+    there are insufficient similar examples in the training to infer Z, resulting in hallucination Y.
+    -   Now suppose we instead ask the model to "reason it out".
+    -   There are sufficient training examples for model to construct "reasoning steps" \{ R \} from T.
+    -   There are sufficient training examples for each r in \{ R \} to map to interim solution z.
+    -   Given z1, z2, ..., zR, there are sufficient training examples to map zR to final solution Z.
+5.  Still, despite being not "true" reasoning
+    (like, do most humans actually do better than this?),
+    this is already sufficiently useful for many real-world needs
+    especially in the vast majority of cognitive work that deals with in-sample problems
+    that are often farmed out to lower-ranked / lower-waged workers.
+    Some reminders:
+    -   "Computer" was once an actual human semi-skilled profession,
+        not the machines we use today.
+    -   "Typist" was once a relatively widespread semi-skilled profession,
+        basically a machine-era analogue of the Scrivener profession,
+        which became largely obsolete with modern computers and word processor software.
+
+##  New Outstanding
+
+-   Maybe (just, maybe) add KaTeX integration.
+    -   If so, then convert all usage of math to TeX.
