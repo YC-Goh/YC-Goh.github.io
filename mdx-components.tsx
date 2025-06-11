@@ -33,7 +33,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
             </StandardTextBox>
         ), 
         a: ({ children, href }) => (
-            <StandardLink padding_class="" text_size_class="text-xs md:text-sm" text_alignment_class="text-left" href={ href } reference_class="mdx-text-element">
+            <StandardLink padding_class="" text_size_class="" text_alignment_class="text-left" href={ href } reference_class="mdx-text-element">
                 { children }
             </StandardLink>
         ), 
