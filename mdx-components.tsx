@@ -71,12 +71,13 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
             let column_width_class: string
             column_width_class = ""
             if (typeof children == "string") {
-                if (/^\{w-.+?\}/i.test(children)) {
-                    column_width_class = /^\{(w-.+?)\}/i.exec(children)[1]
-                    children = children.replace(/^\{w-.+?\}/i, "")
+                if (/^\{(?:[a-z]+:)?w-.+?\}/i.test(children)) {
+                    column_width_class = /^\{((?:[a-z]+:)?w-.+?)\}/i.exec(children)[1]
+                    children = children.replace(/^\{(?:[a-z]+:)?w-.+?\}/i, "")
                 }
             }
-            <div className="w-1/3 w-1/4 w-1/6 w-1/8 w-1/10 w-1/12"></div>
+            { <div className="w-1/3 w-1/4 w-1/6 w-1/8 w-1/10 w-1/12 w-fit w-auto"></div> }
+            { <div className="md:w-1/3 md:w-1/4 md:w-1/6 md:w-1/8 md:w-1/10 md:w-1/12 md:w-fit md:w-auto"></div> }
             return (
                 <StandardTableHeaderCell colspan={ 1 } text_alignment_class="text-left" column_width_class={ column_width_class } reference_class="mdx-table-row">
                     { children }
