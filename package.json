@@ -4,9 +4,9 @@
   "description": "YC-Goh Personal Website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "next build && rm -rf .next/ && rm -rf out/",
     "dev": "next dev",
-    "build": "next build && rm -rf .next/ && rm -rf out/",
+    "build": "next build && rm -rf .next/",
     "start": "next start",
     "lint": "next lint"
   },
