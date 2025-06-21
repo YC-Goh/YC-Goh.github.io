@@ -1,27 +1,30 @@
 import PageTemplate from "../../components/page/pagetemplate"
 import generateStaticParamsGenerator from "../../components/functions/generateStaticParams"
 
-export const generateStaticParams = generateStaticParamsGenerator("src/code")
+export const generateStaticParams = generateStaticParamsGenerator("topictree", "src/code")
 
 export default async function PageLayout({
     children, 
     params, 
 }: {
     children: React.ReactNode, 
-    params: Promise<{ fymd: Array<string> }>, 
+    params: Promise<{ topictree: Array<string> }>, 
 }) {
-    const { fymd } = await params
-    const [ freq,  ..._ ] = fymd
+    const { topictree } = await params
+    const [ topic,  ..._ ] = topictree
     
     let page_title: string
-    switch (freq) {
-        case "daily":
-            page_title = "No Comments"
+    switch (topic) {
+        case "narratives":
+            page_title = "Narratives About the World"
             break;
-        case "weekly":
-            page_title = "Fun Observations"
+        case "rants":
+            page_title = "Assorted Rants"
             break;
-        case "monthly":
+        case "reads":
+            page_title = "Fun Reads"
+            break;
+        case "data":
             page_title = "Data Log"
             break;
         default:
