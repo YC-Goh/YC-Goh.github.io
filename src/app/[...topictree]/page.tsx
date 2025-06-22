@@ -3,7 +3,7 @@ import ContentTemplate from "../../components/page/contenttemplate"
 import generateStaticParamsGenerator from "../../components/functions/generateStaticParams"
 import generateFileTreeGenerator from "../../components/functions/generateFileTree"
 
-export const generateStaticParams = generateStaticParamsGenerator("topictree", "src/code")
+export const generateStaticParams = generateStaticParamsGenerator("topictree", "src/content")
 
 export default async function Page({
     params, 
@@ -16,18 +16,18 @@ export default async function Page({
 
     let Post: React.FC
     try {
-        ({ default: Post} = await import(`/src/code/${page_path}.mdx`))
+        ({ default: Post} = await import(`/src/content/${page_path}.mdx`))
     } catch (e) {
-        ({ default: Post} = await import(`/src/code/${page_path}.md`))
+        ({ default: Post} = await import(`/src/content/${page_path}.md`))
     }
 
-    const filetree = await generateFileTreeGenerator("src/code", topic)()
+    const filetree = await generateFileTreeGenerator("src/content", topic)()
 
     return (
         <ContentTemplate>
             {[
                 filetree, 
-                <Post key={2} />, 
+                <Post />, 
             ]}
         </ContentTemplate>
     )

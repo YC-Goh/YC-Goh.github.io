@@ -1,7 +1,7 @@
 import PageTemplate from "../../components/page/pagetemplate"
 import generateStaticParamsGenerator from "../../components/functions/generateStaticParams"
 
-export const generateStaticParams = generateStaticParamsGenerator("topictree", "src/code")
+export const generateStaticParams = generateStaticParamsGenerator("topictree", "src/content")
 
 export default async function PageLayout({
     children, 
