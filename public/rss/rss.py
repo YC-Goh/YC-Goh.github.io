@@ -200,7 +200,8 @@ if __name__ == '__main__':
     rss_file_path = os.path.dirname(os.path.abspath(__file__))
 
     # Generate the output file name with the current date
-    current_date = datetime.now().strftime('%Y%m%d')
+    current_date = datetime.now() - pd.Timedelta(hours=8) # Adjust for UTC+8 timezone
+    current_date = current_date.strftime('%Y%m%d')
     output_csv = f'rss_{current_date}.csv'
 
     # Save the combined dataframe to a CSV file
