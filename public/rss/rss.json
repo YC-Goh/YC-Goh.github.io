@@ -31,6 +31,14 @@
         "The Guardian": {
             "url": "https://www.theguardian.com/world/europe-news/rss",
             "url_root": "https://www.theguardian.com"
+        },
+        "France24": {
+            "url": "https://www.france24.com/en/france/rss",
+            "url_root": "https://www.france24.com/en"
+        },
+        "Le Monde": {
+            "url": "https://www.lemonde.fr/en/europe/rss_full.xml",
+            "url_root": "https://www.lemonde.fr/en"
         }
     },
     "US": {
@@ -43,6 +51,10 @@
         "CBC": {
             "url": "https://www.cbc.ca/webfeed/rss/rss-canada",
             "url_root": "https://www.cbc.ca/news"
+        },
+        "The Globe and Mail": {
+            "url": "https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/politics/",
+            "url_root": "https://www.theglobeandmail.com"
         }
     },
     "Southeast Asia": {

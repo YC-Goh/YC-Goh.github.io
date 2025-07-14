@@ -182,6 +182,7 @@ next-env.d.ts
 
 # Hide data
 public/*/data/
+!public/rss/data
 
 # Hide automation tools
 public/*/*.sh

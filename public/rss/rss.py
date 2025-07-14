@@ -205,7 +205,7 @@ if __name__ == '__main__':
     output_csv = f'rss_{current_date}.csv'
 
     # Save the combined dataframe to a CSV file
-    final_df.to_csv(os.path.join(rss_file_path, 'data', output_csv), index=False)
+    final_df.to_csv(os.path.join(rss_file_path, 'data', 'daily', output_csv), index=False)
     print(f'Saved headlines at {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}.')
 
 # %%
