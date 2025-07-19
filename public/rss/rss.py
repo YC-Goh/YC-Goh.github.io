@@ -90,7 +90,10 @@ def rss_to_dataframe(rss_url: str, url_root: Optional[str] = None) -> pd.DataFra
     items = [item for item in items if item is not None]  # Filter out None values
 
     df = pd.DataFrame(items)
-    df['publish_date'] = pd.to_datetime(df['publish_date'].str.replace(r'(?i)\s*[a-z](?:tc|dt|st|mt)$', '', regex=True))
+    try:
+        df['publish_date'] = pd.to_datetime(df['publish_date'].str.replace(r'(?i)\s*[a-z](?:tc|dt|st|mt)$', '', regex=True))
+    except:
+        df['publish_date'] = pd.to_datetime(df['publish_date'].str.replace(r'(?i)\s*[a-z](?:tc|dt|st|mt)$', '', regex=True), dayfirst=True, format='mixed')
 
     # Split publish_date into separate date and time columns
     df['publish_time'] = df['publish_date'].dt.time
