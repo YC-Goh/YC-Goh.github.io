@@ -15,17 +15,11 @@ export default async function PageLayout({
     
     let page_title: string
     switch (topic) {
-        case "narratives":
-            page_title = "Worldview"
-            break;
-        // case "rants":
-        //     page_title = "Assorted Rants"
-        //     break;
         case "reads":
             page_title = "Fun Reads"
             break;
         case "data":
-            page_title = "Data Log"
+            page_title = "Public Data"
             break;
         default:
             page_title = "Where Is This?"
