@@ -1,11 +1,28 @@
 
 #%%
 
+import os
 import pandas as pd
 from IPython.display import display
 import matplotlib.pyplot as plt
 import matplotlib.axes as axes
 import seaborn as sns
+
+#%%
+
+project_directories = {'root': os.path.abspath(os.path.dirname(__file__))}
+project_directories['root_marriage'] = os.path.join(project_directories['root'], 'marriage_divorce_birth')
+
+for key, path in list(project_directories.items()):
+    if key.startswith('root_'):
+        for subfold in ['raw', 'out', 'compiled']:
+            subpath = os.path.join(path, subfold)
+            if os.path.exists(subpath):
+                subkey = key.replace('root_', f'{subfold}_', 1)
+                project_directories[subkey] = subpath
+
+__error_paths = {key: path for key, path in project_directories.items() if not os.path.exists(path)}
+assert len(__error_paths) == 0, f'Following paths do not exist: {__error_paths}'
 
 #%%
 

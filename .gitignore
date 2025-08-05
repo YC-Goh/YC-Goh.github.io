@@ -181,8 +181,7 @@ node_modules/
 next-env.d.ts
 
 # Hide data
-public/*/data/
-!public/rss/data
+public/*/raw/
 
 # Hide automation tools
 public/*/*.sh
