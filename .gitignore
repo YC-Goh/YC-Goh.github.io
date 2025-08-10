@@ -183,5 +183,6 @@ next-env.d.ts
 # Hide data
 public/*/raw/
 
-# Hide automation tools
-public/*/*.sh
+# Hide automation logs
+public/*/*.clog
+src/scheduled/*.clog
