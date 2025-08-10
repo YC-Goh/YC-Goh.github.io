@@ -22,21 +22,21 @@
     },
     "homepage": "https://github.com/yc-goh/yc-goh.github.io#readme",
     "dependencies": {
-        "next": "^15.1.8",
-        "react": "^19.1.0",
-        "react-dom": "^19.1.0"
+        "next": "*",
+        "react": "*",
+        "react-dom": "*"
     },
     "devDependencies": {
-        "@mdx-js/loader": "^3.1.0",
-        "@mdx-js/react": "^3.1.0",
-        "@next/mdx": "^15.3.3",
-        "@tailwindcss/postcss": "^4.1.8",
-        "@types/mdx": "^2.0.13",
-        "@types/node": "22.15.29",
-        "@types/react": "19.1.6",
-        "postcss": "^8.5.4",
-        "remark-gfm": "^4.0.1",
-        "tailwindcss": "^4.1.8",
-        "typescript": "5.8.3"
+        "@mdx-js/loader": "*",
+        "@mdx-js/react": "*",
+        "@next/mdx": "*",
+        "@tailwindcss/postcss": "*",
+        "@types/mdx": "*",
+        "@types/node": "*",
+        "@types/react": "*",
+        "postcss": "*",
+        "remark-gfm": "*",
+        "tailwindcss": "*",
+        "typescript": "*"
     }
 }
