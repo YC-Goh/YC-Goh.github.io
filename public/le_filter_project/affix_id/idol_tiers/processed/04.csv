@@ -1,0 +1,101 @@
+Name,Affix Type,Reroll %,Tier1,Tier2,Tier3,Tier4,Tier5,Tier6,Tier7
+Melee Damage while Transformed,Prefix,0%,+(22% to 60%),,,,,-,-
+Melee Elemental Damage,Prefix,0%,+(28% to 70%),,,,,-,-
+Melee Fire Damage,Suffix,0%,+(2 to 4),,,,,-,-
+Melee Lightning Damage,Suffix,0%,+(2 to 4),,,,,-,-
+Melee Physical Damage For Swarm Strike and Locusts,Prefix,0%,+(3 to 8) | +(2 to 4),,,,,-,-
+Melee Void Damage,Suffix,0%,+(33% to 90%),,,,,-,-
+Minion Bow Attack Speed and Added Minion Bow Damage,Suffix,0%,+1%+1,+1%+2,+2%+3,+3%+4,+4%+5,+(5% to 6%) | +(6 to 7),+(7% to 8%) | +(8 to 10)
+Minion Cast Speed and Added Minion Spell Damage,Suffix,0%,+1%+1,+1%+2,+2%+3,+3%+4,+4%+5,+(5% to 6%) | +(6 to 7),+(7% to 8%) | +(8 to 10)
+Minion Chance To Apply Mark For Death On Hit,Suffix,0%,+(4% to 10%),,,,,-,-
+Minion Chance to Inflict Bleed On Hit,Suffix,0%,+(19% to 52%),,,,,-,-
+Minion Chance To Inflict Plague on Hit,Prefix,0%,+(4% to 10%),,,,,-,-
+Minion Chance To Poison On Hit,Suffix,0%,+(11% to 30%),,,,,-,-
+Minion Cold Damage,Prefix,0%,+(39% to 108%),,,,,-,-
+Minion Critical Strike Chance,Suffix,0%,+(22% to 60%),,,,,-,-
+Minion Dodge Rating,Suffix,0%,+(89 to 240),,,,,-,-
+Minion Fire Damage,Prefix,0%,+(39% to 108%),,,,,-,-
+Minion Increased Cooldown Recovery Speed,Prefix,0%,(7% to 20%),,,,,-,-
+Minion Increased Healing Effectiveness,Prefix,0%,(39% to 105%),,,,,-,-
+Minion Leech and Added Minion Regen,Suffix,0%,+0.1% | +(1 to 3),+0.1% | +(4 to 5),+0.1% | +(6 to 8),+0.1% | +(9 to 11),+0.1% | +(12 to 15),+0.2% | +(20 to 24),+0.3% | +(25 to 30)
+Minion Melee Attack Speed,Suffix,0%,+(9% to 24%),,,,,-,-
+Minion Melee Attack Speed and Added Minion Melee Damage,Suffix,0%,+1%+2,+1%+3,+2%+4,+3%+5,+4%+6,+(5% to 6%) | +(8 to 9),+(7% to 8%) | +(10 to 12)
+Minion Melee Critical Strike Chance,Prefix,0%,+(1% to 2%),,,,,-,-
+Minion Melee Damage Leeched as Health,Prefix,0%,+(1% to 3%),,,,,-,-
+Minion Throwing Attack Speed and Added Minion Throwing Damage,Suffix,0%,+1%+1,+1%+2,+2%+3,+3%+4,+4%+5,+(5% to 6%) | +(6 to 7),+(7% to 8%) | +(8 to 10)
+Necrotic Penetration and Minion Necrotic Penetration,Prefix,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-
+Necrotic Penetration and Minion Necrotic Penetration,Prefix,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-
+Necrotic Resistance,Suffix,0%,+(20% to 45%),,,,,-,-
+Necrotic Resistance and Minion Necrotic Resistance,Suffix,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-
+Necrotic Resistance and Minion Necrotic Resistance,Suffix,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-
+Necrotic Spell Damage per Skeletal Mage,Prefix,0%,+(1 to 2),,,,,-,-
+Percent Missing Health Restored On Lunge,Suffix,0%,(5% to 12%),,,,,-,-
+Physical And Poison Damage,Suffix,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-
+Physical Damage Over Time,Suffix,0%,+(33% to 90%),,,,,-,-
+Physical Damage Over Time,Suffix,0%,+(33% to 90%),,,,,-,-
+Physical Penetration and Minion Physical Penetration,Prefix,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-
+Physical Penetration and Minion Physical Penetration,Prefix,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-
+Physical Penetration while wielding a Dagger,Prefix,0%,(4% to 9%),,,,,-,-
+Physical Penetration with Puncture,Prefix,0%,+(5% to 12%),,,,,-,-
+Physical Penetration with Shadow Daggers,Prefix,0%,(16% to 36%),,,,,-,-
+Physical Resistance,Suffix,0%,+(20% to 45%),,,,,-,-
+Physical Resistance and Bleed Duration,Suffix,0%,+1%1%,+2%2%,+(3% to 4%) | (3% to 4%),+(5% to 6%) | (5% to 6%),+(7% to 8%) | (7% to 8%),+(10% to 12%) | (10% to 12%),+(13% to 15%) | (13% to 15%)
+Physical Resistance and Minion Physical Resistance,Suffix,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-
+Physical Resistance and Minion Physical Resistance,Suffix,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-
+Plague Chance On Hit And Penetration,Prefix,0%,+(9% to 25%) | (9% to 25%),,,,,-,-
+Poison Chance On Spell Hit,Suffix,0%,+(15% to 36%),,,,,-,-
+Poison Chance per Equipped Dagger,Prefix,0%,+(13% to 35%),,,,,-,-
+Poison Chance While At Low Health,Suffix,0%,+(15% to 40%),,,,,-,-
+Poison Duration and Chance to throw Acid Flask on Bow Hit (3 second cooldown),Suffix,0%,1%1%,2%2%,3%3%,4%4%,5%5%,(6% to 7%) | (6% to 7%),(8% to 10%) | (8% to 10%)
+Poison Penetration and Minion Poison Penetration,Prefix,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-
+Poison Penetration and Minion Poison Penetration,Prefix,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-
+Poison Resistance,Suffix,0%,+(20% to 45%),,,,,-,-
+Poison Resistance and Minion Poison Resistance,Suffix,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-
+Poison Resistance and Minion Poison Resistance,Suffix,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-
+Potion Health Converted to Ward,Prefix,0%,(20% to 55%),,,,,-,-
+Potion Health Converted to Ward and Ward Gained on Potion use,Prefix,0%,(22% to 25%) | (30 to 40),,,,,-,-
+Reap Cooldown Recovery Speed and Chance to cast Harvest at up to 3 nearby enemies when you use Reap,Suffix,0%,+1% | +(2% to 3%),+2% | +(4% to 5%),+3% | +(6% to 7%),+4% | +(8% to 9%),+5% | +(10% to 12%),+(6% to 7%) | +(16% to 19%),+(8% to 10%) | +(20% to 25%)
+Reduced Bonus Damage Taken from Crits and Increased Critical Strike Chance,Suffix,0%,(2% to 4%) | +(5% to 15%),,,,,-,-
+Reduced Health Cost of Spells,Prefix,0%,(6% to 15%),,,,,-,-
+Rogue Caltrops Area and Armor Shred,Suffix,0%,(9% to 25%) | +(10% to 28%),,,,,-,-
+Rogue Falcon Poison and Bleed Chance,Prefix,0%,(15% to 25%) | (15% to 25%),,,,,-,-
+Rogue Recurve Chance and Bow Damage,Prefix,0%,+(10% to 20%) | (5% to 20%),,,,,-,-
+Seconds of Stun Immunity after using Teleport,Prefix,0%,+(2 to 3),,,,,-,-
+Shared Cold Damage,Suffix,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Shared Critical Strike Multiplier,Prefix,0%,+(10% to 26%) | +(10% to 26%),,,,,-,-
+Shared Fire Damage,Suffix,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Shared Lightning Damage,Suffix,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Shared Necrotic Damage,Suffix,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Shared Physical Damage,Suffix,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Shared Poison Damage,Suffix,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Shared Void Damage,Suffix,20%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Shield Throw Base Damage Converted to Void,Prefix,0%,+100%,,,,,-,-
+Shock duration and Endurance threshold against shocked enemies,Suffix,0%,(1% to 2%) | +(10 to 14),(3% to 4%) | +(15 to 19),(5% to 6%) | +(20 to 24),(7% to 8%) | +(25 to 30),(9% to 10%) | +(31 to 35),(12% to 15%) | +(45 to 55),(16% to 20%) | +(56 to 70)
+Silver Shroud duration and Ward granted per silver shroud,Suffix,0%,(1% to 2%) | +(1 to 2),(3% to 4%) | +(3 to 4),(5% to 6%) | +(5 to 6),(7% to 8%) | +(7 to 8),(9% to 10%) | +(9 to 10),(12% to 15%) | +(12 to 15),(16% to 20%) | +(16 to 20)
+Spark Charge Chance on Lightning Melee Hit and Increased Lightning Skill Area,Suffix,0%,+1% | (1% to 2%),+2% | (3% to 4%),+3% | (5% to 6%),+4% | (7% to 8%),+5% | (9% to 10%),+(6% to 7%) | (12% to 15%),+(8% to 10%) | (16% to 20%)
+Spell Cold Damage,Suffix,0%,+(2 to 4),,,,,-,-
+Spell Damage for Curses,Prefix,0%,+(6 to 15),,,,,-,-
+Spell Damage For You And Your Minions,Suffix,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-
+Spell Damage Leeched While Channelling,Suffix,0%,+(1% to 3%),,,,,-,-
+Spell Damage while at Low Health,Suffix,0%,+(20% to 75%),,,,,-,-
+Spell Damage while Transformed,Prefix,0%,+(22% to 60%),,,,,-,-
+Spell Fire Damage,Suffix,0%,+(2 to 4),,,,,-,-
+Spell Lightning Damage,Suffix,0%,+(2 to 4),,,,,-,-
+Spell Physical Critical Strike Chance,Suffix,0%,+(24% to 65%),,,,,-,-
+Static Charges Generated per Second,Prefix,0%,+(2 to 5),,,,,-,-
+Stun Avoidance,Prefix,0%,+(200 to 450),,,,,-,-
+Symbol Duration And Gain Rate,Prefix,0%,(8% to 20%) | (10% to 28%),,,,,-,-
+Throwing Attack Critical Strike Multiplier,Prefix,0%,+(13% to 35%),,,,,-,-
+Throwing Damage,Suffix,0%,+(17% to 45%),,,,,-,-
+Throwing Damage with Caltrops,Prefix,0%,+(4 to 10),,,,,-,-
+Throwing Physical Damage,Suffix,0%,+(22% to 60%),,,,,-,-
+Totem Armor,Prefix,0%,+(178 to 480),,,,,-,-
+Totem Damage,Suffix,0%,+(30% to 80%),,,,,-,-
+Totem Elemental Resistance,Prefix,0%,+(15% to 40%),,,,,-,-
+Totem Health,Suffix,0%,+(61% to 165%),,,,,-,-
+Vitality,Prefix,0%,+(3 to 7),,,,,-,-
+Vitality and Added Health Regen,Prefix,0%,+(4 to 5) | +(2 to 4),,,,,-,-
+Void Damage Over Time,Suffix,0%,+(33% to 90%),,,,,-,-
+Void Penetration and Minion Void Penetration,Prefix,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-
+Void Penetration and Minion Void Penetration,Prefix,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-
+Void Resistance,Suffix,0%,+(20% to 45%),,,,,-,-

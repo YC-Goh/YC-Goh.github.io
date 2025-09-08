@@ -1,0 +1,264 @@
+Name,Type,Applies To
+Added Health and Added Health Regeneration,Suffix,"Ring, Relic"
+All Attributes,Suffix,"Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword"
+All Resistances,Suffix,Shield
+All Resistances while Channelling,Suffix,Relic
+Armor,Suffix,"Helmet, Body Armor, Boots, Gloves, Shield"
+Armor,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Armor,Suffix,"Helmet, Body Armor, Boots, Shield"
+Armor and Reduced Bonus Damage from Crits,Suffix,"Any armor, Shield"
+Block Chance and Effectiveness,Suffix,"Ring, Gloves"
+Block Effectiveness,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Bow Critical Strike Chance,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Bow Damage,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Chance to apply a Spark Charge on Melee Hit,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Chance to apply Frailty on Hit,Suffix,"Amulet, Relic, Gloves"
+Chance to apply Frailty on Melee Hit,Suffix,"One-Handed Axe, One-Handed Mace, One-Handed Sword, Dagger, Two-Handed Axe, Two-Handed Mace, Two-Handed Sword, Two-Handed Spear"
+Chance to Blind on Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Quiver"
+Chance to Cast Fire Aura when Hit (1 Second Cooldown),Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Chance to Chill Attackers,Suffix,"Shield, Off-Hand Catalyst"
+Chance to Chill on Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Quiver"
+Chance to Fear on Hit,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Chance to Gain 20 Ward on Melee Hit,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Chance to Gain Lightning Aegis when Hit,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Chance to Ignite on Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Amulet, Quiver"
+Chance To Ignite While At High Health,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Chance to Inflict Bleed On Bow Hit,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Chance to Inflict Bleed On Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Sword, Two-Handed Axe, Two-Handed Spear, Two-Handed Sword, Bow, Quiver"
+Chance to Inflict Bleed on Melee Hit for You and Your Minions,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Chance To Inflict Bleed On Physical Spell Hit,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Chance to Inflict Bleed while at High Health,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Chance to inflict Time Rot on Hit,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Chance to Poison on Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Quiver"
+Chance to Shock Attackers,Suffix,"Shield, Off-Hand Catalyst"
+Chance to Shock on Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Amulet, Bow, Quiver"
+Chance To Shred Armor on Hit,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Chance to Shred Armor on Hit,Suffix,"Gloves, Amulet, One-Handed Axe, Dagger, One-Handed Mace, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword, Bow, Quiver"
+Chance To Shred Armor on Hit With Fire Skills,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Chance To Shred Armor on Hit with Throwing Attacks,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Chance To Shred Armor on Melee Hit,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Chance to Slow Attackers,Suffix,"Shield, Off-Hand Catalyst"
+Chance to Slow on Bow Hit,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Chance to Slow on Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Quiver"
+Chance To Slow With Void Skills,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Cold and Lightning Damage,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Cold Damage Over Time,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Cold Penetration and Minion Cold Penetration,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow"
+Cold Resistance,Suffix,"Minor Idol [1×1], Stout Idol [1×2], Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Cold Resistance,Suffix,"Any armor, Any accessory, Shield, Off-Hand Catalyst, Quiver"
+Critical Strike Avoidance and Added Dodge Rating,Suffix,"Boots, Gloves, Belt, Ring, Helmet"
+Critical Strike Avoidance for You and Your Minions,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Critical Strike Chance For You And Your Minions,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Critical Strike Chance with Lightning Skills for You and Your Minions,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Damage Over Time for Minions,Suffix,"One-Handed Sword, Two-Handed Sword, One-Handed Axe, Two-Handed Axe, Two-Handed Spear"
+Damage Over Time For You And Your Minions,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Damage Over Time Taken,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Damage Over Time Taken While Channelling,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Damage Reflected For You And Your Minions,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Damage Taken on Block,Suffix,Shield
+Dodge Rating,Suffix,"Any armor, Amulet, Ring, Off-Hand Catalyst"
+Dodge Rating,Suffix,"Body Armor, Belt, One-Handed Sword, Amulet"
+Dodge Rating if Hit Recently,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Dodge while Evading and Increased Dodge Rating,Suffix,Boots
+Elemental Resistance,Suffix,"Minor Idol [1×1], Stout Idol [1×2], Large Idol [1×3], Huge Idol [1×4]"
+Elemental Resistance,Suffix,"Any armor, Any accessory, Off-Hand Catalyst, Shield, Quiver"
+Elemental Resistance While Transformed,Suffix,Large Idol [1×3]
+Endurance,Suffix,"Gloves, Helmet, Shield, Belt, Ring, Relic"
+Endurance Threshold,Suffix,Belt
+Fire Damage Over Time,Suffix,Large Idol [1×3]
+Fire Damage Over Time,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Fire Penetration and Minion Fire Penetration,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow"
+Fire Penetration With Melee Attacks,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Fire Resistance,Suffix,"Any armor, Any accessory, Shield, Off-Hand Catalyst, Quiver"
+Fire Resistance,Suffix,"Minor Idol [1×1], Stout Idol [1×2], Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Freeze Rate Multiplier,Suffix,"Wand, Sceptre, Two-Handed Staff, Off-Hand Catalyst"
+Health,Suffix,"Any armor, Any accessory, Shield"
+Health,Suffix,"Minor Idol [1×1], Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Health,Suffix,"Body Armor, Helmet, Belt"
+Health and Stun Avoidance,Suffix,"Belt, Amulet"
+Health Gained on Dodge,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Health On Kill,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Quiver"
+Health On Melee Hit,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword"
+Health Regen And Damage Taken Over Time,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Health Regen per Second,Suffix,"Helmet, Amulet, Gloves"
+Health Regen While Transformed,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Health Regeneration,Suffix,"Helmet, Body Armor, Belt, Ring, Relic"
+Hybrid Health,Suffix,"Gloves, Boots, Belt"
+Increased Area for Melee Area Skills,Suffix,"Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword"
+Increased Armor Shred Duration,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Increased Armor Shred Effect,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Aspect of the Boar Effect,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Aspect of the Lynx Duration,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Aspect of the Shark Effect,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Increased Aspect of the Viper Effect,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Cold Damage (Doubled If You Have Over 300 Max Mana),Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Increased Cold Damage per active Totem,Suffix,Ornate Idol [4×1]
+Increased Cooldown Recovery Speed,Suffix,"Boots, Belt"
+Increased Cooldown Recovery Speed With Transplant,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Increased Damage to Skills used by Shadows,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Increased Damage while wielding a Bow,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Increased Damage while wielding a Dagger,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Damage while wielding a Sword,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Fire Damage (Doubled If You Have Over 300 Max Mana),Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Leech Rate,Suffix,Gloves
+Increased Lightning Damage (Doubled If You Have Over 300 Max Mana),Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Minion Cooldown Recovery Speed,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Increased Spell Damage if you have an active Totem,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Increased Stun Chance,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Quiver, Gloves"
+Increased Stun Chance with Melee Attacks,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword"
+Lightning Penetration and Minion Lightning Penetration,Suffix,"One-Handed Axe, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Dagger"
+Lightning Resistance,Suffix,"Any armor, Any accessory, Shield, Off-Hand Catalyst, Quiver"
+Lightning Resistance,Suffix,"Minor Idol [1×1], Stout Idol [1×2], Large Idol [1×3], Huge Idol [1×4]"
+Mana And Armor,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Mana Efficiency with Decoy,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Mana Spent Gained as Ward,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Melee Cold Damage,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Melee Damage For You And Your Minions,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Melee Fire Damage,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Melee Lightning Damage,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Melee Void Damage,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Minion Chance To Apply Mark For Death On Hit,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Minion Chance to Inflict Bleed On Hit,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Minion Chance To Poison On Hit,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Minion Critical Strike Chance,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Minion Dodge Rating,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Minion Melee and Bow Damage,Suffix,"One-Handed Sword, Two-Handed Sword, One-Handed Axe, Two-Handed Axe, Two-Handed Spear, Dagger, Two-Handed Staff, Bow"
+Minion Melee and Spell Damage,Suffix,"One-Handed Sword, Two-Handed Sword, One-Handed Axe, Two-Handed Axe, Sceptre, Two-Handed Spear, Two-Handed Staff"
+Minion Melee Attack Speed,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Minion Spell and Bow Damage,Suffix,"One-Handed Axe, Two-Handed Axe, Sceptre, Two-Handed Staff, Wand"
+Necrotic Penetration and Minion Necrotic Penetration,Suffix,"One-Handed Axe, Dagger, Sceptre, Wand, Two-Handed Axe, Two-Handed Staff"
+Necrotic Resistance,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1]"
+Necrotic Resistance,Suffix,"Any armor, Any accessory, Shield, Off-Hand Catalyst, Quiver"
+Percent Missing Health Restored On Lunge,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Physical And Poison Damage,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Physical Damage Over Time,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Physical Damage Over Time,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Physical Penetration and Minion Physical Penetration,Suffix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow"
+Physical Resistance,Suffix,"Any armor, Any accessory, Shield, Quiver"
+Physical Resistance,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1]"
+Physical Spell Critical Strike Chance,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Poison Chance On Spell Hit,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Poison Chance While At Low Health,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Poison Penetration and Minion Poison Penetration,Suffix,"One-Handed Axe, Dagger, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow"
+Poison Resistance,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Poison Resistance,Suffix,"Any armor, Any accessory, Shield, Off-Hand Catalyst, Quiver"
+Reduced Bonus Damage Taken from Critical Strikes,Suffix,"Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword"
+Rogue Caltrops Area and Armor Shred,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Shared Cold Damage,Suffix,"Minor Idol [1×1], Stout Idol [1×2], Large Idol [1×3], Huge Idol [1×4]"
+Shared Fire Damage,Suffix,"Minor Idol [1×1], Stout Idol [1×2], Large Idol [1×3], Huge Idol [1×4]"
+Shared Lightning Damage,Suffix,"Minor Idol [1×1], Stout Idol [1×2], Large Idol [1×3], Huge Idol [1×4]"
+Shared Necrotic Damage,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1]"
+Shared Physical Damage,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1]"
+Shared Poison Damage,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1]"
+Shared Void Damage,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1]"
+Spell Cold Damage,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Spell Damage For You And Your Minions,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Spell Damage Leeched While Channelling,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Spell Damage while at Low Health,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Spell Fire Damage,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Spell Lightning Damage,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Stun Avoidance,Suffix,Ring
+Throwing Damage,Suffix,"Grand Idol [3×1], Ornate Idol [4×1], Adorned Idol [2×2]"
+Throwing Physical Damage,Suffix,Huge Idol [1×4]
+Totem Damage,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Totem Health,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Void Damage Over Time,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Void Penetration and Minion Void Penetration,Suffix,"One-Handed Axe, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Wand, Dagger, Bow"
+Void Resistance,Suffix,"Small Idol [1×1], Humble Idol [2×1], Grand Idol [3×1], Ornate Idol [4×1]"
+Void Resistance,Suffix,"Any armor, Any accessory, Shield, Off-Hand Catalyst, Quiver"
+Ward Gained On Kill,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Ward Gained on use with Shift,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Ward Gained when you create a Shadow,Suffix,"Large Idol [1×3], Huge Idol [1×4]"
+Ward Per Second,Suffix,"Grand Idol [3×1], Ornate Idol [4×1]"
+Ward per Second,Suffix,"Helmet, Body Armor, Off-Hand Catalyst"
+Ward Per Second and Ward Decay Threshold,Suffix,"Ring, Amulet"
+Ward Retention,Suffix,"Large Idol [1×3], Huge Idol [1×4], Adorned Idol [2×2]"
+Of the Last Hermit,Suffix,Quiver
+Of the Timelost Outcast,Suffix,Quiver
+Ward gained when damage leaves you at low health,Suffix,Off-Hand Catalyst
+Fragments of the Shattered Lance Reforged,Suffix,Relic
+Isadora's Gravechill Reforged,Suffix,Gloves
+Isadora's Revenge Reforged,Suffix,Helmet
+Isadora's Tomb Binding Reforged,Suffix,Belt
+Ruby Fang Cleaver Reforged,Suffix,One-Handed Axe
+The Last Bear's Fury Reforged,Suffix,Gloves
+The Last Bear's Lament Reforged,Suffix,Helmet
+Added Dodge rating if you have been hit recently and Critical Strike Avoidance,Suffix,Adorned Idol [2×2]
+Added Spell Damage while wielding a Staff Ward per second while wielding a Staff,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Added spell damage with a shield and Added spell damage with a 2h axe,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Armor while transformed and Rage Gained per Second While Transformed,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Chance to apply Electrify on hit with Lightning Skills and Lightning Pen with Electrify,Suffix,Adorned Idol [2×2]
+Chance to inflict Time Rot on hit with Void Skills and Increased Void Damage,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Chance to not consume Potion on use and Ward gained on potion use,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Chance to not Consume Silver Shrouds when hit and Ward granted per silver shroud,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Companion Revive Speed and Increased Minion Health,Suffix,Adorned Idol [2×2]
+Crimson Shroud duration and additional bleed chance per crimson shroud,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Electrify Duration and Leech with elemental damage over time,Suffix,Adorned Idol [2×2]
+Elemental Damage over Time and Increased Fire Aura Area,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Fire Resistance and Ignite Duration,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Frenzy Effect and Increased Melee damage while you have frenzy,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Frostbite Duration and Frostbite chance with Cold Skills,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Glancing Blow chance and Increased Dodge Rating,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Haste Effect and Haste duration on Evade,Suffix,Adorned Idol [2×2]
+Increased Armor and Armor Applies to DoTs,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Increased Armor and Reduced bonus damage taken from critical hits,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Increased Cooldown Recovery Speed and Increased Mana Regeneration,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Increased crit chance with a catalyst and Critcal Strike Multiplier with a catalyst,Suffix,Adorned Idol [2×2]
+Increased Critical Strike Chance and Added Critical Strike Multiplier,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Increased damage over time and Endurance,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Increased Damage while Wielding a Bow and Chance to Repeat Bow Attacks,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Increased Echo damage and Chance to gain frenzy for 3 seconds on echo,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Increased Healing Effectiveness and Added health,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Increased mana regen and Damage Dealt to mana,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Increased Movement Speed and Increased Damage,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Increased Movement Speed while transformed and Haste after you transform,Suffix,"Huge Idol [1×4], Ornate Idol [4×1]"
+Increased Poison Duration and Seconds of Frenzy When you gain Poison Overload,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Increased Throwing Damage and Increased Damage while Dual Wielding,Suffix,Adorned Idol [2×2]
+Increased Totem Damage and Totem Teleportation on Traversal,Suffix,Ornate Idol [4×1]
+Less damage over time taken while using a shield and Health gained on block,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Mana Increased and Mana regen with a minion,Suffix,Adorned Idol [2×2]
+Melee Damage and Spell Damage,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Minion Bow Attack Speed and Added Minion Bow Damage,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Minion Cast Speed and Added Minion Spell Damage,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Minion Leech and Added Minion Regen,Suffix,Adorned Idol [2×2]
+Minion Melee Attack Speed and Added Minion Melee Damage,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Minion Throwing Attack Speed and Added Minion Throwing Damage,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Physical Resistance and Bleed Duration,Suffix,Adorned Idol [2×2]
+Poison Duration and Chance to throw Acid Flask on Bow Hit (3 second cooldown),Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Reap Cooldown Recovery Speed and Chance to cast Harvest at up to 3 nearby enemies when you use Reap,Suffix,"Adorned Idol [2×2], Ornate Idol [4×1], Huge Idol [1×4]"
+Shock duration and Endurance threshold against shocked enemies,Suffix,"Grand Idol [3×1], Large Idol [1×3]"
+Silver Shroud duration and Ward granted per silver shroud,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Spark Charge Chance on Lightning Melee Hit and Increased Lightning Skill Area,Suffix,"Ornate Idol [4×1], Huge Idol [1×4]"
+Ward Decay Threshold and Ward Gained on Evade,Suffix,"Grand Idol [3×1], Large Idol [1×3], Adorned Idol [2×2], Ornate Idol [4×1], Huge Idol [1×4]"
+Ward decay threshold and Ward per second,Suffix,"Grand Idol [3×1], Large Idol [1×3], Ornate Idol [4×1], Huge Idol [1×4], Adorned Idol [2×2]"
+Ward Gained when you use Enchant Weapon and Increased Melee Elemental Damage,Suffix,Adorned Idol [2×2]
+Added Block Effectiveness and Health Gained on Block,Suffix,Stout Idol [1×2]
+Added Bow Damage and Increased Bow Damage,Suffix,Humble Idol [2×1]
+Added Melee Damage and Increased Melee Damage,Suffix,Humble Idol [2×1]
+Added Spell Damage and Increased Spell Damage,Suffix,Humble Idol [2×1]
+Added Throwing Damage and Increased Throwing Damage,Suffix,Humble Idol [2×1]
+Cold Resistance and Minion Cold Resistance,Suffix,Minor Idol [1×1]
+Cold Resistance and Minion Cold Resistance,Suffix,Stout Idol [1×2]
+Critical Stike Avoidance and Increased Critical Strike Chance,Suffix,Small Idol [1×1]
+Damage Reflected and Damage Dealt to Attackers,Suffix,Small Idol [1×1]
+Elemental Resistance and Minion Elemental Resistance,Suffix,Minor Idol [1×1]
+Elemental Resistance and Minion Elemental Resistance,Suffix,Stout Idol [1×2]
+Endurance and Endurance Threshold,Suffix,Minor Idol [1×1]
+Fire Resistance and Minion Fire Resistance,Suffix,Minor Idol [1×1]
+Fire Resistance and Minion Fire Resistance,Suffix,Stout Idol [1×2]
+Health and Added Health Regeneration,Suffix,Minor Idol [1×1]
+Health and Mana,Suffix,Minor Idol [1×1]
+Increased Chance to Find Potions and Health Gained on Potion Use,Suffix,Minor Idol [1×1]
+Increased Damage Over Time and Chance to Apply Frailty on Hit,Suffix,Stout Idol [1×2]
+Lightning Resistance and Minion Lightning Resistance,Suffix,Minor Idol [1×1]
+Lightning Resistance and Minion Lightning Resistance,Suffix,Stout Idol [1×2]
+Necrotic Resistance and Minion Necrotic Resistance,Suffix,Small Idol [1×1]
+Necrotic Resistance and Minion Necrotic Resistance,Suffix,Humble Idol [2×1]
+Physical Resistance and Minion Physical Resistance,Suffix,Small Idol [1×1]
+Physical Resistance and Minion Physical Resistance,Suffix,Humble Idol [2×1]
+Poison Resistance and Minion Poison Resistance,Suffix,Small Idol [1×1]
+Poison Resistance and Minion Poison Resistance,Suffix,Humble Idol [2×1]
+Reduced Bonus Damage Taken from Crits and Increased Critical Strike Chance,Suffix,Small Idol [1×1]
+Void Resistance and Minion Void Resistance,Suffix,Small Idol [1×1]
+Void Resistance and Minion Void Resistance,Suffix,Humble Idol [2×1]
+Ward Per Second and Ward Retention,Suffix,Stout Idol [1×2]

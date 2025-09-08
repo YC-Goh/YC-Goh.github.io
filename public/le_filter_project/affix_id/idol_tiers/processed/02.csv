@@ -1,0 +1,101 @@
+Name,Affix Type,Reroll %,Tier1,Tier2,Tier3,Tier4,Tier5,Tier6,Tier7
+Chance to Summon a Bee with Acid Flask,Prefix,90%,(10% to 28%),,,,,-,-
+Cold and Lightning Damage,Suffix,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-
+Cold Damage Over Time,Suffix,0%,+(30% to 75%),,,,,-,-
+Cold Damage Taken as Physical,Prefix,0%,+(8% to 20%),,,,,-,-
+Cold Penetration and Minion Cold Penetration,Prefix,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-
+Cold Penetration and Minion Cold Penetration,Prefix,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-
+Cold Penetration with Frostbite,Prefix,0%,(13% to 35%),,,,,-,-
+Cold Resistance,Suffix,0%,+(20% to 45%),,,,,-,-
+Cold Resistance and Minion Cold Resistance,Suffix,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-
+Cold Resistance and Minion Cold Resistance,Suffix,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-
+Companion Revive Speed and Increased Minion Health,Suffix,0%,(1% to 2%) | +(2% to 4%),(3% to 4%) | +(5% to 7%),(5% to 6%) | +(8% to 10%),(7% to 8%) | +(11% to 14%),(9% to 10%) | +(15% to 20%),(12% to 15%) | +(25% to 31%),(16% to 20%) | +(32% to 40%)
+Crimson Shroud duration and additional bleed chance per crimson shroud,Suffix,0%,1%+1%,2%+2%,3%+3%,4%+4%,5%+5%,(6% to 7%) | +(6% to 7%),(8% to 10%) | +(8% to 10%)
+Critical Stike Avoidance and Increased Critical Strike Chance,Suffix,0%,+(2% to 4%) | +(5% to 15%),,,,,-,-
+Critical Strike Avoidance for You and Your Minions,Suffix,0%,+(15% to 40%) | +(15% to 40%),,,,,-,-
+Critical Strike Chance,Prefix,0%,+(20% to 55%),,,,,-,-
+Critical Strike Chance For Skeletons And Skeletal Mages,Prefix,0%,+(1% to 3%) | +(1% to 3%),,,,,-,-
+Critical Strike Chance for Totems,Prefix,0%,+(2% to 4%),,,,,-,-
+Critical Strike Chance For You And Your Minions,Suffix,0%,+(15% to 40%) | +(15% to 40%),,,,,-,-
+Critical Strike Chance With Lightning Skills,Prefix,0%,+(22% to 60%),,,,,-,-
+Critical Strike Chance with Lightning Skills for You and Your Minions,Suffix,0%,+(19% to 50%) | +(19% to 50%),,,,,-,-
+Critical Strike Multiplier while Dual Wielding,Prefix,0%,+(12% to 30%),,,,,-,-
+Critical Strike Multiplier while Transformed,Prefix,0%,+(12% to 33%),,,,,-,-
+Critical Strike Multiplier With Rive And Judgement,Prefix,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-
+Damage Leeched as Health while Transformed,Prefix,0%,+(1% to 3%),,,,,-,-
+Damage Over Time,Prefix,0%,+(22% to 60%),,,,,-,-
+Damage Over Time For You And Your Minions,Suffix,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-
+Damage Over Time Taken,Suffix,0%,(4% to 9%),,,,,-,-
+Damage Over Time Taken While Channelling,Suffix,0%,(6% to 16%),,,,,-,-
+Damage Over Time Taken While Transformed,Prefix,0%,(5% to 12%),,,,,-,-
+Damage Over Time while at Low Health,Prefix,0%,+(26% to 70%),,,,,-,-
+Damage Over Time while Transformed,Prefix,0%,+(22% to 60%),,,,,-,-
+Damage Reflected and Damage Dealt to Attackers,Suffix,0%,(5% to 15%) | (50 to 150),,,,,-,-
+Damage Reflected For Skeletons And Skeletal Mages,Prefix,0%,+(7% to 18%) | +(7% to 18%),,,,,-,-
+Damage Reflected For You And Your Minions,Suffix,0%,(10% to 35%) | (10% to 35%),,,,,-,-
+Damage Reflected while you have Lightning Aegis,Prefix,50%,+(30% to 100%),,,,,-,-
+Damage While Transformed,Prefix,0%,+(26% to 70%),,,,,-,-
+Dodge Rating,Prefix,0%,+(26 to 70),,,,,-,-
+Dodge Rating and Increased Dodge Rating,Prefix,30%,+(13 to 25) | +(2% to 5%),,,,,-,-
+Dodge Rating and Increased Health,Prefix,0%,+(8 to 18) | +(3% to 9%),,,,,-,-
+Dodge Rating if Hit Recently,Suffix,0%,+(50 to 120),,,,,-,-
+Electrify Duration and Leech with elemental damage over time,Suffix,0%,(1% to 2%) | +0.1%,3%+0.1%,(5% to 6%) | +0.1%,(7% to 8%) | +0.1%,(9% to 10%) | +0.1%,(12% to 15%) | +0.2%,(16% to 20%) | +0.3%
+Elemental Bees Per 10 Seconds,Prefix,94%,+(3 to 7),,,,,-,-
+Elemental Damage over Time and Increased Fire Aura Area,Suffix,0%,+(1% to 2%) | 1%,+(3% to 4%) | 2%,+(5% to 7%) | 3%,+(8% to 11%) | 4%,+(12% to 15%) | 5%,+(20% to 24%) | (6% to 7%),+(25% to 30%) | (8% to 10%)
+Elemental Resistance,Suffix,0%,+(8% to 20%),,,,,-,-
+Elemental Resistance and Minion Elemental Resistance,Suffix,0%,+(4% to 6%) | +(4% to 6%),,,,,-,-
+Elemental Resistance and Minion Elemental Resistance,Suffix,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-
+Elemental Resistance While Transformed,Suffix,0%,+(20% to 45%),,,,,-,-
+Endurance and Endurance Threshold,Suffix,0%,+(1% to 2%) | +(10 to 25),,,,,-,-
+Endurance Threshold and Increased Health,Prefix,0%,+(7 to 16) | +(3% to 9%),,,,,-,-
+Explosive Trap Maximum and Throwing Speed,Prefix,0%,+1 | +(5% to 15%),,,,,-,-
+Fire Damage Over Time,Suffix,0%,+(33% to 90%),,,,,-,-
+Fire Damage Over Time,Suffix,0%,+(22% to 60%),,,,,-,-
+Fire Damage Taken as Physical,Prefix,0%,+(8% to 20%),,,,,-,-
+Fire Penetration and Minion Fire Penetration,Prefix,0%,+(1% to 2%) | +2%,,,,,-,-
+Fire Penetration and Minion Fire Penetration,Prefix,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-
+Fire Penetration while wielding a Dagger,Prefix,0%,(4% to 9%),,,,,-,-
+Fire Penetration with Ignite,Prefix,0%,(9% to 16%),,,,,-,-
+Fire Penetration with Ignite,Prefix,0%,(9% to 16%),,,,,-,-
+Fire Penetration With Melee Attacks,Suffix,0%,+(7% to 15%),,,,,-,-
+Fire Resistance,Suffix,0%,+(20% to 45%),,,,,-,-
+Fire Resistance and Ignite Duration,Suffix,0%,+1%1%,+2%2%,+3%3%,+4%4%,+5%5%,+(6% to 7%) | (6% to 7%),+(8% to 10%) | (8% to 10%)
+Fire Resistance and Minion Fire Resistance,Suffix,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-
+Fire Resistance and Minion Fire Resistance,Suffix,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-
+Freeze Rate Multiplier,Prefix,0%,+(15% to 40%),,,,,-,-
+Freeze Rate Multiplier and Ward when you Freeze an Enemy,Prefix,0%,+(16% to 25%) | (2 to 4),,,,,-,-
+Frenzy Effect and Increased Melee damage while you have frenzy,Suffix,0%,1% | +(1% to 2%),2% | +(3% to 4%),3% | +(5% to 7%),4% | +(8% to 11%),5% | +(12% to 15%),(6% to 7%) | +(20% to 24%),(8% to 10%) | +(25% to 30%)
+Frost Claw Mana Efficiency and Elemental Penetration,Prefix,0%,+(6% to 14%) | +(6% to 14%),,,,,-,-
+Frost Wall Fire Conversion,Prefix,0%,100% | (33% to 87%),,,,,-,-
+Frostbite Duration,Prefix,0%,(15% to 36%),,,,,-,-
+Frostbite Duration and Frostbite chance with Cold Skills,Suffix,0%,1% | +(1% to 2%),1% | +(3% to 4%),2% | +(5% to 6%),2% | +(7% to 8%),3% | +(9% to 10%),4% | +(13% to 15%),(5% to 6%) | +(16% to 18%)
+Glancing Blow chance and Increased Dodge Rating,Suffix,0%,1%+1%,1%+1%,1%+2%,1%+3%,2%+4%,3% | +(5% to 6%),4% | +(7% to 8%)
+Haste Effect and Haste duration on Evade,Suffix,0%,1%1,2%1,3%1,4%1,5%2,(6% to 7%) | 3,(8% to 10%) | 4
+Healing Effectiveness,Prefix,50%,(29% to 46%),,,,,-,-
+Health,Suffix,0%,+(30 to 80),,,,,-,-
+Health,Prefix,0%,+(5% to 11%),,,,,-,-
+Health and Added Health Regeneration,Suffix,0%,+(14 to 18) | +(1 to 2),,,,,-,-
+Health and Mana,Suffix,0%,+(14 to 18) | +(5 to 8),,,,,-,-
+Health Gained on Dodge,Suffix,0%,+(5 to 12),,,,,-,-
+Health gained when stunned,Prefix,0%,+(56 to 150),,,,,-,-
+Health on Kill,Prefix,0%,(10 to 20),,,,,-,-
+Health on Kill and Added Health,Prefix,0%,(9 to 20) | +(15 to 20),,,,,-,-
+Health on Kill and Increased Health,Prefix,0%,(9 to 20) | +(5% to 6%),,,,,-,-
+Health Regen And Damage Taken Over Time,Suffix,0%,(4% to 10%) | (4% to 10%),,,,,-,-
+Health Regen While Transformed,Suffix,0%,+(35% to 100%),,,,,-,-
+Health Regeneration,Prefix,0%,+(25% to 68%),,,,,-,-
+Ignite And Spreading Flames Duration,Prefix,0%,(7% to 25%) | (7% to 25%),,,,,-,-
+Increased Area for Area Skills,Prefix,0%,(10% to 26%),,,,,-,-
+Increased Area for Throwing Area Skills,Prefix,0%,(9% to 28%),,,,,-,-
+Increased Area of mirage attacks with Lethal Mirage,Prefix,0%,(14% to 35%),,,,,-,-
+Increased Area of Void Cleave,Prefix,0%,(18% to 40%),,,,,-,-
+Increased Area with Acid Flask,Prefix,0%,(11% to 30%),,,,,-,-
+Increased Area with Cinder Strike's First Attack,Prefix,0%,(11% to 30%),,,,,-,-
+Increased Area with Dancing Strikes,Prefix,0%,(14% to 35%),,,,,-,-
+Increased Area with Detonating Arrow,Prefix,0%,(11% to 30%),,,,,-,-
+Increased Area With Rive And Forge Strike,Prefix,0%,+(11% to 30%) | +(11% to 30%),,,,,-,-
+Increased Armor and Armor Applies to DoTs,Suffix,0%,+1%+1%,+1%+1%,+2%+1%,+3%+1%,+4%+2%,+(5% to 6%) | +3%,+(7% to 8%) | +4%
+Increased Armor and Reduced bonus damage taken from critical hits,Suffix,65%,+1%1%,+1%2%,+2%3%,+2%4%,+3%5%,+4% | (6% to 7%),+(5% to 6%) | (8% to 10%)
+Increased Armor Shred Duration,Suffix,0%,(40% to 100%),,,,,-,-
+Increased Armor Shred Effect,Suffix,0%,(30% to 90%),,,,,-,-
+Increased Aspect of the Boar Duration,Prefix,0%,(9% to 30%),,,,,-,-

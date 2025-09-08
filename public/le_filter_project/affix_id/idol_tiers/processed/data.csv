@@ -1,0 +1,425 @@
+Affix Type,Name,Reroll %,Tier1,Tier2,Tier3,Tier4,Tier5,Tier6,Tier7,Source File
+Suffix,Increased Aspect of the Boar Effect,0%,(5% to 12%),,,,,-,-,affix_details_3
+Suffix,Increased Aspect of the Lynx Duration,0%,(15% to 40%),,,,,-,-,affix_details_3
+Prefix,Increased Aspect of the Lynx Effect,0%,(10% to 25%),,,,,-,-,affix_details_3
+Prefix,Increased Aspect of the Shark Duration,0%,(7% to 25%),,,,,-,-,affix_details_3
+Suffix,Increased Aspect of the Shark Effect,0%,(6% to 20%),,,,,-,-,affix_details_3
+Prefix,Increased Aspect of the Viper Duration,0%,(15% to 40%),,,,,-,-,affix_details_3
+Suffix,Increased Aspect of the Viper Effect,0%,(10% to 25%),,,,,-,-,affix_details_3
+Prefix,Increased Aura of Decay Area,0%,+(10% to 30%),,,,,-,-,affix_details_3
+Prefix,Increased Bleed Duration,0%,(10% to 40%),,,,,-,-,affix_details_3
+Prefix,Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown),0%,(7% to 21%),,,,,-,-,affix_details_3
+Prefix,Increased Cast Speed while Cursed,0%,(13% to 33%),,,,,-,-,affix_details_3
+Prefix,Increased Cast Speed while you have Lightning Aegis,0%,+(10% to 28%),,,,,-,-,affix_details_3
+Suffix,Increased Chance to Find Potions and Health Gained on Potion Use,0%,(5% to 10%) | (20 to 40),,,,,-,-,affix_details_3
+Suffix,Increased Cold Damage (Doubled If You Have Over 300 Max Mana),0%,(16% to 40%),,,,,-,-,affix_details_3
+Suffix,Increased Cold Damage per active Totem,0%,(7% to 22%),,,,,-,-,affix_details_3
+Suffix,Increased Cooldown Recovery Speed and Increased Mana Regeneration,65%,1%+1%,1%+2%,1%+3%,1%+4%,2%+5%,3% | +(6% to 7%),(4% to 5%) | +(8% to 10%),affix_details_3
+Prefix,Increased Cooldown Recovery Speed for Surge,0%,(6% to 18%),,,,,-,-,affix_details_3
+Suffix,Increased Cooldown Recovery Speed With Transplant,0%,(7% to 15%),,,,,-,-,affix_details_3
+Suffix,Increased crit chance with a catalyst and Critcal Strike Multiplier with a catalyst,0%,(1% to 2%) | +1%,(3% to 4%) | +2%,(5% to 6%) | +3%,(7% to 8%) | +4%,(9% to 10%) | +5%,(12% to 15%) | +(6% to 7%),(16% to 20%) | +(8% to 10%),affix_details_3
+Prefix,Increased Crit Chance with Flurry,0%,(30% to 80%),,,,,-,-,affix_details_3
+Suffix,Increased Critical Strike Chance and Added Critical Strike Multiplier,65%,+(1% to 2%) | +1%,+(3% to 4%) | +2%,+(5% to 6%) | +3%,+(7% to 8%) | +4%,+(9% to 10%) | +5%,+(13% to 15%) | +(6% to 7%),+(16% to 18%) | +(8% to 9%),affix_details_3
+Prefix,Increased Critical Strike Chance and Critical Strike Multiplier,0%,+(22% to 30%) | +(3% to 6%),,,,,-,-,affix_details_3
+Prefix,Increased Critical Strike Chance per Equipped Dagger,0%,(20% to 55%),,,,,-,-,affix_details_3
+Prefix,Increased Critical Strike Chance per Equipped Sword,0%,(20% to 55%),,,,,-,-,affix_details_3
+Prefix,Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently,0%,(22% to 60%),,,,,-,-,affix_details_3
+Suffix,Increased Damage Over Time and Chance to Apply Frailty on Hit,0%,+(14% to 25%) | +(5% to 10%),,,,,-,-,affix_details_3
+Suffix,Increased damage over time and Endurance,65%,+1%+1%,+2%+1%,+3%+2%,+4%+2%,+5%+3%,+(6% to 7%) | +4%,+(8% to 10%) | +5%,affix_details_3
+Prefix,Increased Damage Over Time and Less Damage Over Time Taken,30%,+(11% to 15%) | 1%,,,,,-,-,affix_details_3
+Prefix,Increased Damage Over Time while you have an Ailment Overload,0%,(31% to 93%),,,,,-,-,affix_details_3
+Prefix,Increased Damage per active Shadow with Shadow Cascade,0%,(10% to 28%),,,,,-,-,affix_details_3
+Prefix,Increased Damage per arrow with Multishot,0%,(3% to 6%),,,,,-,-,affix_details_3
+Suffix,Increased Damage to Skills used by Shadows,0%,(25% to 60%),,,,,-,-,affix_details_3
+Suffix,Increased Damage while wielding a Bow,0%,(17% to 45%),,,,,-,-,affix_details_3
+Suffix,Increased Damage while Wielding a Bow and Chance to Repeat Bow Attacks,0%,(1% to 2%) | +1%,(3% to 5%) | +1%,(6% to 8%) | +1%,(9% to 11%) | +1%,(12% to 15%) | +2%,(20% to 24%) | +3%,(25% to 30%) | +4%,affix_details_3
+Suffix,Increased Damage while wielding a Dagger,0%,(17% to 45%),,,,,-,-,affix_details_3
+Suffix,Increased Damage while wielding a Sword,0%,(17% to 45%),,,,,-,-,affix_details_3
+Prefix,Increased Damage With Rip Blood And Blood Splatter,0%,+(28% to 75%) | +(28% to 75%),,,,,-,-,affix_details_3
+Prefix,Increased Damage with Umbral Blades per stack of Dusk Shroud,0%,(4% to 8%),,,,,-,-,affix_details_3
+Prefix,Increased Damage With Vengeance And Smite,0%,(30% to 80%) | (30% to 80%),,,,,-,-,affix_details_3
+Prefix,Increased Duration for Profane Veil,0%,(12% to 31%),,,,,-,-,affix_details_3
+Prefix,Increased duration with Hail of Arrows,0%,(10% to 22%),,,,,-,-,affix_details_3
+Suffix,Increased Echo damage and Chance to gain frenzy for 3 seconds on echo,0%,(1% to 2%) | +1%,(3% to 4%) | +1%,(5% to 6%) | +2%,(7% to 8%) | +2%,(9% to 10%) | +3%,(12% to 15%) | +4%,(16% to 20%) | +5%,affix_details_3
+Prefix,Increased Echo Damage when a Skill Echoes,0%,(40% to 150%),,,,,-,-,affix_details_3
+Prefix,Increased Elemental Nova Area,0%,(11% to 30%),,,,,-,-,affix_details_3
+Prefix,Increased Fire Aura Area,0%,(15% to 36%),,,,,-,-,affix_details_3
+Prefix,Increased Fire Aura Damage,0%,(30% to 100%),,,,,-,-,affix_details_3
+Suffix,Increased Fire Damage (Doubled If You Have Over 300 Max Mana),0%,(16% to 40%),,,,,-,-,affix_details_3
+Prefix,Increased Frequency of expending Storm Stacks,0%,(12% to 32%),,,,,-,-,affix_details_3
+Prefix,Increased Healing Effectiveness,0%,(37% to 70%),,,,,-,-,affix_details_3
+Suffix,Increased Healing Effectiveness and Added health,0%,(10% to 13%) | +(1 to 3),(14% to 16%) | +(4 to 6),(17% to 20%) | +(7 to 9),(21% to 25%) | +(10 to 12),(26% to 30%) | +(13 to 15),(40% to 47%) | +(20 to 24),(48% to 60%) | +(25 to 30),affix_details_3
+Prefix,Increased Healing Effectiveness and Added Health,30%,(5% to 10%) | +(14 to 18),,,,,-,-,affix_details_3
+Prefix,Increased Health Regeneration and Added Health,30%,+(5% to 8%) | +(14 to 18),,,,,-,-,affix_details_3
+Suffix,Increased Lightning Damage (Doubled If You Have Over 300 Max Mana),0%,(16% to 40%),,,,,-,-,affix_details_3
+Prefix,Increased Lightning Damage while you have Lightning Aegis,50%,+(24% to 70%),,,,,-,-,affix_details_3
+Suffix,Increased mana regen and Damage Dealt to mana,0%,+(1% to 2%) | +1%,+(3% to 4%) | +1%,+(5% to 6%) | +2%,+(7% to 8%) | +3%,+(9% to 10%) | +4%,+(12% to 15%) | +(5% to 6%),+(16% to 20%) | +(7% to 8%),affix_details_3
+Prefix,Increased Melee Damage For 4 Seconds When a Skill Echoes,0%,(25% to 65%),,,,,-,-,affix_details_3
+Suffix,Increased Minion Cooldown Recovery Speed,0%,(12% to 35%),,,,,-,-,affix_details_3
+Prefix,Increased Minion Melee Stun Chance,0%,(46% to 125%),,,,,-,-,affix_details_3
+Suffix,Increased Movement Speed and Increased Damage,65%,+1% | +(1% to 2%),+1% | +(3% to 4%),+1% | +(5% to 6%),+1% | +(7% to 8%),+2% | +(9% to 10%),+3% | +(12% to 14%),+(4% to 5%) | +(15% to 18%),affix_details_3
+Suffix,Increased Movement Speed while transformed and Haste after you transform,0%,+(1% to 2%) | 1,+2%1,+3%1,+4%1,+5%2,+(6% to 7%) | 3,+(8% to 10%) | 4,affix_details_3
+Prefix,Increased Poison Damage while Aura of Decay is active,0%,+(60% to 100%),,,,,-,-,affix_details_3
+Suffix,Increased Poison Duration and Seconds of Frenzy When you gain Poison Overload,0%,1%1,2%1,3%1,4%1,5%2,(6% to 7%) | 3,(8% to 10%) | 4,affix_details_3
+Prefix,Increased Projectile Speed With Marrow Shards And Bone Nova,0%,+(10% to 30%) | +(10% to 30%),,,,,-,-,affix_details_3
+Prefix,Increased Shock Duration,0%,(6% to 15%),,,,,-,-,affix_details_3
+Suffix,Increased Spell Damage if you have an active Totem,0%,(25% to 60%),,,,,-,-,affix_details_3
+Prefix,Increased Stun Chance,0%,(44% to 120%),,,,,-,-,affix_details_3
+Prefix,Increased Stun Chance and Added Stun Avoidance,0%,(21% to 30%) | +(78 to 100),,,,,-,-,affix_details_3
+Prefix,Increased Stun Chance With Throwing Attacks,0%,(56% to 150%),,,,,-,-,affix_details_3
+Prefix,Increased Stun Duration,0%,(15% to 40%),,,,,-,-,affix_details_3
+Prefix,Increased Stun Duration and Increased Stun Chance,0%,(16% to 20%) | (40% to 60%),,,,,-,-,affix_details_3
+Suffix,Increased Throwing Damage and Increased Damage while Dual Wielding,0%,+4%4%,+5%5%,+6%6%,+7%7%,+8%8%,+(10% to 12%) | (10% to 12%),+(13% to 16%) | (13% to 16%),affix_details_3
+Prefix,Increased Time Rot Duration,0%,(15% to 40%),,,,,-,-,affix_details_3
+Suffix,Increased Totem Damage and Totem Teleportation on Traversal,0%,+(1% to 2%) | +1,+(3% to 4%) | +1,+(5% to 7%) | +1,+(8% to 11%) | +1,+(12% to 15%) | +1,+(20% to 24%) | +2,+(25% to 30%) | +3,affix_details_3
+Prefix,Increased Void Damage For 4 Seconds When a Skill Echoes,0%,(30% to 80%),,,,,-,-,affix_details_3
+Prefix,Increased Volcanic Orb Damage And Reduced Speed,0%,(20% to 55%) | (20% to 55%),,,,,-,-,affix_details_3
+Prefix,Increased Warpath Area,0%,+(10% to 30%),,,,,-,-,affix_details_3
+Suffix,Less damage over time taken while using a shield and Health gained on block,0%,+1% | (1 to 2),+1% | (3 to 4),+1% | (5 to 6),+1% | (7 to 9),+1% | (10 to 12),+2% | (16 to 19),+3% | (20 to 24),affix_details_3
+Prefix,Less frequency of Storm Stacks and Added Damage With Storm Bolt,0%,(12% to 30%) | +(6 to 18),,,,,-,-,affix_details_3
+Prefix,Lightning Damage Taken as Physical,0%,+(8% to 20%),,,,,-,-,affix_details_3
+Prefix,Lightning Damage with Hammer Throw,0%,+(4 to 12),,,,,-,-,affix_details_3
+Prefix,Lightning Damage with Shurikens,0%,+(4 to 8) | +(50% to 80%),,,,,-,-,affix_details_3
+Prefix,Lightning Penetration and Minion Lightning Penetration,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-,affix_details_3
+Prefix,Lightning Penetration and Minion Lightning Penetration,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-,affix_details_3
+Suffix,Lightning Resistance,0%,+(20% to 45%),,,,,-,-,affix_details_3
+Suffix,Lightning Resistance and Minion Lightning Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_3
+Suffix,Lightning Resistance and Minion Lightning Resistance,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-,affix_details_3
+Prefix,Mana,0%,+(15 to 40),,,,,-,-,affix_details_3
+Suffix,Mana And Armor,0%,+(5% to 12%) | +(5% to 12%),,,,,-,-,affix_details_3
+Prefix,Mana and Increased Mana Regen,0%,+(8 to 12) | +(2% to 5%),,,,,-,-,affix_details_3
+Prefix,Mana Efficiency and Wither Chance with Soul Feast,0%,+(7% to 19%) | (21% to 55%),,,,,-,-,affix_details_3
+Suffix,Mana Efficiency with Decoy,0%,+(8% to 16%),,,,,-,-,affix_details_3
+Prefix,Mana Efficiency with Ghostflame,0%,+(9% to 21%),,,,,-,-,affix_details_3
+Prefix,Mana Efficiency with Synchronised Strike,0%,+(8% to 16%),,,,,-,-,affix_details_3
+Prefix,Mana Efficiency With Void Spells,0%,+(9% to 25%),,,,,-,-,affix_details_3
+Prefix,Mana Gained When Transforming Back To Human Form,0%,+(5 to 15),,,,,-,-,affix_details_3
+Suffix,Mana Increased and Mana regen with a minion,0%,+(1 to 2) | (1% to 2%),+(3 to 4) | (3% to 4%),+(5 to 6) | (5% to 6%),+(7 to 8) | (7% to 8%),+(9 to 10) | (9% to 10%),+(12 to 15) | (12% to 15%),+(16 to 20) | (16% to 20%),affix_details_3
+Suffix,Mana Spent Gained as Ward,0%,+(12% to 40%),,,,,-,-,affix_details_3
+Suffix,Melee Cold Damage,0%,+(2 to 4),,,,,-,-,affix_details_3
+Suffix,Melee Damage and Spell Damage,0%,+1+1,+1+1,+2+2,+3+3,+4+4,+(5 to 6) | +(5 to 6),+(7 to 8) | +(7 to 8),affix_details_3
+Suffix,Melee Damage For You And Your Minions,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-,affix_details_3
+Suffix,Void Resistance and Minion Void Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_5
+Suffix,Void Resistance and Minion Void Resistance,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-,affix_details_5
+Prefix,Volatile Zombie Damage and Explosion Area,0%,(15% to 35%) | (15% to 35%),,,,,-,-,affix_details_5
+Prefix,Ward and Ward Decay Threshold on Potion Use,0%,(15 to 25) | +(35 to 60),,,,,-,-,affix_details_5
+Suffix,Ward Decay Threshold and Ward Gained on Evade,0%,+(1 to 2) | +(1 to 3),+(3 to 5) | +(4 to 6),+(6 to 8) | +(7 to 11),+(9 to 11) | +(12 to 17),+(12 to 15) | +(18 to 25),+(20 to 24) | +(30 to 38),+(25 to 30) | +(39 to 50),affix_details_5
+Suffix,Ward decay threshold and Ward per second,65%,+(1 to 2) | +(1 to 2),+(3 to 4) | +(3 to 4),+(5 to 6) | +(5 to 6),+(7 to 8) | +(7 to 8),+(9 to 10) | +(9 to 10),+(12 to 15) | +(12 to 15),+(16 to 20) | +(16 to 20),affix_details_5
+Suffix,Ward Gained On Kill,0%,(5 to 13),,,,,-,-,affix_details_5
+Suffix,Ward Gained on use with Shift,0%,+(17 to 45),,,,,-,-,affix_details_5
+Prefix,Ward Gained on use with Smoke Bomb,0%,(22 to 60),,,,,-,-,affix_details_5
+Prefix,Ward gained per Rune consumed with Runic Invocation,0%,+(14 to 40),,,,,-,-,affix_details_5
+Prefix,Ward Gained When Damage Leaves You At Low Health (5 Second Cooldown),0%,(35 to 100),,,,,-,-,affix_details_5
+Suffix,Ward Gained when you create a Shadow,0%,(5 to 15),,,,,-,-,affix_details_5
+Suffix,Ward Gained when you use Enchant Weapon and Increased Melee Elemental Damage,0%,(20 to 29) | +(1% to 2%),(30 to 42) | +(3% to 4%),(43 to 56) | +(5% to 6%),(57 to 72) | +(7% to 8%),(73 to 95) | +(9% to 10%),(110 to 150) | +(12% to 15%),(151 to 200) | +(16% to 20%),affix_details_5
+Prefix,Ward Granted When Casting Flame Ward,0%,+(42 to 96),,,,,-,-,affix_details_5
+Prefix,Ward On Potion Use,0%,(30 to 80),,,,,-,-,affix_details_5
+Suffix,Ward Per Second,0%,+(12 to 40),,,,,-,-,affix_details_5
+Prefix,Ward Per Second and Increased Health,0%,+(3 to 6) | +(3% to 9%),,,,,-,-,affix_details_5
+Suffix,Ward Per Second and Ward Retention,0%,+(12 to 16) | +(8% to 14%),,,,,-,-,affix_details_5
+Prefix,Ward per Second during Profane Veil,0%,+(47 to 146),,,,,-,-,affix_details_5
+Prefix,Ward per Second for you or your allies while standing on your Glyph of Dominion,0%,+(15 to 50),,,,,-,-,affix_details_5
+Prefix,Ward per Second while channeling Ghostflame,0%,+(33 to 113),,,,,-,-,affix_details_5
+Prefix,Ward Retention,0%,+(13% to 30%),,,,,-,-,affix_details_5
+Suffix,Ward Retention,0%,+(13% to 30%),,,,,-,-,affix_details_5
+Prefix,Ward Retention and Ward Per Second,0%,+(5% to 7%) | +(5 to 8),,,,,-,-,affix_details_5
+Prefix,Chance to Summon a Bee with Acid Flask,90%,(10% to 28%),,,,,-,-,affix_details_2
+Suffix,Cold and Lightning Damage,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-,affix_details_2
+Suffix,Cold Damage Over Time,0%,+(30% to 75%),,,,,-,-,affix_details_2
+Prefix,Cold Damage Taken as Physical,0%,+(8% to 20%),,,,,-,-,affix_details_2
+Prefix,Cold Penetration and Minion Cold Penetration,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-,affix_details_2
+Prefix,Cold Penetration and Minion Cold Penetration,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-,affix_details_2
+Prefix,Cold Penetration with Frostbite,0%,(13% to 35%),,,,,-,-,affix_details_2
+Suffix,Cold Resistance,0%,+(20% to 45%),,,,,-,-,affix_details_2
+Suffix,Cold Resistance and Minion Cold Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_2
+Suffix,Cold Resistance and Minion Cold Resistance,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-,affix_details_2
+Suffix,Companion Revive Speed and Increased Minion Health,0%,(1% to 2%) | +(2% to 4%),(3% to 4%) | +(5% to 7%),(5% to 6%) | +(8% to 10%),(7% to 8%) | +(11% to 14%),(9% to 10%) | +(15% to 20%),(12% to 15%) | +(25% to 31%),(16% to 20%) | +(32% to 40%),affix_details_2
+Suffix,Crimson Shroud duration and additional bleed chance per crimson shroud,0%,1%+1%,2%+2%,3%+3%,4%+4%,5%+5%,(6% to 7%) | +(6% to 7%),(8% to 10%) | +(8% to 10%),affix_details_2
+Suffix,Critical Stike Avoidance and Increased Critical Strike Chance,0%,+(2% to 4%) | +(5% to 15%),,,,,-,-,affix_details_2
+Suffix,Critical Strike Avoidance for You and Your Minions,0%,+(15% to 40%) | +(15% to 40%),,,,,-,-,affix_details_2
+Prefix,Critical Strike Chance,0%,+(20% to 55%),,,,,-,-,affix_details_2
+Prefix,Critical Strike Chance For Skeletons And Skeletal Mages,0%,+(1% to 3%) | +(1% to 3%),,,,,-,-,affix_details_2
+Prefix,Critical Strike Chance for Totems,0%,+(2% to 4%),,,,,-,-,affix_details_2
+Suffix,Critical Strike Chance For You And Your Minions,0%,+(15% to 40%) | +(15% to 40%),,,,,-,-,affix_details_2
+Prefix,Critical Strike Chance With Lightning Skills,0%,+(22% to 60%),,,,,-,-,affix_details_2
+Suffix,Critical Strike Chance with Lightning Skills for You and Your Minions,0%,+(19% to 50%) | +(19% to 50%),,,,,-,-,affix_details_2
+Prefix,Critical Strike Multiplier while Dual Wielding,0%,+(12% to 30%),,,,,-,-,affix_details_2
+Prefix,Critical Strike Multiplier while Transformed,0%,+(12% to 33%),,,,,-,-,affix_details_2
+Prefix,Critical Strike Multiplier With Rive And Judgement,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_2
+Prefix,Damage Leeched as Health while Transformed,0%,+(1% to 3%),,,,,-,-,affix_details_2
+Prefix,Damage Over Time,0%,+(22% to 60%),,,,,-,-,affix_details_2
+Suffix,Damage Over Time For You And Your Minions,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-,affix_details_2
+Suffix,Damage Over Time Taken,0%,(4% to 9%),,,,,-,-,affix_details_2
+Suffix,Damage Over Time Taken While Channelling,0%,(6% to 16%),,,,,-,-,affix_details_2
+Prefix,Damage Over Time Taken While Transformed,0%,(5% to 12%),,,,,-,-,affix_details_2
+Prefix,Damage Over Time while at Low Health,0%,+(26% to 70%),,,,,-,-,affix_details_2
+Prefix,Damage Over Time while Transformed,0%,+(22% to 60%),,,,,-,-,affix_details_2
+Suffix,Damage Reflected and Damage Dealt to Attackers,0%,(5% to 15%) | (50 to 150),,,,,-,-,affix_details_2
+Prefix,Damage Reflected For Skeletons And Skeletal Mages,0%,+(7% to 18%) | +(7% to 18%),,,,,-,-,affix_details_2
+Suffix,Damage Reflected For You And Your Minions,0%,(10% to 35%) | (10% to 35%),,,,,-,-,affix_details_2
+Prefix,Damage Reflected while you have Lightning Aegis,50%,+(30% to 100%),,,,,-,-,affix_details_2
+Prefix,Damage While Transformed,0%,+(26% to 70%),,,,,-,-,affix_details_2
+Prefix,Dodge Rating,0%,+(26 to 70),,,,,-,-,affix_details_2
+Prefix,Dodge Rating and Increased Dodge Rating,30%,+(13 to 25) | +(2% to 5%),,,,,-,-,affix_details_2
+Prefix,Dodge Rating and Increased Health,0%,+(8 to 18) | +(3% to 9%),,,,,-,-,affix_details_2
+Suffix,Dodge Rating if Hit Recently,0%,+(50 to 120),,,,,-,-,affix_details_2
+Suffix,Electrify Duration and Leech with elemental damage over time,0%,(1% to 2%) | +0.1%,3%+0.1%,(5% to 6%) | +0.1%,(7% to 8%) | +0.1%,(9% to 10%) | +0.1%,(12% to 15%) | +0.2%,(16% to 20%) | +0.3%,affix_details_2
+Prefix,Elemental Bees Per 10 Seconds,94%,+(3 to 7),,,,,-,-,affix_details_2
+Suffix,Elemental Damage over Time and Increased Fire Aura Area,0%,+(1% to 2%) | 1%,+(3% to 4%) | 2%,+(5% to 7%) | 3%,+(8% to 11%) | 4%,+(12% to 15%) | 5%,+(20% to 24%) | (6% to 7%),+(25% to 30%) | (8% to 10%),affix_details_2
+Suffix,Elemental Resistance,0%,+(8% to 20%),,,,,-,-,affix_details_2
+Suffix,Elemental Resistance and Minion Elemental Resistance,0%,+(4% to 6%) | +(4% to 6%),,,,,-,-,affix_details_2
+Suffix,Elemental Resistance and Minion Elemental Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_2
+Suffix,Elemental Resistance While Transformed,0%,+(20% to 45%),,,,,-,-,affix_details_2
+Suffix,Endurance and Endurance Threshold,0%,+(1% to 2%) | +(10 to 25),,,,,-,-,affix_details_2
+Prefix,Endurance Threshold and Increased Health,0%,+(7 to 16) | +(3% to 9%),,,,,-,-,affix_details_2
+Prefix,Explosive Trap Maximum and Throwing Speed,0%,+1 | +(5% to 15%),,,,,-,-,affix_details_2
+Suffix,Fire Damage Over Time,0%,+(33% to 90%),,,,,-,-,affix_details_2
+Suffix,Fire Damage Over Time,0%,+(22% to 60%),,,,,-,-,affix_details_2
+Prefix,Fire Damage Taken as Physical,0%,+(8% to 20%),,,,,-,-,affix_details_2
+Prefix,Fire Penetration and Minion Fire Penetration,0%,+(1% to 2%) | +2%,,,,,-,-,affix_details_2
+Prefix,Fire Penetration and Minion Fire Penetration,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-,affix_details_2
+Prefix,Fire Penetration while wielding a Dagger,0%,(4% to 9%),,,,,-,-,affix_details_2
+Prefix,Fire Penetration with Ignite,0%,(9% to 16%),,,,,-,-,affix_details_2
+Prefix,Fire Penetration with Ignite,0%,(9% to 16%),,,,,-,-,affix_details_2
+Suffix,Fire Penetration With Melee Attacks,0%,+(7% to 15%),,,,,-,-,affix_details_2
+Suffix,Fire Resistance,0%,+(20% to 45%),,,,,-,-,affix_details_2
+Suffix,Fire Resistance and Ignite Duration,0%,+1%1%,+2%2%,+3%3%,+4%4%,+5%5%,+(6% to 7%) | (6% to 7%),+(8% to 10%) | (8% to 10%),affix_details_2
+Suffix,Fire Resistance and Minion Fire Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_2
+Suffix,Fire Resistance and Minion Fire Resistance,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-,affix_details_2
+Prefix,Freeze Rate Multiplier,0%,+(15% to 40%),,,,,-,-,affix_details_2
+Prefix,Freeze Rate Multiplier and Ward when you Freeze an Enemy,0%,+(16% to 25%) | (2 to 4),,,,,-,-,affix_details_2
+Suffix,Frenzy Effect and Increased Melee damage while you have frenzy,0%,1% | +(1% to 2%),2% | +(3% to 4%),3% | +(5% to 7%),4% | +(8% to 11%),5% | +(12% to 15%),(6% to 7%) | +(20% to 24%),(8% to 10%) | +(25% to 30%),affix_details_2
+Prefix,Frost Claw Mana Efficiency and Elemental Penetration,0%,+(6% to 14%) | +(6% to 14%),,,,,-,-,affix_details_2
+Prefix,Frost Wall Fire Conversion,0%,100% | (33% to 87%),,,,,-,-,affix_details_2
+Prefix,Frostbite Duration,0%,(15% to 36%),,,,,-,-,affix_details_2
+Suffix,Frostbite Duration and Frostbite chance with Cold Skills,0%,1% | +(1% to 2%),1% | +(3% to 4%),2% | +(5% to 6%),2% | +(7% to 8%),3% | +(9% to 10%),4% | +(13% to 15%),(5% to 6%) | +(16% to 18%),affix_details_2
+Suffix,Glancing Blow chance and Increased Dodge Rating,0%,1%+1%,1%+1%,1%+2%,1%+3%,2%+4%,3% | +(5% to 6%),4% | +(7% to 8%),affix_details_2
+Suffix,Haste Effect and Haste duration on Evade,0%,1%1,2%1,3%1,4%1,5%2,(6% to 7%) | 3,(8% to 10%) | 4,affix_details_2
+Prefix,Healing Effectiveness,50%,(29% to 46%),,,,,-,-,affix_details_2
+Suffix,Health,0%,+(30 to 80),,,,,-,-,affix_details_2
+Prefix,Health,0%,+(5% to 11%),,,,,-,-,affix_details_2
+Suffix,Health and Added Health Regeneration,0%,+(14 to 18) | +(1 to 2),,,,,-,-,affix_details_2
+Suffix,Health and Mana,0%,+(14 to 18) | +(5 to 8),,,,,-,-,affix_details_2
+Suffix,Health Gained on Dodge,0%,+(5 to 12),,,,,-,-,affix_details_2
+Prefix,Health gained when stunned,0%,+(56 to 150),,,,,-,-,affix_details_2
+Prefix,Health on Kill,0%,(10 to 20),,,,,-,-,affix_details_2
+Prefix,Health on Kill and Added Health,0%,(9 to 20) | +(15 to 20),,,,,-,-,affix_details_2
+Prefix,Health on Kill and Increased Health,0%,(9 to 20) | +(5% to 6%),,,,,-,-,affix_details_2
+Suffix,Health Regen And Damage Taken Over Time,0%,(4% to 10%) | (4% to 10%),,,,,-,-,affix_details_2
+Suffix,Health Regen While Transformed,0%,+(35% to 100%),,,,,-,-,affix_details_2
+Prefix,Health Regeneration,0%,+(25% to 68%),,,,,-,-,affix_details_2
+Prefix,Ignite And Spreading Flames Duration,0%,(7% to 25%) | (7% to 25%),,,,,-,-,affix_details_2
+Prefix,Increased Area for Area Skills,0%,(10% to 26%),,,,,-,-,affix_details_2
+Prefix,Increased Area for Throwing Area Skills,0%,(9% to 28%),,,,,-,-,affix_details_2
+Prefix,Increased Area of mirage attacks with Lethal Mirage,0%,(14% to 35%),,,,,-,-,affix_details_2
+Prefix,Increased Area of Void Cleave,0%,(18% to 40%),,,,,-,-,affix_details_2
+Prefix,Increased Area with Acid Flask,0%,(11% to 30%),,,,,-,-,affix_details_2
+Prefix,Increased Area with Cinder Strike's First Attack,0%,(11% to 30%),,,,,-,-,affix_details_2
+Prefix,Increased Area with Dancing Strikes,0%,(14% to 35%),,,,,-,-,affix_details_2
+Prefix,Increased Area with Detonating Arrow,0%,(11% to 30%),,,,,-,-,affix_details_2
+Prefix,Increased Area With Rive And Forge Strike,0%,+(11% to 30%) | +(11% to 30%),,,,,-,-,affix_details_2
+Suffix,Increased Armor and Armor Applies to DoTs,0%,+1%+1%,+1%+1%,+2%+1%,+3%+1%,+4%+2%,+(5% to 6%) | +3%,+(7% to 8%) | +4%,affix_details_2
+Suffix,Increased Armor and Reduced bonus damage taken from critical hits,65%,+1%1%,+1%2%,+2%3%,+2%4%,+3%5%,+4% | (6% to 7%),+(5% to 6%) | (8% to 10%),affix_details_2
+Suffix,Increased Armor Shred Duration,0%,(40% to 100%),,,,,-,-,affix_details_2
+Suffix,Increased Armor Shred Effect,0%,(30% to 90%),,,,,-,-,affix_details_2
+Prefix,Increased Aspect of the Boar Duration,0%,(9% to 30%),,,,,-,-,affix_details_2
+Prefix,Abyssal Decay Duration,0%,(12% to 24%),,,,,-,-,affix_details_1
+Suffix,Added Block Effectiveness and Health Gained on Block,0%,+(40 to 80) | (5 to 12),,,,,-,-,affix_details_1
+Suffix,Added Bow Damage and Increased Bow Damage,0%,+(2 to 5) | +(10% to 20%),,,,,-,-,affix_details_1
+Suffix,Added Dodge rating if you have been hit recently and Critical Strike Avoidance,65%,+(5 to 15) | +(1% to 2%),+(16 to 30) | +(3% to 4%),+(31 to 46) | +(5% to 6%),+(47 to 65) | +(7% to 8%),+(66 to 85) | +(9% to 10%),+(95 to 140) | +(12% to 15%),+(141 to 190) | +(16% to 20%),affix_details_1
+Suffix,Added Melee Damage and Increased Melee Damage,0%,+(3 to 6) | +(10% to 20%),,,,,-,-,affix_details_1
+Suffix,Added Spell Damage and Increased Spell Damage,0%,+(2 to 4) | +(10% to 20%),,,,,-,-,affix_details_1
+Suffix,Added Spell Damage while wielding a Staff Ward per second while wielding a Staff,0%,+1 | (1 to 2),+1 | (3 to 4),+2 | (5 to 6),+2 | (7 to 8),+3 | (9 to 10),+4 | (12 to 15),+(5 to 6) | (16 to 20),affix_details_1
+Suffix,Added spell damage with a shield and Added spell damage with a 2h axe,0%,+1+1,+1+2,+2+3,+2+4,+3+5,+4 | +(6 to 7),+5 | +(8 to 10),affix_details_1
+Prefix,Added Static Orb Tendrils,0%,+(2 to 4),,,,,-,-,affix_details_1
+Prefix,Added Stun Avoidance and Increased Stun Immunity Duration,0%,+(78 to 100) | (5% to 10%),,,,,-,-,affix_details_1
+Suffix,Added Throwing Damage and Increased Throwing Damage,0%,+(1 to 3) | +(10% to 20%),,,,,-,-,affix_details_1
+Prefix,Armor,0%,+(58 to 156),,,,,-,-,affix_details_1
+Suffix,Armor,0%,+(15% to 35%),,,,,-,-,affix_details_1
+Prefix,Armor and Increased Armor,0%,+(28 to 40) | +(2% to 5%),,,,,-,-,affix_details_1
+Prefix,Armor granted by Bone Armor,0%,+(60 to 200),,,,,-,-,affix_details_1
+Suffix,Armor while transformed and Rage Gained per Second While Transformed,0%,+(1 to 3) | 1,+(4 to 6) | 1,+(7 to 10) | 1,+(11 to 15) | 1,+(16 to 20) | 1,+(30 to 34) | 2,+(35 to 40) | 3,affix_details_1
+Prefix,Bees Per 10 Seconds,90%,+(3 to 7),,,,,-,-,affix_details_1
+Prefix,Black Arrows dropped by Dark Quiver and Increased Bow Damage,0%,+2 | +(10% to 30%),,,,,-,-,affix_details_1
+Prefix,Bleed Chance per Equipped Sword,0%,+(13% to 35%),,,,,-,-,affix_details_1
+Prefix,Bleed Duration For You And Your Minions,0%,(7% to 25%) | (7% to 20%),,,,,-,-,affix_details_1
+Suffix,Block Effectiveness,0%,+(185 to 400),,,,,-,-,affix_details_1
+Suffix,Bow Critical Strike Chance,0%,+(24% to 65%),,,,,-,-,affix_details_1
+Suffix,Bow Damage,0%,+(17% to 45%),,,,,-,-,affix_details_1
+Prefix,Bow Elemental Damage,0%,+(20% to 50%),,,,,-,-,affix_details_1
+Prefix,Bow Physical Damage for Ballistae,0%,+(4 to 10),,,,,-,-,affix_details_1
+Prefix,Cast Speed for Totems,0%,+(11% to 30%),,,,,-,-,affix_details_1
+Prefix,Chance for +30 Throwing Fire Damage with Shield Throw,0%,+(15% to 40%),,,,,-,-,affix_details_1
+Prefix,Chance For Additional Multistrike Swords,0%,(15% to 50%),,,,,-,-,affix_details_1
+Prefix,Chance for Hungering Souls to fire 6 Additional Projectiles,0%,+(8% to 25%),,,,,-,-,affix_details_1
+Prefix,Chance for Summon Wraith to summon a Flame Wraith instead,0%,+(25% to 60%),,,,,-,-,affix_details_1
+Prefix,Chance for Summon Wraith to summon a Putrid Wraith instead,0%,+(25% to 60%),,,,,-,-,affix_details_1
+Prefix,Chance On 10 Or More Mana Spent To Cast Lightning At A Nearby Enemy,0%,(18% to 50%),,,,,-,-,affix_details_1
+Prefix,Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds),0%,(8% to 20%),,,,,-,-,affix_details_1
+Prefix,Chance On Kill To Refresh Random Companion Ability,0%,+(3% to 8%),,,,,-,-,affix_details_1
+Prefix,Chance on Melee Kill to heal a Random Minion to Full Health,0%,(6% to 15%),,,,,-,-,affix_details_1
+Suffix,Chance to apply a Spark Charge on Melee Hit,0%,+(8% to 25%),,,,,-,-,affix_details_1
+Suffix,Chance to apply a Time Rot on Hit,0%,+(11% to 30%),,,,,-,-,affix_details_1
+Prefix,Chance to apply Critical Vulnerability on hit with Caltrops,0%,+(32% to 75%),,,,,-,-,affix_details_1
+Prefix,Chance to apply Damned on Hit,0%,+(13% to 36%),,,,,-,-,affix_details_1
+Suffix,Chance to apply Electrify on hit with Lightning Skills and Lightning Pen with Electrify,0%,+(1% to 2%) | 1%,+(3% to 4%) | 1%,+(5% to 6%) | 1%,+(7% to 8%) | 1%,+(9% to 10%) | 1%,+(12% to 15%) | 2%,+(16% to 20%) | 3%,affix_details_1
+Prefix,Chance to apply Frostbite on Hit with Cold Skills,0%,+(25% to 60%),,,,,-,-,affix_details_1
+Prefix,Chance To Apply Frostbite With Cold Skills,0%,+(25% to 60%),,,,,-,-,affix_details_1
+Prefix,Chance To Blind With Spells,0%,+(13% to 35%),,,,,-,-,affix_details_1
+Prefix,Chance To Cast An Avalanche Boulder At a Nearby Enemy On Melee Attack (up to 3 times per second),0%,+(10% to 28%),,,,,-,-,affix_details_1
+Prefix,Chance To Cast An Avalanche Boulder At a Nearby Enemy On Spell Cast (up to 3 times per second),0%,+(8% to 22%),,,,,-,-,affix_details_1
+Prefix,Chance To Cast Divine Bolt When You Use A 0 Cost Skill,0%,+(4% to 13%),,,,,-,-,affix_details_1
+Prefix,Chance to cast Elemental Nova when Hit,0%,+(4% to 10%),,,,,-,-,affix_details_1
+Prefix,Chance to Cast Fire Aura on Critical Strike (1 Second Cooldown),0%,+(6% to 15%),,,,,-,-,affix_details_1
+Prefix,Chance to Cast Fire Aura on Kill with Fire Skills (1 Second Cooldown),0%,+(7% to 20%),,,,,-,-,affix_details_1
+Suffix,Chance to Cast Fire Aura when Hit (1 Second Cooldown),0%,+(2% to 5%),,,,,-,-,affix_details_1
+Prefix,Chance to cast Healing Nova when hit,0%,+(3% to 8%),,,,,-,-,affix_details_1
+Prefix,Chance to cast Lightning Blast When Hit while you have Lightning Aegis,50%,+(9% to 20%),,,,,-,-,affix_details_1
+Prefix,Chance to cast Maelstrom every 3 seconds,0%,+(9% to 30%),,,,,-,-,affix_details_1
+Prefix,Chance to Cast Marrow Shards when you Cast Transplant,0%,(7% to 17%),,,,,-,-,affix_details_1
+Prefix,Chance to cast Poison Nova when Hit,0%,+(4% to 10%),,,,,-,-,affix_details_1
+Prefix,Chance To Cast Smite When You Hit With Throwing Attacks (up to 10 times per 2 seconds),0%,+(10% to 25%),,,,,-,-,affix_details_1
+Prefix,Chance to cast Void Rift on Kill,0%,(4% to 10%),,,,,-,-,affix_details_1
+Prefix,Chance To Chill Nearby Enemies when you use a skill that costs at least 20 Mana,0%,+(10% to 30%),,,,,-,-,affix_details_1
+Prefix,Chance To Chill With Necrotic Skills,0%,+(16% to 42%),,,,,-,-,affix_details_1
+Prefix,Chance to create a Void Essence on Kill,0%,+(4% to 10%),,,,,-,-,affix_details_1
+Prefix,Chance To Create An Aftershock Under A Nearby Enemy On Melee Attack,0%,+(20% to 40%),,,,,-,-,affix_details_1
+Prefix,chance to deal Double Damage with Falcon Strikes,0%,+(5% to 12%),,,,,-,-,affix_details_1
+Suffix,Chance to Fear on Hit,0%,+(6% to 20%),,,,,-,-,affix_details_1
+Prefix,Chance to Gain 20 Ward on Kill with Hungering Souls,0%,+(25% to 60%),,,,,-,-,affix_details_1
+Suffix,Chance to Gain 20 Ward on Melee Hit,0%,(10% to 22%),,,,,-,-,affix_details_1
+Prefix,Chance to Gain 30 Ward when Hit,0%,(15% to 40%),,,,,-,-,affix_details_1
+Prefix,Chance to Gain 30 Ward When Hit and Ward Decay Threshold,0%,(16% to 30%) | +(10 to 17),,,,,-,-,affix_details_1
+Prefix,Chance to gain Haste for 3 seconds when you Summon a Totem,0%,(17% to 50%),,,,,-,-,affix_details_1
+Prefix,Chance To Gain Inspiration On Kills With Void Skills,0%,+(12% to 35%),,,,,-,-,affix_details_1
+Suffix,Chance to Gain Lightning Aegis when Hit,0%,+(4% to 10%),,,,,-,-,affix_details_1
+Prefix,Chance to Ignite on Bow Hit,0%,+(15% to 35%),,,,,-,-,affix_details_1
+Prefix,Chance to Ignite on Fire Hit,0%,+(16% to 42%),,,,,-,-,affix_details_1
+Prefix,Chance to Ignite on Hit,0%,+(13% to 30%),,,,,-,-,affix_details_1
+Prefix,Chance to Ignite on Hit and Fire Penetration with Ignite,0%,+(15% to 20%) | (1% to 2%),,,,,-,-,affix_details_1
+Suffix,Chance To Ignite While At High Health,0%,+(15% to 40%),,,,,-,-,affix_details_1
+Suffix,Chance to Inflict Bleed On Bow Hit,0%,+(15% to 35%),,,,,-,-,affix_details_1
+Prefix,Chance to Inflict Bleed On Cold Hit,0%,+(20% to 60%),,,,,-,-,affix_details_1
+Prefix,Chance to Inflict Bleed On Hit,0%,+(13% to 36%),,,,,-,-,affix_details_1
+Prefix,Chance to Inflict Bleed on Hit and Physical Penetration with Bleed,0%,+(15% to 20%) | (1% to 2%),,,,,-,-,affix_details_1
+Prefix,Chance to Inflict Bleed on Hit with Shurikens,0%,+(15% to 40%),,,,,-,-,affix_details_1
+Suffix,Chance to Inflict Bleed on Melee Hit for You and Your Minions,0%,+(15% to 40%) | +(15% to 40%),,,,,-,-,affix_details_1
+Suffix,Chance To Inflict Bleed On Physical Spell Hit,0%,+(22% to 60%),,,,,-,-,affix_details_1
+Suffix,Chance to Inflict Bleed while at High Health,0%,+(15% to 40%),,,,,-,-,affix_details_1
+Suffix,Chance to inflict Time Rot on hit with Void Skills and Increased Void Damage,0%,+1% | +(1% to 2%),+2% | +(3% to 4%),+3% | +(5% to 6%),+4% | +(7% to 8%),+5% | +(9% to 10%),+(6% to 7%) | +(12% to 15%),+(8% to 10%) | +(16% to 20%),affix_details_1
+Suffix,Chance to not consume Potion on use and Ward gained on potion use,65%,+1% | (2 to 4),+2% | (5 to 7),+3% | (8 to 10),+4% | (11 to 15),+5% | (16 to 22),+(6% to 7%) | (25 to 35),+(8% to 10%) | (36 to 50),affix_details_1
+Suffix,Chance to not Consume Silver Shrouds when hit and Ward granted per silver shroud,0%,1% | +(10 to 12),2% | +(13 to 15),3% | +(16 to 18),4% | +(19 to 21),5% | +(22 to 25),(6% to 7%) | +(34 to 40),(8% to 10%) | +(41 to 50),affix_details_1
+Prefix,Chance to Poison on Hit,0%,+(11% to 30%),,,,,-,-,affix_details_1
+Prefix,Chance to Poison on Hit and Poison Penetration with Poison,0%,+(15% to 20%) | (1% to 2%),,,,,-,-,affix_details_1
+Prefix,Chance to Shock on Hit,0%,+(19% to 50%),,,,,-,-,affix_details_1
+Prefix,Chance to Shock on Hit and Increased Shock Duration,0%,+(20% to 30%) | (10% to 20%),,,,,-,-,affix_details_1
+Prefix,Chance To Shock With Lightning Skills,0%,+(30% to 80%),,,,,-,-,affix_details_1
+Prefix,Chance to Shred Armor on Bow Hit,0%,+(30% to 80%),,,,,-,-,affix_details_1
+Suffix,Chance To Shred Armor on Hit,0%,+(22% to 60%),,,,,-,-,affix_details_1
+Suffix,Chance To Shred Armor on Hit With Fire Skills,0%,+(30% to 80%),,,,,-,-,affix_details_1
+Suffix,Chance To Shred Armor on Hit with Throwing Attacks,0%,+(30% to 80%),,,,,-,-,affix_details_1
+Prefix,Chance to Shred Armor on Melee Hit,0%,+(30% to 80%),,,,,-,-,affix_details_1
+Suffix,Chance To Shred Armor on Melee Hit,0%,+(30% to 80%),,,,,-,-,affix_details_1
+Prefix,Chance to Shred Armor on Throwing Hit,0%,+(30% to 80%),,,,,-,-,affix_details_1
+Suffix,Chance to Slow on Bow Hit,0%,+(10% to 21%),,,,,-,-,affix_details_1
+Suffix,Chance To Slow With Void Skills,0%,+(25% to 60%),,,,,-,-,affix_details_1
+Prefix,Melee Damage while Transformed,0%,+(22% to 60%),,,,,-,-,affix_details_4
+Prefix,Melee Elemental Damage,0%,+(28% to 70%),,,,,-,-,affix_details_4
+Suffix,Melee Fire Damage,0%,+(2 to 4),,,,,-,-,affix_details_4
+Suffix,Melee Lightning Damage,0%,+(2 to 4),,,,,-,-,affix_details_4
+Prefix,Melee Physical Damage For Swarm Strike and Locusts,0%,+(3 to 8) | +(2 to 4),,,,,-,-,affix_details_4
+Suffix,Melee Void Damage,0%,+(33% to 90%),,,,,-,-,affix_details_4
+Suffix,Minion Bow Attack Speed and Added Minion Bow Damage,0%,+1%+1,+1%+2,+2%+3,+3%+4,+4%+5,+(5% to 6%) | +(6 to 7),+(7% to 8%) | +(8 to 10),affix_details_4
+Suffix,Minion Cast Speed and Added Minion Spell Damage,0%,+1%+1,+1%+2,+2%+3,+3%+4,+4%+5,+(5% to 6%) | +(6 to 7),+(7% to 8%) | +(8 to 10),affix_details_4
+Suffix,Minion Chance To Apply Mark For Death On Hit,0%,+(4% to 10%),,,,,-,-,affix_details_4
+Suffix,Minion Chance to Inflict Bleed On Hit,0%,+(19% to 52%),,,,,-,-,affix_details_4
+Prefix,Minion Chance To Inflict Plague on Hit,0%,+(4% to 10%),,,,,-,-,affix_details_4
+Suffix,Minion Chance To Poison On Hit,0%,+(11% to 30%),,,,,-,-,affix_details_4
+Prefix,Minion Cold Damage,0%,+(39% to 108%),,,,,-,-,affix_details_4
+Suffix,Minion Critical Strike Chance,0%,+(22% to 60%),,,,,-,-,affix_details_4
+Suffix,Minion Dodge Rating,0%,+(89 to 240),,,,,-,-,affix_details_4
+Prefix,Minion Fire Damage,0%,+(39% to 108%),,,,,-,-,affix_details_4
+Prefix,Minion Increased Cooldown Recovery Speed,0%,(7% to 20%),,,,,-,-,affix_details_4
+Prefix,Minion Increased Healing Effectiveness,0%,(39% to 105%),,,,,-,-,affix_details_4
+Suffix,Minion Leech and Added Minion Regen,0%,+0.1% | +(1 to 3),+0.1% | +(4 to 5),+0.1% | +(6 to 8),+0.1% | +(9 to 11),+0.1% | +(12 to 15),+0.2% | +(20 to 24),+0.3% | +(25 to 30),affix_details_4
+Suffix,Minion Melee Attack Speed,0%,+(9% to 24%),,,,,-,-,affix_details_4
+Suffix,Minion Melee Attack Speed and Added Minion Melee Damage,0%,+1%+2,+1%+3,+2%+4,+3%+5,+4%+6,+(5% to 6%) | +(8 to 9),+(7% to 8%) | +(10 to 12),affix_details_4
+Prefix,Minion Melee Critical Strike Chance,0%,+(1% to 2%),,,,,-,-,affix_details_4
+Prefix,Minion Melee Damage Leeched as Health,0%,+(1% to 3%),,,,,-,-,affix_details_4
+Suffix,Minion Throwing Attack Speed and Added Minion Throwing Damage,0%,+1%+1,+1%+2,+2%+3,+3%+4,+4%+5,+(5% to 6%) | +(6 to 7),+(7% to 8%) | +(8 to 10),affix_details_4
+Prefix,Necrotic Penetration and Minion Necrotic Penetration,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-,affix_details_4
+Prefix,Necrotic Penetration and Minion Necrotic Penetration,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-,affix_details_4
+Suffix,Necrotic Resistance,0%,+(20% to 45%),,,,,-,-,affix_details_4
+Suffix,Necrotic Resistance and Minion Necrotic Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_4
+Suffix,Necrotic Resistance and Minion Necrotic Resistance,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-,affix_details_4
+Prefix,Necrotic Spell Damage per Skeletal Mage,0%,+(1 to 2),,,,,-,-,affix_details_4
+Suffix,Percent Missing Health Restored On Lunge,0%,(5% to 12%),,,,,-,-,affix_details_4
+Suffix,Physical And Poison Damage,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-,affix_details_4
+Suffix,Physical Damage Over Time,0%,+(33% to 90%),,,,,-,-,affix_details_4
+Suffix,Physical Damage Over Time,0%,+(33% to 90%),,,,,-,-,affix_details_4
+Prefix,Physical Penetration and Minion Physical Penetration,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-,affix_details_4
+Prefix,Physical Penetration and Minion Physical Penetration,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-,affix_details_4
+Prefix,Physical Penetration while wielding a Dagger,0%,(4% to 9%),,,,,-,-,affix_details_4
+Prefix,Physical Penetration with Puncture,0%,+(5% to 12%),,,,,-,-,affix_details_4
+Prefix,Physical Penetration with Shadow Daggers,0%,(16% to 36%),,,,,-,-,affix_details_4
+Suffix,Physical Resistance,0%,+(20% to 45%),,,,,-,-,affix_details_4
+Suffix,Physical Resistance and Bleed Duration,0%,+1%1%,+2%2%,+(3% to 4%) | (3% to 4%),+(5% to 6%) | (5% to 6%),+(7% to 8%) | (7% to 8%),+(10% to 12%) | (10% to 12%),+(13% to 15%) | (13% to 15%),affix_details_4
+Suffix,Physical Resistance and Minion Physical Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_4
+Suffix,Physical Resistance and Minion Physical Resistance,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-,affix_details_4
+Prefix,Plague Chance On Hit And Penetration,0%,+(9% to 25%) | (9% to 25%),,,,,-,-,affix_details_4
+Suffix,Poison Chance On Spell Hit,0%,+(15% to 36%),,,,,-,-,affix_details_4
+Prefix,Poison Chance per Equipped Dagger,0%,+(13% to 35%),,,,,-,-,affix_details_4
+Suffix,Poison Chance While At Low Health,0%,+(15% to 40%),,,,,-,-,affix_details_4
+Suffix,Poison Duration and Chance to throw Acid Flask on Bow Hit (3 second cooldown),0%,1%1%,2%2%,3%3%,4%4%,5%5%,(6% to 7%) | (6% to 7%),(8% to 10%) | (8% to 10%),affix_details_4
+Prefix,Poison Penetration and Minion Poison Penetration,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-,affix_details_4
+Prefix,Poison Penetration and Minion Poison Penetration,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-,affix_details_4
+Suffix,Poison Resistance,0%,+(20% to 45%),,,,,-,-,affix_details_4
+Suffix,Poison Resistance and Minion Poison Resistance,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-,affix_details_4
+Suffix,Poison Resistance and Minion Poison Resistance,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-,affix_details_4
+Prefix,Potion Health Converted to Ward,0%,(20% to 55%),,,,,-,-,affix_details_4
+Prefix,Potion Health Converted to Ward and Ward Gained on Potion use,0%,(22% to 25%) | (30 to 40),,,,,-,-,affix_details_4
+Suffix,Reap Cooldown Recovery Speed and Chance to cast Harvest at up to 3 nearby enemies when you use Reap,0%,+1% | +(2% to 3%),+2% | +(4% to 5%),+3% | +(6% to 7%),+4% | +(8% to 9%),+5% | +(10% to 12%),+(6% to 7%) | +(16% to 19%),+(8% to 10%) | +(20% to 25%),affix_details_4
+Suffix,Reduced Bonus Damage Taken from Crits and Increased Critical Strike Chance,0%,(2% to 4%) | +(5% to 15%),,,,,-,-,affix_details_4
+Prefix,Reduced Health Cost of Spells,0%,(6% to 15%),,,,,-,-,affix_details_4
+Suffix,Rogue Caltrops Area and Armor Shred,0%,(9% to 25%) | +(10% to 28%),,,,,-,-,affix_details_4
+Prefix,Rogue Falcon Poison and Bleed Chance,0%,(15% to 25%) | (15% to 25%),,,,,-,-,affix_details_4
+Prefix,Rogue Recurve Chance and Bow Damage,0%,+(10% to 20%) | (5% to 20%),,,,,-,-,affix_details_4
+Prefix,Seconds of Stun Immunity after using Teleport,0%,+(2 to 3),,,,,-,-,affix_details_4
+Suffix,Shared Cold Damage,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_4
+Prefix,Shared Critical Strike Multiplier,0%,+(10% to 26%) | +(10% to 26%),,,,,-,-,affix_details_4
+Suffix,Shared Fire Damage,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_4
+Suffix,Shared Lightning Damage,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_4
+Suffix,Shared Necrotic Damage,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_4
+Suffix,Shared Physical Damage,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_4
+Suffix,Shared Poison Damage,0%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_4
+Suffix,Shared Void Damage,20%,+(17% to 45%) | +(17% to 45%),,,,,-,-,affix_details_4
+Prefix,Shield Throw Base Damage Converted to Void,0%,+100%,,,,,-,-,affix_details_4
+Suffix,Shock duration and Endurance threshold against shocked enemies,0%,(1% to 2%) | +(10 to 14),(3% to 4%) | +(15 to 19),(5% to 6%) | +(20 to 24),(7% to 8%) | +(25 to 30),(9% to 10%) | +(31 to 35),(12% to 15%) | +(45 to 55),(16% to 20%) | +(56 to 70),affix_details_4
+Suffix,Silver Shroud duration and Ward granted per silver shroud,0%,(1% to 2%) | +(1 to 2),(3% to 4%) | +(3 to 4),(5% to 6%) | +(5 to 6),(7% to 8%) | +(7 to 8),(9% to 10%) | +(9 to 10),(12% to 15%) | +(12 to 15),(16% to 20%) | +(16 to 20),affix_details_4
+Suffix,Spark Charge Chance on Lightning Melee Hit and Increased Lightning Skill Area,0%,+1% | (1% to 2%),+2% | (3% to 4%),+3% | (5% to 6%),+4% | (7% to 8%),+5% | (9% to 10%),+(6% to 7%) | (12% to 15%),+(8% to 10%) | (16% to 20%),affix_details_4
+Suffix,Spell Cold Damage,0%,+(2 to 4),,,,,-,-,affix_details_4
+Prefix,Spell Damage for Curses,0%,+(6 to 15),,,,,-,-,affix_details_4
+Suffix,Spell Damage For You And Your Minions,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-,affix_details_4
+Suffix,Spell Damage Leeched While Channelling,0%,+(1% to 3%),,,,,-,-,affix_details_4
+Suffix,Spell Damage while at Low Health,0%,+(20% to 75%),,,,,-,-,affix_details_4
+Prefix,Spell Damage while Transformed,0%,+(22% to 60%),,,,,-,-,affix_details_4
+Suffix,Spell Fire Damage,0%,+(2 to 4),,,,,-,-,affix_details_4
+Suffix,Spell Lightning Damage,0%,+(2 to 4),,,,,-,-,affix_details_4
+Suffix,Spell Physical Critical Strike Chance,0%,+(24% to 65%),,,,,-,-,affix_details_4
+Prefix,Static Charges Generated per Second,0%,+(2 to 5),,,,,-,-,affix_details_4
+Prefix,Stun Avoidance,0%,+(200 to 450),,,,,-,-,affix_details_4
+Prefix,Symbol Duration And Gain Rate,0%,(8% to 20%) | (10% to 28%),,,,,-,-,affix_details_4
+Prefix,Throwing Attack Critical Strike Multiplier,0%,+(13% to 35%),,,,,-,-,affix_details_4
+Suffix,Throwing Damage,0%,+(17% to 45%),,,,,-,-,affix_details_4
+Prefix,Throwing Damage with Caltrops,0%,+(4 to 10),,,,,-,-,affix_details_4
+Suffix,Throwing Physical Damage,0%,+(22% to 60%),,,,,-,-,affix_details_4
+Prefix,Totem Armor,0%,+(178 to 480),,,,,-,-,affix_details_4
+Suffix,Totem Damage,0%,+(30% to 80%),,,,,-,-,affix_details_4
+Prefix,Totem Elemental Resistance,0%,+(15% to 40%),,,,,-,-,affix_details_4
+Suffix,Totem Health,0%,+(61% to 165%),,,,,-,-,affix_details_4
+Prefix,Vitality,0%,+(3 to 7),,,,,-,-,affix_details_4
+Prefix,Vitality and Added Health Regen,0%,+(4 to 5) | +(2 to 4),,,,,-,-,affix_details_4
+Suffix,Void Damage Over Time,0%,+(33% to 90%),,,,,-,-,affix_details_4
+Prefix,Void Penetration and Minion Void Penetration,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-,affix_details_4
+Prefix,Void Penetration and Minion Void Penetration,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-,affix_details_4
+Suffix,Void Resistance,0%,+(20% to 45%),,,,,-,-,affix_details_4

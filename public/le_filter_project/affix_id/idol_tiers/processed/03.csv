@@ -1,0 +1,101 @@
+Name,Affix Type,Reroll %,Tier1,Tier2,Tier3,Tier4,Tier5,Tier6,Tier7
+Increased Aspect of the Boar Effect,Suffix,0%,(5% to 12%),,,,,-,-
+Increased Aspect of the Lynx Duration,Suffix,0%,(15% to 40%),,,,,-,-
+Increased Aspect of the Lynx Effect,Prefix,0%,(10% to 25%),,,,,-,-
+Increased Aspect of the Shark Duration,Prefix,0%,(7% to 25%),,,,,-,-
+Increased Aspect of the Shark Effect,Suffix,0%,(6% to 20%),,,,,-,-
+Increased Aspect of the Viper Duration,Prefix,0%,(15% to 40%),,,,,-,-
+Increased Aspect of the Viper Effect,Suffix,0%,(10% to 25%),,,,,-,-
+Increased Aura of Decay Area,Prefix,0%,+(10% to 30%),,,,,-,-
+Increased Bleed Duration,Prefix,0%,(10% to 40%),,,,,-,-
+Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown),Prefix,0%,(7% to 21%),,,,,-,-
+Increased Cast Speed while Cursed,Prefix,0%,(13% to 33%),,,,,-,-
+Increased Cast Speed while you have Lightning Aegis,Prefix,0%,+(10% to 28%),,,,,-,-
+Increased Chance to Find Potions and Health Gained on Potion Use,Suffix,0%,(5% to 10%) | (20 to 40),,,,,-,-
+Increased Cold Damage (Doubled If You Have Over 300 Max Mana),Suffix,0%,(16% to 40%),,,,,-,-
+Increased Cold Damage per active Totem,Suffix,0%,(7% to 22%),,,,,-,-
+Increased Cooldown Recovery Speed and Increased Mana Regeneration,Suffix,65%,1%+1%,1%+2%,1%+3%,1%+4%,2%+5%,3% | +(6% to 7%),(4% to 5%) | +(8% to 10%)
+Increased Cooldown Recovery Speed for Surge,Prefix,0%,(6% to 18%),,,,,-,-
+Increased Cooldown Recovery Speed With Transplant,Suffix,0%,(7% to 15%),,,,,-,-
+Increased crit chance with a catalyst and Critcal Strike Multiplier with a catalyst,Suffix,0%,(1% to 2%) | +1%,(3% to 4%) | +2%,(5% to 6%) | +3%,(7% to 8%) | +4%,(9% to 10%) | +5%,(12% to 15%) | +(6% to 7%),(16% to 20%) | +(8% to 10%)
+Increased Crit Chance with Flurry,Prefix,0%,(30% to 80%),,,,,-,-
+Increased Critical Strike Chance and Added Critical Strike Multiplier,Suffix,65%,+(1% to 2%) | +1%,+(3% to 4%) | +2%,+(5% to 6%) | +3%,+(7% to 8%) | +4%,+(9% to 10%) | +5%,+(13% to 15%) | +(6% to 7%),+(16% to 18%) | +(8% to 9%)
+Increased Critical Strike Chance and Critical Strike Multiplier,Prefix,0%,+(22% to 30%) | +(3% to 6%),,,,,-,-
+Increased Critical Strike Chance per Equipped Dagger,Prefix,0%,(20% to 55%),,,,,-,-
+Increased Critical Strike Chance per Equipped Sword,Prefix,0%,(20% to 55%),,,,,-,-
+Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently,Prefix,0%,(22% to 60%),,,,,-,-
+Increased Damage Over Time and Chance to Apply Frailty on Hit,Suffix,0%,+(14% to 25%) | +(5% to 10%),,,,,-,-
+Increased damage over time and Endurance,Suffix,65%,+1%+1%,+2%+1%,+3%+2%,+4%+2%,+5%+3%,+(6% to 7%) | +4%,+(8% to 10%) | +5%
+Increased Damage Over Time and Less Damage Over Time Taken,Prefix,30%,+(11% to 15%) | 1%,,,,,-,-
+Increased Damage Over Time while you have an Ailment Overload,Prefix,0%,(31% to 93%),,,,,-,-
+Increased Damage per active Shadow with Shadow Cascade,Prefix,0%,(10% to 28%),,,,,-,-
+Increased Damage per arrow with Multishot,Prefix,0%,(3% to 6%),,,,,-,-
+Increased Damage to Skills used by Shadows,Suffix,0%,(25% to 60%),,,,,-,-
+Increased Damage while wielding a Bow,Suffix,0%,(17% to 45%),,,,,-,-
+Increased Damage while Wielding a Bow and Chance to Repeat Bow Attacks,Suffix,0%,(1% to 2%) | +1%,(3% to 5%) | +1%,(6% to 8%) | +1%,(9% to 11%) | +1%,(12% to 15%) | +2%,(20% to 24%) | +3%,(25% to 30%) | +4%
+Increased Damage while wielding a Dagger,Suffix,0%,(17% to 45%),,,,,-,-
+Increased Damage while wielding a Sword,Suffix,0%,(17% to 45%),,,,,-,-
+Increased Damage With Rip Blood And Blood Splatter,Prefix,0%,+(28% to 75%) | +(28% to 75%),,,,,-,-
+Increased Damage with Umbral Blades per stack of Dusk Shroud,Prefix,0%,(4% to 8%),,,,,-,-
+Increased Damage With Vengeance And Smite,Prefix,0%,(30% to 80%) | (30% to 80%),,,,,-,-
+Increased Duration for Profane Veil,Prefix,0%,(12% to 31%),,,,,-,-
+Increased duration with Hail of Arrows,Prefix,0%,(10% to 22%),,,,,-,-
+Increased Echo damage and Chance to gain frenzy for 3 seconds on echo,Suffix,0%,(1% to 2%) | +1%,(3% to 4%) | +1%,(5% to 6%) | +2%,(7% to 8%) | +2%,(9% to 10%) | +3%,(12% to 15%) | +4%,(16% to 20%) | +5%
+Increased Echo Damage when a Skill Echoes,Prefix,0%,(40% to 150%),,,,,-,-
+Increased Elemental Nova Area,Prefix,0%,(11% to 30%),,,,,-,-
+Increased Fire Aura Area,Prefix,0%,(15% to 36%),,,,,-,-
+Increased Fire Aura Damage,Prefix,0%,(30% to 100%),,,,,-,-
+Increased Fire Damage (Doubled If You Have Over 300 Max Mana),Suffix,0%,(16% to 40%),,,,,-,-
+Increased Frequency of expending Storm Stacks,Prefix,0%,(12% to 32%),,,,,-,-
+Increased Healing Effectiveness,Prefix,0%,(37% to 70%),,,,,-,-
+Increased Healing Effectiveness and Added health,Suffix,0%,(10% to 13%) | +(1 to 3),(14% to 16%) | +(4 to 6),(17% to 20%) | +(7 to 9),(21% to 25%) | +(10 to 12),(26% to 30%) | +(13 to 15),(40% to 47%) | +(20 to 24),(48% to 60%) | +(25 to 30)
+Increased Healing Effectiveness and Added Health,Prefix,30%,(5% to 10%) | +(14 to 18),,,,,-,-
+Increased Health Regeneration and Added Health,Prefix,30%,+(5% to 8%) | +(14 to 18),,,,,-,-
+Increased Lightning Damage (Doubled If You Have Over 300 Max Mana),Suffix,0%,(16% to 40%),,,,,-,-
+Increased Lightning Damage while you have Lightning Aegis,Prefix,50%,+(24% to 70%),,,,,-,-
+Increased mana regen and Damage Dealt to mana,Suffix,0%,+(1% to 2%) | +1%,+(3% to 4%) | +1%,+(5% to 6%) | +2%,+(7% to 8%) | +3%,+(9% to 10%) | +4%,+(12% to 15%) | +(5% to 6%),+(16% to 20%) | +(7% to 8%)
+Increased Melee Damage For 4 Seconds When a Skill Echoes,Prefix,0%,(25% to 65%),,,,,-,-
+Increased Minion Cooldown Recovery Speed,Suffix,0%,(12% to 35%),,,,,-,-
+Increased Minion Melee Stun Chance,Prefix,0%,(46% to 125%),,,,,-,-
+Increased Movement Speed and Increased Damage,Suffix,65%,+1% | +(1% to 2%),+1% | +(3% to 4%),+1% | +(5% to 6%),+1% | +(7% to 8%),+2% | +(9% to 10%),+3% | +(12% to 14%),+(4% to 5%) | +(15% to 18%)
+Increased Movement Speed while transformed and Haste after you transform,Suffix,0%,+(1% to 2%) | 1,+2%1,+3%1,+4%1,+5%2,+(6% to 7%) | 3,+(8% to 10%) | 4
+Increased Poison Damage while Aura of Decay is active,Prefix,0%,+(60% to 100%),,,,,-,-
+Increased Poison Duration and Seconds of Frenzy When you gain Poison Overload,Suffix,0%,1%1,2%1,3%1,4%1,5%2,(6% to 7%) | 3,(8% to 10%) | 4
+Increased Projectile Speed With Marrow Shards And Bone Nova,Prefix,0%,+(10% to 30%) | +(10% to 30%),,,,,-,-
+Increased Shock Duration,Prefix,0%,(6% to 15%),,,,,-,-
+Increased Spell Damage if you have an active Totem,Suffix,0%,(25% to 60%),,,,,-,-
+Increased Stun Chance,Prefix,0%,(44% to 120%),,,,,-,-
+Increased Stun Chance and Added Stun Avoidance,Prefix,0%,(21% to 30%) | +(78 to 100),,,,,-,-
+Increased Stun Chance With Throwing Attacks,Prefix,0%,(56% to 150%),,,,,-,-
+Increased Stun Duration,Prefix,0%,(15% to 40%),,,,,-,-
+Increased Stun Duration and Increased Stun Chance,Prefix,0%,(16% to 20%) | (40% to 60%),,,,,-,-
+Increased Throwing Damage and Increased Damage while Dual Wielding,Suffix,0%,+4%4%,+5%5%,+6%6%,+7%7%,+8%8%,+(10% to 12%) | (10% to 12%),+(13% to 16%) | (13% to 16%)
+Increased Time Rot Duration,Prefix,0%,(15% to 40%),,,,,-,-
+Increased Totem Damage and Totem Teleportation on Traversal,Suffix,0%,+(1% to 2%) | +1,+(3% to 4%) | +1,+(5% to 7%) | +1,+(8% to 11%) | +1,+(12% to 15%) | +1,+(20% to 24%) | +2,+(25% to 30%) | +3
+Increased Void Damage For 4 Seconds When a Skill Echoes,Prefix,0%,(30% to 80%),,,,,-,-
+Increased Volcanic Orb Damage And Reduced Speed,Prefix,0%,(20% to 55%) | (20% to 55%),,,,,-,-
+Increased Warpath Area,Prefix,0%,+(10% to 30%),,,,,-,-
+Less damage over time taken while using a shield and Health gained on block,Suffix,0%,+1% | (1 to 2),+1% | (3 to 4),+1% | (5 to 6),+1% | (7 to 9),+1% | (10 to 12),+2% | (16 to 19),+3% | (20 to 24)
+Less frequency of Storm Stacks and Added Damage With Storm Bolt,Prefix,0%,(12% to 30%) | +(6 to 18),,,,,-,-
+Lightning Damage Taken as Physical,Prefix,0%,+(8% to 20%),,,,,-,-
+Lightning Damage with Hammer Throw,Prefix,0%,+(4 to 12),,,,,-,-
+Lightning Damage with Shurikens,Prefix,0%,+(4 to 8) | +(50% to 80%),,,,,-,-
+Lightning Penetration and Minion Lightning Penetration,Prefix,0%,+(1% to 2%) | +(1% to 2%),,,,,-,-
+Lightning Penetration and Minion Lightning Penetration,Prefix,0%,+(3% to 4%) | +(3% to 4%),,,,,-,-
+Lightning Resistance,Suffix,0%,+(20% to 45%),,,,,-,-
+Lightning Resistance and Minion Lightning Resistance,Suffix,0%,+(9% to 12%) | +(9% to 12%),,,,,-,-
+Lightning Resistance and Minion Lightning Resistance,Suffix,0%,+(18% to 23%) | +(18% to 23%),,,,,-,-
+Mana,Prefix,0%,+(15 to 40),,,,,-,-
+Mana And Armor,Suffix,0%,+(5% to 12%) | +(5% to 12%),,,,,-,-
+Mana and Increased Mana Regen,Prefix,0%,+(8 to 12) | +(2% to 5%),,,,,-,-
+Mana Efficiency and Wither Chance with Soul Feast,Prefix,0%,+(7% to 19%) | (21% to 55%),,,,,-,-
+Mana Efficiency with Decoy,Suffix,0%,+(8% to 16%),,,,,-,-
+Mana Efficiency with Ghostflame,Prefix,0%,+(9% to 21%),,,,,-,-
+Mana Efficiency with Synchronised Strike,Prefix,0%,+(8% to 16%),,,,,-,-
+Mana Efficiency With Void Spells,Prefix,0%,+(9% to 25%),,,,,-,-
+Mana Gained When Transforming Back To Human Form,Prefix,0%,+(5 to 15),,,,,-,-
+Mana Increased and Mana regen with a minion,Suffix,0%,+(1 to 2) | (1% to 2%),+(3 to 4) | (3% to 4%),+(5 to 6) | (5% to 6%),+(7 to 8) | (7% to 8%),+(9 to 10) | (9% to 10%),+(12 to 15) | (12% to 15%),+(16 to 20) | (16% to 20%)
+Mana Spent Gained as Ward,Suffix,0%,+(12% to 40%),,,,,-,-
+Melee Cold Damage,Suffix,0%,+(2 to 4),,,,,-,-
+Melee Damage and Spell Damage,Suffix,0%,+1+1,+1+1,+2+2,+3+3,+4+4,+(5 to 6) | +(5 to 6),+(7 to 8) | +(7 to 8)
+Melee Damage For You And Your Minions,Suffix,0%,+(18% to 48%) | +(18% to 48%),,,,,-,-

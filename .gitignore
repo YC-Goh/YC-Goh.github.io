@@ -181,7 +181,7 @@ node_modules/
 next-env.d.ts
 
 # Hide data
-public/*/raw/
+public/**/raw/
 
 # Hide automation logs
 public/*/*.clog

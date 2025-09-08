@@ -1,0 +1,452 @@
+{
+  "loot_filter_skeleton": {
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the filter",
+      "example": "New Filter"
+    },
+    "filterIcon": {
+      "type": "integer",
+      "description": "Icon ID for the filter display",
+      "example": 9
+    },
+    "filterIconColor": {
+      "type": "integer", 
+      "description": "Color ID for the filter icon",
+      "example": 15
+    },
+    "description": {
+      "type": "string",
+      "description": "Optional description of what the filter does",
+      "example": "Optional Description"
+    },
+    "lastModifiedInVersion": {
+      "type": "string",
+      "description": "Version string when filter was last modified",
+      "example": "1.3.2.1"
+    },
+    "lootFilterVersion": {
+      "type": "integer",
+      "description": "Schema version of the loot filter format",
+      "example": 5
+    },
+    "rules": {
+      "type": "array",
+      "description": "Array of filter rules, processed in order",
+      "items": {
+        "$ref": "#/rule_types"
+      }
+    }
+  },
+  
+  "rule_types": {
+    "base_rule": {
+      "type": {
+        "type": "string",
+        "enum": ["SHOW", "HIDE"],
+        "description": "Whether to show or hide items matching conditions"
+      },
+      "conditions": {
+        "type": "array",
+        "description": "Array of conditions that must be met",
+        "items": {
+          "$ref": "#/condition_types"
+        }
+      },
+      "color": {
+        "type": "integer",
+        "description": "Color ID for highlighting matched items",
+        "example": 0
+      },
+      "isEnabled": {
+        "type": "boolean",
+        "description": "Whether this rule is active",
+        "example": true
+      },
+      "emphasized": {
+        "type": "boolean",
+        "description": "Whether to emphasize matched items",
+        "example": false
+      },
+      "nameOverride": {
+        "type": "string",
+        "description": "Optional override for item display name",
+        "example": "Overwritten Name"
+      },
+      "SoundId": {
+        "type": "integer",
+        "description": "Sound ID to play when item drops",
+        "example": 0
+      },
+      "BeamId": {
+        "type": "integer", 
+        "description": "Beam effect ID for item drops",
+        "example": 0
+      },
+      "Order": {
+        "type": "integer",
+        "description": "Processing order (higher numbers processed first)",
+        "example": 13
+      },
+      "levelDependent_deprecated": {
+        "type": "boolean",
+        "description": "Deprecated field for level dependency",
+        "example": false
+      },
+      "minLvl_deprecated": {
+        "type": "integer",
+        "description": "Deprecated minimum level field",
+        "example": 0
+      },
+      "maxLvl_deprecated": {
+        "type": "integer",
+        "description": "Deprecated maximum level field", 
+        "example": 0
+      }
+    }
+  },
+
+  "condition_types": {
+    "AffixCondition": {
+      "type": "AffixCondition",
+      "description": "Matches items based on their affixes",
+      "properties": {
+        "affixes": {
+          "type": "array",
+          "items": {"type": "integer"},
+          "description": "Array of affix IDs to match",
+          "example": [50, 504, 503, 502, 501, 505]
+        },
+        "comparsion": {
+          "type": "string",
+          "enum": ["LESS", "MORE", "EQUAL"],
+          "description": "Comparison operator for affix count"
+        },
+        "comparsionValue": {
+          "type": "integer",
+          "description": "Value to compare against",
+          "example": 2
+        },
+        "minOnTheSameItem": {
+          "type": "integer",
+          "description": "Minimum number of matching affixes on same item",
+          "example": 1
+        },
+        "combinedComparsion": {
+          "type": "string", 
+          "enum": ["LESS", "MORE", "EQUAL"],
+          "description": "Comparison for combined affix values"
+        },
+        "combinedComparsionValue": {
+          "type": "integer",
+          "description": "Combined value threshold",
+          "example": 4
+        },
+        "advanced": {
+          "type": "boolean",
+          "description": "Whether this uses advanced matching logic",
+          "example": true
+        }
+      }
+    },
+
+    "AffixCountCondition": {
+      "type": "AffixCountCondition", 
+      "description": "Matches items based on affix counts and seal status",
+      "properties": {
+        "minPrefixes": {
+          "type": "integer",
+          "nullable": true,
+          "description": "Minimum number of prefix affixes"
+        },
+        "maxPrefixes": {
+          "type": "integer",
+          "description": "Maximum number of prefix affixes"
+        },
+        "minSuffixes": {
+          "type": "integer", 
+          "nullable": true,
+          "description": "Minimum number of suffix affixes"
+        },
+        "maxSuffixes": {
+          "type": "integer",
+          "description": "Maximum number of suffix affixes"
+        },
+        "sealedType": {
+          "type": "string",
+          "enum": ["Sealed", "SealedPrefix", "SealedSuffix", "NotSealed"],
+          "description": "Required seal status of the item"
+        }
+      }
+    },
+
+    "CharacterLevelCondition": {
+      "type": "CharacterLevelCondition",
+      "description": "Matches based on character level",
+      "properties": {
+        "minimumLvl": {
+          "type": "integer",
+          "description": "Minimum character level",
+          "example": 4
+        },
+        "maximumLvl": {
+          "type": "integer", 
+          "description": "Maximum character level",
+          "example": 5
+        }
+      }
+    },
+
+    "ClassCondition": {
+      "type": "ClassCondition",
+      "description": "Matches items usable by specific classes", 
+      "properties": {
+        "req": {
+          "type": "string",
+          "description": "Required class(es), space-separated for multiple",
+          "enum": ["Primalist", "Mage", "Sentinel", "Acolyte", "Rogue", "None", "Primalist Mage Sentinel"],
+          "example": "Primalist"
+        }
+      }
+    },
+
+    "CraftingMaterialsCondition": {
+      "type": "CraftingMaterialsCondition",
+      "description": "Matches crafting materials",
+      "properties": {
+        "NonEquippableItemFilterFlags": {
+          "type": "string",
+          "enum": [
+            "CommonShards", "CommonRunes", "CommonGlyphs",
+            "RareShards", "RareRunes", "RareGlyphs", 
+            "AllCommon", "AllRare", "AllCrafting"
+          ],
+          "description": "Type of crafting materials to match"
+        }
+      }
+    },
+
+    "FactionCondition": {
+      "type": "FactionCondition",
+      "description": "Matches items based on faction requirements",
+      "properties": {
+        "EligibleFactions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["CircleOfFortune", "MerchantsGuild"]
+          },
+          "description": "Factions that can use this item"
+        }
+      }
+    },
+
+    "KeysCondition": {
+      "type": "KeysCondition", 
+      "description": "Matches keys and special materials",
+      "properties": {
+        "NonEquippableItemFilterFlags": {
+          "type": "string",
+          "enum": [
+            "ArenaKeys", "DungeonKeys", "DungeonCharms",
+            "LizardTails", "HarbingerEye", "PrimordialMaterials", "AllKeys"
+          ],
+          "description": "Type of keys/materials to match"
+        }
+      }
+    },
+
+    "LevelCondition": {
+      "type": "LevelCondition",
+      "description": "Matches items based on item level",
+      "properties": {
+        "treshold": {
+          "type": "integer",
+          "description": "Level threshold value",
+          "example": 5
+        },
+        "type": {
+          "type": "string", 
+          "enum": [
+            "BELOW_LEVEL", "ABOVE_LEVEL", 
+            "MAX_LVL_BELOW_CHARACTER_LEVEL", "HIGHEST_USABLE_LEVEL"
+          ],
+          "description": "Type of level comparison"
+        }
+      }
+    },
+
+    "RarityCondition": {
+      "type": "RarityCondition",
+      "description": "Matches items based on rarity and legendary properties",
+      "properties": {
+        "rarity": {
+          "type": "string",
+          "description": "Required rarity, space-separated for multiple",
+          "example": "UNIQUE LEGENDARY"
+        },
+        "minLegendaryPotential": {
+          "type": "integer",
+          "description": "Minimum legendary potential",
+          "example": 1
+        },
+        "maxLegendaryPotential": {
+          "type": "integer",
+          "description": "Maximum legendary potential", 
+          "example": 2
+        },
+        "minWeaversWill": {
+          "type": "integer",
+          "description": "Minimum weaver's will",
+          "example": 3
+        },
+        "maxWeaversWill": {
+          "type": "integer",
+          "description": "Maximum weaver's will",
+          "example": 4
+        },
+        "advanced_DEPRECATED": {
+          "type": "boolean",
+          "description": "Deprecated advanced field",
+          "example": false
+        },
+        "requiredLegendaryPotential_DEPRECATED": {
+          "type": "integer", 
+          "description": "Deprecated legendary potential field",
+          "example": 0
+        },
+        "requiredWeaversWill_DEPRECATED": {
+          "type": "integer",
+          "description": "Deprecated weaver's will field", 
+          "example": 0
+        }
+      }
+    },
+
+    "ResonancesCondition": {
+      "type": "ResonancesCondition",
+      "description": "Matches resonance items",
+      "properties": {
+        "NonEquippableItemFilterFlags": {
+          "type": "string",
+          "enum": ["GoldResonance", "ObsidianResonance", "AllResonances"],
+          "description": "Type of resonances to match"
+        }
+      }
+    },
+
+    "WovenEchoesCondition": {
+      "type": "WovenEchoesCondition",
+      "description": "Matches woven echoes items", 
+      "properties": {
+        "NonEquippableItemFilterFlags": {
+          "type": "string",
+          "enum": [
+            "WovenEchoesRank1", "WovenEchoesRank10",
+            "WovenEchoesUnpurchasable", "AllWovenEchoes"
+          ],
+          "description": "Type of woven echoes to match"
+        }
+      }
+    },
+
+    "UniqueModifiersCondition": {
+      "type": "UniqueModifiersCondition",
+      "description": "Matches unique items with specific modifier roll ranges",
+      "properties": {
+        "Uniques": {
+          "type": "array",
+          "items": {
+            "UniqueId": {
+              "type": "integer",
+              "description": "ID of the unique item",
+              "example": 38
+            },
+            "Rolls": {
+              "type": "array",
+              "items": {
+                "RollId": {
+                  "type": "integer",
+                  "description": "ID of the modifier roll",
+                  "example": 0
+                },
+                "Modifier": {
+                  "LessIsBetter": {
+                    "type": "boolean",
+                    "description": "Whether lower values are better for this modifier",
+                    "example": false
+                  },
+                  "MinRoll": {
+                    "type": "integer",
+                    "description": "Minimum acceptable roll value",
+                    "example": 196
+                  },
+                  "MaxRoll": {
+                    "type": "integer",
+                    "description": "Maximum acceptable roll value", 
+                    "example": 255
+                  }
+                }
+              }
+            }
+          },
+          "description": "Array of unique items with their modifier requirements"
+        }
+      }
+    },
+
+    "SubTypeCondition": {
+      "type": "SubTypeCondition",
+      "description": "Matches items based on equipment type and subtype",
+      "properties": {
+        "type": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "ONE_HANDED_AXE", "ONE_HANDED_MACES", "ONE_HANDED_SCEPTRE",
+              "ONE_HANDED_SWORD", "WAND", "ONE_HANDED_DAGGER"
+            ]
+          },
+          "description": "Array of equipment types to match"
+        },
+        "subTypes": {
+          "type": "array", 
+          "items": {"type": "integer"},
+          "description": "Array of subtype IDs (empty array matches all subtypes)",
+          "example": [0, 12]
+        }
+      }
+    }
+  },
+
+  "enums": {
+    "rule_action": ["SHOW", "HIDE"],
+    "comparison_operator": ["LESS", "MORE", "EQUAL"],
+    "sealed_type": ["Sealed", "SealedPrefix", "SealedSuffix", "NotSealed"],
+    "character_class": ["Primalist", "Mage", "Sentinel", "Acolyte", "Rogue", "None"],
+    "level_condition_type": [
+      "BELOW_LEVEL", "ABOVE_LEVEL", 
+      "MAX_LVL_BELOW_CHARACTER_LEVEL", "HIGHEST_USABLE_LEVEL"
+    ],
+    "crafting_materials": [
+      "CommonShards", "CommonRunes", "CommonGlyphs",
+      "RareShards", "RareRunes", "RareGlyphs",
+      "AllCommon", "AllRare", "AllCrafting"
+    ],
+    "faction": ["CircleOfFortune", "MerchantsGuild"],
+    "keys_materials": [
+      "ArenaKeys", "DungeonKeys", "DungeonCharms", 
+      "LizardTails", "HarbingerEye", "PrimordialMaterials", "AllKeys"
+    ],
+    "resonances": ["GoldResonance", "ObsidianResonance", "AllResonances"],
+    "woven_echoes": [
+      "WovenEchoesRank1", "WovenEchoesRank10",
+      "WovenEchoesUnpurchasable", "AllWovenEchoes"
+    ],
+    "equipment_types": [
+      "ONE_HANDED_AXE", "ONE_HANDED_MACES", "ONE_HANDED_SCEPTRE",
+      "ONE_HANDED_SWORD", "WAND", "ONE_HANDED_DAGGER"
+    ]
+  }
+}

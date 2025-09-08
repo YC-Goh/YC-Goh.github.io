@@ -1,0 +1,684 @@
+Name,Type,Applies To
++1 Skeleton and Increased Skeleton Damage,Prefix,Body Armor
+Abyssal Decay Duration,Prefix,Grand Idol [3×1]
+Added Javelin Lightning Throwing Damage,Prefix,Helmet
+Added Melee And Spell Necrotic Damage,Prefix,"Two-Handed Axe, One-Handed Axe, Dagger"
+Added Minion Melee Crit Chance,Prefix,Body Armor
+Added Physical Throwing Damage while Dual Wielding,Prefix,Helmet
+Added Static Orb Tendrils,Prefix,Grand Idol [3×1]
+Armor,Prefix,"Minor Idol [1×1], Ornate Idol [4×1]"
+Armor And Minion Armor,Prefix,"Helmet, Body Armor"
+Armor granted by Bone Armor,Prefix,Grand Idol [3×1]
+Armor Shred Chance for Locusts,Prefix,Body Armor
+Attunement,Prefix,"Helmet, Body Armor, Boots, Ring, Gloves, Relic"
+Bees Per 10 Seconds,Prefix,Ornate Idol [4×1]
+Black Arrows dropped by Dark Quiver and Increased Bow Damage,Prefix,Ornate Idol [4×1]
+Black Arrows dropped by Dark Quiver and Increased Bow Damage,Prefix,Body Armor
+Bleed Chance per Equipped Sword,Prefix,Adorned Idol [2×2]
+Bleed Chance per Equipped Sword,Prefix,Body Armor
+Bleed Duration For You And Your Minions,Prefix,Adorned Idol [2×2]
+Block Chance,Prefix,Shield
+Block Effectiveness,Prefix,Shield
+Bow Attack Speed,Prefix,"Bow, Quiver"
+Bow Cold Damage,Prefix,"Bow, Quiver"
+Bow Damage,Prefix,"Bow, Quiver"
+Bow Elemental Damage,Prefix,Ornate Idol [4×1]
+Bow Elemental Damage,Prefix,Helmet
+Bow Fire Damage,Prefix,"Bow, Quiver"
+Bow Lightning Damage,Prefix,"Bow, Quiver"
+Bow Physical Damage,Prefix,"Bow, Quiver"
+Bow Physical Damage for Ballistae,Prefix,Adorned Idol [2×2]
+Cast Speed,Prefix,"Wand, Sceptre, Dagger, Two-Handed Staff, Gloves, Off-Hand Catalyst, Relic"
+Cast Speed for Totems,Prefix,Ornate Idol [4×1]
+Cast Speed for Totems,Prefix,"Helmet, Body Armor"
+Chance for +30 Throwing Fire Damage with Shield Throw,Prefix,Grand Idol [3×1]
+Chance for 3 additional projectiles when you directly cast Chaos Bolts,Prefix,Helmet
+Chance For Additional Multistrike Swords,Prefix,Huge Idol [1×4]
+Chance for Hungering Souls to fire 6 Additional Projectiles,Prefix,Ornate Idol [4×1]
+Chance for Summon Wraith to summon a Flame Wraith instead,Prefix,Adorned Idol [2×2]
+Chance for Summon Wraith to summon a Putrid Wraith instead,Prefix,Adorned Idol [2×2]
+Chance On 10 Or More Mana Spent To Cast Lightning At A Nearby Enemy,Prefix,Adorned Idol [2×2]
+Chance on hit to summon a Thorn Totem (up to 3 times per 5 seconds),Prefix,Ornate Idol [4×1]
+Chance On Kill To Refresh Random Companion Ability,Prefix,Ornate Idol [4×1]
+Chance on Melee Kill to heal a Random Minion to Full Health,Prefix,Large Idol [1×3]
+Chance to apply a Spark Charge on Melee Hit,Prefix,Helmet
+Chance to apply Critical Vulnerability on hit with Caltrops,Prefix,Huge Idol [1×4]
+Chance to apply Damned on Hit,Prefix,Grand Idol [3×1]
+Chance to apply Damned on Hit,Prefix,"Helmet, Body Armor"
+Chance to apply Frostbite on Hit with Cold Skills,Prefix,Adorned Idol [2×2]
+Chance To Apply Frostbite On Hit With Cold Skills,Prefix,"Helmet, Body Armor"
+Chance To Apply Frostbite With Cold Skills,Prefix,Adorned Idol [2×2]
+Chance To Blind With Spells,Prefix,Adorned Idol [2×2]
+Chance To Cast An Avalanche Boulder At a Nearby Enemy On Melee Attack (up to 3 times per second),Prefix,Ornate Idol [4×1]
+Chance To Cast An Avalanche Boulder At a Nearby Enemy On Spell Cast (up to 3 times per second),Prefix,Ornate Idol [4×1]
+Chance To Cast Divine Bolt When You Use A 0 Cost Skill,Prefix,Huge Idol [1×4]
+Chance to cast Elemental Nova when Hit,Prefix,Adorned Idol [2×2]
+Chance to Cast Fire Aura on Critical Strike (1 Second Cooldown),Prefix,Adorned Idol [2×2]
+Chance to Cast Fire Aura on Critical Strike (1 Second Cooldown),Prefix,"Helmet, Body Armor"
+Chance To Cast Fire Aura On Kill Fire Skills (1 second cooldown,Prefix,"Helmet, Body Armor"
+Chance to Cast Fire Aura on Kill with Fire Skills (1 Second Cooldown),Prefix,Large Idol [1×3]
+Chance to cast Fire Aura when Hit (1 second cooldown),Prefix,"Helmet, Body Armor"
+Chance to cast Healing Nova when hit,Prefix,Huge Idol [1×4]
+Chance to cast Lightning Blast When Hit while you have Lightning Aegis,Prefix,Adorned Idol [2×2]
+Chance to cast Maelstrom every 3 seconds,Prefix,Large Idol [1×3]
+Chance to Cast Marrow Shards when you Cast Transplant,Prefix,Huge Idol [1×4]
+Chance to cast Marrow Shards when you cast Transplant,Prefix,"Helmet, Body Armor"
+Chance to cast Poison Nova when Hit,Prefix,Adorned Idol [2×2]
+Chance To Cast Smite When You Hit With Throwing Attacks (up to 10 times per 2 seconds),Prefix,Adorned Idol [2×2]
+Chance to cast Void Rift on Kill,Prefix,Large Idol [1×3]
+Chance To Chill Nearby Enemies when you use a skill that costs at least 20 Mana,Prefix,Huge Idol [1×4]
+Chance To Chill With Necrotic Skills,Prefix,Large Idol [1×3]
+Chance to create a Shockwave on Hit with Upheaval,Prefix,Body Armor
+Chance to create a Void Essence on Kill,Prefix,Ornate Idol [4×1]
+Chance To Create An Aftershock Under A Nearby Enemy On Melee Attack,Prefix,Adorned Idol [2×2]
+Chance to deal Double Damage with Falcon Strikes,Prefix,Adorned Idol [2×2]
+Chance To Electrify with Lightning Skills,Prefix,"Helmet, Body Armor"
+Chance to Gain 20 Mana when you directly Cast Runebolt or Fireball,Prefix,Helmet
+Chance to Gain 20 Ward on Kill with Hungering Souls,Prefix,Large Idol [1×3]
+Chance to Gain 20 Ward on Kill with Hungering Souls,Prefix,"Helmet, Body Armor"
+Chance to Gain 30 Ward when Hit,Prefix,"Stout Idol [1×2], Ornate Idol [4×1]"
+Chance to Gain a Storm Stack when you use Gathering Storm and Hit an enemy,Prefix,Helmet
+Chance to Gain Crimson Shroud when you use a Melee Attack that Hits,Prefix,Body Armor
+Chance to Gain Dusk Shroud when Hit,Prefix,Body Armor
+Chance to Gain Dusk Shroud when you use a Melee Attack that Hits,Prefix,Body Armor
+Chance to gain Haste for 3 seconds when you Summon a Totem,Prefix,Grand Idol [3×1]
+Chance To Gain Inspiration On Kills With Void Skills,Prefix,Large Idol [1×3]
+Chance to Gain Lightning Aegis when Hit,Prefix,Body Armor
+Chance to Ignite on Bow Hit,Prefix,Grand Idol [3×1]
+Chance to Ignite on Bow Hit,Prefix,Helmet
+Chance to Ignite on Fire Hit,Prefix,Huge Idol [1×4]
+Chance to Ignite on Fire Hit,Prefix,"Helmet, Body Armor"
+Chance to Ignite on Hit,Prefix,"Stout Idol [1×2], Large Idol [1×3]"
+Chance to Inflict Bleed if Wielding an Axe,Prefix,"Helmet, Body Armor"
+Chance to Inflict Bleed On Bow Hit,Prefix,"Helmet, Body Armor"
+Chance to Inflict Bleed On Cold Hit,Prefix,Large Idol [1×3]
+Chance to Inflict Bleed On Hit,Prefix,"Humble Idol [2×1], Ornate Idol [4×1]"
+Chance to Inflict Bleed on Hit with Shurikens,Prefix,Adorned Idol [2×2]
+Chance to Inflict Bleed on Hit with Shurikens,Prefix,"Helmet, Body Armor"
+Chance To Inflict Time Rot on hit with Void Skills,Prefix,"Helmet, Body Armor"
+Chance to Poison on Hit,Prefix,"Humble Idol [2×1], Grand Idol [3×1]"
+Chance to Shock on Hit,Prefix,"Stout Idol [1×2], Huge Idol [1×4]"
+Chance to Shock on Hit with Lightning Skills,Prefix,"Helmet, Body Armor"
+Chance To Shock With Lightning Skills,Prefix,Huge Idol [1×4]
+Chance to Shred Armor on Bow Hit,Prefix,Large Idol [1×3]
+Chance to Shred Armor on Bow Hit,Prefix,Helmet
+Chance to Shred Armor on Melee Hit,Prefix,Large Idol [1×3]
+Chance to Shred Armor on Melee Hit,Prefix,Body Armor
+Chance to Shred Armor on Throwing Hit,Prefix,Large Idol [1×3]
+Chance to Shred Armor on Throwing Hit,Prefix,Body Armor
+Chance to Slow on Bow Hit,Prefix,Helmet
+Chance to Summon a Bee with Acid Flask,Prefix,Huge Idol [1×4]
+Channel Cost,Prefix,Helmet
+Cold Damage,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Quiver, Off-Hand Catalyst, Belt, Bow"
+Cold Damage Over Time,Prefix,"Helmet, Body Armor"
+Cold Damage Taken as Physical,Prefix,Grand Idol [3×1]
+Cold Penetration,Prefix,Amulet
+Cold Penetration with Frostbite,Prefix,Large Idol [1×3]
+Cold Penetration with Frostbite,Prefix,"Helmet, Body Armor"
+Crit Chance and Bow Attack Speed,Prefix,Bow
+Critical Strike Chance,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Off-Hand Catalyst, Bow, Quiver, Gloves"
+Critical Strike Chance,Prefix,"Stout Idol [1×2], Huge Idol [1×4]"
+Critical Strike Chance For Skeletons And Skeletal Mages,Prefix,Grand Idol [3×1]
+Critical Strike Chance For Skeletons And Skeletal Mages,Prefix,"Helmet, Body Armor"
+Critical Strike Chance for Totems,Prefix,Ornate Idol [4×1]
+Critical Strike Chance With Lightning Skills,Prefix,Grand Idol [3×1]
+Critical Strike Chance with Rampage,Prefix,Body Armor
+Critical Strike Multiplier,Prefix,"Relic, Amulet, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Bow, Wand, Off-Hand Catalyst"
+Critical Strike Multiplier while Dual Wielding,Prefix,Grand Idol [3×1]
+Critical Strike Multiplier while Transformed,Prefix,Grand Idol [3×1]
+Critical Strike Multiplier While Transformed,Prefix,"Helmet, Body Armor"
+Critical Strike Multiplier With Rive And Judgement,Prefix,Ornate Idol [4×1]
+Damage and Area with Dive Bomb,Prefix,Helmet
+Damage Dealt to Mana Before Health,Prefix,"Body Armor, Helmet"
+Damage Leeched as Health while Transformed,Prefix,Large Idol [1×3]
+Damage Leeched as Health While Transformed,Prefix,"Helmet, Body Armor"
+Damage Over Time,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Off-Hand Catalyst, Quiver, Bow, Gloves"
+Damage Over Time,Prefix,"Small Idol [1×1], Grand Idol [3×1]"
+Damage Over Time Taken While Transformed,Prefix,Large Idol [1×3]
+Damage Over Time while at Low Health,Prefix,Adorned Idol [2×2]
+Damage Over Time while Transformed,Prefix,Grand Idol [3×1]
+Damage Over Time While Transformed,Prefix,"Body Armor, Helmet"
+Damage Reflected,Prefix,"Body Armor, Shield"
+Damage Reflected For Skeletons And Skeletal Mages,Prefix,Huge Idol [1×4]
+Damage Reflected to Attackers,Prefix,"Body Armor, Shield"
+Damage Reflected while you have Lightning Aegis,Prefix,Adorned Idol [2×2]
+Damage to Minions Reflected to Attackers,Prefix,"Helmet, Body Armor"
+Damage while Channelling,Prefix,"Amulet, Relic, Two-Handed Staff"
+Damage While Transformed,Prefix,Ornate Idol [4×1]
+Dexterity,Prefix,"Helmet, Body Armor, Boots, Ring, Gloves, Relic, Quiver"
+Dodge Rating,Prefix,"Small Idol [1×1], Large Idol [1×3]"
+Dodge Rating and Increased Health,Prefix,Large Idol [1×3]
+Dodge Rating if Hit Recently,Prefix,"Helmet, Body Armor"
+Elemental Bees Per 10 Seconds,Prefix,Huge Idol [1×4]
+Elemental Damage,Prefix,"Amulet, Ring, Off-Hand Catalyst, Wand, Sceptre, Two-Handed Staff"
+Elemental Damage Over Time,Prefix,"Any accessory, Belt, Wand, Two-Handed Staff"
+Endurance Threshold and Increased Health,Prefix,Large Idol [1×3]
+Endurance while Channelling Warpath,Prefix,Body Armor
+Explosive Trap Maximum and Throwing Speed,Prefix,Huge Idol [1×4]
+Extra Potion Slot And Potion Health,Prefix,Belt
+Fire Damage,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Wand, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Quiver, Off-Hand Catalyst, Belt, Bow"
+Fire Damage Over Time,Prefix,"Helmet, Body Armor"
+Fire Damage Over Time,Prefix,"Helmet, Body Armor"
+Fire Damage Taken as Physical,Prefix,Adorned Idol [2×2]
+Fire Penetration,Prefix,Amulet
+Fire Penetration while wielding a Dagger,Prefix,Huge Idol [1×4]
+Fire Penetration with Ignite,Prefix,Large Idol [1×3]
+Fire Penetration with Ignite,Prefix,Ornate Idol [4×1]
+Fire Penetration with Ignite,Prefix,"Helmet, Body Armor"
+Fireball Pierce Chance,Prefix,Helmet
+Flame Ward Charge and Added Ward,Prefix,Body Armor
+Freeze Rate and Freezing Concoction on Potion Use,Prefix,Belt
+Freeze Rate Multiplier,Prefix,"Stout Idol [1×2], Huge Idol [1×4]"
+Freeze Rate Multiplier and Cold Resistance,Prefix,"Any accessory, Gloves"
+Freeze Rate per stack of Chill,Prefix,"Helmet, Body Armor"
+Frost Claw Mana Efficiency and Elemental Penetration,Prefix,Ornate Idol [4×1]
+Frost Wall Duration and Frostbite Chance,Prefix,"Helmet, Body Armor"
+Frost Wall Fire Conversion,Prefix,Grand Idol [3×1]
+Frostbite Duration,Prefix,Grand Idol [3×1]
+Harvest Damage Leeched as Health,Prefix,"Helmet, Body Armor"
+Healing Effectiveness,Prefix,Adorned Idol [2×2]
+Health,Prefix,Stout Idol [1×2]
+Health Gained on Block,Prefix,Shield
+Health Gained on Glancing Blow,Prefix,"Helmet, Body Armor"
+Health gained when stunned,Prefix,Huge Idol [1×4]
+Health on Kill,Prefix,"Humble Idol [2×1], Adorned Idol [2×2]"
+Health Regeneration,Prefix,"Small Idol [1×1], Grand Idol [3×1]"
+Ignite And Spreading Flames Duration,Prefix,Ornate Idol [4×1]
+Increased Abyssal Decay Duration,Prefix,"Helmet, Body Armor"
+Increased Area for Area Skills,Prefix,"Gloves, Amulet"
+Increased area for Elemental Area Skills,Prefix,Ornate Idol [4×1]
+Increased area for Throwing Area Skills,Prefix,Large Idol [1×3]
+Increased Area of mirage attacks with Lethal Mirage,Prefix,Adorned Idol [2×2]
+Increased Area of Void Cleave,Prefix,Ornate Idol [4×1]
+Increased Area with Acid Flask,Prefix,Large Idol [1×3]
+Increased Area with Acid Flask,Prefix,"Helmet, Body Armor"
+Increased Area with Cinder Strike's First Attack,Prefix,Grand Idol [3×1]
+Increased Area with Cinder Strike's First Strike,Prefix,Helmet
+Increased Area with Dancing Strikes,Prefix,Grand Idol [3×1]
+Increased Area with Dancing Strikes,Prefix,Helmet
+Increased Area with Detonating Arrow,Prefix,Grand Idol [3×1]
+Increased Area with Detonating Arrow,Prefix,"Helmet, Body Armor"
+Increased Area With Rive And Forge Strike,Prefix,Ornate Idol [4×1]
+Increased Armor Shred Duration,Prefix,Helmet
+Increased Armor Shred Effect,Prefix,Body Armor
+Increased Armor Shred Effect,Prefix,"Helmet, Body Armor"
+Increased Aspect of the Boar Duration,Prefix,Large Idol [1×3]
+Increased Aspect of the Boar Duration,Prefix,"Helmet, Body Armor"
+Increased Aspect of the Lynx Effect,Prefix,Huge Idol [1×4]
+Increased Aspect of the Lynx Effect,Prefix,"Helmet, Body Armor"
+Increased Aspect of the Shark Duration,Prefix,Adorned Idol [2×2]
+Increased Aspect of the Shark Effect,Prefix,"Helmet, Body Armor"
+Increased Aspect of the Viper Duration,Prefix,Huge Idol [1×4]
+Increased Aspect of the Viper Effect,Prefix,"Helmet, Body Armor"
+Increased Attack and Cast Speed for Summoned Vines,Prefix,Helmet
+Increased Aura of Decay Area,Prefix,Huge Idol [1×4]
+Increased Bleed Duration,Prefix,Large Idol [1×3]
+Increased Bow Attack Speed for 3 seconds when you use a Bow Attack (10 second cooldown),Prefix,Adorned Idol [2×2]
+Increased Cast Speed while Cursed,Prefix,Ornate Idol [4×1]
+Increased Cast Speed while you have Lightning Aegis,Prefix,Large Idol [1×3]
+Increased Chance to Find Potions,Prefix,"Belt, Amulet"
+Increased Cooldown Recovery Speed for Surge,Prefix,Ornate Idol [4×1]
+Increased Cooldown Recovery Speed while Transformed,Prefix,Helmet
+Increased Crit Chance with Flurry,Prefix,Large Idol [1×3]
+Increased crit chance with Flurry,Prefix,"Helmet, Body Armor"
+Increased Critical Strike Chance For You And Your Minions,Prefix,"Helmet, Body Armor"
+Increased Critical Strike Chance per Equipped Dagger,Prefix,Ornate Idol [4×1]
+Increased Critical Strike Chance per Equipped Dagger,Prefix,Helmet
+Increased Critical Strike Chance per Equipped Sword,Prefix,Grand Idol [3×1]
+Increased Critical Strike Chance per Equipped Sword,Prefix,Body Armor
+Increased Damage For 4 Seconds If You Have Cast Devouring Orb Recently,Prefix,Huge Idol [1×4]
+Increased Damage of Skills use by Shadows,Prefix,"Helmet, Body Armor"
+Increased Damage Over Time while you have an Ailment Overload,Prefix,Adorned Idol [2×2]
+Increased Damage per active Shadow with Shadow Cascade,Prefix,Huge Idol [1×4]
+Increased damage per active Shadow with Shadow Cascade,Prefix,"Helmet, Body Armor"
+Increased Damage per arrow with Multishot,Prefix,Ornate Idol [4×1]
+Increased Damage per arrow with Multishot,Prefix,"Helmet, Body Armor"
+Increased Damage while wielding a Bow,Prefix,"Helmet, Body Armor"
+Increased Damage while wielding a Dagger,Prefix,"Helmet, Body Armor"
+Increased Damage while wielding a Sword,Prefix,"Helmet, Body Armor"
+Increased Damage With Rip Blood And Blood Splatter,Prefix,Adorned Idol [2×2]
+Increased Damage With Rip Blood And Blood Splatter,Prefix,"Helmet, Body Armor"
+Increased Damage with Umbral Blades per stack of Dusk Shroud,Prefix,Ornate Idol [4×1]
+Increased Damage With Vengeance And Smite,Prefix,Large Idol [1×3]
+Increased Duration for Profane Veil,Prefix,Ornate Idol [4×1]
+Increased duration with Hail of Arrows,Prefix,Large Idol [1×3]
+Increased Echo Damage when a Skill Echoes,Prefix,Ornate Idol [4×1]
+Increased Echo Damage When A Skill Echoes,Prefix,"Helmet, Body Armor"
+Increased Elemental Nova Area,Prefix,Grand Idol [3×1]
+Increased Fire Aura Area,Prefix,Grand Idol [3×1]
+Increased Fire Aura Damage,Prefix,Large Idol [1×3]
+Increased Fire Aura Damage,Prefix,"Helmet, Body Armor"
+Increased Fire Damage And Ignite Duration,Prefix,"Helmet, Body Armor"
+Increased Frequency of expending Storm Stacks,Prefix,Grand Idol [3×1]
+Increased Hail of Arrows Duration,Prefix,Helmet
+Increased Hammer Throw Damage,Prefix,"Helmet, Body Armor"
+Increased Healing Effectiveness,Prefix,"Small Idol [1×1], Adorned Idol [2×2]"
+Increased Healing Effectiveness,Prefix,"Any accessory, Shield"
+Increased Lightning Damage while you have Lightning Aegis,Prefix,Adorned Idol [2×2]
+Increased Melee Damage For 4 Seconds When a Skill Echoes,Prefix,Adorned Idol [2×2]
+Increased Minion Cooldown Recovery Speed,Prefix,Huge Idol [1×4]
+Increased Minion Melee Stun Chance,Prefix,Huge Idol [1×4]
+Increased Physical Damage And Bleed Duration,Prefix,"Helmet, Body Armor"
+Increased Poison Damage while Aura of Decay is active,Prefix,Ornate Idol [4×1]
+Increased Poison Duration,Prefix,Helmet
+Increased Projectile Speed With Marrow Shards And Bone Nova,Prefix,Huge Idol [1×4]
+Increased Projectile Speed With Marrow Shards And Bone Nova,Prefix,Body Armor
+Increased Shield Throw Critical Strike Chance,Prefix,"Helmet, Body Armor"
+Increased Shock Duration,Prefix,Large Idol [1×3]
+Increased Skeletal Mage Damage,Prefix,"Body Armor, Helmet"
+Increased Smelters Wrath Damage,Prefix,"Helmet, Body Armor"
+Increased Speed and Distance with Flame Rush,Prefix,Helmet
+Increased Spell Crit (Doubled if you have over 300 Max Mana),Prefix,"Helmet, Body Armor"
+Increased Spell Damage per Skeletal Mage,Prefix,"Helmet, Body Armor"
+Increased Spirit Frequency with Chthonic Fissure,Prefix,Body Armor
+Increased Stun Chance,Prefix,"Small Idol [1×1], Adorned Idol [2×2]"
+Increased Stun Chance With Throwing Attacks,Prefix,Huge Idol [1×4]
+Increased Stun Duration,Prefix,"Humble Idol [2×1], Adorned Idol [2×2]"
+Increased Time Rot Duration,Prefix,Huge Idol [1×4]
+Increased Void Damage And Added Spell Void Damage,Prefix,"Helmet, Body Armor"
+Increased Void Damage For 4 Seconds When a Skill Echoes,Prefix,Adorned Idol [2×2]
+Increased Volcanic Orb Damage And Reduced Speed,Prefix,Ornate Idol [4×1]
+Increased Warpath Area,Prefix,Grand Idol [3×1]
+Intelligence,Prefix,"Helmet, Body Armor, Boots, Ring, Gloves, Relic"
+Less frequency of Storm Stacks and Added Damage With Storm Bolt,Prefix,Ornate Idol [4×1]
+Level of Abyssal Echoes,Prefix,Body Armor
+Level of Acid Flask,Prefix,Body Armor
+Level of Aerial Assault,Prefix,Relic
+Level of Anomaly,Prefix,Helmet
+Level of Arcane Ascendance,Prefix,Body Armor
+Level of Assemble Abomination,Prefix,Relic
+Level of Aura Of Decay,Prefix,Relic
+Level of Avalanche,Prefix,Relic
+Level of Ballista,Prefix,Relic
+Level of Black Hole,Prefix,Relic
+Level of Bone Curse,Prefix,Relic
+Level of Chaos Bolts,Prefix,Helmet
+Level of Chthonic Fissure,Prefix,Body Armor
+Level of Cinder Strike,Prefix,Relic
+Level of Dancing Strikes,Prefix,Relic
+Level of Dark Quiver,Prefix,Helmet
+Level of Death Seal,Prefix,Helmet
+Level of Decoy,Prefix,Helmet
+Level of Detonating Arrow,Prefix,Body Armor
+Level of Devouring Orb,Prefix,Helmet
+Level of Disintegrate,Prefix,Relic
+Level of Dive Bomb,Prefix,Body Armor
+Level of Drain Life,Prefix,Body Armor
+Level of Dread Shade,Prefix,Body Armor
+Level of Earthquake,Prefix,Helmet
+Level of Elemental Nova,Prefix,Helmet
+Level of Enchant Weapon,Prefix,Helmet
+Level of Entangling Roots,Prefix,Helmet
+Level of Erasing Strike,Prefix,Body Armor
+Level of Eterra's Blessing,Prefix,Body Armor
+Level of Explosive Trap,Prefix,Body Armor
+Level of Falconry,Prefix,Helmet
+Level of Fireball,Prefix,Body Armor
+Level of Firebrand,Prefix,Body Armor
+Level of Flame Reave,Prefix,Body Armor
+Level of Flame Rush,Prefix,Body Armor
+Level of Flame Ward,Prefix,Relic
+Level of Flay,Prefix,Body Armor
+Level of Flurry,Prefix,Relic
+Level of Focus,Prefix,Helmet
+Level of Forge Strike,Prefix,Body Armor
+Level of Frost Claw,Prefix,Relic
+Level of Frostwall,Prefix,Relic
+Level of Fury Leap,Prefix,Relic
+Level of Gathering Storm,Prefix,Body Armor
+Level of Ghostflame,Prefix,Helmet
+Level of Glacier,Prefix,Body Armor
+Level of Glyph of Dominion,Prefix,Relic
+Level of Hail of Arrows,Prefix,Body Armor
+Level of Hammer Throw,Prefix,Relic
+Level of Harvest,Prefix,Relic
+Level of Healing Hands,Prefix,Helmet
+Level of Heartseeker,Prefix,Body Armor
+Level of Holy Aura,Prefix,Relic
+Level of Hungering Souls,Prefix,Helmet
+Level of Ice Barrage,Prefix,Body Armor
+Level of Infernal Shade,Prefix,Relic
+Level of Javelin,Prefix,Relic
+Level of Judgement,Prefix,Relic
+Level of Lethal Mirage,Prefix,Relic
+Level of Lightning Blast,Prefix,Helmet
+Level of Lunge,Prefix,Body Armor
+Level of Maelstrom,Prefix,Body Armor
+Level of Mana Strike,Prefix,Body Armor
+Level of Manifest Armor,Prefix,Helmet
+Level of Marrow Shards,Prefix,Helmet
+Level of Meteor,Prefix,Body Armor
+Level of Multishot,Prefix,Helmet
+Level of Multistrike,Prefix,Body Armor
+Level of Net,Prefix,Relic
+Level of Profane Veil,Prefix,Relic
+Level of Puncture,Prefix,Helmet
+Level of Reaper Form,Prefix,Body Armor
+Level of Rebuke,Prefix,Relic
+Level of Ring Of Shields,Prefix,Helmet
+Level of Rip Blood,Prefix,Helmet
+Level of Rive,Prefix,Body Armor
+Level of Runebolt,Prefix,Helmet
+Level of Runic Invocation,Prefix,Helmet
+Level of Sacrifice,Prefix,Body Armor
+Level of Serpent Strike,Prefix,Relic
+Level of Shadow Cascade,Prefix,Body Armor
+Level of Shatter Strike,Prefix,Body Armor
+Level of Shield Bash,Prefix,Relic
+Level of Shield Rush,Prefix,Body Armor
+Level of Shield Throw,Prefix,Helmet
+Level of Shift,Prefix,Body Armor
+Level of Shurikens,Prefix,Helmet
+Level of Smelter's Wrath,Prefix,Helmet
+Level of Smite,Prefix,Relic
+Level of Smoke Bomb,Prefix,Body Armor
+Level of Snap Freeze,Prefix,Relic
+Level of Soul Feast,Prefix,Body Armor
+Level of Spirit Plague,Prefix,Helmet
+Level of Spriggan Form,Prefix,Relic
+Level of Static,Prefix,Relic
+Level of Static Orb,Prefix,Helmet
+Level of Summon Bear,Prefix,Helmet
+Level of Summon Bone Golem,Prefix,Helmet
+Level of Summon Frenzy Totem,Prefix,Relic
+Level of Summon Raptor,Prefix,Body Armor
+Level of Summon Sabertooth,Prefix,Relic
+Level of Summon Scorpion,Prefix,Relic
+Level of Summon Skeletal Mage,Prefix,Relic
+Level of Summon Skeleton,Prefix,Body Armor
+Level of Summon Spriggan,Prefix,Helmet
+Level of Summon Storm Crow,Prefix,Body Armor
+Level of Summon Storm Totem,Prefix,Helmet
+Level of Summon Thorn Totem,Prefix,Helmet
+Level of Summon Volatile Zombie,Prefix,Helmet
+Level of Summon Wolf,Prefix,Helmet
+Level of Summon Wraith,Prefix,Body Armor
+Level of Surge,Prefix,Relic
+Level of Swarmblade Form,Prefix,Body Armor
+Level of Swipe,Prefix,Relic
+Level of Symbols Of Hope,Prefix,Relic
+Level of Synchronized Strike,Prefix,Helmet
+Level of Teleport,Prefix,Helmet
+Level of Tempest Strike,Prefix,Body Armor
+Level of Tornado,Prefix,Body Armor
+Level of Transplant,Prefix,Relic
+Level of Umbral Blades,Prefix,Relic
+Level of Upheaval,Prefix,Body Armor
+Level of Vengeance,Prefix,Helmet
+Level of Void Cleave,Prefix,Relic
+Level of Volatile Reversal,Prefix,Helmet
+Level of Volcanic Orb,Prefix,Relic
+Level of Wandering Spirits,Prefix,Body Armor
+Level of Warcry,Prefix,Relic
+Level of Warpath,Prefix,Body Armor
+Level of Werebear Form,Prefix,Helmet
+Lightning Critical Strike Multiplier,Prefix,"Helmet, Body Armor"
+Lightning Damage,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Quiver, Off-Hand Catalyst, Belt, Bow"
+Lightning Damage And Leech,Prefix,Sceptre
+Lightning Damage Taken as Physical,Prefix,Huge Idol [1×4]
+Lightning Damage with Hammer Throw,Prefix,Grand Idol [3×1]
+Lightning Damage with Shurikens,Prefix,Huge Idol [1×4]
+Lightning Damage with Shurikens,Prefix,"Body Armor, Helmet"
+Lightning Penetration,Prefix,Amulet
+Mana,Prefix,"Relic, Gloves, Off-Hand Catalyst, Amulet, Helmet, Body Armor"
+Mana,Prefix,"Minor Idol [1×1], Grand Idol [3×1]"
+Mana,Prefix,"Helmet, Body Armor"
+Mana and Mana Regen,Prefix,"One-Handed Axe, Dagger, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword"
+Mana and Mana Spent Gained as Ward,Prefix,"Sceptre, Wand, Two-Handed Staff"
+Mana Efficiency and Wither Chance with Soul Feast,Prefix,Ornate Idol [4×1]
+Mana efficiency with Decoy,Prefix,"Helmet, Body Armor"
+Mana Efficiency with Ghostflame,Prefix,Large Idol [1×3]
+Mana Efficiency with Synchronised Strike,Prefix,Huge Idol [1×4]
+Mana efficiency with Synchronised Strike,Prefix,"Helmet, Body Armor"
+Mana Efficiency With Void Spells,Prefix,Ornate Idol [4×1]
+Mana Gained on Harvest Use,Prefix,Body Armor
+Mana Gained When Transforming Back To Human Form,Prefix,Grand Idol [3×1]
+Mana Gained when you directly Cast Smite,Prefix,Helmet
+Mana Gained when you use Rive and Hit at least one enemy,Prefix,Helmet
+Mana Gained when you use Vengeance and Hit at least one enemy,Prefix,Body Armor
+Mana Regeneration,Prefix,"Any accessory, Belt"
+Mana Spent Gained as Ward,Prefix,"Helmet, Body Armor"
+Max Ballista and Increased Ballista Attack Speed,Prefix,Body Armor
+Melee Attack Speed,Prefix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword, Gloves"
+Melee Cold Damage,Prefix,"Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword"
+Melee Critical Strike Chance,Prefix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff"
+Melee Damage,Prefix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Sword, Shield"
+Melee Damage Leeched as Health,Prefix,"Gloves, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear"
+Melee Damage while Transformed,Prefix,Grand Idol [3×1]
+Melee Damage While Transformed,Prefix,"Helmet, Body Armor"
+Melee Elemental Damage,Prefix,Ornate Idol [4×1]
+Melee Elemental Damage,Prefix,"Helmet, Body Armor"
+Melee Fire Damage,Prefix,"Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword"
+Melee Lightning Damage,Prefix,"Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword"
+Melee Physical Damage,Prefix,"One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff"
+Melee Physical Damage For Swarm Strike and Locusts,Prefix,Adorned Idol [2×2]
+Melee Physical Damage if wielding a Mace,Prefix,"Helmet, Body Armor"
+Melee Physical Damage if wielding a Sword,Prefix,"Helmet, Body Armor"
+Melee Void Damage,Prefix,"Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword"
+Minion Area and Damage,Prefix,"Amulet, Gloves"
+Minion Chance to Inflict Bleed on Hit,Prefix,"Helmet, Body Armor"
+Minion Chance To Inflict Plague on Hit,Prefix,Grand Idol [3×1]
+Minion Cold Damage,Prefix,Grand Idol [3×1]
+Minion Critical Strike Multiplier,Prefix,"Helmet, Body Armor"
+Minion Damage,Prefix,"Any accessory, Quiver, Off-Hand Catalyst, Gloves, Belt"
+Minion Dodge Rating,Prefix,"Helmet, Boots, Ring, Relic"
+Minion Fire Damage,Prefix,Grand Idol [3×1]
+Minion Freeze Rate Multiplier,Prefix,"Helmet, Body Armor"
+Minion Health,Prefix,"Any accessory, Helmet, Body Armor, Belt, Gloves, Shield, Off-Hand Catalyst"
+Minion Health Regen,Prefix,"Helmet, Belt, Relic"
+Minion Increased Healing Effectiveness,Prefix,Adorned Idol [2×2]
+Minion Melee Critical Strike Chance,Prefix,Huge Idol [1×4]
+Minion Melee Damage Leeched as Health,Prefix,Huge Idol [1×4]
+Minion Melee Damage Leeched As Health,Prefix,"Body Armor, Helmet"
+Minion Spell Critical Strike Chance,Prefix,"Helmet, Body Armor"
+Mirages and Mana Efficiency with Lethal Mirage,Prefix,Body Armor
+Movement Speed,Prefix,Boots
+Necrotic Damage,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Off-Hand Catalyst, Belt"
+Necrotic Damage Taken as Physical,Prefix,"Helmet, Body Armor"
+Necrotic Damage while Transformed,Prefix,"Helmet, Body Armor"
+Necrotic Penetration,Prefix,Amulet
+Necrotic Spell Damage per Skeletal Mage,Prefix,Huge Idol [1×4]
+Parry Chance,Prefix,"One-Handed Axe, Dagger, One-Handed Mace, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword"
+Penetration with Cold Invocations,Prefix,"Helmet, Body Armor"
+Penetration with Fire Invocations,Prefix,"Helmet, Body Armor"
+Penetration with Lightning Invocations,Prefix,"Helmet, Body Armor"
+Physical Damage,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Wand, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Quiver, Belt, Bow, Shield"
+Physical Damage while Transformed,Prefix,"Helmet, Body Armor"
+Physical Penetration,Prefix,Amulet
+Physical Penetration while wielding a Dagger,Prefix,Huge Idol [1×4]
+Physical Penetration with Bleed,Prefix,"Body Armor, Helmet"
+Physical Penetration with Puncture,Prefix,Huge Idol [1×4]
+Physical Penetration with Puncture,Prefix,Body Armor
+Physical Penetration with Shadow Daggers,Prefix,Large Idol [1×3]
+Physical Penetration with Shadow Daggers,Prefix,"Helmet, Body Armor"
+Physical Spell Critical Strike Chance,Prefix,"Helmet, Body Armor"
+Plague Chance On Hit And Penetration,Prefix,Large Idol [1×3]
+Poison Chance per Equipped Dagger,Prefix,Adorned Idol [2×2]
+Poison Chance per Equipped Dagger,Prefix,Helmet
+Poison Damage,Prefix,"Any accessory, One-Handed Axe, Dagger, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Quiver, Off-Hand Catalyst, Belt, Bow"
+Poison Damage And Poison Resistance,Prefix,"Helmet, Body Armor"
+Poison Damage Taken as Physical,Prefix,"Helmet, Body Armor"
+Poison Penetration,Prefix,Amulet
+Potion Health Converted to Ward,Prefix,"Stout Idol [1×2], Huge Idol [1×4]"
+Potion Health Converted to Ward,Prefix,"Belt, Gloves, Relic, Ring"
+Recurve Chance with Heartseeker,Prefix,"Helmet, Body Armor"
+Reduced Health Cost of Spells,Prefix,Large Idol [1×3]
+Reduced Health Cost of Spells,Prefix,Helmet
+Rogue Falcon Poison and Bleed Chance,Prefix,Adorned Idol [2×2]
+Rogue Recurve Chance and Bow Damage,Prefix,Huge Idol [1×4]
+Seconds of Stun Immunity after using Teleport,Prefix,Huge Idol [1×4]
+Shared Bleed Chance On Hit,Prefix,"Body Armor, Helmet"
+Shared Bleed Duration,Prefix,"Helmet, Body Armor"
+Shared Cold Damage,Prefix,"Body Armor, Helmet"
+Shared Critical Strike Multiplier,Prefix,Adorned Idol [2×2]
+Shared Increased Bleed Duration,Prefix,"Helmet, Body Armor"
+Shared Increased Fire Damage,Prefix,"Helmet, Body Armor"
+Shared Increased Melee Damage,Prefix,"Helmet, Body Armor"
+Shared Increased Necrotic Damage,Prefix,"Helmet, Body Armor"
+Shared Increased Spell Damage,Prefix,"Helmet, Body Armor"
+Shared Lightning Damage,Prefix,"Helmet, Body Armor"
+Shared Physical Damage Leeched As Health,Prefix,"Helmet, Body Armor"
+Shared Physical Penetration With Bleed,Prefix,"Helmet, Body Armor"
+Shield Throw Base Damage Converted to Void,Prefix,Large Idol [1×3]
+Spell Critical Strike Chance,Prefix,"Wand, Sceptre, Two-Handed Staff, Amulet, Relic, Off-Hand Catalyst"
+Spell Damage,Prefix,"Sceptre, Wand, Two-Handed Staff, Off-Hand Catalyst, Amulet, Ring"
+Spell Damage,Prefix,One-Handed Sword
+Spell Damage and Reduced Mana Cost,Prefix,Sceptre
+Spell Damage for Curses,Prefix,Grand Idol [3×1]
+Spell Damage for Curses,Prefix,Helmet
+Spell Damage for Storm Crows,Prefix,Helmet
+Spell Damage for Totems,Prefix,"Helmet, Body Armor"
+Spell Damage Leeched as Health while Channelling,Prefix,"Helmet, Body Armor"
+Spell Damage while Channelling,Prefix,"Helmet, Body Armor"
+Spell Damage while Transformed,Prefix,Grand Idol [3×1]
+Spell Damage While Transformed,Prefix,"Helmet, Body Armor"
+Spell Damage with Tempest Strike,Prefix,Helmet
+Static Charges Generated per Second,Prefix,Huge Idol [1×4]
+Strength,Prefix,"Helmet, Body Armor, Boots, Ring, Gloves, Relic"
+Stun Avoidance,Prefix,"Minor Idol [1×1], Huge Idol [1×4]"
+Symbol Duration And Gain Rate,Prefix,Huge Idol [1×4]
+Throwing Attack Critical Strike Chance,Prefix,"Helmet, Body Armor"
+Throwing Attack Critical Strike Multiplier,Prefix,Large Idol [1×3]
+Throwing Attack Speed,Prefix,"Gloves, Ring"
+Throwing Damage,Prefix,"Belt, Gloves, Relic, Amulet"
+Throwing Damage and Reduced Mana Cost,Prefix,Ring
+Throwing Damage with Caltrops,Prefix,Grand Idol [3×1]
+Throwing Physical Damage,Prefix,"Helmet, Body Armor"
+Totem Armor,Prefix,Large Idol [1×3]
+Totem Critical Strike Chance,Prefix,"Body Armor, Helmet"
+Totem Damage,Prefix,"Helmet, Body Armor"
+Totem Elemental Resistance,Prefix,Large Idol [1×3]
+Vitality,Prefix,"Humble Idol [2×1], Ornate Idol [4×1]"
+Vitality,Prefix,"Helmet, Body Armor, Boots"
+Void Damage,Prefix,"Any accessory, One-Handed Axe, One-Handed Mace, Sceptre, One-Handed Sword, Two-Handed Axe, Two-Handed Mace, Two-Handed Spear, Two-Handed Staff, Two-Handed Sword, Belt"
+Void Damage Over Time,Prefix,"Helmet, Body Armor"
+Void Damage Taken as Physical,Prefix,"Helmet, Body Armor"
+Void Penetration,Prefix,Amulet
+Volatile Zombie Damage and Explosion Area,Prefix,Ornate Idol [4×1]
+Volatile Zombie Speed and Damage,Prefix,Body Armor
+Ward and Ailment Cleansing on Potion Use,Prefix,Belt
+Ward Gained on Kill,Prefix,Amulet
+Ward Gained on Potion Use,Prefix,"Belt, Gloves, Amulet"
+Ward gained on use with Shift,Prefix,"Helmet, Body Armor"
+Ward Gained on use with Smoke Bomb,Prefix,Large Idol [1×3]
+Ward gained on use with Smoke Bomb,Prefix,"Helmet, Body Armor"
+Ward gained per Rune consumed with Runic Invocation,Prefix,Adorned Idol [2×2]
+Ward Gained per Rune consumed with Runic Invocation,Prefix,"Helmet, Body Armor"
+Ward Gained When Damage Leaves You At Low Health (5 Second Cooldown),Prefix,Adorned Idol [2×2]
+Ward Gained When You Create a Shadow,Prefix,"Helmet, Body Armor"
+Ward Granted When Casting Flame Ward,Prefix,Grand Idol [3×1]
+Ward On Potion Use,Prefix,"Minor Idol [1×1], Large Idol [1×3]"
+Ward Per Second and Increased Health,Prefix,Large Idol [1×3]
+Ward per Second during Profane Veil,Prefix,Adorned Idol [2×2]
+Ward per Second for you or your allies while standing on your Glyph of Dominion,Prefix,Grand Idol [3×1]
+Ward per Second for you or your allies while standing on your Glyph of Dominion,Prefix,Body Armor
+Ward per Second while channeling Ghostflame,Prefix,Grand Idol [3×1]
+Ward Retention,Prefix,"Minor Idol [1×1], Adorned Idol [2×2]"
+Experimental Armor applies to Damage over Time,Prefix,Gloves
+Experimental Bee on Potion Use,Prefix,Belt
+Experimental Dodge Rating and Endurance Threshold,Prefix,Gloves
+Experimental Frenzy Effect,Prefix,Boots
+Experimental Haste Effect,Prefix,Boots
+Experimental Mana on Potion Use,Prefix,Belt
+Experimental Minions Transported with Traversal Skills,Prefix,Boots
+Experimental Traversal Cooldown Recovery on Potion Use,Prefix,Belt
+Experimental Ward Gained on Traversal,Prefix,Boots
+Experimental Ward on Kill,Prefix,Gloves
+Experimental Ward on Potion Use,Prefix,Belt
+Experimental Ward per Missing Health,Prefix,Gloves
+Abyssal Champion's,Prefix,"Two-Handed Sword, Two-Handed Axe"
+Andinai's,Prefix,Dagger
+Bloom Tender's,Prefix,Two-Handed Spear
+Carnage Champion's,Prefix,Amulet
+Cave Druid's,Prefix,Two-Handed Staff
+Cursed,Prefix,Boots
+Death Grip Champion's,Prefix,Relic
+Hirish's,Prefix,Body Armor
+Infernal Champion's,Prefix,Ring
+Julra's,Prefix,Amulet
+Meteor Champion's,Prefix,"One-Handed Axe, Dagger, Wand"
+Mirage Champion's,Prefix,Gloves
+Orian's,Prefix,Two-Handed Spear
+Portal Champion's,Prefix,Helmet
+Profane Champion's,Prefix,"Two-Handed Staff, Two-Handed Axe"
+River Champion's,Prefix,Helmet
+Solar Deserter's,Prefix,Shield
+Spark Champion's,Prefix,Belt
+Storm Champion's,Prefix,"One-Handed Mace, Two-Handed Spear"
+Ucenui's,Prefix,Off-Hand Catalyst
+Venomous Champion's,Prefix,Gloves
+Volcano Champion's,Prefix,Belt
+Whirlpool Champion's,Prefix,Amulet
+Blade of the Forgotten Knight Reforged,Prefix,One-Handed Sword
+Boardman's Fallacy Reforged,Prefix,Body Armor
+Boardman's Legacy Reforged,Prefix,Helmet
+Boardman's Plank Reforged,Prefix,Sceptre
+Corsair's Blood Cowl Reforged,Prefix,Helmet
+Corsair's Boarding Shield Reforged,Prefix,Shield
+Defiance of the Forgotten Knight Reforged,Prefix,Shield
+Ferebor's Chisel Reforged,Prefix,Dagger
+Ferebor's Persistence Reforged,Prefix,Ring
+Gaspar's Acuity Reforged,Prefix,Body Armor
+Gaspar's Insight Reforged,Prefix,Helmet
+Gaspar's Will Reforged,Prefix,Sceptre
+Halvar's Pledge Reforged,Prefix,Two-Handed Staff
+Halvar's Stand Reforged,Prefix,Boots
+Last Gift of the Mountain Reforged,Prefix,Relic
+Lich's Envy Reforged,Prefix,Gloves
+Lich's Scorn Reforged,Prefix,Off-Hand Catalyst
+Locket of the Forgotten Knight Reforged,Prefix,Amulet
+Pebbles' Bitemarked Sash Reforged,Prefix,Belt
+Pebbles' Collar Reforged,Prefix,Relic
+Pebbles' Femur Reforged,Prefix,Wand
+Ruby Fang Aegis Reforged,Prefix,Shield
+Shard of the Shattered Lance Reforged,Prefix,One-Handed Sword
+Sinathia's Dying Breath Reforged,Prefix,One-Handed Mace
+Sinathia's Resurrection Reforged,Prefix,Shield
+Sunforged Cuirass Reforged,Prefix,Body Armor
+Sunforged Greathelm Reforged,Prefix,Helmet
+Sunforged Hammer Reforged,Prefix,Two-Handed Mace
+The Invoker's Frozen Heart Reforged,Prefix,Amulet
+The Invoker's Scorching Grasp Reforged,Prefix,Ring
+The Invoker's Static Touch Reforged,Prefix,Ring
+The Last Bear's Scorn Reforged,Prefix,Body Armor
+Vilatria's Downfall Reforged,Prefix,Two-Handed Staff
+Vilatria's Storm Crown Reforged,Prefix,Helmet
+Zerrick's Ambition Reforged,Prefix,Boots
+Zerrick's Greed Reforged,Prefix,Gloves
+Zerrick's Guile Reforged,Prefix,Belt
+Added Stun Avoidance and Increased Stun Immunity Duration,Prefix,Minor Idol [1×1]
+Armor and Increased Armor,Prefix,Minor Idol [1×1]
+Chance to Gain 30 Ward When Hit and Ward Decay Threshold,Prefix,Stout Idol [1×2]
+Chance to Ignite on Hit and Fire Penetration with Ignite,Prefix,Stout Idol [1×2]
+Chance to Inflict Bleed on Hit and Physical Penetration with Bleed,Prefix,Humble Idol [2×1]
+Chance to Poison on Hit and Poison Penetration with Poison,Prefix,Humble Idol [2×1]
+Chance to Shock on Hit and Increased Shock Duration,Prefix,Stout Idol [1×2]
+Cold Penetration and Minion Cold Penetration,Prefix,Minor Idol [1×1]
+Cold Penetration and Minion Cold Penetration,Prefix,Stout Idol [1×2]
+Dodge Rating and Increased Dodge Rating,Prefix,Small Idol [1×1]
+Fire Penetration and Minion Fire Penetration,Prefix,Minor Idol [1×1]
+Fire Penetration and Minion Fire Penetration,Prefix,Stout Idol [1×2]
+Freeze Rate Multiplier and Ward when you Freeze an Enemy,Prefix,Stout Idol [1×2]
+Health on Kill and Added Health,Prefix,Humble Idol [2×1]
+Health on Kill and Increased Health,Prefix,Stout Idol [1×2]
+Increased Critical Strike Chance and Critical Strike Multiplier,Prefix,Stout Idol [1×2]
+Increased Damage Over Time and Less Damage Over Time Taken,Prefix,Small Idol [1×1]
+Increased Healing Effectiveness and Added Health,Prefix,Small Idol [1×1]
+Increased Health Regeneration and Added Health,Prefix,Small Idol [1×1]
+Increased Stun Chance and Added Stun Avoidance,Prefix,Small Idol [1×1]
+Increased Stun Duration and Increased Stun Chance,Prefix,Humble Idol [2×1]
+Lightning Penetration and Minion Lightning Penetration,Prefix,Minor Idol [1×1]
+Lightning Penetration and Minion Lightning Penetration,Prefix,Stout Idol [1×2]
+Mana and Increased Mana Regen,Prefix,Minor Idol [1×1]
+Necrotic Penetration and Minion Necrotic Penetration,Prefix,Small Idol [1×1]
+Necrotic Penetration and Minion Necrotic Penetration,Prefix,Humble Idol [2×1]
+Physical Penetration and Minion Physical Penetration,Prefix,Small Idol [1×1]
+Physical Penetration and Minion Physical Penetration,Prefix,Humble Idol [2×1]
+Poison Penetration and Minion Poison Penetration,Prefix,Small Idol [1×1]
+Poison Penetration and Minion Poison Penetration,Prefix,Humble Idol [2×1]
+Potion Health Converted to Ward and Ward Gained on Potion use,Prefix,Stout Idol [1×2]
+Vitality and Added Health Regen,Prefix,Humble Idol [2×1]
+Void Penetration and Minion Void Penetration,Prefix,Small Idol [1×1]
+Void Penetration and Minion Void Penetration,Prefix,Humble Idol [2×1]
+Ward and Ward Decay Threshold on Potion Use,Prefix,Minor Idol [1×1]
+Ward Retention and Ward Per Second,Prefix,Minor Idol [1×1]

@@ -1,0 +1,2519 @@
+[
+  {
+    "name": "Experimental Armor applies to Damage over Time",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AOwRgDEA",
+    "id_attr": "AOwRgDEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Gloves"
+    ],
+    "headers": [
+      {
+        "label": "Armor Mitigation also applies to Damage over Time",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Armor Mitigation also applies to Damage over Time<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Armor",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Armor<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "9%",
+            "parsed": {
+              "value": 9.0,
+              "unit": "%"
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "30 to 39",
+            "parsed": {
+              "min": 30.0,
+              "max": 39.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">9%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">39</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "10% to 11%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "40 to 50",
+            "parsed": {
+              "min": 40.0,
+              "max": 50.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">11%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40</span> to <span class=\"mod-value\">50</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "12% to 13%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "51 to 63",
+            "parsed": {
+              "min": 51.0,
+              "max": 63.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">12%</span> to <span class=\"mod-value\">13%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">63</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "14% to 15%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "64 to 79",
+            "parsed": {
+              "min": 64.0,
+              "max": 79.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">14%</span> to <span class=\"mod-value\">15%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">64</span> to <span class=\"mod-value\">79</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "16% to 18%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "80 to 100",
+            "parsed": {
+              "min": 80.0,
+              "max": 100.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">18%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">80</span> to <span class=\"mod-value\">100</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "21% to 25%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "135 to 174",
+            "parsed": {
+              "min": 135.0,
+              "max": 174.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">21%</span> to <span class=\"mod-value\">25%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">135</span> to <span class=\"mod-value\">174</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "26% to 30%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "175 to 225",
+            "parsed": {
+              "min": 175.0,
+              "max": 225.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">30%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">175</span> to <span class=\"mod-value\">225</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "45% to 50%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "360 to 450",
+            "parsed": {
+              "min": 360.0,
+              "max": 450.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">45%</span> to <span class=\"mod-value\">50%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">360</span> to <span class=\"mod-value\">450</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AOwRgDEA\" prefix-id=\"AOwRgDEA\" target=\"_blank\">Experimental Armor applies to Damage over Time</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Armor Mitigation also applies to Damage over Time<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Armor<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">9%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">39</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">11%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40</span> to <span class=\"mod-value\">50</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">12%</span> to <span class=\"mod-value\">13%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">63</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">14%</span> to <span class=\"mod-value\">15%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">64</span> to <span class=\"mod-value\">79</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">18%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">80</span> to <span class=\"mod-value\">100</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">21%</span> to <span class=\"mod-value\">25%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">135</span> to <span class=\"mod-value\">174</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">30%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">175</span> to <span class=\"mod-value\">225</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">45%</span> to <span class=\"mod-value\">50%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">360</span> to <span class=\"mod-value\">450</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Gloves</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Bee on Potion Use",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AOwRgLEA",
+    "id_attr": "AOwRgLEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Belt"
+    ],
+    "headers": [
+      {
+        "label": "Bees Summoned on Potion Use",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Bees Summoned on Potion Use<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Minion Damage",
+        "mod_type": "Increased",
+        "raw_html": "<div class=\"affix-tier-range\">Minion Damage<br/><span class=\"mod-type\">Increased</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2",
+            "parsed": {
+              "value": 2.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "5% to 9%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">5%</span> to <span class=\"mod-value\">9%</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2",
+            "parsed": {
+              "value": 2.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "10% to 20%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">20%</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2",
+            "parsed": {
+              "value": 2.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "21% to 24%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">21%</span> to <span class=\"mod-value\">24%</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2",
+            "parsed": {
+              "value": 2.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "25% to 35%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">25%</span> to <span class=\"mod-value\">35%</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2",
+            "parsed": {
+              "value": 2.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "36% to 45%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">36%</span> to <span class=\"mod-value\">45%</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "3",
+            "parsed": {
+              "value": 3.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "55% to 65%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">55%</span> to <span class=\"mod-value\">65%</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "4",
+            "parsed": {
+              "value": 4.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "66% to 80%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">66%</span> to <span class=\"mod-value\">80%</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "6",
+            "parsed": {
+              "value": 6.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "128% to 160%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">128%</span> to <span class=\"mod-value\">160%</span></div></div>"
+      }
+    ],
+    "related": [
+      {
+        "kind": "unknown",
+        "name": "Summon Bee",
+        "href": "/skills/summon_bee",
+        "extra": {
+          "ability_id": "ability_gen187",
+          "section_ability_id": "summon_bee",
+          "target": "_blank"
+        }
+      }
+    ],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AOwRgLEA\" prefix-id=\"AOwRgLEA\" target=\"_blank\">Experimental Bee on Potion Use</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Bees Summoned on Potion Use<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Minion Damage<br/><span class=\"mod-type\">Increased</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">5%</span> to <span class=\"mod-value\">9%</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">20%</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">21%</span> to <span class=\"mod-value\">24%</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">25%</span> to <span class=\"mod-value\">35%</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">36%</span> to <span class=\"mod-value\">45%</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">55%</span> to <span class=\"mod-value\">65%</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">66%</span> to <span class=\"mod-value\">80%</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">128%</span> to <span class=\"mod-value\">160%</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Belt</li></ul></div><div class=\"related-refs\"><div class=\"refs-title\">Related abilities</div><div class=\"refs-group\"><div class=\"ability-icon-name\"><div class=\"ability-icon-inline\"><div class=\"icons icons-r-167\"></div></div><a ability_id=\"ability_gen187\" class=\"ability-link\" href=\"/skills/summon_bee\" section_ability_id=\"summon_bee\" target=\"_blank\">Summon Bee</a></div></div></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Dodge Rating and Endurance Threshold",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AGwdgLEA",
+    "id_attr": "AGwdgLEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Gloves"
+    ],
+    "headers": [
+      {
+        "label": "Dodge Rating",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Dodge Rating<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Endurance Threshold if you have not been Hit Recently",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Endurance Threshold if you have not been Hit Recently<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "20 to 27",
+            "parsed": {
+              "min": 20.0,
+              "max": 27.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "30 to 50",
+            "parsed": {
+              "min": 30.0,
+              "max": 50.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">20</span> to <span class=\"mod-value\">27</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">50</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "28 to 35",
+            "parsed": {
+              "min": 28.0,
+              "max": 35.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "51 to 76",
+            "parsed": {
+              "min": 51.0,
+              "max": 76.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">28</span> to <span class=\"mod-value\">35</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">76</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "36 to 45",
+            "parsed": {
+              "min": 36.0,
+              "max": 45.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "77 to 105",
+            "parsed": {
+              "min": 77.0,
+              "max": 105.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">36</span> to <span class=\"mod-value\">45</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">77</span> to <span class=\"mod-value\">105</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "46 to 56",
+            "parsed": {
+              "min": 46.0,
+              "max": 56.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "106 to 140",
+            "parsed": {
+              "min": 106.0,
+              "max": 140.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">46</span> to <span class=\"mod-value\">56</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">106</span> to <span class=\"mod-value\">140</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "57 to 80",
+            "parsed": {
+              "min": 57.0,
+              "max": 80.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "141 to 200",
+            "parsed": {
+              "min": 141.0,
+              "max": 200.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">57</span> to <span class=\"mod-value\">80</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">141</span> to <span class=\"mod-value\">200</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "95 to 130",
+            "parsed": {
+              "min": 95.0,
+              "max": 130.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "230 to 300",
+            "parsed": {
+              "min": 230.0,
+              "max": 300.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">95</span> to <span class=\"mod-value\">130</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">230</span> to <span class=\"mod-value\">300</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "131 to 170",
+            "parsed": {
+              "min": 131.0,
+              "max": 170.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "301 to 400",
+            "parsed": {
+              "min": 301.0,
+              "max": 400.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">131</span> to <span class=\"mod-value\">170</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">301</span> to <span class=\"mod-value\">400</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "272 to 340",
+            "parsed": {
+              "min": 272.0,
+              "max": 340.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "640 to 800",
+            "parsed": {
+              "min": 640.0,
+              "max": 800.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">272</span> to <span class=\"mod-value\">340</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">640</span> to <span class=\"mod-value\">800</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AGwdgLEA\" prefix-id=\"AGwdgLEA\" target=\"_blank\">Experimental Dodge Rating and Endurance Threshold</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Dodge Rating<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Endurance Threshold if you have not been Hit Recently<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">20</span> to <span class=\"mod-value\">27</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">50</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">28</span> to <span class=\"mod-value\">35</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">76</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">36</span> to <span class=\"mod-value\">45</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">77</span> to <span class=\"mod-value\">105</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">46</span> to <span class=\"mod-value\">56</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">106</span> to <span class=\"mod-value\">140</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">57</span> to <span class=\"mod-value\">80</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">141</span> to <span class=\"mod-value\">200</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">95</span> to <span class=\"mod-value\">130</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">230</span> to <span class=\"mod-value\">300</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">131</span> to <span class=\"mod-value\">170</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">301</span> to <span class=\"mod-value\">400</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">272</span> to <span class=\"mod-value\">340</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">640</span> to <span class=\"mod-value\">800</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Gloves</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Frenzy Effect",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AGwdhQ",
+    "id_attr": "AGwdhQ",
+    "requires_level": 1,
+    "applies_to": [
+      "Boots"
+    ],
+    "headers": [
+      {
+        "label": "Seconds of Frenzy after you use a Traversal Skill",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Seconds of Frenzy after you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Effect of Frenzy on You",
+        "mod_type": "Increased",
+        "raw_html": "<div class=\"affix-tier-range\">Effect of Frenzy on You<br/><span class=\"mod-type\">Increased</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.2 to 1.3",
+            "parsed": {
+              "min": 1.2,
+              "max": 1.3
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "3% to 5%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.2</span> to <span class=\"mod-value\">1.3</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">3%</span> to <span class=\"mod-value\">5%</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.4 to 1.5",
+            "parsed": {
+              "min": 1.4,
+              "max": 1.5
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "6% to 10%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.4</span> to <span class=\"mod-value\">1.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">10%</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.6 to 1.7",
+            "parsed": {
+              "min": 1.6,
+              "max": 1.7
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "11% to 17%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.6</span> to <span class=\"mod-value\">1.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11%</span> to <span class=\"mod-value\">17%</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.8 to 2",
+            "parsed": {
+              "min": 1.8,
+              "max": 2.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "18% to 25%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.8</span> to <span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">18%</span> to <span class=\"mod-value\">25%</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2.1 to 2.5",
+            "parsed": {
+              "min": 2.1,
+              "max": 2.5
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "26% to 35%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2.1</span> to <span class=\"mod-value\">2.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">35%</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "3 to 3.4",
+            "parsed": {
+              "min": 3.0,
+              "max": 3.4
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "40% to 49%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span> to <span class=\"mod-value\">3.4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">49%</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "3.5 to 4",
+            "parsed": {
+              "min": 3.5,
+              "max": 4.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "50% to 60%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3.5</span> to <span class=\"mod-value\">4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">50%</span> to <span class=\"mod-value\">60%</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "5 to 6",
+            "parsed": {
+              "min": 5.0,
+              "max": 6.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "90% to 100%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">5</span> to <span class=\"mod-value\">6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">90%</span> to <span class=\"mod-value\">100%</span></div></div>"
+      }
+    ],
+    "related": [
+      {
+        "kind": "ailments",
+        "name": "Frenzy",
+        "href": "/ailments/frenzy",
+        "extra": {
+          "ailment_id": "34",
+          "section_ailment_id": "frenzy",
+          "target": "_blank"
+        }
+      }
+    ],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AGwdhQ\" prefix-id=\"AGwdhQ\" target=\"_blank\">Experimental Frenzy Effect</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Seconds of Frenzy after you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Effect of Frenzy on You<br/><span class=\"mod-type\">Increased</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.2</span> to <span class=\"mod-value\">1.3</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">3%</span> to <span class=\"mod-value\">5%</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.4</span> to <span class=\"mod-value\">1.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">10%</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.6</span> to <span class=\"mod-value\">1.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11%</span> to <span class=\"mod-value\">17%</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.8</span> to <span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">18%</span> to <span class=\"mod-value\">25%</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2.1</span> to <span class=\"mod-value\">2.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">35%</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span> to <span class=\"mod-value\">3.4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">49%</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3.5</span> to <span class=\"mod-value\">4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">50%</span> to <span class=\"mod-value\">60%</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">5</span> to <span class=\"mod-value\">6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">90%</span> to <span class=\"mod-value\">100%</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Boots</li></ul></div><div class=\"related-refs\"><div class=\"refs-title\">Related ailments</div><div class=\"refs-group\"><div class=\"ailment-icon-name\"><div class=\"ailment-icon-inline positive\"><div class=\"icons icons-r-31\"></div></div><a ailment_id=\"34\" class=\"ailment-link\" href=\"/ailments/frenzy\" section_ailment_id=\"frenzy\" target=\"_blank\">Frenzy</a></div></div></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Haste Effect",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AGwdmQ",
+    "id_attr": "AGwdmQ",
+    "requires_level": 1,
+    "applies_to": [
+      "Boots"
+    ],
+    "headers": [
+      {
+        "label": "Seconds of Haste after you use a Traversal Skill",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Seconds of Haste after you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Effect of Haste on You",
+        "mod_type": "Increased",
+        "raw_html": "<div class=\"affix-tier-range\">Effect of Haste on You<br/><span class=\"mod-type\">Increased</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.2 to 1.3",
+            "parsed": {
+              "min": 1.2,
+              "max": 1.3
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "3% to 5%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.2</span> to <span class=\"mod-value\">1.3</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">3%</span> to <span class=\"mod-value\">5%</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.4 to 1.5",
+            "parsed": {
+              "min": 1.4,
+              "max": 1.5
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "6% to 10%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.4</span> to <span class=\"mod-value\">1.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">10%</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.6 to 1.7",
+            "parsed": {
+              "min": 1.6,
+              "max": 1.7
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "11% to 17%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.6</span> to <span class=\"mod-value\">1.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11%</span> to <span class=\"mod-value\">17%</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.8 to 2",
+            "parsed": {
+              "min": 1.8,
+              "max": 2.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "18% to 25%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.8</span> to <span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">18%</span> to <span class=\"mod-value\">25%</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2.1 to 2.5",
+            "parsed": {
+              "min": 2.1,
+              "max": 2.5
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "26% to 35%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2.1</span> to <span class=\"mod-value\">2.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">35%</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "3 to 3.4",
+            "parsed": {
+              "min": 3.0,
+              "max": 3.4
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "40% to 49%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span> to <span class=\"mod-value\">3.4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">49%</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "3.5 to 4",
+            "parsed": {
+              "min": 3.5,
+              "max": 4.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "50% to 60%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3.5</span> to <span class=\"mod-value\">4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">50%</span> to <span class=\"mod-value\">60%</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "5 to 6",
+            "parsed": {
+              "min": 5.0,
+              "max": 6.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "90% to 100%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">5</span> to <span class=\"mod-value\">6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">90%</span> to <span class=\"mod-value\">100%</span></div></div>"
+      }
+    ],
+    "related": [
+      {
+        "kind": "ailments",
+        "name": "Haste",
+        "href": "/ailments/haste",
+        "extra": {
+          "ailment_id": "33",
+          "section_ailment_id": "haste",
+          "target": "_blank"
+        }
+      }
+    ],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AGwdmQ\" prefix-id=\"AGwdmQ\" target=\"_blank\">Experimental Haste Effect</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Seconds of Haste after you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Effect of Haste on You<br/><span class=\"mod-type\">Increased</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.2</span> to <span class=\"mod-value\">1.3</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">3%</span> to <span class=\"mod-value\">5%</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.4</span> to <span class=\"mod-value\">1.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">10%</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.6</span> to <span class=\"mod-value\">1.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11%</span> to <span class=\"mod-value\">17%</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.8</span> to <span class=\"mod-value\">2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">18%</span> to <span class=\"mod-value\">25%</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2.1</span> to <span class=\"mod-value\">2.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">35%</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span> to <span class=\"mod-value\">3.4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">49%</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">3.5</span> to <span class=\"mod-value\">4</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">50%</span> to <span class=\"mod-value\">60%</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">5</span> to <span class=\"mod-value\">6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">90%</span> to <span class=\"mod-value\">100%</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Boots</li></ul></div><div class=\"related-refs\"><div class=\"refs-title\">Related ailments</div><div class=\"refs-group\"><div class=\"ailment-icon-name\"><div class=\"ailment-icon-inline positive\"><div class=\"icons icons-r-30\"></div></div><a ailment_id=\"33\" class=\"ailment-link\" href=\"/ailments/haste\" section_ailment_id=\"haste\" target=\"_blank\">Haste</a></div></div></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Mana on Potion Use",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AOwRgTEA",
+    "id_attr": "AOwRgTEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Belt"
+    ],
+    "headers": [
+      {
+        "label": "Mana Gained on Potion Use",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Mana Gained on Potion Use<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Mana Regen for 4 seconds when you use a Potion",
+        "mod_type": "Increased",
+        "raw_html": "<div class=\"affix-tier-range\">Mana Regen for 4 seconds when you use a Potion<br/><span class=\"mod-type\">Increased</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "8 to 9",
+            "parsed": {
+              "min": 8.0,
+              "max": 9.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "10% to 15%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">15%</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "10 to 11",
+            "parsed": {
+              "min": 10.0,
+              "max": 11.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "16% to 22%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10</span> to <span class=\"mod-value\">11</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">22%</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "12 to 13",
+            "parsed": {
+              "min": 12.0,
+              "max": 13.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "23% to 30%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">12</span> to <span class=\"mod-value\">13</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">23%</span> to <span class=\"mod-value\">30%</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "14 to 16",
+            "parsed": {
+              "min": 14.0,
+              "max": 16.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "31% to 39%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">14</span> to <span class=\"mod-value\">16</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">31%</span> to <span class=\"mod-value\">39%</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "17 to 20",
+            "parsed": {
+              "min": 17.0,
+              "max": 20.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "40% to 50%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">17</span> to <span class=\"mod-value\">20</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">50%</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "25 to 29",
+            "parsed": {
+              "min": 25.0,
+              "max": 29.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "65% to 80%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">25</span> to <span class=\"mod-value\">29</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">65%</span> to <span class=\"mod-value\">80%</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "30 to 35",
+            "parsed": {
+              "min": 30.0,
+              "max": 35.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "81% to 100%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">35</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">81%</span> to <span class=\"mod-value\">100%</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "56 to 70",
+            "parsed": {
+              "min": 56.0,
+              "max": 70.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "160% to 200%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">56</span> to <span class=\"mod-value\">70</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">160%</span> to <span class=\"mod-value\">200%</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AOwRgTEA\" prefix-id=\"AOwRgTEA\" target=\"_blank\">Experimental Mana on Potion Use</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Mana Gained on Potion Use<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Mana Regen for 4 seconds when you use a Potion<br/><span class=\"mod-type\">Increased</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">15%</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10</span> to <span class=\"mod-value\">11</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">22%</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">12</span> to <span class=\"mod-value\">13</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">23%</span> to <span class=\"mod-value\">30%</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">14</span> to <span class=\"mod-value\">16</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">31%</span> to <span class=\"mod-value\">39%</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">17</span> to <span class=\"mod-value\">20</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">50%</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">25</span> to <span class=\"mod-value\">29</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">65%</span> to <span class=\"mod-value\">80%</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">35</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">81%</span> to <span class=\"mod-value\">100%</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">56</span> to <span class=\"mod-value\">70</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">160%</span> to <span class=\"mod-value\">200%</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Belt</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Minions Transported with Traversal Skills",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AGwdgnEA",
+    "id_attr": "AGwdgnEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Boots"
+    ],
+    "headers": [
+      {
+        "label": "Minion Damage",
+        "mod_type": "Increased",
+        "raw_html": "<div class=\"affix-tier-range\">Minion Damage<br/><span class=\"mod-type\">Increased</span></div>"
+      },
+      {
+        "label": "Minions teleported around you after you use a Traversal Skill",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Minions teleported around you after you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "16% to 23%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "2",
+            "parsed": {
+              "value": 2.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">23%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "24% to 31%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "3",
+            "parsed": {
+              "value": 3.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">24%</span> to <span class=\"mod-value\">31%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "32% to 39%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "4",
+            "parsed": {
+              "value": 4.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">32%</span> to <span class=\"mod-value\">39%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "40% to 49%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "5",
+            "parsed": {
+              "value": 5.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">49%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">5</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "50% to 70%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "6 to 7",
+            "parsed": {
+              "min": 6.0,
+              "max": 7.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">50%</span> to <span class=\"mod-value\">70%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span> to <span class=\"mod-value\">7</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "80% to 105%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "8 to 9",
+            "parsed": {
+              "min": 8.0,
+              "max": 9.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">80%</span> to <span class=\"mod-value\">105%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "106% to 140%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "10 to 12",
+            "parsed": {
+              "min": 10.0,
+              "max": 12.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">106%</span> to <span class=\"mod-value\">140%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10</span> to <span class=\"mod-value\">12</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "224% to 280%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "19 to 24",
+            "parsed": {
+              "min": 19.0,
+              "max": 24.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">224%</span> to <span class=\"mod-value\">280%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">19</span> to <span class=\"mod-value\">24</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AGwdgnEA\" prefix-id=\"AGwdgnEA\" target=\"_blank\">Experimental Minions Transported with Traversal Skills</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Minion Damage<br/><span class=\"mod-type\">Increased</span></div><div class=\"affix-tier-range\">Minions teleported around you after you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">23%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">24%</span> to <span class=\"mod-value\">31%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">3</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">32%</span> to <span class=\"mod-value\">39%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">40%</span> to <span class=\"mod-value\">49%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">5</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">50%</span> to <span class=\"mod-value\">70%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span> to <span class=\"mod-value\">7</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">80%</span> to <span class=\"mod-value\">105%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">106%</span> to <span class=\"mod-value\">140%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10</span> to <span class=\"mod-value\">12</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">224%</span> to <span class=\"mod-value\">280%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">19</span> to <span class=\"mod-value\">24</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Boots</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Traversal Cooldown Recovery on Potion Use",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AOwRgzEA",
+    "id_attr": "AOwRgzEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Belt"
+    ],
+    "headers": [
+      {
+        "label": "Seconds of Traversal Skill Cooldowns Recovered on Potion Use",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Seconds of Traversal Skill Cooldowns Recovered on Potion Use<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Increased Chance To Find Potions",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Increased Chance To Find Potions<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "0.5",
+            "parsed": {
+              "value": 0.5
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "16% to 20%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">20%</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "0.6",
+            "parsed": {
+              "value": 0.6
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "21% to 25%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">21%</span> to <span class=\"mod-value\">25%</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "0.7",
+            "parsed": {
+              "value": 0.7
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "26% to 32%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">32%</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "0.8 to 0.9",
+            "parsed": {
+              "min": 0.8,
+              "max": 0.9
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "33% to 40%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.8</span> to <span class=\"mod-value\">0.9</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">33%</span> to <span class=\"mod-value\">40%</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.1 to 1.2",
+            "parsed": {
+              "min": 1.1,
+              "max": 1.2
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "41% to 50%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.1</span> to <span class=\"mod-value\">1.2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">41%</span> to <span class=\"mod-value\">50%</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.4 to 1.5",
+            "parsed": {
+              "min": 1.4,
+              "max": 1.5
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "70% to 79%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.4</span> to <span class=\"mod-value\">1.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">70%</span> to <span class=\"mod-value\">79%</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "1.6 to 1.8",
+            "parsed": {
+              "min": 1.6,
+              "max": 1.8
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "80% to 100%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.6</span> to <span class=\"mod-value\">1.8</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">80%</span> to <span class=\"mod-value\">100%</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "2.2 to 2.7",
+            "parsed": {
+              "min": 2.2,
+              "max": 2.7
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "160% to 200%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2.2</span> to <span class=\"mod-value\">2.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">160%</span> to <span class=\"mod-value\">200%</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AOwRgzEA\" prefix-id=\"AOwRgzEA\" target=\"_blank\">Experimental Traversal Cooldown Recovery on Potion Use</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Seconds of Traversal Skill Cooldowns Recovered on Potion Use<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Increased Chance To Find Potions<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">16%</span> to <span class=\"mod-value\">20%</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.6</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">21%</span> to <span class=\"mod-value\">25%</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">26%</span> to <span class=\"mod-value\">32%</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">0.8</span> to <span class=\"mod-value\">0.9</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">33%</span> to <span class=\"mod-value\">40%</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.1</span> to <span class=\"mod-value\">1.2</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">41%</span> to <span class=\"mod-value\">50%</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.4</span> to <span class=\"mod-value\">1.5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">70%</span> to <span class=\"mod-value\">79%</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">1.6</span> to <span class=\"mod-value\">1.8</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">80%</span> to <span class=\"mod-value\">100%</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">2.2</span> to <span class=\"mod-value\">2.7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">160%</span> to <span class=\"mod-value\">200%</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Belt</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Ward Gained on Traversal",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AGwdgHEA",
+    "id_attr": "AGwdgHEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Boots"
+    ],
+    "headers": [
+      {
+        "label": "Ward Gained when you use a Traversal Skill",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Ward Gained when you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Ward gained per 10 Missing Mana when you use a Traversal Skill",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Ward gained per 10 Missing Mana when you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "10 to 14",
+            "parsed": {
+              "min": 10.0,
+              "max": 14.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "2 to 3",
+            "parsed": {
+              "min": 2.0,
+              "max": 3.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10</span> to <span class=\"mod-value\">14</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span> to <span class=\"mod-value\">3</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "15 to 20",
+            "parsed": {
+              "min": 15.0,
+              "max": 20.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "4 to 5",
+            "parsed": {
+              "min": 4.0,
+              "max": 5.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">15</span> to <span class=\"mod-value\">20</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span> to <span class=\"mod-value\">5</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "21 to 27",
+            "parsed": {
+              "min": 21.0,
+              "max": 27.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "6 to 7",
+            "parsed": {
+              "min": 6.0,
+              "max": 7.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">21</span> to <span class=\"mod-value\">27</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span> to <span class=\"mod-value\">7</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "28 to 36",
+            "parsed": {
+              "min": 28.0,
+              "max": 36.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "8 to 9",
+            "parsed": {
+              "min": 8.0,
+              "max": 9.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">28</span> to <span class=\"mod-value\">36</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "47 to 60",
+            "parsed": {
+              "min": 47.0,
+              "max": 60.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "11 to 13",
+            "parsed": {
+              "min": 11.0,
+              "max": 13.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">47</span> to <span class=\"mod-value\">60</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11</span> to <span class=\"mod-value\">13</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "70 to 85",
+            "parsed": {
+              "min": 70.0,
+              "max": 85.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "15 to 19",
+            "parsed": {
+              "min": 15.0,
+              "max": 19.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">70</span> to <span class=\"mod-value\">85</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">15</span> to <span class=\"mod-value\">19</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "86 to 110",
+            "parsed": {
+              "min": 86.0,
+              "max": 110.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "20 to 25",
+            "parsed": {
+              "min": 20.0,
+              "max": 25.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">86</span> to <span class=\"mod-value\">110</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">20</span> to <span class=\"mod-value\">25</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "225 to 275",
+            "parsed": {
+              "min": 225.0,
+              "max": 275.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "30 to 37",
+            "parsed": {
+              "min": 30.0,
+              "max": 37.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">225</span> to <span class=\"mod-value\">275</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">37</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AGwdgHEA\" prefix-id=\"AGwdgHEA\" target=\"_blank\">Experimental Ward Gained on Traversal</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Ward Gained when you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Ward gained per 10 Missing Mana when you use a Traversal Skill<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10</span> to <span class=\"mod-value\">14</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">2</span> to <span class=\"mod-value\">3</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">15</span> to <span class=\"mod-value\">20</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span> to <span class=\"mod-value\">5</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">21</span> to <span class=\"mod-value\">27</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span> to <span class=\"mod-value\">7</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">28</span> to <span class=\"mod-value\">36</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">47</span> to <span class=\"mod-value\">60</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11</span> to <span class=\"mod-value\">13</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">70</span> to <span class=\"mod-value\">85</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">15</span> to <span class=\"mod-value\">19</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">86</span> to <span class=\"mod-value\">110</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">20</span> to <span class=\"mod-value\">25</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">225</span> to <span class=\"mod-value\">275</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">30</span> to <span class=\"mod-value\">37</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Boots</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Ward on Kill",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AGwdgzEA",
+    "id_attr": "AGwdgzEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Gloves"
+    ],
+    "headers": [
+      {
+        "label": "Ward Gain on Kill",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Ward Gain on Kill<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Ward Decay Threshold",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Ward Decay Threshold<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "4 to 5",
+            "parsed": {
+              "min": 4.0,
+              "max": 5.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "40 to 50",
+            "parsed": {
+              "min": 40.0,
+              "max": 50.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span> to <span class=\"mod-value\">5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40</span> to <span class=\"mod-value\">50</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "6 to 7",
+            "parsed": {
+              "min": 6.0,
+              "max": 7.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "51 to 67",
+            "parsed": {
+              "min": 51.0,
+              "max": 67.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span> to <span class=\"mod-value\">7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">67</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "8 to 10",
+            "parsed": {
+              "min": 8.0,
+              "max": 10.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "68 to 90",
+            "parsed": {
+              "min": 68.0,
+              "max": 90.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">10</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">68</span> to <span class=\"mod-value\">90</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "11 to 14",
+            "parsed": {
+              "min": 11.0,
+              "max": 14.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "91 to 120",
+            "parsed": {
+              "min": 91.0,
+              "max": 120.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">11</span> to <span class=\"mod-value\">14</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">91</span> to <span class=\"mod-value\">120</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "15 to 20",
+            "parsed": {
+              "min": 15.0,
+              "max": 20.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "121 to 160",
+            "parsed": {
+              "min": 121.0,
+              "max": 160.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">15</span> to <span class=\"mod-value\">20</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">121</span> to <span class=\"mod-value\">160</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "25 to 30",
+            "parsed": {
+              "min": 25.0,
+              "max": 30.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "200 to 245",
+            "parsed": {
+              "min": 200.0,
+              "max": 245.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">25</span> to <span class=\"mod-value\">30</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">200</span> to <span class=\"mod-value\">245</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "31 to 38",
+            "parsed": {
+              "min": 31.0,
+              "max": 38.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "246 to 310",
+            "parsed": {
+              "min": 246.0,
+              "max": 310.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">31</span> to <span class=\"mod-value\">38</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">246</span> to <span class=\"mod-value\">310</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "61 to 76",
+            "parsed": {
+              "min": 61.0,
+              "max": 76.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "496 to 620",
+            "parsed": {
+              "min": 496.0,
+              "max": 620.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">61</span> to <span class=\"mod-value\">76</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">496</span> to <span class=\"mod-value\">620</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AGwdgzEA\" prefix-id=\"AGwdgzEA\" target=\"_blank\">Experimental Ward on Kill</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Ward Gain on Kill<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Ward Decay Threshold<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">4</span> to <span class=\"mod-value\">5</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">40</span> to <span class=\"mod-value\">50</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">6</span> to <span class=\"mod-value\">7</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">67</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">10</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">68</span> to <span class=\"mod-value\">90</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">11</span> to <span class=\"mod-value\">14</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">91</span> to <span class=\"mod-value\">120</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">15</span> to <span class=\"mod-value\">20</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">121</span> to <span class=\"mod-value\">160</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">25</span> to <span class=\"mod-value\">30</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">200</span> to <span class=\"mod-value\">245</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">31</span> to <span class=\"mod-value\">38</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">246</span> to <span class=\"mod-value\">310</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">61</span> to <span class=\"mod-value\">76</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">496</span> to <span class=\"mod-value\">620</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Gloves</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Ward on Potion Use",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AOwRhQ",
+    "id_attr": "AOwRhQ",
+    "requires_level": 1,
+    "applies_to": [
+      "Belt"
+    ],
+    "headers": [
+      {
+        "label": "Ward Decay Threshold",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Ward Decay Threshold<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Ward Gained on Potion Use per 10 Intelligence",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Ward Gained on Potion Use per 10 Intelligence<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "40 to 50",
+            "parsed": {
+              "min": 40.0,
+              "max": 50.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "8 to 9",
+            "parsed": {
+              "min": 8.0,
+              "max": 9.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">40</span> to <span class=\"mod-value\">50</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "51 to 67",
+            "parsed": {
+              "min": 51.0,
+              "max": 67.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "11 to 13",
+            "parsed": {
+              "min": 11.0,
+              "max": 13.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">67</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11</span> to <span class=\"mod-value\">13</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "68 to 90",
+            "parsed": {
+              "min": 68.0,
+              "max": 90.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "14 to 16",
+            "parsed": {
+              "min": 14.0,
+              "max": 16.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">68</span> to <span class=\"mod-value\">90</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">14</span> to <span class=\"mod-value\">16</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "91 to 120",
+            "parsed": {
+              "min": 91.0,
+              "max": 120.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "17 to 19",
+            "parsed": {
+              "min": 17.0,
+              "max": 19.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">91</span> to <span class=\"mod-value\">120</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">17</span> to <span class=\"mod-value\">19</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "121 to 160",
+            "parsed": {
+              "min": 121.0,
+              "max": 160.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "20 to 25",
+            "parsed": {
+              "min": 20.0,
+              "max": 25.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">121</span> to <span class=\"mod-value\">160</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">20</span> to <span class=\"mod-value\">25</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "200 to 245",
+            "parsed": {
+              "min": 200.0,
+              "max": 245.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "28 to 34",
+            "parsed": {
+              "min": 28.0,
+              "max": 34.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">200</span> to <span class=\"mod-value\">245</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">28</span> to <span class=\"mod-value\">34</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "246 to 310",
+            "parsed": {
+              "min": 246.0,
+              "max": 310.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "35 to 45",
+            "parsed": {
+              "min": 35.0,
+              "max": 45.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">246</span> to <span class=\"mod-value\">310</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">35</span> to <span class=\"mod-value\">45</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "496 to 620",
+            "parsed": {
+              "min": 496.0,
+              "max": 620.0
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "55 to 68",
+            "parsed": {
+              "min": 55.0,
+              "max": 68.0
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">496</span> to <span class=\"mod-value\">620</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">55</span> to <span class=\"mod-value\">68</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AOwRhQ\" prefix-id=\"AOwRhQ\" target=\"_blank\">Experimental Ward on Potion Use</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Ward Decay Threshold<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Ward Gained on Potion Use per 10 Intelligence<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">40</span> to <span class=\"mod-value\">50</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8</span> to <span class=\"mod-value\">9</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">51</span> to <span class=\"mod-value\">67</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">11</span> to <span class=\"mod-value\">13</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">68</span> to <span class=\"mod-value\">90</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">14</span> to <span class=\"mod-value\">16</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">91</span> to <span class=\"mod-value\">120</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">17</span> to <span class=\"mod-value\">19</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">121</span> to <span class=\"mod-value\">160</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">20</span> to <span class=\"mod-value\">25</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">200</span> to <span class=\"mod-value\">245</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">28</span> to <span class=\"mod-value\">34</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">246</span> to <span class=\"mod-value\">310</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">35</span> to <span class=\"mod-value\">45</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">496</span> to <span class=\"mod-value\">620</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">55</span> to <span class=\"mod-value\">68</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Belt</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  },
+  {
+    "name": "Experimental Ward per Missing Health",
+    "type": "Prefix",
+    "title": "Experimental",
+    "href": "/db/prefixes/AGwdgrEA",
+    "id_attr": "AGwdgrEA",
+    "requires_level": 1,
+    "applies_to": [
+      "Gloves"
+    ],
+    "headers": [
+      {
+        "label": "Current Health Lost per second",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Current Health Lost per second<br/><span class=\"mod-type\">Added</span></div>"
+      },
+      {
+        "label": "Missing Health gained as Ward per second",
+        "mod_type": "Added",
+        "raw_html": "<div class=\"affix-tier-range\">Missing Health gained as Ward per second<br/><span class=\"mod-type\">Added</span></div>"
+      }
+    ],
+    "tiers": [
+      {
+        "number": 1,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "4%",
+            "parsed": {
+              "value": 4.0,
+              "unit": "%"
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "4%",
+            "parsed": {
+              "value": 4.0,
+              "unit": "%"
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">4%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">4%</span></div></div>"
+      },
+      {
+        "number": 2,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "5%",
+            "parsed": {
+              "value": 5.0,
+              "unit": "%"
+            }
+          },
+          {
+            "header_index": 1,
+            "raw_text": "5%",
+            "parsed": {
+              "value": 5.0,
+              "unit": "%"
+            }
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">5%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">5%</span></div></div>"
+      },
+      {
+        "number": 3,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "6% to 7%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "6% to 7%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">7%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">7%</span></div></div>"
+      },
+      {
+        "number": 4,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "8% to 9%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "8% to 9%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">8%</span> to <span class=\"mod-value\">9%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8%</span> to <span class=\"mod-value\">9%</span></div></div>"
+      },
+      {
+        "number": 5,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "10% to 12%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "10% to 12%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">12%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">12%</span></div></div>"
+      },
+      {
+        "number": 6,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "14% to 16%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "14% to 16%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">14%</span> to <span class=\"mod-value\">16%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">14%</span> to <span class=\"mod-value\">16%</span></div></div>"
+      },
+      {
+        "number": 7,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "17% to 20%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "17% to 20%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">17%</span> to <span class=\"mod-value\">20%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">17%</span> to <span class=\"mod-value\">20%</span></div></div>"
+      },
+      {
+        "number": 8,
+        "ranges": [
+          {
+            "header_index": 0,
+            "raw_text": "25% to 30%",
+            "parsed": null
+          },
+          {
+            "header_index": 1,
+            "raw_text": "25% to 30%",
+            "parsed": null
+          }
+        ],
+        "raw_html": "<div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">25%</span> to <span class=\"mod-value\">30%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">25%</span> to <span class=\"mod-value\">30%</span></div></div>"
+      }
+    ],
+    "related": [],
+    "extra_info": [
+      {
+        "text": "Exclusive to items dropped by Exiled Mages (Rune Prison encounters)",
+        "details": "(Rune Prison encounters)",
+        "extra": {}
+      },
+      {
+        "text": "Rarity on Items: Common Reroll Chance: 0%",
+        "details": null,
+        "extra": {
+          "hover_text": "Reroll Chance: 0%"
+        }
+      }
+    ],
+    "classes": [
+      "item-card",
+      "item-hidden",
+      "item-rarity0",
+      "min-grid-22",
+      "item-affix",
+      "experimental"
+    ],
+    "raw_html": "<div class=\"item-card item-hidden item-rarity0 min-grid-22 item-affix experimental\"><div class=\"top-middle-block\"><div class=\"top-block\"><div class=\"item-bitmap-container\"><div class=\"item-bitmap itemdb itemdb-undefined\"></div></div><div class=\"item-description\"><div><a class=\"item-name rarity0\" href=\"/db/prefixes/AGwdgrEA\" prefix-id=\"AGwdgrEA\" target=\"_blank\">Experimental Ward per Missing Health</a></div><div class=\"item-type for-affix\">Prefix</div><div class=\"affix-title\">Experimental</div></div></div><div class=\"middle-block\"><div class=\"tier-values\">Base values</div><div class=\"tooltip-skill-params tier-table\"><div class=\"affix tier-header\"><div class=\"affix-tier-name\"></div><div class=\"affix-tier-range\">Current Health Lost per second<br/><span class=\"mod-type\">Added</span></div><div class=\"affix-tier-range\">Missing Health gained as Ward per second<br/><span class=\"mod-type\">Added</span></div></div><div class=\"affix\" tier=\"1\"><div class=\"affix-tier-name\">Tier 1</div><div class=\"affix-tier-range\"><span class=\"mod-value\">4%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">4%</span></div></div><div class=\"affix\" tier=\"2\"><div class=\"affix-tier-name\">Tier 2</div><div class=\"affix-tier-range\"><span class=\"mod-value\">5%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">5%</span></div></div><div class=\"affix\" tier=\"3\"><div class=\"affix-tier-name\">Tier 3</div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">7%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">6%</span> to <span class=\"mod-value\">7%</span></div></div><div class=\"affix\" tier=\"4\"><div class=\"affix-tier-name\">Tier 4</div><div class=\"affix-tier-range\"><span class=\"mod-value\">8%</span> to <span class=\"mod-value\">9%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">8%</span> to <span class=\"mod-value\">9%</span></div></div><div class=\"affix\" tier=\"5\"><div class=\"affix-tier-name\">Tier 5</div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">12%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">10%</span> to <span class=\"mod-value\">12%</span></div></div><div class=\"affix\" tier=\"6\"><div class=\"affix-tier-name\">Tier 6</div><div class=\"affix-tier-range\"><span class=\"mod-value\">14%</span> to <span class=\"mod-value\">16%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">14%</span> to <span class=\"mod-value\">16%</span></div></div><div class=\"affix\" tier=\"7\"><div class=\"affix-tier-name\">Tier 7</div><div class=\"affix-tier-range\"><span class=\"mod-value\">17%</span> to <span class=\"mod-value\">20%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">17%</span> to <span class=\"mod-value\">20%</span></div></div><div class=\"affix\" tier=\"8\"><div class=\"affix-tier-name\">Tier 8</div><div class=\"affix-tier-range\"><span class=\"mod-value\">25%</span> to <span class=\"mod-value\">30%</span></div><div class=\"affix-tier-range\"><span class=\"mod-value\">25%</span> to <span class=\"mod-value\">30%</span></div></div></div><div><div class=\"affix-applies-to\">Can be applied to:</div><ul class=\"affix-applies-to-list\"><li>Gloves</li></ul></div><div class=\"item-req\">Requires Level: <span style=\"color:#FFF\">1</span></div></div></div><div class=\"bottom-block\"><div class=\"extra-info\">Exclusive to items dropped by <a class=\"guide-link\" href=\"/guide/section/exiled_mages\" target=\"_blank\">Exiled Mages</a> <span class=\"extra-info-details\">(Rune Prison encounters)</span></div><div class=\"extra-info\"><span class=\"rarity-on-items\">Rarity on Items:</span> <span class=\"with-hover-text drop-chance\">Common<span class=\"hover-text hover-text-nowrap\">Reroll Chance: 0%</span></span></div></div></div>"
+  }
+]
