@@ -183,6 +183,9 @@ next-env.d.ts
 # Hide data
 public/**/raw/
 
+# Hide old nonsense
+public/**/_archive
+
 # Hide automation logs
 public/*/*.clog
 src/scheduled/*.clog
