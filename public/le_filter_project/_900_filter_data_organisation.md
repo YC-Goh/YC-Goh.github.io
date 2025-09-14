@@ -17,8 +17,6 @@ Folder structure:
     -   combined [data pipeline output]
     -   details
         -   processed [data pipeline output]
-            -   [prefix/suffix].csv [Name (str), Type (str), Applies To (str)]
-            -   [prefix/suffix].json
         -   raw [https://www.lastepochtools.com/db/]
             -   [prefix/suffix].html
     -   game_data
