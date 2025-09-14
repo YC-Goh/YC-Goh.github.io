@@ -29,6 +29,7 @@ def _affix_details_html_parser(html_filepath: str) -> dict:
         if div_entry_applies_to:
             div_entry_applies_to = strip_ws(div_entry_applies_to.get_text(",", strip=True)).title()
             div_entry_applies_to = div_entry_applies_to.replace("\u00d7", "x")
+            div_entry_applies_to = ",".join([re.compile(r"\[\d+\s*x\s*\d+\]").sub("", div_apply_applies).strip() for div_apply_applies in div_entry_applies_to.split(",")])
         div_entry_level = div_entry.find("div", attrs={"class": "item-req"})
         if div_entry_level:
             div_entry_level = strip_ws(div_entry_level.get_text(" ", strip=True)).title()
@@ -69,8 +70,10 @@ def _affix_details_html_parser(html_filepath: str) -> dict:
 def main() -> dict:
     prefix_filepath = filepaths["affix_id"]["details"]["raw"].joinpath("prefix.html")
     prefix_map = _affix_details_html_parser(prefix_filepath)
+    prefix_map = {key: {**{"position": "Prefix"}, **val, } for key, val in prefix_map.items()}
     suffix_filepath = filepaths["affix_id"]["details"]["raw"].joinpath("suffix.html")
     suffix_map = _affix_details_html_parser(suffix_filepath)
+    suffix_map = {key: {**{"position": "Suffix"}, **val, } for key, val in suffix_map.items()}
     category_map = {**prefix_map, **suffix_map}
     category_map = dict(sorted(category_map.items(), key=lambda item: item[1]["name"]))
     category_map = {i: val for i, (_, val) in enumerate(category_map.items())}
