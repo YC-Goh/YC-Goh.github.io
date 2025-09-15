@@ -107,6 +107,32 @@ def main() -> pd.DataFrame:
     affix_frame = affix_frame.loc[affix_frame["keep"]].drop(columns=["keep"])
     affix_frame["keep"] = affix_frame.groupby(by=["slot", "id"], as_index=False).apply(_match_affix_class, include_groups=False).droplevel(0, axis=0)
     affix_frame = affix_frame.loc[affix_frame["keep"]].drop(columns=["keep"])
+    preferred_slot_order = [
+        'One-Handed Axe', 'One-Handed Mace', 'One-Handed Sword', 'Sceptre', 'Dagger', 'Wand', 
+        'Two-Handed Axe', 'Two-Handed Mace', 'Two-Handed Sword', 'Two-Handed Spear', 'Two-Handed Staff', 'Bow', 
+        'Off-Hand Catalyst', 'Shield', 'Quiver', 
+        'Helmet', 'Body Armor', 'Boots', 'Gloves', 'Belt', 
+        'Ring', 'Amulet', 'Relic', 
+        'Small Idol', 'Minor Idol', 'Humble Idol', 'Stout Idol', 
+        'Huge Idol', 'Grand Idol', 'Large Idol', 'Ornate Idol', 
+        'Adorned Idol', 
+    ]
+    preferred_group_order = [
+        'General Idols', 'Acolyte Idols', 'Primalist Idols', 'Mage Idols', 'Sentinel Idols', 'Rogue Idols', 'Weaver Idols', 'Enchanted Idols', 
+        'Attributes', 
+        'Melee', 'Bow', 'Throwing', 'Spell', 'General', 'Damage Type', 
+        'Health', 'Health Recovery', 'Mana', 'Potion', 
+        'Resistance and Armor', 'Ward', 'Dodge', 'Block', 'Parry', 'Leech', 
+        'Stun', 'Critical Strike Avoidance', 
+        'Movement', 'Cooldown', 
+        'Minion', 
+        'Ailments', 
+        'Reflect', 
+        'Acolyte', 'Primalist', 'Mage', 'Sentinel', 'Rogue', 
+        'Personal', 'Experimental', 'Set', 
+    ]
+    affix_frame["slot"] = pd.Categorical(affix_frame["slot"], preferred_slot_order, ordered=True)
+    affix_frame["group"] = pd.Categorical(affix_frame["group"], preferred_group_order, ordered=True)
     affix_frame = affix_frame.sort_values(by=["slot", "group", "position", "title"])
     return affix_frame
 

@@ -5,6 +5,104 @@ from _001_base import *
 
 def _affix_id_html_parser(html_filepath: str) -> dict:
     soup = bs.BeautifulSoup(open(html_filepath, "rt"), features="html.parser")
+    tag_list = {
+        "Attribute": ["Attribute", "Strength", "Intelligence", "Dexterity", "Attunement", "Vitality", ], 
+        "Strength": ["Strength", ], 
+        "Intelligence": ["Intelligence", ], 
+        "Dexterity": ["Dexterity", ], 
+        "Attunement": ["Attunement", ], 
+        "Vitality": ["Vitality", ], 
+        "Health": ["Health", ], 
+        "Mana": ["Mana", ], 
+        "Ward": ["Ward", ], 
+        "Regeneration": [
+            "Health Regen", "Health Per Second", "Mana Regen", "Mana Per Second", "Ward Per Second", 
+        ], 
+        "Recovery": [
+            "Recover", 
+            "Health Gain On Kill", "Health On Kill", 
+            "Mana Gain On Kill", "Mana On Kill", 
+            "Ward Gain On Kill", "Ward On Kill", 
+        ], 
+        "Healing": ["Healing", "Heal A", "Heals", ], 
+        "Resistance": ["Resistance", "Resistances", ], 
+        "Armour": ["Armour", "Armor", ], 
+        "Dodge": ["Dodge", ], 
+        "Block": ["Block", ], 
+        "Parry": ["Parry", ], 
+        "Endurance": ["Endurance", ], 
+        "Damage Reduction": ["Reduced Bonus Damage", "Less Damage Over Time", ], 
+        "Damage Avoidance": ["Critical Strike Avoidance", ], 
+        "Damage Redirection": ["Taken As", "Dealt To Mana Before Health", ], 
+        "Potion": ["Potion"], 
+        "Critical": ["Critical", "Crits", ], 
+        "Penetration": ["Penetration", "Penetrates", ], 
+        "Defence Reduction": ["Armor Shred", "Shred Armor", "Armour Shred", "Shred Armour", ], 
+        "Resistance Reduction": [
+            "Marked For Death", "Shock", 
+            "Shred Fire", "Shred Cold", "Shred Lightning", 
+            "Shred Physical", "Shred Poison", "Shred Necrotic", "Shred Void", 
+        ], 
+        "Curse": [
+            "Curse", "Marked for Death", "Spirit Plague", "Bone Curse", "Wither", 
+            "Penance", "Exposed Flesh", "Decrepify", "Acid Skin", "Torment", "Anguish", 
+        ], 
+        "Slow": ["Slow", "Chill", ], 
+        "Stun": ["Stun", ], 
+        "Freeze": ["Freeze", ], 
+        "Blind": ["Blind", ], 
+        "Negative Ailment": [
+            "Slow", "Chill", "Stun", "Freeze", "Blind", 
+        ], 
+        "Damaging Ailment": [
+            "Ignite", "Witchfire", "Frostbite", "Electrify", 
+            "Bleed", "Blood Tether", 
+            "Poison", "Inflict Plague", "Apply Plague", "With Plague", 
+            "Damned", "Chained", "Possess", "Possessed", 
+            "Doom", "Abyssal Decay", 
+        ], 
+        "Haste": ["Haste", ], 
+        "Frenzy": ["Frenzy", ], 
+        "Movement": ["Movement Speed", ], 
+        "Cooldown": ["Cooldown", ], 
+        "Duration": ["Duration", ], 
+        "Traversal": ["Traversal", "Movement Skill", ], 
+        "Evade": ["Evade", ], 
+        "Skill Level": ["Level Of", ], 
+        "Fire": ["Fire", "Flame", "Ignite", "Penance", "Witchfire", ], 
+        "Cold": ["Cold", "Frost", "Chill", "Freeze", "Frostbite", "Exposed Flesh", ], 
+        "Lightning": ["Lightning", "Storm", "Thunder", "Shock", "Electrify", ], 
+        "Elemental": ["Elemental", "Elements", ], 
+        "Physical": ["Physical", "Bleed", "Blood Tether", "Decrepify", ], 
+        "Poison": ["Poison", "Inflict Plague", "Apply Plague", "With Plague", "Acid Skin", ], 
+        "Necrotic": ["Necrotic", "Damned", "Chained", "Possess", "Possessed", "Spirit Plague", "Torment", "Anguish", ], 
+        "Void": ["Void", "Doom", "Abyssal Decay", ], 
+        "Melee": ["Melee", "Sword", "Axe", "Mace", "Spear", "Dagger", "Scepter", ], 
+        "Ranged": ["Ranged", "Projectile", "Arrows", "Bow", ], 
+        "Throwing": ["Throwing", ], 
+        "Spell": ["Spell", "Wand", "Dagger", "Scepter", "Staff", "Stave", ], 
+        "Attack Speed": ["Attack Speed", ], 
+        "Throwing Speed": ["Throwing Speed", ], 
+        "Cast Speed": ["Cast Speed", ], 
+        "Damage Over Time": [
+            "Damage Over Time", "DOT", 
+            "Ignite", "Witchfire", "Frostbite", "Electrify", 
+            "Bleed", "Blood Tether", "Decrepify", 
+            "Poison", "Inflict Plague", "Apply Plague", "With Plague", "Acid Skin", 
+            "Damned", "Chained", "Possess", "Possessed", "Spirit Plague", "Torment", 
+            "Doom", "Abyssal Decay", 
+        ], 
+        "Minion": [
+            "Minion", 
+            "Summon Skeleton", "Skeletons", "Skeletal Mage", "Wraith", "Golem", "Abomination", "Zombie", 
+            "Summon Bear", "Bears", "Summon Sabertooth", "Sabertooths", "Summon Scorpion", "Scorpions", 
+            "Summon Wolf", "Wolves", "Summon Raptor", "Raptors", "Storm Crow", "Locusts", "Totem", "Spriggan", 
+            "Forged Armor", "Forged Armour", "Forged Weapon", 
+            "Falcon", 
+        ], 
+        "Area": ["Increased Area", "More Area", "Area Of Effect", "Increased Radius", "More Radius", "To Radius", ], 
+        "Reflect": ["Reflect", ], 
+    }
     categories = soup.find_all("div", attrs={"class": "category-header"})
     categories_map = dict()
     for div in categories:
@@ -20,9 +118,11 @@ def _affix_id_html_parser(html_filepath: str) -> dict:
             div_entry_label = [re.compile(r"\s+").sub(" ", label_entry).title() for label_entry in div_entry_label]
             div_entry_type = "\n".join(div_entry_label[-1:])
             div_entry_label = "\n".join(div_entry_label[:-1])
+            div_entry_tags = ",".join([tag for tag, keywords in tag_list.items() if any([word in div_entry_label for word in keywords])])
             div_data[div_entry_id] = {
                 "title": div_entry_title, 
                 "label": div_entry_label, 
+                "tags": div_entry_tags, 
                 # "type": div_entry_type, 
             }
         categories_map[div_lab] = div_data
