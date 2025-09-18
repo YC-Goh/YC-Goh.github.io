@@ -8,6 +8,113 @@ from typing import Union, Tuple
 from PIL import Image, ImageDraw, ImageFont
 from typing import Union, Tuple
 
+LATEST_GAME_VERSION = "1.3.3"
+LATEST_FILTER_VERSION = "5"
+META_SLOT_SELECTOR = {
+    "All One-Handed Weapons": [
+        "One-Handed Axe", "One-Handed Mace", "Sceptre", "One-Handed Sword", "Wand", "Dagger", 
+    ], 
+    "All Two-Handed Weapons": [
+        "Two-Handed Axe", "Two-Handed Mace", "Two-Handed Sword", "Two-Handed Spear", "Two-Handed Staff", "Bow", 
+    ], 
+    "All Weapons": [
+        "One-Handed Axe", "One-Handed Mace", "Sceptre", "One-Handed Sword", "Wand", "Dagger", 
+        "Two-Handed Axe", "Two-Handed Mace", "Two-Handed Sword", "Two-Handed Spear", "Two-Handed Staff", "Bow", 
+    ], 
+    "All Off-Hand": [
+        "Off-Hand Catalyst", "Shield", "Quiver", 
+    ], 
+    "All Armour": [
+        "Helmet", "Body Armor", "Belt", "Boots", "Gloves", 
+    ], 
+    "All Jewellery": [
+        "Amulet", "Ring", "Relic", 
+    ], 
+    "All Equipment": [
+        "Off-Hand Catalyst", "Shield", "Quiver", 
+        "Helmet", "Body Armor", "Belt", "Boots", "Gloves", 
+        "Amulet", "Ring", "Relic", 
+    ], 
+    "All Generic Idols": [
+        "Small Idol", "Minor Idol", "Humble Idol", "Stout Idol", 
+    ], 
+    "All Class-Specific Idols": [
+        "Grand Idol", "Huge Idol", "Ornate Idol", "Large Idol", "Adorned Idol", 
+    ], 
+    "All Idols": [
+        "Small Idol", "Minor Idol", "Humble Idol", "Stout Idol", 
+        "Grand Idol", "Huge Idol", "Ornate Idol", "Large Idol", "Adorned Idol", 
+    ], 
+}
+SLOT_TO_TYPE_MAP = {
+    "One-Handed Axe": ["ONE_HANDED_AXE", ], 
+    "One-Handed Mace": ["ONE_HANDED_MACES", ], 
+    "Sceptre": ["ONE_HANDED_SCEPTRE", ], 
+    "One-Handed Sword": ["ONE_HANDED_SWORD", ], 
+    "Wand": ["WAND", ], 
+    "Dagger": ["ONE_HANDED_DAGGER", ], 
+    "All One-Handed Weapons": [
+        "ONE_HANDED_AXE", "ONE_HANDED_MACES", "ONE_HANDED_SCEPTRE", "ONE_HANDED_SWORD", "WAND", "ONE_HANDED_DAGGER", 
+    ], 
+    "Two-Handed Axe": ["TWO_HANDED_AXE", ], 
+    "Two-Handed Mace": ["TWO_HANDED_MACE", ], 
+    "Two-Handed Sword": ["TWO_HANDED_SPEAR", ], 
+    "Two-Handed Spear": ["TWO_HANDED_STAFF", ], 
+    "Two-Handed Staff": ["TWO_HANDED_SWORD", ], 
+    "Bow": ["BOW", ], 
+    "All Two-Handed Weapons": [
+        "TWO_HANDED_AXE", "TWO_HANDED_MACE", "TWO_HANDED_SPEAR", "TWO_HANDED_STAFF", "TWO_HANDED_SWORD", "BOW", 
+    ], 
+    "All Weapons": [
+        "ONE_HANDED_AXE", "ONE_HANDED_MACES", "ONE_HANDED_SCEPTRE", "ONE_HANDED_SWORD", "WAND", "ONE_HANDED_DAGGER", 
+        "TWO_HANDED_AXE", "TWO_HANDED_MACE", "TWO_HANDED_SPEAR", "TWO_HANDED_STAFF", "TWO_HANDED_SWORD", "BOW", 
+    ], 
+    "Off-Hand Catalyst": ["CATALYST", ], 
+    "Shield": ["SHIELD", ], 
+    "Quiver": ["QUIVER", ], 
+    "All Off-Hand": [
+        "CATALYST", "SHIELD", "QUIVER", 
+    ], 
+    "Helmet": ["HELMET", ], 
+    "Body Armor": ["BODY_ARMOR", ], 
+    "Belt": ["BELT", ], 
+    "Boots": ["BOOTS", ], 
+    "Gloves": ["GLOVES", ], 
+    "All Armour": [
+        "HELMET", "BODY_ARMOR", "BELT", "BOOTS", "GLOVES", 
+    ], 
+    "Amulet": ["AMULET", ], 
+    "Ring": ["RING", ], 
+    "Relic": ["RELIC", ], 
+    "All Jewellery": [
+        "AMULET", "RING", "RELIC", 
+    ], 
+    "All Equipment": [
+        "CATALYST", "SHIELD", "QUIVER", 
+        "HELMET", "BODY_ARMOR", "BELT", "BOOTS", "GLOVES", 
+        "AMULET", "RING", "RELIC", 
+    ], 
+    "Small Idol": ["IDOL_1x1_ETERRA", ], 
+    "Minor Idol": ["IDOL_1x1_LAGON", ], 
+    "Humble Idol": ["IDOL_2x1", ], 
+    "Stout Idol": ["IDOL_1x2", ], 
+    "All Generic Idols": [
+        "IDOL_1x1_ETERRA", "IDOL_1x1_LAGON", "IDOL_2x1", "IDOL_1x2", 
+    ], 
+    "Grand Idol": ["IDOL_3x1", ], 
+    "Huge Idol": ["IDOL_1x3", ], 
+    "Ornate Idol": ["IDOL_4x1", ], 
+    "Large Idol": ["IDOL_1x4", ], 
+    "Adorned Idol": ["IDOL_2x2", ], 
+    "All Class-Specific Idols": [
+        "IDOL_3x1", "IDOL_1x3", "IDOL_4x1", "IDOL_1x4", "IDOL_2x2", 
+    ], 
+    "All Idols": [
+        "IDOL_1x1_ETERRA", "IDOL_1x1_LAGON", "IDOL_2x1", "IDOL_1x2", 
+        "IDOL_3x1", "IDOL_1x3", "IDOL_4x1", "IDOL_1x4", "IDOL_2x2", 
+    ], 
+}
+
 filepaths = dict()
 filepaths["project"] = Path(".").absolute()
 filepaths = {
