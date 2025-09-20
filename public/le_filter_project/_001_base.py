@@ -1,15 +1,18 @@
 
 import re, os
+import pandas as pd
 from pathlib import Path
 from openpyxl import load_workbook, Workbook
 from openpyxl.worksheet.worksheet import Worksheet
-from openpyxl.styles import Alignment
+from openpyxl.styles import Font, Alignment
+from openpyxl.utils.dataframe import dataframe_to_rows
 from typing import Union, Tuple
 from PIL import Image, ImageDraw, ImageFont
 from typing import Union, Tuple
 
-LATEST_GAME_VERSION = "1.3.3"
-LATEST_FILTER_VERSION = "5"
+LATEST_GAME_VERSION = "1.3.4"
+LATEST_FILTER_VERSION = "0"
+RARITY_ORDER = ["NORMAL", "MAGIC", "RARE", "EXALTED", "UNIQUE", "LEGENDARY", "SET"]
 META_SLOT_SELECTOR = {
     "All One-Handed Weapons": [
         "One-Handed Axe", "One-Handed Mace", "Sceptre", "One-Handed Sword", "Wand", "Dagger", 
@@ -118,6 +121,7 @@ SLOT_TO_TYPE_MAP = {
 filepaths = dict()
 filepaths["project"] = Path(".").absolute()
 filepaths = {
+    "project": filepaths["project"], 
     "filter_maker": filepaths["project"].joinpath("filter_maker"), 
     "affix_id": filepaths["project"].joinpath("affix_id"), 
     "item_id": filepaths["project"].joinpath("item_id"), 
@@ -210,6 +214,12 @@ def format_workbook(
     for sheet in wb.worksheets:
         format_sheet(sheet, h_alignment, v_alignment, freeze_panes)
 '''
+
+def replace_if_na(val: Union[float, int, str, bool], rep: Union[float, int, str, bool]) -> Union[float, int, str, bool]:
+    if val == val:
+        return val
+    else:
+        return rep
 
 def get_text_width_pixels(text: str, font_name: str = "calibri", font_size: int = 11) -> float:
     """
@@ -314,7 +324,7 @@ def pixels_to_excel_width(pixels: float) -> float:
     """
     # Excel width unit is approximately 7 pixels for default font (Calibri 11pt)
     # This is a reasonable approximation
-    return pixels / 7.0
+    return pixels / 6.5
 
 def excel_width_to_pixels(excel_width: float) -> float:
     """
@@ -329,7 +339,7 @@ def excel_width_to_pixels(excel_width: float) -> float:
     """
     # Approximate conversion: Excel width * 7 pixels per unit
     # This is based on default Calibri 11pt font
-    return excel_width * 7
+    return excel_width * 7.5
 
 def format_sheet(
     sheet: Worksheet,
@@ -409,8 +419,8 @@ def format_sheet(
             # Convert pixels to Excel width units and add padding
             if max_width_pixels > 0:
                 excel_width = pixels_to_excel_width(max_width_pixels) + 4  # Add padding
-                # Cap maximum width at reasonable size (equivalent to ~50 characters)
-                excel_width = min(excel_width, 50)
+                # Cap maximum width at reasonable size
+                excel_width = min(excel_width, 80)
                 sheet.column_dimensions[column_letter].width = excel_width
                 column_widths[column_letter] = excel_width
             else:
@@ -494,3 +504,134 @@ def format_workbook(
     wb = file
     for sheet in wb.worksheets:
         format_sheet(sheet, h_alignment, v_alignment, freeze_panes, auto_width, wrap_text)
+
+def parse_markdown_to_structured_data(file_path: str) -> list[dict]:
+    """
+    Parse markdown file and convert to structured data suitable for Excel
+    """
+    with open(file_path, "r", encoding="utf-8") as file:
+        lines = file.readlines()
+    
+    structured_data = []
+    
+    for line in lines:
+        line = line.rstrip("\n")
+        
+        # Skip empty lines
+        if not line.strip():
+            continue
+            
+        # Detect headers (# ## ###)
+        if line.startswith("#"):
+            level = len(line) - len(line.lstrip("#"))
+            text = line.lstrip("#").strip()
+            structured_data.append({
+                "type": "header",
+                "level": level,
+                "text": text,
+                "indent": 0
+            })
+        
+        # Detect numbered lists (1. 2. etc.)
+        elif re.match(r"^\s*\d+\.", line):
+            indent_level = (len(line) - len(line.lstrip())) // 4  # Assuming 4 spaces per indent
+            text = re.sub(r"^\s*\d+\.\s*", "", line)
+            structured_data.append({
+                "type": "numbered_list",
+                "level": 1,
+                "text": text,
+                "indent": indent_level
+            })
+        
+        # Detect unordered lists with letters (a. b. etc.)
+        elif re.match(r"^\s*[a-z]\.\s", line):
+            indent_level = (len(line) - len(line.lstrip())) // 4
+            text = re.sub(r"^\s*[a-z]\.\s*", "", line)
+            structured_data.append({
+                "type": "lettered_list",
+                "level": 2,
+                "text": text,
+                "indent": indent_level
+            })
+        
+        # Regular text (including sub-points)
+        else:
+            indent_level = (len(line) - len(line.lstrip())) // 4
+            text = line.strip()
+            structured_data.append({
+                "type": "text",
+                "level": 0,
+                "text": text,
+                "indent": indent_level
+            })
+    
+    return structured_data
+
+def create_excel_from_structured_data(structured_data: list[dict], sheet_name: str, output_file: str) -> None:
+    """
+    Create Excel file with formatting from structured markdown data
+    """
+    # Create DataFrame
+    df_data = []
+    for item in structured_data:
+        # Add indentation to text based on indent level
+        indent_prefix = "    " * item["indent"]
+        formatted_text = indent_prefix + item["text"]
+        
+        df_data.append({
+            "Content": formatted_text,
+            "Type": item["type"],
+            "Level": item["level"]
+        })
+    
+    df = pd.DataFrame(df_data)
+    
+    # Create workbook and write data
+    wb = Workbook()
+    ws = wb.active
+    ws.title = sheet_name
+    
+    # Write only the Content column to Excel (we"ll use Type and Level for formatting)
+    for idx, item in enumerate(structured_data, 1):
+        cell = ws[f"A{idx}"]
+        
+        # Add indentation to text
+        indent_prefix = "    " * item["indent"]
+        cell.value = indent_prefix + item["text"]
+        
+        # Apply formatting based on type
+        if item["type"] == "header":
+            if item["level"] == 1:
+                cell.font = Font(size=16, bold=True)
+            elif item["level"] == 2:
+                cell.font = Font(size=14, bold=True)
+            else:
+                cell.font = Font(size=12, bold=True)
+        
+        elif item["type"] in ["numbered_list", "lettered_list"]:
+            cell.font = Font(size=11, bold=True)
+        
+        else:  # regular text
+            cell.font = Font(size=11)
+        
+        # Set alignment
+        cell.alignment = Alignment(wrap_text=True, vertical="top")
+    
+    # Auto-adjust column width
+    ws.column_dimensions["A"].width = 100
+    
+    # Save the workbook
+    wb.save(output_file)
+    print(f"Excel file saved as: {output_file}")
+
+def markdown_to_excel(markdown_file: str, excel_file: str) -> None:
+    """
+    Main function to convert markdown to Excel
+    """
+    print(f"Reading markdown file: {markdown_file}")
+    structured_data = parse_markdown_to_structured_data(markdown_file)
+    
+    print(f"Converting to Excel: {excel_file}")
+    create_excel_from_structured_data(structured_data, excel_file)
+    
+    print(f"Successfully converted {markdown_file} to {excel_file}")

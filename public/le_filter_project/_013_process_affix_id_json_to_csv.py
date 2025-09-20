@@ -35,7 +35,7 @@ GROUP_ORDER = [
 BASIC_FILTER_SLOTS = {
     f"{slot.lower().strip().replace(' ', '_')}_{i:.0f}": slot
     for slot in [*SLOT_ORDER, *META_SLOT_SELECTOR.keys()]
-    for i in range(1, 4, 1)
+    for i in range(1, 2, 1)
 }
 
 def _deconstruct_id_dict(id_map: dict) -> list[dict]:
@@ -129,14 +129,6 @@ def _match_affix_class(gdf: pd.DataFrame) -> pd.Series:
             )
         )
 
-def instructions_sheet() -> pd.DataFrame:
-    data = list()
-    columns = ["value", "option", ]
-    for option in ["Filter Name", "Description", "Symbol", "Colour", *[f"Hide {rarity} from Level" for rarity in ["Normal", "Magic", "Rare", "Exalted", "Set", "Unique"]], ]:
-        data.append([None, option])
-    data = pd.DataFrame(data, columns=columns)
-    return data
-
 def filter_options_sheet() -> pd.DataFrame:
     data = list()
     columns = ["value", "option", ]
@@ -169,11 +161,12 @@ def main() -> pd.DataFrame:
     details_dict = _deconstruct_details_dict(details_dict)
     details_frame = pd.DataFrame.from_records(details_dict)
     affix_frame = id_frame.merge(details_frame, left_on=["title"], right_on=["name"], how="outer", validate="m:m", indicator=True)
-    affix_frame = affix_frame.loc[affix_frame.apply(_keep_row, axis=1)].drop(columns=["name", "applies_to"])
+    affix_frame = affix_frame.loc[affix_frame.apply(_keep_row, axis=1)]
     affix_frame["keep"] = affix_frame.groupby(by=["slot", "id"], as_index=False).apply(_match_affix_type, include_groups=False).droplevel(0, axis=0)
     affix_frame = affix_frame.loc[affix_frame["keep"]].drop(columns=["keep"])
     affix_frame["keep"] = affix_frame.groupby(by=["slot", "id"], as_index=False).apply(_match_affix_class, include_groups=False).droplevel(0, axis=0)
     affix_frame = affix_frame.loc[affix_frame["keep"]].drop(columns=["keep"])
+    affix_frame = affix_frame.drop(columns=["name", "applies_to", "_merge"])
     affix_frame["slot"] = pd.Categorical(affix_frame["slot"], SLOT_ORDER, ordered=True)
     affix_frame["group"] = pd.Categorical(affix_frame["group"], GROUP_ORDER, ordered=True)
     affix_frame = affix_frame.sort_values(by=["slot", "group", "position", "title"])
@@ -182,8 +175,11 @@ def main() -> pd.DataFrame:
 if __name__ == "__main__":
     df = main()
     # df.drop(columns=["_merge"]).to_csv(filepaths["affix_id"]["combined"].joinpath("affix.csv"), index=False, encoding="utf-8")
+    instruction_sheet = filepaths["project"].joinpath("_013_affix_instructions.md")
     affix_out_filepath = filepaths["affix_id"]["combined"].joinpath("affix.xlsx")
-    with pd.ExcelWriter(affix_out_filepath, engine="openpyxl", mode="w") as xlfile:
+    instruction_sheet = parse_markdown_to_structured_data(instruction_sheet)
+    create_excel_from_structured_data(instruction_sheet, "Instructions", affix_out_filepath)
+    with pd.ExcelWriter(affix_out_filepath, engine="openpyxl", mode="a", if_sheet_exists="replace") as xlfile:
         filter_options_sheet().to_excel(xlfile, index=False, sheet_name="Filter Options")
         affix_advanced_options_sheet(BASIC_FILTER_SLOTS).to_excel(xlfile, index=False, sheet_name="Advanced Options")
         for rule_id, slot in BASIC_FILTER_SLOTS.items():
@@ -196,6 +192,7 @@ if __name__ == "__main__":
             gdf.reindex(columns=[*AFFIX_GROUPS, *gdf.columns, ]).to_excel(xlfile, index=False, sheet_name=rule_id)
     format_workbook(affix_out_filepath, freeze_panes=(2, len(AFFIX_GROUPS) + 1), wrap_text=True)
     wb = load_workbook(affix_out_filepath)
+    format_sheet(wb["Instructions"], freeze_panes=(1, 1), wrap_text=True)
     format_sheet(wb["Filter Options"], freeze_panes=(2, 2), wrap_text=True)
     format_sheet(wb["Advanced Options"], freeze_panes=(2, 3), wrap_text=True)
     wb.save(affix_out_filepath)
