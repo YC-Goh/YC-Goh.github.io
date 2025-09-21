@@ -1,0 +1,2228 @@
+{
+  "Regular Unique Items": {
+    "272": {
+      "title": "Aaron's Will",
+      "label": "Aaron's Will (ilvl 75)",
+      "ilvl": "75"
+    },
+    "308": {
+      "title": "Abacus Rod",
+      "label": "Abacus Rod (ilvl 50)",
+      "ilvl": "50"
+    },
+    "209": {
+      "title": "Aberrant Call",
+      "label": "Aberrant Call (ilvl 38)",
+      "ilvl": "38"
+    },
+    "355": {
+      "title": "Aberroth's Command",
+      "label": "Aberroth's Command (ilvl 65)",
+      "ilvl": "65"
+    },
+    "144": {
+      "title": "Acidfletch",
+      "label": "Acidfletch (ilvl 60)",
+      "ilvl": "60"
+    },
+    "169": {
+      "title": "Aergon's Refuge",
+      "label": "Aergon's Refuge (ilvl 70)",
+      "ilvl": "70"
+    },
+    "38": {
+      "title": "Alchemist's Ladle",
+      "label": "Alchemist's Ladle (ilvl 1)",
+      "ilvl": "1"
+    },
+    "122": {
+      "title": "Alluvion",
+      "label": "Alluvion (ilvl 72)",
+      "ilvl": "72"
+    },
+    "152": {
+      "title": "Anchor of Oblivion",
+      "label": "Anchor of Oblivion (ilvl 80)",
+      "ilvl": "80"
+    },
+    "179": {
+      "title": "Apathy's Maw",
+      "label": "Apathy's Maw (ilvl 65)",
+      "ilvl": "65"
+    },
+    "316": {
+      "title": "Apex of Thought",
+      "label": "Apex of Thought (ilvl 59)",
+      "ilvl": "59"
+    },
+    "292": {
+      "title": "Apogee of Frozen Light",
+      "label": "Apogee of Frozen Light (ilvl 65)",
+      "ilvl": "65"
+    },
+    "290": {
+      "title": "Apostate's Sanctuary",
+      "label": "Apostate's Sanctuary (ilvl 64)",
+      "ilvl": "64"
+    },
+    "65": {
+      "title": "Arboreal Circuit",
+      "label": "Arboreal Circuit (ilvl 1)",
+      "ilvl": "1"
+    },
+    "448": {
+      "title": "Architects of Astral Blood",
+      "label": "Architects of Astral Blood (ilvl 72)",
+      "ilvl": "72"
+    },
+    "82": {
+      "title": "Arek's Bones",
+      "label": "Arek's Bones (ilvl 63)",
+      "ilvl": "63"
+    },
+    "443": {
+      "title": "Army of Skin",
+      "label": "Army of Skin (ilvl 49)",
+      "ilvl": "49"
+    },
+    "148": {
+      "title": "Arrowguard",
+      "label": "Arrowguard (ilvl 7)",
+      "ilvl": "7"
+    },
+    "3": {
+      "title": "Artor's Legacy",
+      "label": "Artor's Legacy (ilvl 44)",
+      "ilvl": "44"
+    },
+    "257": {
+      "title": "Ashes of Mortality",
+      "label": "Ashes of Mortality (ilvl 62)",
+      "ilvl": "62"
+    },
+    "267": {
+      "title": "Ashes of Orchirian",
+      "label": "Ashes of Orchirian (ilvl 45)",
+      "ilvl": "45"
+    },
+    "116": {
+      "title": "Atrophy",
+      "label": "Atrophy (ilvl 64)",
+      "ilvl": "64"
+    },
+    "225": {
+      "title": "Aurelis",
+      "label": "Aurelis (ilvl 50)",
+      "ilvl": "50"
+    },
+    "176": {
+      "title": "Aurora's Time Glass",
+      "label": "Aurora's Time Glass (ilvl 72)",
+      "ilvl": "72"
+    },
+    "131": {
+      "title": "Avarice",
+      "label": "Avarice (ilvl 6)",
+      "ilvl": "6"
+    },
+    "188": {
+      "title": "Azurral's Fury",
+      "label": "Azurral's Fury (ilvl 57)",
+      "ilvl": "57"
+    },
+    "345": {
+      "title": "Bane of Winter",
+      "label": "Bane of Winter (ilvl 82)",
+      "ilvl": "82"
+    },
+    "198": {
+      "title": "Bastion of Honour",
+      "label": "Bastion of Honour (ilvl 50)",
+      "ilvl": "50"
+    },
+    "201": {
+      "title": "Battlemage's Endeavour",
+      "label": "Battlemage's Endeavour (ilvl 46)",
+      "ilvl": "46"
+    },
+    "28": {
+      "title": "Beast King",
+      "label": "Beast King (ilvl 46)",
+      "ilvl": "46"
+    },
+    "162": {
+      "title": "Bhuldar's Wrath",
+      "label": "Bhuldar's Wrath (ilvl 76)",
+      "ilvl": "76"
+    },
+    "339": {
+      "title": "Black Blade of Chaos",
+      "label": "Black Blade of Chaos (ilvl 72)",
+      "ilvl": "72"
+    },
+    "55": {
+      "title": "Bleeding Heart",
+      "label": "Bleeding Heart (ilvl 4)",
+      "ilvl": "4"
+    },
+    "306": {
+      "title": "Blood of the Exile",
+      "label": "Blood of the Exile (ilvl 48)",
+      "ilvl": "48"
+    },
+    "332": {
+      "title": "Blood Roost",
+      "label": "Blood Roost (ilvl 59)",
+      "ilvl": "59"
+    },
+    "80": {
+      "title": "Bloodgeon",
+      "label": "Bloodgeon (ilvl 62)",
+      "ilvl": "62"
+    },
+    "268": {
+      "title": "Bloodkeeper's Nest",
+      "label": "Bloodkeeper's Nest (ilvl 70)",
+      "ilvl": "70"
+    },
+    "429": {
+      "title": "Blossom of Immortal Stone",
+      "label": "Blossom of Immortal Stone (ilvl 80)",
+      "ilvl": "80"
+    },
+    "440": {
+      "title": "Bluefeather Band",
+      "label": "Bluefeather Band (ilvl 36)",
+      "ilvl": "36"
+    },
+    "289": {
+      "title": "Bo's Anarchy",
+      "label": "Bo's Anarchy (ilvl 12)",
+      "ilvl": "12"
+    },
+    "40": {
+      "title": "Bone Harvester",
+      "label": "Bone Harvester (ilvl 21)",
+      "ilvl": "21"
+    },
+    "6": {
+      "title": "Boneclamor Barbute",
+      "label": "Boneclamor Barbute (ilvl 65)",
+      "ilvl": "65"
+    },
+    "447": {
+      "title": "Bones of the Ancestral Pack",
+      "label": "Bones of the Ancestral Pack (ilvl 62)",
+      "ilvl": "62"
+    },
+    "25": {
+      "title": "Boulderfists",
+      "label": "Boulderfists (ilvl 25)",
+      "ilvl": "25"
+    },
+    "312": {
+      "title": "Box of Hydrae",
+      "label": "Box of Hydrae (ilvl 36)",
+      "ilvl": "36"
+    },
+    "274": {
+      "title": "Branch of Hallows",
+      "label": "Branch of Hallows (ilvl 74)",
+      "ilvl": "74"
+    },
+    "416": {
+      "title": "Brewmaster's Buckle",
+      "label": "Brewmaster's Buckle (ilvl 52)",
+      "ilvl": "52"
+    },
+    "119": {
+      "title": "Bulwark of the Last Abyss",
+      "label": "Bulwark of the Last Abyss (ilvl 80)",
+      "ilvl": "80"
+    },
+    "266": {
+      "title": "Burning Avarice",
+      "label": "Burning Avarice (ilvl 46)",
+      "ilvl": "46"
+    },
+    "0": {
+      "title": "Calamity",
+      "label": "Calamity (ilvl 7)",
+      "ilvl": "7"
+    },
+    "160": {
+      "title": "Call of the Tundra",
+      "label": "Call of the Tundra (ilvl 74)",
+      "ilvl": "74"
+    },
+    "360": {
+      "title": "Carcinization of Momentum",
+      "label": "Carcinization of Momentum (ilvl 23)",
+      "ilvl": "23"
+    },
+    "431": {
+      "title": "Carrion of Creation",
+      "label": "Carrion of Creation (ilvl 81)",
+      "ilvl": "81"
+    },
+    "367": {
+      "title": "Celestial Doom",
+      "label": "Celestial Doom (ilvl 70)",
+      "ilvl": "70"
+    },
+    "18": {
+      "title": "Chains of Uleros",
+      "label": "Chains of Uleros (ilvl 14)",
+      "ilvl": "14"
+    },
+    "56": {
+      "title": "Chimaera's Essence",
+      "label": "Chimaera's Essence (ilvl 22)",
+      "ilvl": "22"
+    },
+    "430": {
+      "title": "Chorus of the Anurok",
+      "label": "Chorus of the Anurok (ilvl 73)",
+      "ilvl": "73"
+    },
+    "247": {
+      "title": "Chronicle of the Damned",
+      "label": "Chronicle of the Damned (ilvl 8)",
+      "ilvl": "8"
+    },
+    "223": {
+      "title": "Chronostasis",
+      "label": "Chronostasis (ilvl 75)",
+      "ilvl": "75"
+    },
+    "37": {
+      "title": "Cinder Song",
+      "label": "Cinder Song (ilvl 40)",
+      "ilvl": "40"
+    },
+    "314": {
+      "title": "Cleaver Solution",
+      "label": "Cleaver Solution (ilvl 27)",
+      "ilvl": "27"
+    },
+    "51": {
+      "title": "Close Call",
+      "label": "Close Call (ilvl 3)",
+      "ilvl": "3"
+    },
+    "397": {
+      "title": "Cocooned Amulet",
+      "label": "Cocooned Amulet (ilvl 1)",
+      "ilvl": "1"
+    },
+    "399": {
+      "title": "Cocooned Belt",
+      "label": "Cocooned Belt (ilvl 1)",
+      "ilvl": "1"
+    },
+    "400": {
+      "title": "Cocooned Boots",
+      "label": "Cocooned Boots (ilvl 1)",
+      "ilvl": "1"
+    },
+    "391": {
+      "title": "Cocooned Bow",
+      "label": "Cocooned Bow (ilvl 1)",
+      "ilvl": "1"
+    },
+    "394": {
+      "title": "Cocooned Catalyst",
+      "label": "Cocooned Catalyst (ilvl 1)",
+      "ilvl": "1"
+    },
+    "380": {
+      "title": "Cocooned Cleaver",
+      "label": "Cocooned Cleaver (ilvl 1)",
+      "ilvl": "1"
+    },
+    "381": {
+      "title": "Cocooned Club",
+      "label": "Cocooned Club (ilvl 1)",
+      "ilvl": "1"
+    },
+    "387": {
+      "title": "Cocooned Cuirass",
+      "label": "Cocooned Cuirass (ilvl 1)",
+      "ilvl": "1"
+    },
+    "388": {
+      "title": "Cocooned Dagger",
+      "label": "Cocooned Dagger (ilvl 1)",
+      "ilvl": "1"
+    },
+    "398": {
+      "title": "Cocooned Gloves",
+      "label": "Cocooned Gloves (ilvl 1)",
+      "ilvl": "1"
+    },
+    "383": {
+      "title": "Cocooned Great Axe",
+      "label": "Cocooned Great Axe (ilvl 1)",
+      "ilvl": "1"
+    },
+    "384": {
+      "title": "Cocooned Great Mace",
+      "label": "Cocooned Great Mace (ilvl 1)",
+      "ilvl": "1"
+    },
+    "382": {
+      "title": "Cocooned Great Sword",
+      "label": "Cocooned Great Sword (ilvl 1)",
+      "ilvl": "1"
+    },
+    "401": {
+      "title": "Cocooned Helmet",
+      "label": "Cocooned Helmet (ilvl 1)",
+      "ilvl": "1"
+    },
+    "392": {
+      "title": "Cocooned Quiver",
+      "label": "Cocooned Quiver (ilvl 1)",
+      "ilvl": "1"
+    },
+    "395": {
+      "title": "Cocooned Relic",
+      "label": "Cocooned Relic (ilvl 1)",
+      "ilvl": "1"
+    },
+    "396": {
+      "title": "Cocooned Ring",
+      "label": "Cocooned Ring (ilvl 1)",
+      "ilvl": "1"
+    },
+    "389": {
+      "title": "Cocooned Sceptre",
+      "label": "Cocooned Sceptre (ilvl 1)",
+      "ilvl": "1"
+    },
+    "393": {
+      "title": "Cocooned Shield",
+      "label": "Cocooned Shield (ilvl 1)",
+      "ilvl": "1"
+    },
+    "379": {
+      "title": "Cocooned Short Sword",
+      "label": "Cocooned Short Sword (ilvl 1)",
+      "ilvl": "1"
+    },
+    "385": {
+      "title": "Cocooned Spear",
+      "label": "Cocooned Spear (ilvl 1)",
+      "ilvl": "1"
+    },
+    "386": {
+      "title": "Cocooned Staff",
+      "label": "Cocooned Staff (ilvl 1)",
+      "ilvl": "1"
+    },
+    "390": {
+      "title": "Cocooned Wand",
+      "label": "Cocooned Wand (ilvl 1)",
+      "ilvl": "1"
+    },
+    "121": {
+      "title": "Coral Aegis",
+      "label": "Coral Aegis (ilvl 70)",
+      "ilvl": "70"
+    },
+    "255": {
+      "title": "Core of the Mountain",
+      "label": "Core of the Mountain (ilvl 80)",
+      "ilvl": "80"
+    },
+    "411": {
+      "title": "Countenance of Majasa",
+      "label": "Countenance of Majasa (ilvl 72)",
+      "ilvl": "72"
+    },
+    "307": {
+      "title": "Crest of Unity",
+      "label": "Crest of Unity (ilvl 60)",
+      "ilvl": "60"
+    },
+    "341": {
+      "title": "Cruelty",
+      "label": "Cruelty (ilvl 31)",
+      "ilvl": "31"
+    },
+    "378": {
+      "title": "Crystalwind",
+      "label": "Crystalwind (ilvl 77)",
+      "ilvl": "77"
+    },
+    "33": {
+      "title": "Culnivar's Claim",
+      "label": "Culnivar's Claim (ilvl 50)",
+      "ilvl": "50"
+    },
+    "205": {
+      "title": "Curse of Perseverance",
+      "label": "Curse of Perseverance (ilvl 20)",
+      "ilvl": "20"
+    },
+    "303": {
+      "title": "Cycle of Putrescence",
+      "label": "Cycle of Putrescence (ilvl 66)",
+      "ilvl": "66"
+    },
+    "117": {
+      "title": "Dark Shroud of Cinders",
+      "label": "Dark Shroud of Cinders (ilvl 66)",
+      "ilvl": "66"
+    },
+    "203": {
+      "title": "Darkstride",
+      "label": "Darkstride (ilvl 19)",
+      "ilvl": "19"
+    },
+    "59": {
+      "title": "Death Rattle",
+      "label": "Death Rattle (ilvl 36)",
+      "ilvl": "36"
+    },
+    "220": {
+      "title": "Death's Embrace",
+      "label": "Death's Embrace (ilvl 75)",
+      "ilvl": "75"
+    },
+    "4": {
+      "title": "Decayed Skull",
+      "label": "Decayed Skull (ilvl 24)",
+      "ilvl": "24"
+    },
+    "191": {
+      "title": "Devotion",
+      "label": "Devotion (ilvl 71)",
+      "ilvl": "71"
+    },
+    "249": {
+      "title": "Diothaen's Bloody Nib",
+      "label": "Diothaen's Bloody Nib (ilvl 58)",
+      "ilvl": "58"
+    },
+    "412": {
+      "title": "Dominance of the Tundra",
+      "label": "Dominance of the Tundra (ilvl 60)",
+      "ilvl": "60"
+    },
+    "8": {
+      "title": "Doublet of Onos Tull",
+      "label": "Doublet of Onos Tull (ilvl 5)",
+      "ilvl": "5"
+    },
+    "414": {
+      "title": "Downfall of the Righteous",
+      "label": "Downfall of the Righteous (ilvl 70)",
+      "ilvl": "70"
+    },
+    "44": {
+      "title": "Draalsting",
+      "label": "Draalsting (ilvl 29)",
+      "ilvl": "29"
+    },
+    "124": {
+      "title": "Dragonflame Edict",
+      "label": "Dragonflame Edict (ilvl 81)",
+      "ilvl": "81"
+    },
+    "243": {
+      "title": "Dragonsong",
+      "label": "Dragonsong (ilvl 36)",
+      "ilvl": "36"
+    },
+    "315": {
+      "title": "Dragorath's Claw",
+      "label": "Dragorath's Claw (ilvl 37)",
+      "ilvl": "37"
+    },
+    "49": {
+      "title": "Dreamthorn",
+      "label": "Dreamthorn (ilvl 15)",
+      "ilvl": "15"
+    },
+    "142": {
+      "title": "Drelkor's Compass",
+      "label": "Drelkor's Compass (ilvl 64)",
+      "ilvl": "64"
+    },
+    "236": {
+      "title": "Drought's Release",
+      "label": "Drought's Release (ilvl 27)",
+      "ilvl": "27"
+    },
+    "343": {
+      "title": "Egg of the Forgotten",
+      "label": "Egg of the Forgotten (ilvl 1)",
+      "ilvl": "1"
+    },
+    "309": {
+      "title": "Elecoe's Abandon",
+      "label": "Elecoe's Abandon (ilvl 40)",
+      "ilvl": "40"
+    },
+    "402": {
+      "title": "Elecoe's Innovation",
+      "label": "Elecoe's Innovation (ilvl 40)",
+      "ilvl": "40"
+    },
+    "212": {
+      "title": "Eternal Eclipse",
+      "label": "Eternal Eclipse (ilvl 72)",
+      "ilvl": "72"
+    },
+    "21": {
+      "title": "Eterra's Path",
+      "label": "Eterra's Path (ilvl 30)",
+      "ilvl": "30"
+    },
+    "151": {
+      "title": "Eulogy of Blood",
+      "label": "Eulogy of Blood (ilvl 83)",
+      "ilvl": "83"
+    },
+    "364": {
+      "title": "Event Horizon",
+      "label": "Event Horizon (ilvl 80)",
+      "ilvl": "80"
+    },
+    "444": {
+      "title": "Evolution's End",
+      "label": "Evolution's End (ilvl 11)",
+      "ilvl": "11"
+    },
+    "420": {
+      "title": "Executioner's Tithe",
+      "label": "Executioner's Tithe (ilvl 70)",
+      "ilvl": "70"
+    },
+    "11": {
+      "title": "Exsanguinous",
+      "label": "Exsanguinous (ilvl 23)",
+      "ilvl": "23"
+    },
+    "182": {
+      "title": "Eye of Orexia",
+      "label": "Eye of Orexia (ilvl 36)",
+      "ilvl": "36"
+    },
+    "35": {
+      "title": "Eye of Reen",
+      "label": "Eye of Reen (ilvl 70)",
+      "ilvl": "70"
+    },
+    "154": {
+      "title": "Eye of Storms",
+      "label": "Eye of Storms (ilvl 85)",
+      "ilvl": "85"
+    },
+    "254": {
+      "title": "Face of the Mountain",
+      "label": "Face of the Mountain (ilvl 45)",
+      "ilvl": "45"
+    },
+    "161": {
+      "title": "Faith of the Frozen",
+      "label": "Faith of the Frozen (ilvl 84)",
+      "ilvl": "84"
+    },
+    "333": {
+      "title": "Falcon Fists",
+      "label": "Falcon Fists (ilvl 27)",
+      "ilvl": "27"
+    },
+    "446": {
+      "title": "Fangs of the Berserker",
+      "label": "Fangs of the Berserker (ilvl 45)",
+      "ilvl": "45"
+    },
+    "91": {
+      "title": "Fiery Dragon Shoes",
+      "label": "Fiery Dragon Shoes (ilvl 67)",
+      "ilvl": "67"
+    },
+    "24": {
+      "title": "Fighting Chance",
+      "label": "Fighting Chance (ilvl 15)",
+      "ilvl": "15"
+    },
+    "359": {
+      "title": "Fingers of the Phantom Mire",
+      "label": "Fingers of the Phantom Mire (ilvl 6)",
+      "ilvl": "6"
+    },
+    "282": {
+      "title": "Firestarter's Torch",
+      "label": "Firestarter's Torch (ilvl 1)",
+      "ilvl": "1"
+    },
+    "366": {
+      "title": "Flames of Midnight",
+      "label": "Flames of Midnight (ilvl 52)",
+      "ilvl": "52"
+    },
+    "210": {
+      "title": "Flayer's Pride",
+      "label": "Flayer's Pride (ilvl 65)",
+      "ilvl": "65"
+    },
+    "350": {
+      "title": "Flight of Quetzeri",
+      "label": "Flight of Quetzeri (ilvl 13)",
+      "ilvl": "13"
+    },
+    "168": {
+      "title": "Flight of the First",
+      "label": "Flight of the First (ilvl 58)",
+      "ilvl": "58"
+    },
+    "253": {
+      "title": "Foot of the Mountain",
+      "label": "Foot of the Mountain (ilvl 48)",
+      "ilvl": "48"
+    },
+    "1": {
+      "title": "Fractured Crown",
+      "label": "Fractured Crown (ilvl 56)",
+      "ilvl": "56"
+    },
+    "286": {
+      "title": "Fragment of the Enigma",
+      "label": "Fragment of the Enigma (ilvl 46)",
+      "ilvl": "46"
+    },
+    "317": {
+      "title": "Frey's Retreat",
+      "label": "Frey's Retreat (ilvl 62)",
+      "ilvl": "62"
+    },
+    "213": {
+      "title": "Frostbite Shackles",
+      "label": "Frostbite Shackles (ilvl 74)",
+      "ilvl": "74"
+    },
+    "114": {
+      "title": "Frozen Eyes of Formosus",
+      "label": "Frozen Eyes of Formosus (ilvl 70)",
+      "ilvl": "70"
+    },
+    "32": {
+      "title": "Frozen Ire",
+      "label": "Frozen Ire (ilvl 33)",
+      "ilvl": "33"
+    },
+    "192": {
+      "title": "Fulgurite Shard",
+      "label": "Fulgurite Shard (ilvl 71)",
+      "ilvl": "71"
+    },
+    "313": {
+      "title": "Fundamental Criterion",
+      "label": "Fundamental Criterion (ilvl 54)",
+      "ilvl": "54"
+    },
+    "130": {
+      "title": "Gambler's Fallacy",
+      "label": "Gambler's Fallacy (ilvl 1)",
+      "ilvl": "1"
+    },
+    "271": {
+      "title": "Gathering Fury",
+      "label": "Gathering Fury (ilvl 50)",
+      "ilvl": "50"
+    },
+    "143": {
+      "title": "Gladiator's Oath",
+      "label": "Gladiator's Oath (ilvl 31)",
+      "ilvl": "31"
+    },
+    "377": {
+      "title": "Gordian Prism",
+      "label": "Gordian Prism (ilvl 28)",
+      "ilvl": "28"
+    },
+    "372": {
+      "title": "Grasp of the Blood Mage",
+      "label": "Grasp of the Blood Mage (ilvl 71)",
+      "ilvl": "71"
+    },
+    "362": {
+      "title": "Grim Constitution",
+      "label": "Grim Constitution (ilvl 35)",
+      "ilvl": "35"
+    },
+    "68": {
+      "title": "Grimoire of Necrotic Elixirs",
+      "label": "Grimoire of Necrotic Elixirs (ilvl 1)",
+      "ilvl": "1"
+    },
+    "232": {
+      "title": "Hakar's Phoenix",
+      "label": "Hakar's Phoenix (ilvl 63)",
+      "ilvl": "63"
+    },
+    "41": {
+      "title": "Hammer of Lorent",
+      "label": "Hammer of Lorent (ilvl 1)",
+      "ilvl": "1"
+    },
+    "287": {
+      "title": "Hand of Judgement",
+      "label": "Hand of Judgement (ilvl 24)",
+      "ilvl": "24"
+    },
+    "288": {
+      "title": "Harbinger of Stars",
+      "label": "Harbinger of Stars (ilvl 36)",
+      "ilvl": "36"
+    },
+    "344": {
+      "title": "Harbinger's Needle",
+      "label": "Harbinger's Needle (ilvl 1)",
+      "ilvl": "1"
+    },
+    "427": {
+      "title": "Harmony of the First",
+      "label": "Harmony of the First (ilvl 16)",
+      "ilvl": "16"
+    },
+    "244": {
+      "title": "Harthenon's Vow",
+      "label": "Harthenon's Vow (ilvl 1)",
+      "ilvl": "1"
+    },
+    "234": {
+      "title": "Hazelroot",
+      "label": "Hazelroot (ilvl 21)",
+      "ilvl": "21"
+    },
+    "84": {
+      "title": "Heirloom of the Last Nomad",
+      "label": "Heirloom of the Last Nomad (ilvl 63)",
+      "ilvl": "63"
+    },
+    "141": {
+      "title": "Hell Reach",
+      "label": "Hell Reach (ilvl 1)",
+      "ilvl": "1"
+    },
+    "172": {
+      "title": "Herald of the Scurry",
+      "label": "Herald of the Scurry (ilvl 73)",
+      "ilvl": "73"
+    },
+    "163": {
+      "title": "Herkir's Vessel",
+      "label": "Herkir's Vessel (ilvl 76)",
+      "ilvl": "76"
+    },
+    "270": {
+      "title": "Hive Mind",
+      "label": "Hive Mind (ilvl 58)",
+      "ilvl": "58"
+    },
+    "66": {
+      "title": "Hollow Finger",
+      "label": "Hollow Finger (ilvl 31)",
+      "ilvl": "31"
+    },
+    "432": {
+      "title": "Horn of the Bone Wisp",
+      "label": "Horn of the Bone Wisp (ilvl 31)",
+      "ilvl": "31"
+    },
+    "155": {
+      "title": "Horns of Uhkeiros",
+      "label": "Horns of Uhkeiros (ilvl 84)",
+      "ilvl": "84"
+    },
+    "302": {
+      "title": "Howl of the West Wind",
+      "label": "Howl of the West Wind (ilvl 24)",
+      "ilvl": "24"
+    },
+    "34": {
+      "title": "Humming Bee",
+      "label": "Humming Bee (ilvl 6)",
+      "ilvl": "6"
+    },
+    "441": {
+      "title": "Hydra Arc",
+      "label": "Hydra Arc (ilvl 72)",
+      "ilvl": "72"
+    },
+    "74": {
+      "title": "Ignivar's Head",
+      "label": "Ignivar's Head (ilvl 50)",
+      "ilvl": "50"
+    },
+    "258": {
+      "title": "Immolator's Oblation",
+      "label": "Immolator's Oblation (ilvl 46)",
+      "ilvl": "46"
+    },
+    "415": {
+      "title": "Immortal Vise",
+      "label": "Immortal Vise (ilvl 86)",
+      "ilvl": "86"
+    },
+    "190": {
+      "title": "Jasper's Searing Pride",
+      "label": "Jasper's Searing Pride (ilvl 74)",
+      "ilvl": "74"
+    },
+    "285": {
+      "title": "Jelkhor's Blast Knife",
+      "label": "Jelkhor's Blast Knife (ilvl 36)",
+      "ilvl": "36"
+    },
+    "240": {
+      "title": "Julra's Obsession",
+      "label": "Julra's Obsession (ilvl 75)",
+      "ilvl": "75"
+    },
+    "238": {
+      "title": "Julra's Stardial",
+      "label": "Julra's Stardial (ilvl 40)",
+      "ilvl": "40"
+    },
+    "92": {
+      "title": "Jungle Queen's Chaps of Holding",
+      "label": "Jungle Queen's Chaps of Holding (ilvl 9)",
+      "ilvl": "9"
+    },
+    "22": {
+      "title": "Keeper's Gloves",
+      "label": "Keeper's Gloves (ilvl 1)",
+      "ilvl": "1"
+    },
+    "207": {
+      "title": "Kelthan Blasting Agent",
+      "label": "Kelthan Blasting Agent (ilvl 38)",
+      "ilvl": "38"
+    },
+    "93": {
+      "title": "Kermode's Cage",
+      "label": "Kermode's Cage (ilvl 54)",
+      "ilvl": "54"
+    },
+    "273": {
+      "title": "Lament of the Lost Refuge",
+      "label": "Lament of the Lost Refuge (ilvl 60)",
+      "ilvl": "60"
+    },
+    "115": {
+      "title": "Last Steps of the Living",
+      "label": "Last Steps of the Living (ilvl 63)",
+      "ilvl": "63"
+    },
+    "103": {
+      "title": "Legacy of the Quiet Forest",
+      "label": "Legacy of the Quiet Forest (ilvl 50)",
+      "ilvl": "50"
+    },
+    "423": {
+      "title": "Legends Entwined",
+      "label": "Legends Entwined (ilvl 42)",
+      "ilvl": "42"
+    },
+    "206": {
+      "title": "Lessons of the Metropolis",
+      "label": "Lessons of the Metropolis (ilvl 1)",
+      "ilvl": "1"
+    },
+    "184": {
+      "title": "Lethal Concentration",
+      "label": "Lethal Concentration (ilvl 58)",
+      "ilvl": "58"
+    },
+    "183": {
+      "title": "Leviathan Carver",
+      "label": "Leviathan Carver (ilvl 80)",
+      "ilvl": "80"
+    },
+    "134": {
+      "title": "Li'raka's Claws",
+      "label": "Li'raka's Claws (ilvl 45)",
+      "ilvl": "45"
+    },
+    "276": {
+      "title": "Liath's Machinations",
+      "label": "Liath's Machinations (ilvl 26)",
+      "ilvl": "26"
+    },
+    "76": {
+      "title": "Liath's Signet",
+      "label": "Liath's Signet (ilvl 45)",
+      "ilvl": "45"
+    },
+    "145": {
+      "title": "Life's Journey",
+      "label": "Life's Journey (ilvl 36)",
+      "ilvl": "36"
+    },
+    "422": {
+      "title": "Lightning in a Bottle",
+      "label": "Lightning in a Bottle (ilvl 28)",
+      "ilvl": "28"
+    },
+    "164": {
+      "title": "Logi's Hunger",
+      "label": "Logi's Hunger (ilvl 82)",
+      "ilvl": "82"
+    },
+    "231": {
+      "title": "Longshot",
+      "label": "Longshot (ilvl 23)",
+      "ilvl": "23"
+    },
+    "321": {
+      "title": "Mad Alchemist's Ladle",
+      "label": "Mad Alchemist's Ladle (ilvl 17)",
+      "ilvl": "17"
+    },
+    "83": {
+      "title": "Maehlin's Hubris",
+      "label": "Maehlin's Hubris (ilvl 47)",
+      "ilvl": "47"
+    },
+    "368": {
+      "title": "Mana Guide",
+      "label": "Mana Guide (ilvl 30)",
+      "ilvl": "30"
+    },
+    "370": {
+      "title": "Mantle of the Pale Ox",
+      "label": "Mantle of the Pale Ox (ilvl 64)",
+      "ilvl": "64"
+    },
+    "181": {
+      "title": "Marina's Lost Soul",
+      "label": "Marina's Lost Soul (ilvl 78)",
+      "ilvl": "78"
+    },
+    "434": {
+      "title": "Mask of Indifference",
+      "label": "Mask of Indifference (ilvl 60)",
+      "ilvl": "60"
+    },
+    "108": {
+      "title": "Melvern's Writ",
+      "label": "Melvern's Writ (ilvl 48)",
+      "ilvl": "48"
+    },
+    "319": {
+      "title": "Merophage",
+      "label": "Merophage (ilvl 51)",
+      "ilvl": "51"
+    },
+    "166": {
+      "title": "Moenia Mentis",
+      "label": "Moenia Mentis (ilvl 45)",
+      "ilvl": "45"
+    },
+    "363": {
+      "title": "Monument of Protection",
+      "label": "Monument of Protection (ilvl 52)",
+      "ilvl": "52"
+    },
+    "45": {
+      "title": "Morditas' Reach",
+      "label": "Morditas' Reach (ilvl 70)",
+      "ilvl": "70"
+    },
+    "126": {
+      "title": "Mortality's Grasp",
+      "label": "Mortality's Grasp (ilvl 62)",
+      "ilvl": "62"
+    },
+    "19": {
+      "title": "Mourningfrost",
+      "label": "Mourningfrost (ilvl 8)",
+      "ilvl": "8"
+    },
+    "107": {
+      "title": "Murama's Hilt",
+      "label": "Murama's Hilt (ilvl 46)",
+      "ilvl": "46"
+    },
+    "336": {
+      "title": "Naal's Tooth",
+      "label": "Naal's Tooth (ilvl 64)",
+      "ilvl": "64"
+    },
+    "215": {
+      "title": "Nightbringer",
+      "label": "Nightbringer (ilvl 68)",
+      "ilvl": "68"
+    },
+    "353": {
+      "title": "Nihilis",
+      "label": "Nihilis (ilvl 80)",
+      "ilvl": "80"
+    },
+    "358": {
+      "title": "Null Portent",
+      "label": "Null Portent (ilvl 81)",
+      "ilvl": "81"
+    },
+    "125": {
+      "title": "Oceareon",
+      "label": "Oceareon (ilvl 74)",
+      "ilvl": "74"
+    },
+    "263": {
+      "title": "Omen of Thunder",
+      "label": "Omen of Thunder (ilvl 48)",
+      "ilvl": "48"
+    },
+    "175": {
+      "title": "Omnis",
+      "label": "Omnis (ilvl 76)",
+      "ilvl": "76"
+    },
+    "149": {
+      "title": "Omnividence",
+      "label": "Omnividence (ilvl 70)",
+      "ilvl": "70"
+    },
+    "428": {
+      "title": "Onslaught of Cerata",
+      "label": "Onslaught of Cerata (ilvl 59)",
+      "ilvl": "59"
+    },
+    "72": {
+      "title": "Orchirian's Petals",
+      "label": "Orchirian's Petals (ilvl 35)",
+      "ilvl": "35"
+    },
+    "404": {
+      "title": "Orian's Descent",
+      "label": "Orian's Descent (ilvl 40)",
+      "ilvl": "40"
+    },
+    "61": {
+      "title": "Orian's Eye",
+      "label": "Orian's Eye (ilvl 76)",
+      "ilvl": "76"
+    },
+    "340": {
+      "title": "Orian's Sun Seal",
+      "label": "Orian's Sun Seal (ilvl 27)",
+      "ilvl": "27"
+    },
+    "252": {
+      "title": "Pact Severance",
+      "label": "Pact Severance (ilvl 71)",
+      "ilvl": "71"
+    },
+    "346": {
+      "title": "Palarus's Sacred Light",
+      "label": "Palarus's Sacred Light (ilvl 6)",
+      "ilvl": "6"
+    },
+    "221": {
+      "title": "Paranoia",
+      "label": "Paranoia (ilvl 85)",
+      "ilvl": "85"
+    },
+    "256": {
+      "title": "Peak of the Mountain",
+      "label": "Peak of the Mountain (ilvl 12)",
+      "ilvl": "12"
+    },
+    "374": {
+      "title": "Pearls of the Swine",
+      "label": "Pearls of the Swine (ilvl 58)",
+      "ilvl": "58"
+    },
+    "375": {
+      "title": "Pearls of the Swine",
+      "label": "Pearls of the Swine (ilvl 58)",
+      "ilvl": "58"
+    },
+    "376": {
+      "title": "Pearls of the Swine",
+      "label": "Pearls of the Swine (ilvl 58)",
+      "ilvl": "58"
+    },
+    "262": {
+      "title": "Penumbra",
+      "label": "Penumbra (ilvl 45)",
+      "ilvl": "45"
+    },
+    "435": {
+      "title": "Permanence of Primal Knowledge",
+      "label": "Permanence of Primal Knowledge (ilvl 79)",
+      "ilvl": "79"
+    },
+    "371": {
+      "title": "Phalanx",
+      "label": "Phalanx (ilvl 40)",
+      "ilvl": "40"
+    },
+    "348": {
+      "title": "Phantom Grip",
+      "label": "Phantom Grip (ilvl 14)",
+      "ilvl": "14"
+    },
+    "361": {
+      "title": "Phase Point",
+      "label": "Phase Point (ilvl 87)",
+      "ilvl": "87"
+    },
+    "291": {
+      "title": "Pillager's Gold",
+      "label": "Pillager's Gold (ilvl 35)",
+      "ilvl": "35"
+    },
+    "73": {
+      "title": "Plague Bearer's Staff",
+      "label": "Plague Bearer's Staff (ilvl 40)",
+      "ilvl": "40"
+    },
+    "352": {
+      "title": "Plague Dragon's Tongue",
+      "label": "Plague Dragon's Tongue (ilvl 57)",
+      "ilvl": "57"
+    },
+    "437": {
+      "title": "Primal Cadence",
+      "label": "Primal Cadence (ilvl 63)",
+      "ilvl": "63"
+    },
+    "9": {
+      "title": "Prism Wraps",
+      "label": "Prism Wraps (ilvl 5)",
+      "ilvl": "5"
+    },
+    "222": {
+      "title": "Prismatic Gaze",
+      "label": "Prismatic Gaze (ilvl 60)",
+      "ilvl": "60"
+    },
+    "259": {
+      "title": "Pyre of Affliction",
+      "label": "Pyre of Affliction (ilvl 76)",
+      "ilvl": "76"
+    },
+    "135": {
+      "title": "Quicksilver Coil",
+      "label": "Quicksilver Coil (ilvl 12)",
+      "ilvl": "12"
+    },
+    "53": {
+      "title": "Rahyeh's Light",
+      "label": "Rahyeh's Light (ilvl 76)",
+      "ilvl": "76"
+    },
+    "36": {
+      "title": "Rainbow Edge",
+      "label": "Rainbow Edge (ilvl 30)",
+      "ilvl": "30"
+    },
+    "147": {
+      "title": "Raindance",
+      "label": "Raindance (ilvl 61)",
+      "ilvl": "61"
+    },
+    "373": {
+      "title": "Ravager's Dart",
+      "label": "Ravager's Dart (ilvl 39)",
+      "ilvl": "39"
+    },
+    "208": {
+      "title": "Ravenous Void",
+      "label": "Ravenous Void (ilvl 91)",
+      "ilvl": "91"
+    },
+    "167": {
+      "title": "Ravens' Rise",
+      "label": "Ravens' Rise (ilvl 62)",
+      "ilvl": "62"
+    },
+    "337": {
+      "title": "Razorfall",
+      "label": "Razorfall (ilvl 76)",
+      "ilvl": "76"
+    },
+    "39": {
+      "title": "Reach of the Grave",
+      "label": "Reach of the Grave (ilvl 5)",
+      "ilvl": "5"
+    },
+    "277": {
+      "title": "Red Ring of Atlaria",
+      "label": "Red Ring of Atlaria (ilvl 80)",
+      "ilvl": "80"
+    },
+    "159": {
+      "title": "Reign of Winter",
+      "label": "Reign of Winter (ilvl 70)",
+      "ilvl": "70"
+    },
+    "433": {
+      "title": "Reliquary Nest",
+      "label": "Reliquary Nest (ilvl 60)",
+      "ilvl": "60"
+    },
+    "245": {
+      "title": "Renegade's Will",
+      "label": "Renegade's Will (ilvl 37)",
+      "ilvl": "37"
+    },
+    "305": {
+      "title": "Reowyn's Fortress",
+      "label": "Reowyn's Fortress (ilvl 24)",
+      "ilvl": "24"
+    },
+    "113": {
+      "title": "Ribbons of Blood",
+      "label": "Ribbons of Blood (ilvl 53)",
+      "ilvl": "53"
+    },
+    "62": {
+      "title": "Ring of the Third Eye",
+      "label": "Ring of the Third Eye (ilvl 14)",
+      "ilvl": "14"
+    },
+    "23": {
+      "title": "Riverbend Grasp",
+      "label": "Riverbend Grasp (ilvl 15)",
+      "ilvl": "15"
+    },
+    "229": {
+      "title": "Roots of Vithrasil",
+      "label": "Roots of Vithrasil (ilvl 45)",
+      "ilvl": "45"
+    },
+    "283": {
+      "title": "Rotmind",
+      "label": "Rotmind (ilvl 31)",
+      "ilvl": "31"
+    },
+    "199": {
+      "title": "Rule of the Simoon",
+      "label": "Rule of the Simoon (ilvl 72)",
+      "ilvl": "72"
+    },
+    "217": {
+      "title": "Sacrificial Embrace",
+      "label": "Sacrificial Embrace (ilvl 81)",
+      "ilvl": "81"
+    },
+    "187": {
+      "title": "Salt the Wound",
+      "label": "Salt the Wound (ilvl 62)",
+      "ilvl": "62"
+    },
+    "189": {
+      "title": "Sanguine Hoard",
+      "label": "Sanguine Hoard (ilvl 44)",
+      "ilvl": "44"
+    },
+    "195": {
+      "title": "Scales of Eterra",
+      "label": "Scales of Eterra (ilvl 62)",
+      "ilvl": "62"
+    },
+    "196": {
+      "title": "Scales of Eterra",
+      "label": "Scales of Eterra (ilvl 62)",
+      "ilvl": "62"
+    },
+    "197": {
+      "title": "Scales of Eterra",
+      "label": "Scales of Eterra (ilvl 62)",
+      "ilvl": "62"
+    },
+    "269": {
+      "title": "Scales of Lemniscate",
+      "label": "Scales of Lemniscate (ilvl 82)",
+      "ilvl": "82"
+    },
+    "357": {
+      "title": "Seed of Ekkidrasil",
+      "label": "Seed of Ekkidrasil (ilvl 84)",
+      "ilvl": "84"
+    },
+    "165": {
+      "title": "Serpent's Milk",
+      "label": "Serpent's Milk (ilvl 64)",
+      "ilvl": "64"
+    },
+    "279": {
+      "title": "Shadow Beacon",
+      "label": "Shadow Beacon (ilvl 51)",
+      "ilvl": "51"
+    },
+    "242": {
+      "title": "Shadow String",
+      "label": "Shadow String (ilvl 11)",
+      "ilvl": "11"
+    },
+    "180": {
+      "title": "Shattered Chains",
+      "label": "Shattered Chains (ilvl 70)",
+      "ilvl": "70"
+    },
+    "413": {
+      "title": "Shattered Worlds",
+      "label": "Shattered Worlds (ilvl 64)",
+      "ilvl": "64"
+    },
+    "106": {
+      "title": "Shroud of Obscurity",
+      "label": "Shroud of Obscurity (ilvl 13)",
+      "ilvl": "13"
+    },
+    "320": {
+      "title": "Sierpin's Fractal Tree",
+      "label": "Sierpin's Fractal Tree (ilvl 48)",
+      "ilvl": "48"
+    },
+    "329": {
+      "title": "Sigeon's Reprisal",
+      "label": "Sigeon's Reprisal (ilvl 35)",
+      "ilvl": "35"
+    },
+    "235": {
+      "title": "Silvafrond",
+      "label": "Silvafrond (ilvl 44)",
+      "ilvl": "44"
+    },
+    "246": {
+      "title": "Singularity",
+      "label": "Singularity (ilvl 42)",
+      "ilvl": "42"
+    },
+    "177": {
+      "title": "Siphon of Anguish",
+      "label": "Siphon of Anguish (ilvl 55)",
+      "ilvl": "55"
+    },
+    "136": {
+      "title": "Smoke Weaver",
+      "label": "Smoke Weaver (ilvl 52)",
+      "ilvl": "52"
+    },
+    "2": {
+      "title": "Snowblind",
+      "label": "Snowblind (ilvl 10)",
+      "ilvl": "10"
+    },
+    "233": {
+      "title": "Snowdrift",
+      "label": "Snowdrift (ilvl 23)",
+      "ilvl": "23"
+    },
+    "239": {
+      "title": "Somnia",
+      "label": "Somnia (ilvl 65)",
+      "ilvl": "65"
+    },
+    "52": {
+      "title": "Soul Bastion",
+      "label": "Soul Bastion (ilvl 15)",
+      "ilvl": "15"
+    },
+    "265": {
+      "title": "Soul Gambler's Fallacy",
+      "label": "Soul Gambler's Fallacy (ilvl 41)",
+      "ilvl": "41"
+    },
+    "403": {
+      "title": "Soul of the Mountain",
+      "label": "Soul of the Mountain (ilvl 34)",
+      "ilvl": "34"
+    },
+    "70": {
+      "title": "Soulfire",
+      "label": "Soulfire (ilvl 34)",
+      "ilvl": "34"
+    },
+    "330": {
+      "title": "Spine of Malatros",
+      "label": "Spine of Malatros (ilvl 61)",
+      "ilvl": "61"
+    },
+    "445": {
+      "title": "Spirit Xylem",
+      "label": "Spirit Xylem (ilvl 58)",
+      "ilvl": "58"
+    },
+    "304": {
+      "title": "Static Shell",
+      "label": "Static Shell (ilvl 70)",
+      "ilvl": "70"
+    },
+    "356": {
+      "title": "Stealth",
+      "label": "Stealth (ilvl 79)",
+      "ilvl": "79"
+    },
+    "43": {
+      "title": "Storm Breaker",
+      "label": "Storm Breaker (ilvl 35)",
+      "ilvl": "35"
+    },
+    "214": {
+      "title": "Stormcarved Testament",
+      "label": "Stormcarved Testament (ilvl 78)",
+      "ilvl": "78"
+    },
+    "202": {
+      "title": "Stormhide Paws",
+      "label": "Stormhide Paws (ilvl 6)",
+      "ilvl": "6"
+    },
+    "20": {
+      "title": "Stormtide",
+      "label": "Stormtide (ilvl 24)",
+      "ilvl": "24"
+    },
+    "112": {
+      "title": "Strands of Souls",
+      "label": "Strands of Souls (ilvl 82)",
+      "ilvl": "82"
+    },
+    "54": {
+      "title": "Strong Mind",
+      "label": "Strong Mind (ilvl 18)",
+      "ilvl": "18"
+    },
+    "328": {
+      "title": "Stygian Coal",
+      "label": "Stygian Coal (ilvl 36)",
+      "ilvl": "36"
+    },
+    "178": {
+      "title": "Stymied Fate",
+      "label": "Stymied Fate (ilvl 60)",
+      "ilvl": "60"
+    },
+    "104": {
+      "title": "Suloron's Step",
+      "label": "Suloron's Step (ilvl 57)",
+      "ilvl": "57"
+    },
+    "150": {
+      "title": "Sunwreath",
+      "label": "Sunwreath (ilvl 21)",
+      "ilvl": "21"
+    },
+    "338": {
+      "title": "Sword Catcher",
+      "label": "Sword Catcher (ilvl 71)",
+      "ilvl": "71"
+    },
+    "123": {
+      "title": "Symbol of Demise",
+      "label": "Symbol of Demise (ilvl 80)",
+      "ilvl": "80"
+    },
+    "334": {
+      "title": "Talons of Valor",
+      "label": "Talons of Valor (ilvl 30)",
+      "ilvl": "30"
+    },
+    "29": {
+      "title": "Taste of Blood",
+      "label": "Taste of Blood (ilvl 13)",
+      "ilvl": "13"
+    },
+    "278": {
+      "title": "Tears of the Forest",
+      "label": "Tears of the Forest (ilvl 28)",
+      "ilvl": "28"
+    },
+    "280": {
+      "title": "Telf'un's Mirage",
+      "label": "Telf'un's Mirage (ilvl 53)",
+      "ilvl": "53"
+    },
+    "31": {
+      "title": "Tempest Maw",
+      "label": "Tempest Maw (ilvl 51)",
+      "ilvl": "51"
+    },
+    "105": {
+      "title": "The Ashen Crown",
+      "label": "The Ashen Crown (ilvl 33)",
+      "ilvl": "33"
+    },
+    "449": {
+      "title": "The Butcher's Crown",
+      "label": "The Butcher's Crown (ilvl 72)",
+      "ilvl": "72"
+    },
+    "58": {
+      "title": "The Claw",
+      "label": "The Claw (ilvl 4)",
+      "ilvl": "4"
+    },
+    "118": {
+      "title": "The Confluence of Fate",
+      "label": "The Confluence of Fate (ilvl 81)",
+      "ilvl": "81"
+    },
+    "322": {
+      "title": "The Cuckoo",
+      "label": "The Cuckoo (ilvl 86)",
+      "ilvl": "86"
+    },
+    "60": {
+      "title": "The Fang",
+      "label": "The Fang (ilvl 58)",
+      "ilvl": "58"
+    },
+    "284": {
+      "title": "The Ghost Maker",
+      "label": "The Ghost Maker (ilvl 61)",
+      "ilvl": "61"
+    },
+    "347": {
+      "title": "The Inevitable",
+      "label": "The Inevitable (ilvl 83)",
+      "ilvl": "83"
+    },
+    "224": {
+      "title": "The Judicator",
+      "label": "The Judicator (ilvl 76)",
+      "ilvl": "76"
+    },
+    "7": {
+      "title": "The Kestrel",
+      "label": "The Kestrel (ilvl 1)",
+      "ilvl": "1"
+    },
+    "421": {
+      "title": "The Land Before",
+      "label": "The Land Before (ilvl 32)",
+      "ilvl": "32"
+    },
+    "47": {
+      "title": "The Last Laugh",
+      "label": "The Last Laugh (ilvl 47)",
+      "ilvl": "47"
+    },
+    "75": {
+      "title": "The Scavenger",
+      "label": "The Scavenger (ilvl 9)",
+      "ilvl": "9"
+    },
+    "318": {
+      "title": "The Shattered Cycle",
+      "label": "The Shattered Cycle (ilvl 72)",
+      "ilvl": "72"
+    },
+    "50": {
+      "title": "The Slab",
+      "label": "The Slab (ilvl 1)",
+      "ilvl": "1"
+    },
+    "426": {
+      "title": "Thicket of Blinding Light",
+      "label": "Thicket of Blinding Light (ilvl 35)",
+      "ilvl": "35"
+    },
+    "204": {
+      "title": "Thorn Slinger",
+      "label": "Thorn Slinger (ilvl 12)",
+      "ilvl": "12"
+    },
+    "237": {
+      "title": "Thornshell",
+      "label": "Thornshell (ilvl 52)",
+      "ilvl": "52"
+    },
+    "211": {
+      "title": "Throne of Ambition",
+      "label": "Throne of Ambition (ilvl 1)",
+      "ilvl": "1"
+    },
+    "13": {
+      "title": "Titan Heart",
+      "label": "Titan Heart (ilvl 41)",
+      "ilvl": "41"
+    },
+    "369": {
+      "title": "Tolmat's Incorrect History of Eterra",
+      "label": "Tolmat's Incorrect History of Eterra (ilvl 9)",
+      "ilvl": "9"
+    },
+    "67": {
+      "title": "Tome of Elements",
+      "label": "Tome of Elements (ilvl 1)",
+      "ilvl": "1"
+    },
+    "200": {
+      "title": "Tongue of the Aberrant Seer",
+      "label": "Tongue of the Aberrant Seer (ilvl 6)",
+      "ilvl": "6"
+    },
+    "42": {
+      "title": "Torch Of The Pontifex",
+      "label": "Torch Of The Pontifex (ilvl 20)",
+      "ilvl": "20"
+    },
+    "250": {
+      "title": "Torkrefin's Hunger",
+      "label": "Torkrefin's Hunger (ilvl 65)",
+      "ilvl": "65"
+    },
+    "342": {
+      "title": "Traitor's Tongue",
+      "label": "Traitor's Tongue (ilvl 27)",
+      "ilvl": "27"
+    },
+    "311": {
+      "title": "Transcriber's Graver",
+      "label": "Transcriber's Graver (ilvl 48)",
+      "ilvl": "48"
+    },
+    "132": {
+      "title": "Transient Rest",
+      "label": "Transient Rest (ilvl 52)",
+      "ilvl": "52"
+    },
+    "351": {
+      "title": "Triboelectra",
+      "label": "Triboelectra (ilvl 45)",
+      "ilvl": "45"
+    },
+    "120": {
+      "title": "Trident of the Last Abyss",
+      "label": "Trident of the Last Abyss (ilvl 79)",
+      "ilvl": "79"
+    },
+    "219": {
+      "title": "Trinity of Flames",
+      "label": "Trinity of Flames (ilvl 1)",
+      "ilvl": "1"
+    },
+    "146": {
+      "title": "Troaka's Teeth",
+      "label": "Troaka's Teeth (ilvl 44)",
+      "ilvl": "44"
+    },
+    "439": {
+      "title": "Truesight Glass",
+      "label": "Truesight Glass (ilvl 76)",
+      "ilvl": "76"
+    },
+    "226": {
+      "title": "Tu'rani's Bident",
+      "label": "Tu'rani's Bident (ilvl 48)",
+      "ilvl": "48"
+    },
+    "216": {
+      "title": "Twisted Heart of Uhkeiros",
+      "label": "Twisted Heart of Uhkeiros (ilvl 80)",
+      "ilvl": "80"
+    },
+    "424": {
+      "title": "Tyrant's Skull",
+      "label": "Tyrant's Skull (ilvl 36)",
+      "ilvl": "36"
+    },
+    "81": {
+      "title": "Ucenui's Sphere",
+      "label": "Ucenui's Sphere (ilvl 61)",
+      "ilvl": "61"
+    },
+    "137": {
+      "title": "Uethrin's Stand",
+      "label": "Uethrin's Stand (ilvl 36)",
+      "ilvl": "36"
+    },
+    "30": {
+      "title": "Undisputed",
+      "label": "Undisputed (ilvl 80)",
+      "ilvl": "80"
+    },
+    "410": {
+      "title": "Unearthed Memories",
+      "label": "Unearthed Memories (ilvl 40)",
+      "ilvl": "40"
+    },
+    "275": {
+      "title": "Unstable Core",
+      "label": "Unstable Core (ilvl 77)",
+      "ilvl": "77"
+    },
+    "326": {
+      "title": "Unvar's Exile",
+      "label": "Unvar's Exile (ilvl 33)",
+      "ilvl": "33"
+    },
+    "325": {
+      "title": "Unvar's Hegemony",
+      "label": "Unvar's Hegemony (ilvl 32)",
+      "ilvl": "32"
+    },
+    "324": {
+      "title": "Unvar's Rise",
+      "label": "Unvar's Rise (ilvl 31)",
+      "ilvl": "31"
+    },
+    "10": {
+      "title": "Urzil's Pride",
+      "label": "Urzil's Pride (ilvl 15)",
+      "ilvl": "15"
+    },
+    "230": {
+      "title": "Usurper's Mandate",
+      "label": "Usurper's Mandate (ilvl 66)",
+      "ilvl": "66"
+    },
+    "264": {
+      "title": "Vaion's Chariot",
+      "label": "Vaion's Chariot (ilvl 50)",
+      "ilvl": "50"
+    },
+    "71": {
+      "title": "Valdyr's Chalice",
+      "label": "Valdyr's Chalice (ilvl 64)",
+      "ilvl": "64"
+    },
+    "14": {
+      "title": "Valeroot",
+      "label": "Valeroot (ilvl 35)",
+      "ilvl": "35"
+    },
+    "442": {
+      "title": "Velocyn's Jaw",
+      "label": "Velocyn's Jaw (ilvl 75)",
+      "ilvl": "75"
+    },
+    "241": {
+      "title": "Vessel of Strife",
+      "label": "Vessel of Strife (ilvl 86)",
+      "ilvl": "86"
+    },
+    "331": {
+      "title": "Vial of Volatile Ice",
+      "label": "Vial of Volatile Ice (ilvl 1)",
+      "ilvl": "1"
+    },
+    "15": {
+      "title": "Vipertail",
+      "label": "Vipertail (ilvl 6)",
+      "ilvl": "6"
+    },
+    "48": {
+      "title": "Volcanus",
+      "label": "Volcanus (ilvl 58)",
+      "ilvl": "58"
+    },
+    "281": {
+      "title": "Vortex Pennant",
+      "label": "Vortex Pennant (ilvl 12)",
+      "ilvl": "12"
+    },
+    "354": {
+      "title": "Wall of Nothing",
+      "label": "Wall of Nothing (ilvl 85)",
+      "ilvl": "85"
+    },
+    "17": {
+      "title": "Ward Trail",
+      "label": "Ward Trail (ilvl 45)",
+      "ilvl": "45"
+    },
+    "323": {
+      "title": "Wheel of Torment",
+      "label": "Wheel of Torment (ilvl 75)",
+      "ilvl": "75"
+    },
+    "438": {
+      "title": "Whetstone Gavel",
+      "label": "Whetstone Gavel (ilvl 78)",
+      "ilvl": "78"
+    },
+    "425": {
+      "title": "Wildfire Embers",
+      "label": "Wildfire Embers (ilvl 70)",
+      "ilvl": "70"
+    },
+    "27": {
+      "title": "Wing Guards",
+      "label": "Wing Guards (ilvl 45)",
+      "ilvl": "45"
+    },
+    "153": {
+      "title": "Wings of Argentus",
+      "label": "Wings of Argentus (ilvl 82)",
+      "ilvl": "82"
+    },
+    "436": {
+      "title": "Wings of Discord",
+      "label": "Wings of Discord (ilvl 64)",
+      "ilvl": "64"
+    },
+    "365": {
+      "title": "World Splitter",
+      "label": "World Splitter (ilvl 85)",
+      "ilvl": "85"
+    },
+    "111": {
+      "title": "Woven Flesh",
+      "label": "Woven Flesh (ilvl 51)",
+      "ilvl": "51"
+    },
+    "335": {
+      "title": "Wraithlord's Harbour",
+      "label": "Wraithlord's Harbour (ilvl 65)",
+      "ilvl": "65"
+    },
+    "310": {
+      "title": "Wrongwarp",
+      "label": "Wrongwarp (ilvl 83)",
+      "ilvl": "83"
+    },
+    "133": {
+      "title": "Xithara's Conundrum",
+      "label": "Xithara's Conundrum (ilvl 61)",
+      "ilvl": "61"
+    },
+    "349": {
+      "title": "Yrun's Penance",
+      "label": "Yrun's Penance (ilvl 4)",
+      "ilvl": "4"
+    },
+    "12": {
+      "title": "Yrun's Wisdom",
+      "label": "Yrun's Wisdom (ilvl 27)",
+      "ilvl": "27"
+    },
+    "218": {
+      "title": "Yulia's Path",
+      "label": "Yulia's Path (ilvl 79)",
+      "ilvl": "79"
+    },
+    "251": {
+      "title": "Zeurial's Hunt",
+      "label": "Zeurial's Hunt (ilvl 52)",
+      "ilvl": "52"
+    }
+  },
+  "Weaver Unique Items": {
+    "296": {
+      "title": "Advent of the Erased",
+      "label": "Advent of the Erased (ilvl 16)",
+      "ilvl": "16"
+    },
+    "300": {
+      "title": "Ambitions of an Erased Acolyte",
+      "label": "Ambitions of an Erased Acolyte (ilvl 30)",
+      "ilvl": "30"
+    },
+    "419": {
+      "title": "Blight of Lachesis",
+      "label": "Blight of Lachesis (ilvl 70)",
+      "ilvl": "70"
+    },
+    "417": {
+      "title": "Clotho's Needle",
+      "label": "Clotho's Needle (ilvl 68)",
+      "ilvl": "68"
+    },
+    "299": {
+      "title": "Code of an Erased Sentinel",
+      "label": "Code of an Erased Sentinel (ilvl 30)",
+      "ilvl": "30"
+    },
+    "327": {
+      "title": "Communion of the Erased",
+      "label": "Communion of the Erased (ilvl 19)",
+      "ilvl": "19"
+    },
+    "295": {
+      "title": "Cradle of the Erased",
+      "label": "Cradle of the Erased (ilvl 18)",
+      "ilvl": "18"
+    },
+    "297": {
+      "title": "Dedication of an Erased Primalist",
+      "label": "Dedication of an Erased Primalist (ilvl 30)",
+      "ilvl": "30"
+    },
+    "407": {
+      "title": "Essence Weaver",
+      "label": "Essence Weaver (ilvl 68)",
+      "ilvl": "68"
+    },
+    "294": {
+      "title": "Font of the Erased",
+      "label": "Font of the Erased (ilvl 15)",
+      "ilvl": "15"
+    },
+    "301": {
+      "title": "Gambit of an Erased Rogue",
+      "label": "Gambit of an Erased Rogue (ilvl 30)",
+      "ilvl": "30"
+    },
+    "409": {
+      "title": "Inheritance of the Erased",
+      "label": "Inheritance of the Erased (ilvl 48)",
+      "ilvl": "48"
+    },
+    "298": {
+      "title": "Knowledge of an Erased Mage",
+      "label": "Knowledge of an Erased Mage (ilvl 30)",
+      "ilvl": "30"
+    },
+    "406": {
+      "title": "Nest of Nightmares",
+      "label": "Nest of Nightmares (ilvl 35)",
+      "ilvl": "35"
+    },
+    "405": {
+      "title": "Orb Weaver's Fang",
+      "label": "Orb Weaver's Fang (ilvl 40)",
+      "ilvl": "40"
+    },
+    "418": {
+      "title": "Scissor of Atropos",
+      "label": "Scissor of Atropos (ilvl 60)",
+      "ilvl": "60"
+    },
+    "293": {
+      "title": "Swaddling of the Erased",
+      "label": "Swaddling of the Erased (ilvl 15)",
+      "ilvl": "15"
+    },
+    "408": {
+      "title": "Weaver's Gift",
+      "label": "Weaver's Gift (ilvl 50)",
+      "ilvl": "50"
+    }
+  },
+  "Set Items": {
+    "88": {
+      "title": "Blade of the Forgotten Knight",
+      "label": "Blade of the Forgotten Knight (ilvl 50)",
+      "ilvl": "50"
+    },
+    "128": {
+      "title": "Boardman's Fallacy",
+      "label": "Boardman's Fallacy (ilvl 63)",
+      "ilvl": "63"
+    },
+    "129": {
+      "title": "Boardman's Legacy",
+      "label": "Boardman's Legacy (ilvl 63)",
+      "ilvl": "63"
+    },
+    "127": {
+      "title": "Boardman's Plank",
+      "label": "Boardman's Plank (ilvl 63)",
+      "ilvl": "63"
+    },
+    "194": {
+      "title": "Corsair's Blood Cowl",
+      "label": "Corsair's Blood Cowl (ilvl 57)",
+      "ilvl": "57"
+    },
+    "193": {
+      "title": "Corsair's Boarding Shield",
+      "label": "Corsair's Boarding Shield (ilvl 35)",
+      "ilvl": "35"
+    },
+    "89": {
+      "title": "Defiance of the Forgotten Knight",
+      "label": "Defiance of the Forgotten Knight (ilvl 30)",
+      "ilvl": "30"
+    },
+    "227": {
+      "title": "Ferebor's Chisel",
+      "label": "Ferebor's Chisel (ilvl 71)",
+      "ilvl": "71"
+    },
+    "228": {
+      "title": "Ferebor's Persistence",
+      "label": "Ferebor's Persistence (ilvl 72)",
+      "ilvl": "72"
+    },
+    "110": {
+      "title": "Fragments of the Shattered Lance",
+      "label": "Fragments of the Shattered Lance (ilvl 65)",
+      "ilvl": "65"
+    },
+    "157": {
+      "title": "Gaspar's Acuity",
+      "label": "Gaspar's Acuity (ilvl 72)",
+      "ilvl": "72"
+    },
+    "158": {
+      "title": "Gaspar's Insight",
+      "label": "Gaspar's Insight (ilvl 80)",
+      "ilvl": "80"
+    },
+    "156": {
+      "title": "Gaspar's Will",
+      "label": "Gaspar's Will (ilvl 75)",
+      "ilvl": "75"
+    },
+    "97": {
+      "title": "Halvar's Pledge",
+      "label": "Halvar's Pledge (ilvl 46)",
+      "ilvl": "46"
+    },
+    "98": {
+      "title": "Halvar's Stand",
+      "label": "Halvar's Stand (ilvl 45)",
+      "ilvl": "45"
+    },
+    "26": {
+      "title": "Isadora's Gravechill",
+      "label": "Isadora's Gravechill (ilvl 31)",
+      "ilvl": "31"
+    },
+    "5": {
+      "title": "Isadora's Revenge",
+      "label": "Isadora's Revenge (ilvl 39)",
+      "ilvl": "39"
+    },
+    "16": {
+      "title": "Isadora's Tomb Binding",
+      "label": "Isadora's Tomb Binding (ilvl 19)",
+      "ilvl": "19"
+    },
+    "99": {
+      "title": "Last Gift of the Mountain",
+      "label": "Last Gift of the Mountain (ilvl 42)",
+      "ilvl": "42"
+    },
+    "260": {
+      "title": "Lich's Envy",
+      "label": "Lich's Envy (ilvl 64)",
+      "ilvl": "64"
+    },
+    "261": {
+      "title": "Lich's Scorn",
+      "label": "Lich's Scorn (ilvl 63)",
+      "ilvl": "63"
+    },
+    "90": {
+      "title": "Locket of the Forgotten Knight",
+      "label": "Locket of the Forgotten Knight (ilvl 24)",
+      "ilvl": "24"
+    },
+    "102": {
+      "title": "Pebbles' Bitemarked Sash",
+      "label": "Pebbles' Bitemarked Sash (ilvl 12)",
+      "ilvl": "12"
+    },
+    "101": {
+      "title": "Pebbles' Collar",
+      "label": "Pebbles' Collar (ilvl 12)",
+      "ilvl": "12"
+    },
+    "100": {
+      "title": "Pebbles' Femur",
+      "label": "Pebbles' Femur (ilvl 30)",
+      "ilvl": "30"
+    },
+    "174": {
+      "title": "Ruby Fang Aegis",
+      "label": "Ruby Fang Aegis (ilvl 55)",
+      "ilvl": "55"
+    },
+    "173": {
+      "title": "Ruby Fang Cleaver",
+      "label": "Ruby Fang Cleaver (ilvl 55)",
+      "ilvl": "55"
+    },
+    "109": {
+      "title": "Shard of the Shattered Lance",
+      "label": "Shard of the Shattered Lance (ilvl 68)",
+      "ilvl": "68"
+    },
+    "170": {
+      "title": "Sinathia's Dying Breath",
+      "label": "Sinathia's Dying Breath (ilvl 60)",
+      "ilvl": "60"
+    },
+    "171": {
+      "title": "Sinathia's Resurrection",
+      "label": "Sinathia's Resurrection (ilvl 60)",
+      "ilvl": "60"
+    },
+    "86": {
+      "title": "Sunforged Cuirass",
+      "label": "Sunforged Cuirass (ilvl 60)",
+      "ilvl": "60"
+    },
+    "87": {
+      "title": "Sunforged Greathelm",
+      "label": "Sunforged Greathelm (ilvl 72)",
+      "ilvl": "72"
+    },
+    "85": {
+      "title": "Sunforged Hammer",
+      "label": "Sunforged Hammer (ilvl 68)",
+      "ilvl": "68"
+    },
+    "57": {
+      "title": "The Invoker's Frozen Heart",
+      "label": "The Invoker's Frozen Heart (ilvl 24)",
+      "ilvl": "24"
+    },
+    "63": {
+      "title": "The Invoker's Scorching Grasp",
+      "label": "The Invoker's Scorching Grasp (ilvl 35)",
+      "ilvl": "35"
+    },
+    "64": {
+      "title": "The Invoker's Static Touch",
+      "label": "The Invoker's Static Touch (ilvl 29)",
+      "ilvl": "29"
+    },
+    "94": {
+      "title": "The Last Bear's Fury",
+      "label": "The Last Bear's Fury (ilvl 31)",
+      "ilvl": "31"
+    },
+    "96": {
+      "title": "The Last Bear's Lament",
+      "label": "The Last Bear's Lament (ilvl 20)",
+      "ilvl": "20"
+    },
+    "95": {
+      "title": "The Last Bear's Scorn",
+      "label": "The Last Bear's Scorn (ilvl 27)",
+      "ilvl": "27"
+    },
+    "186": {
+      "title": "Vilatria's Downfall",
+      "label": "Vilatria's Downfall (ilvl 46)",
+      "ilvl": "46"
+    },
+    "185": {
+      "title": "Vilatria's Storm Crown",
+      "label": "Vilatria's Storm Crown (ilvl 14)",
+      "ilvl": "14"
+    },
+    "140": {
+      "title": "Zerrick's Ambition",
+      "label": "Zerrick's Ambition (ilvl 52)",
+      "ilvl": "52"
+    },
+    "139": {
+      "title": "Zerrick's Greed",
+      "label": "Zerrick's Greed (ilvl 57)",
+      "ilvl": "57"
+    },
+    "138": {
+      "title": "Zerrick's Guile",
+      "label": "Zerrick's Guile (ilvl 49)",
+      "ilvl": "49"
+    }
+  }
+}

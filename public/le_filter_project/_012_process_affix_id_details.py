@@ -81,6 +81,5 @@ def main() -> dict:
 
 if __name__ == "__main__":
     cat_map = main()
-    # print(json.dumps(cat_map, indent=2))
     with open(filepaths["affix_id"]["details"]["processed"].joinpath("affix_details.json"), "wt") as outfile:
         outfile.write(json.dumps(cat_map, indent=2))

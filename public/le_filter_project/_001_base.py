@@ -1,18 +1,31 @@
 
-import re, os
+import re
 import pandas as pd
 from pathlib import Path
 from openpyxl import load_workbook, Workbook
 from openpyxl.worksheet.worksheet import Worksheet
 from openpyxl.styles import Font, Alignment
-from openpyxl.utils.dataframe import dataframe_to_rows
 from typing import Union, Tuple
 from PIL import Image, ImageDraw, ImageFont
 from typing import Union, Tuple
 
 LATEST_GAME_VERSION = "1.3.4"
 LATEST_FILTER_VERSION = "0"
+RULE_OPTIONS = ["Rule Description", "Emphasise", "Recolour", "Sound", "Beam Colour", "Acolyte", "Primalist", "Mage", "Rogue", "Sentinel"]
 RARITY_ORDER = ["NORMAL", "MAGIC", "RARE", "EXALTED", "UNIQUE", "LEGENDARY", "SET"]
+SLOT_ORDER = [
+    "One-Handed Axe", "One-Handed Mace", "One-Handed Sword", "Sceptre", "Dagger", "Wand", 
+    "Two-Handed Axe", "Two-Handed Mace", "Two-Handed Sword", "Two-Handed Spear", "Two-Handed Staff", "Bow", 
+    "Off-Hand Catalyst", "Shield", "Quiver", 
+    "Helmet", "Body Armor", "Boots", "Gloves", "Belt", 
+    "Ring", "Amulet", "Relic", 
+    "Small Idol", "Minor Idol", "Humble Idol", "Stout Idol", 
+    "Huge Idol", "Grand Idol", "Large Idol", "Ornate Idol", 
+    "Adorned Idol", 
+]
+SLOT_ORDER_WITH_PRIMORDIAL = [
+    slot for baseslot in SLOT_ORDER for slot in ([baseslot, f"Primordial {baseslot}",] if not baseslot.endswith(("Idol", )) else [baseslot,])
+]
 META_SLOT_SELECTOR = {
     "All One-Handed Weapons": [
         "One-Handed Axe", "One-Handed Mace", "Sceptre", "One-Handed Sword", "Wand", "Dagger", 
@@ -129,6 +142,7 @@ filepaths = {
     "condition_list": filepaths["project"].joinpath("condition_list"), 
 }
 filepaths["filter_maker"] = {
+    "raw": filepaths["filter_maker"].joinpath("raw"), 
     "input": filepaths["filter_maker"].joinpath("input"), 
     "output": filepaths["filter_maker"].joinpath("output"), 
 }
@@ -146,74 +160,13 @@ for key in ["affix_id", "item_id", "unique_id"]:
     }
 
 def strip_ws(text: str) -> str:
-    return re.compile(r"\s+").sub(" ", text)
-
-'''
-def format_sheet(
-    sheet: Worksheet,
-    h_alignment: str = "left",
-    v_alignment: str = "top", 
-    freeze_panes: Tuple[int, int] = (1, 1)
-) -> None:
-    """
-    Format a single worksheet with alignment and freeze panes.
-    
-    Args:
-        sheet: openpyxl Worksheet object
-        h_alignment: Horizontal alignment - "left", "centre", or "right"
-        v_alignment: Vertical alignment - "top", "centre", or "bottom" 
-        freeze_panes: Tuple of (row, column) to freeze at
-    """
-    # Map alignment strings to openpyxl constants
-    h_map = {"left": "left", "centre": "center", "right": "right"}
-    v_map = {"top": "top", "centre": "center", "bottom": "bottom"}
-    
-    # Create alignment object
-    alignment = Alignment(
-        horizontal=h_map.get(h_alignment, "left"),
-        vertical=v_map.get(v_alignment, "top")
-    )
-    
-    # Apply alignment to all cells with data
-    for row in sheet.iter_rows():
-        for cell in row:
-            if cell.value is not None:
-                cell.alignment = alignment
-    
-    # Set freeze panes
-    row, col = freeze_panes
-    if row > 0 and col > 0:
-        # Convert to cell reference (e.g., (2,2) -> "B2")
-        freeze_cell = sheet.cell(row=row, column=col).coordinate
-        sheet.freeze_panes = freeze_cell
-
-def format_workbook(
-    file: Union[str, Workbook], 
-    h_alignment: str = "left", 
-    v_alignment: str = "top", 
-    freeze_panes: Tuple[int, int] = (1, 1)
-) -> None:
-    """
-    Format all worksheets in a workbook with alignment and freeze panes.
-    
-    Args:
-        file: Either a filepath (str) or an openpyxl Workbook object
-        h_alignment: Horizontal alignment - "left", "centre", or "right" 
-        v_alignment: Vertical alignment - "top", "centre", or "bottom"
-        freeze_panes: Tuple of (row, column) to freeze at
-    """
-    # If file is a string, load the workbook and call recursively
-    if isinstance(file, (str, Path)):
-        wb = load_workbook(file)
-        format_workbook(wb, h_alignment, v_alignment, freeze_panes)
-        wb.save(file)  # Save changes back to file
-        return
-    
-    # If file is a Workbook, format each sheet
-    wb = file
-    for sheet in wb.worksheets:
-        format_sheet(sheet, h_alignment, v_alignment, freeze_panes)
-'''
+    stripped_text = re.compile(r"\s+").sub(" ", text)
+    stripped_text = stripped_text.replace(u"\u00d7", "x")
+    stripped_text = stripped_text.replace(u"\u2013", "-")
+    stripped_text = stripped_text.replace("( ", "(")
+    stripped_text = stripped_text.replace(" )", ")")
+    stripped_text = stripped_text.replace(" ,", ",")
+    return stripped_text
 
 def replace_if_na(val: Union[float, int, str, bool], rep: Union[float, int, str, bool]) -> Union[float, int, str, bool]:
     if val == val:

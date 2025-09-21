@@ -5,18 +5,7 @@ from _001_base import *
 
 AFFIX_GROUPS = [f"affix_group_{n:.0f}" for n in range(6, 0, -1)]
 AFFIX_ADVANCED_OPTIONS = ["Use Group", "Minimum Number of Affixes", "Minimum Tier", "Minimum Total Tier", ]
-RULE_OPTIONS = ["Rule Description", "Recolour", "Sound", "Beam Colour", "Acolyte", "Primalist", "Mage", "Rogue", "Sentinel"]
 
-SLOT_ORDER = [
-    "One-Handed Axe", "One-Handed Mace", "One-Handed Sword", "Sceptre", "Dagger", "Wand", 
-    "Two-Handed Axe", "Two-Handed Mace", "Two-Handed Sword", "Two-Handed Spear", "Two-Handed Staff", "Bow", 
-    "Off-Hand Catalyst", "Shield", "Quiver", 
-    "Helmet", "Body Armor", "Boots", "Gloves", "Belt", 
-    "Ring", "Amulet", "Relic", 
-    "Small Idol", "Minor Idol", "Humble Idol", "Stout Idol", 
-    "Huge Idol", "Grand Idol", "Large Idol", "Ornate Idol", 
-    "Adorned Idol", 
-]
 GROUP_ORDER = [
     "General Idols", "Acolyte Idols", "Primalist Idols", "Mage Idols", "Sentinel Idols", "Rogue Idols", "Weaver Idols", "Enchanted Idols", 
     "Attributes", 
@@ -129,30 +118,6 @@ def _match_affix_class(gdf: pd.DataFrame) -> pd.Series:
             )
         )
 
-def filter_options_sheet() -> pd.DataFrame:
-    data = list()
-    columns = ["value", "option", ]
-    for option in ["Filter Name", "Description", "Symbol", "Colour", *[f"Hide {rarity} from Level" for rarity in ["Normal", "Magic", "Rare", "Exalted", "Set", "Unique"]], ]:
-        data.append([None, option])
-    data = pd.DataFrame(data, columns=columns)
-    return data
-
-def affix_advanced_options_sheet(slot_map: dict[str,str]) -> pd.DataFrame:
-    data = list()
-    rule_names = ["rule_group", "rule", ]
-    rule_slots = [None, "Slot", ]
-    for name, slot in slot_map.items():
-        rule_names.append(name)
-        rule_slots.append(slot)
-    data.append(rule_slots)
-    for affix_group in AFFIX_GROUPS[::-1]:
-        for option in AFFIX_ADVANCED_OPTIONS:
-            data.append([affix_group, option, *[None for _ in slot_map.items()], ])
-    for option in RULE_OPTIONS:
-        data.append([None, option, *[None for _ in slot_map.items()], ])
-    data = pd.DataFrame(data, columns=rule_names)
-    return data
-
 def main() -> pd.DataFrame:
     id_dict = json.load(open(filepaths["affix_id"]["game_data"]["processed"].joinpath("affix_id.json"), "r"))
     id_dict = _deconstruct_id_dict(id_dict)
@@ -174,27 +139,4 @@ def main() -> pd.DataFrame:
 
 if __name__ == "__main__":
     df = main()
-    # df.drop(columns=["_merge"]).to_csv(filepaths["affix_id"]["combined"].joinpath("affix.csv"), index=False, encoding="utf-8")
-    instruction_sheet = filepaths["project"].joinpath("_013_affix_instructions.md")
-    affix_out_filepath = filepaths["affix_id"]["combined"].joinpath("affix.xlsx")
-    instruction_sheet = parse_markdown_to_structured_data(instruction_sheet)
-    create_excel_from_structured_data(instruction_sheet, "Instructions", affix_out_filepath)
-    with pd.ExcelWriter(affix_out_filepath, engine="openpyxl", mode="a", if_sheet_exists="replace") as xlfile:
-        filter_options_sheet().to_excel(xlfile, index=False, sheet_name="Filter Options")
-        affix_advanced_options_sheet(BASIC_FILTER_SLOTS).to_excel(xlfile, index=False, sheet_name="Advanced Options")
-        for rule_id, slot in BASIC_FILTER_SLOTS.items():
-            slot = META_SLOT_SELECTOR.get(slot, [slot, ])
-            gdf = df.loc[lambda df: df["slot"].isin(slot)]
-            gdf = gdf.groupby(by=["id"], as_index=False).agg({
-                **{"slot": lambda sr: ",".join(sr.tolist())}, 
-                **{col: "first" for col in gdf.columns if col not in ["slot", "id", ]}
-            }).sort_values(by=["position", "group", "title", ])
-            gdf.reindex(columns=[*AFFIX_GROUPS, *gdf.columns, ]).to_excel(xlfile, index=False, sheet_name=rule_id)
-    format_workbook(affix_out_filepath, freeze_panes=(2, len(AFFIX_GROUPS) + 1), wrap_text=True)
-    wb = load_workbook(affix_out_filepath)
-    format_sheet(wb["Instructions"], freeze_panes=(1, 1), wrap_text=True)
-    format_sheet(wb["Filter Options"], freeze_panes=(2, 2), wrap_text=True)
-    format_sheet(wb["Advanced Options"], freeze_panes=(2, 3), wrap_text=True)
-    wb.save(affix_out_filepath)
-    wb.close()
-    # df.loc[df[["slot", "id"]].duplicated(keep=False)].to_csv(filepaths["affix_id"]["combined"].joinpath("check.csv"), index=False, encoding="utf-8")
+    df.to_csv(filepaths["affix_id"]["combined"].joinpath("affix.csv"), index=False, encoding="utf-8")

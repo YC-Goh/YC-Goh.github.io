@@ -158,6 +158,5 @@ def main() -> dict:
 
 if __name__ == "__main__":
     cat_map = main()
-    # print(len(set([id for slot in cat_map.values() for group in slot.values() for id in group])))
     with open(filepaths["affix_id"]["game_data"]["processed"].joinpath("affix_id.json"), "wt") as outfile:
         outfile.write(json.dumps(cat_map, indent=2))
