@@ -18,9 +18,12 @@ def __float_to_str(val: float) -> str:
 
 def json_to_etree(element: et.Element, filter_json: dict) -> et.Element:
     for sub_tag, sub_tag_value in filter_json.items():
-        if sub_tag == "attributes":
+        if sub_tag == "_attributes":
             for attr, attr_value in sub_tag_value.items():
                 element.set(XHTML_TAG(attr), attr_value)
+        elif sub_tag == "_values":
+            for sub_tag_value in sub_tag_value:
+                json_to_etree(element, sub_tag_value)
         else:
             sub_element = et.SubElement(element, sub_tag)
             if sub_tag_value == sub_tag_value and sub_tag_value is not None:

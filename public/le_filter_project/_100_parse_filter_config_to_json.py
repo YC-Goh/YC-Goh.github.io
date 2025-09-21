@@ -2,6 +2,7 @@
 import pandas as pd
 import json
 from _001_base import *
+from _031_compile_filter_rules_excel import UNIQUE_RARITY_GROUPS
 
 HIDE_ALL = {
     "Rule": {
@@ -45,17 +46,17 @@ def parse_filter_options(filter_options: pd.DataFrame) -> dict:
                 "conditions": [
                     {
                         "Condition": {
-                            "attributes": {"type": "RarityCondition"}, 
+                            "_attributes": {"type": "RarityCondition"}, 
                             "rarity": rarity, 
-                            "minLegendaryPotential": {"attributes": {"nil": "true"}}, 
-                            "maxLegendaryPotential": {"attributes": {"nil": "true"}}, 
-                            "minWeaversWill": {"attributes": {"nil": "true"}}, 
-                            "maxWeaversWill": {"attributes": {"nil": "true"}}, 
+                            "minLegendaryPotential": {"_attributes": {"nil": "true"}}, 
+                            "maxLegendaryPotential": {"_attributes": {"nil": "true"}}, 
+                            "minWeaversWill": {"_attributes": {"nil": "true"}}, 
+                            "maxWeaversWill": {"_attributes": {"nil": "true"}}, 
                         }
                     }, 
                     {
                         "Condition": {
-                            "attributes": {"type": "CharacterLevelCondition"}, 
+                            "_attributes": {"type": "CharacterLevelCondition"}, 
                             "minimumLvl": level_from, 
                             "maximumLvl": 100
                         }
@@ -75,6 +76,71 @@ def parse_filter_options(filter_options: pd.DataFrame) -> dict:
     filter_options['rules'] = hide_rules
     return filter_options
 
+def parse_unique_options(filter_options: pd.DataFrame) -> dict:
+    for i, col in enumerate(UNIQUE_RARITY_GROUPS):
+        filter_options[col] = filter_options[UNIQUE_RARITY_GROUPS[i:]].notna().any(axis=1).map({True: 1})
+        filter_options[col] = filter_options[col].where(filter_options[col].eq(1))
+    unique_rules = list()
+    unique_rules.append({
+        "Rule": {
+            "type": "SHOW", 
+            "conditions": [
+                {
+                    "Condition": {
+                        "_attributes": {"type": "RarityCondition"}, 
+                        "rarity": "LEGENDARY", 
+                        "minLegendaryPotential": {"_attributes": {"nil": "true"}}, 
+                        "maxLegendaryPotential": {"_attributes": {"nil": "true"}}, 
+                        "minWeaversWill": {"_attributes": {"nil": "true"}}, 
+                        "maxWeaversWill": {"_attributes": {"nil": "true"}}, 
+                    }
+                }, 
+            ], 
+            "emphasized": "false",
+            "isEnabled": "true", 
+            "nameOverride": None, 
+            "color": 0, 
+            "SoundId": 0, 
+            "BeamId": 0, 
+        }
+    })
+    for rule_id in UNIQUE_RARITY_GROUPS[::-1]:
+        lp_min = [lp for lp in rule_id.split("_") if lp.startswith("lp")][0].removeprefix("lp").strip()
+        lp_min = int(lp_min)
+        ww_min = lp_min * 6
+        unique_ids = filter_options.loc[lambda df: df[rule_id].notna(), "id"].apply(lambda val: f"{val:.0f}" if isinstance(val, (int, float,)) else val).astype("str").tolist()
+        rule = {
+            "Rule": {
+                "type": "SHOW", 
+                "conditions": [
+                    {
+                        "Condition": {
+                            "_attributes": {"type": "UniqueModifiersCondition"}, 
+                            "_values": [{"Uniques": {"UniqueId": uid}} for uid in unique_ids], 
+                        }
+                    }, 
+                    {
+                        "Condition": {
+                            "_attributes": {"type": "RarityCondition"}, 
+                            "rarity": "UNIQUE SET", 
+                            "minLegendaryPotential": f"{lp_min:.0f}", 
+                            "maxLegendaryPotential": "4", 
+                            "minWeaversWill": f"{ww_min:.0f}", 
+                            "maxWeaversWill": "28", 
+                        }
+                    }, 
+                ], 
+                "emphasized": "true" if lp_min >= 3 else "false",
+                "isEnabled": "true", 
+                "nameOverride": None, 
+                "color": 0, 
+                "SoundId": 0, 
+                "BeamId": 0, 
+            }
+        }
+        unique_rules.append(rule)
+    return {"rules": unique_rules}
+
 def parse_affix_rule_options(condition_options: pd.Series, affix_options: pd.DataFrame) -> dict:
     rule = {"Rule": {"conditions": list()}}
     conditions = condition_options.copy(deep=True)
@@ -90,7 +156,7 @@ def parse_affix_rule_options(condition_options: pd.Series, affix_options: pd.Dat
                 min_total_tier = replace_if_na(options["Minimum Total Tier"], 1)
                 affix_condition = {
                     "Condition": {
-                        "attributes": {"type": "AffixCondition"}, 
+                        "_attributes": {"type": "AffixCondition"}, 
                         "affixes": affixes, 
                         "minOnTheSameItem": min_n_affix, 
                         "comparsion": "ANY" if min_tier <= 1 else "MORE_OR_EQUAL", 
@@ -119,18 +185,19 @@ def parse_affix_rule_options(condition_options: pd.Series, affix_options: pd.Dat
                     cat_class = " ".join([cl for cl, incl in zip(str_classes, ind_classes) if incl])
             item_type_condition = {
                 "Condition": {
-                    "attributes": {"type": "SubTypeCondition"}, 
+                    "_attributes": {"type": "SubTypeCondition"}, 
                     "type": [{"EquipmentType": item_type} for item_type in SLOT_TO_TYPE_MAP[slot]], 
                 }
             }
             class_condition = {
                 "Condition": {
-                    "attributes": {"type": "ClassCondition"}, 
+                    "_attributes": {"type": "ClassCondition"}, 
                     "req": cat_class, 
                 }
             }
             rule_options = {
                 "type": "SHOW", 
+                "emphasized": "false", 
                 "isEnabled": "true", 
                 "nameOverride": description, 
                 "color": cat_colour, 
@@ -144,21 +211,22 @@ def parse_affix_rule_options(condition_options: pd.Series, affix_options: pd.Dat
     return rule
 
 def parse_affixes_to_dict(input_folder: Path) -> dict:
-    sheets = pd.read_excel(input_folder.joinpath("affix.xlsx"), sheet_name=None)
+    sheets = pd.read_excel(input_folder, sheet_name=None)
     filter_options = parse_filter_options(sheets["Filter Options"])
+    unique_options = parse_unique_options(sheets["Uniques"])
     advanced_options = sheets["Advanced Options"].set_index(keys=["rule_group", "rule"], append=False)
     advanced_options = advanced_options.loc[:, lambda df: df.xs(("Use Group",), 0, ("rule",)).notna().any(axis=0)]
     rules = list()
     for rule_id in advanced_options.columns[::-1]:
         rules.append(parse_affix_rule_options(advanced_options[rule_id], sheets[rule_id]))
-    filter_options["rules"] = [HIDE_ALL, *rules, *filter_options["rules"]]
+    filter_options["rules"] = [HIDE_ALL, *unique_options["rules"], *rules, *filter_options["rules"]]
     return filter_options
 
-def main(input_folder: Path) -> dict:
-    affixes = parse_affixes_to_dict(input_folder)
+def main(input_file: Path) -> dict:
+    affixes = parse_affixes_to_dict(input_file)
     return affixes
 
 if __name__ == "__main__":
-    rules = main(filepaths["filter_maker"]["input"])
+    rules = main(filepaths["filter_maker"]["input"].joinpath("filter_yc.xlsx"))
     with open(filepaths["filter_maker"]["output"].joinpath("filter.json"), "wt") as file:
         file.write(json.dumps(rules, indent=2))

@@ -10,7 +10,17 @@
     3.  Exalted/Set/Unique: Suggest do not set unless you know what you are doing.
     4.  Note: This is not the end-of-filter Hide All rule. These are the first rules in the filter and will hide absolutely ALL items of that rarity!
 
-#   Advanced Options
+#   Uniques Options
+
+1.  Show LP4 / WW24 or higher: This is the highest bar. You can leave this blank as the filter maker auto-imputes from all lower levels. Effectively, if you do not fill this out, then any unique that you do not mark anywhere is by default hidden. Useful for permanently leaving off any set or unique idol that you don't care about.
+2.  Show LP3 / WW18 or higher: Very high bar. Suggest this is only ticked for items that (1) drop very commonly, AND (2) have very low LP level. This is so that for sufficiently low-value uniques, you see only the most interesting drops. Rule of thumb for low LP level is below 30.
+3.  Show LP2 / WW12 or higher: High bar. Similar to the LP3 rule, suggest to show for items that drop very commonly AND have moderate LP level. Rule of thumb, from 30 to below 70.
+4.  Show LP1 / WW6 or higher: Low bar. Reserve for items that drop sufficiently commonly enough but have high LP level, so that you don't miss anything of interest.
+5.  Show LP0 / WW0 or higher: No bar. Use this for items that you see very rarely either because the reroll chance is very high or is a difficult boss's special drop, so that you get another chance to rolling LP using Nemesis.
+
+Note that all legendaries are currently shown by default. There is a way to filter legendaries by number of modifiers and even what modifiers were rolled on it, but that will be a future update.
+
+#   Advanced (Affix) Options
 
 Each column corresponds to one rule in the in-game filter (a rule is a collection of conditions that identify items to hide or show). The column header is the rule ID (NOT the rule name), for which a corresponding sheet with the sheet name being the rule ID must exist. Note that the column header is independent of the slot. Hence, it is possible to have multiple rules for the same item slot (e.g., if looking for items for different builds, or one rule for finding items for crafting while another rule is for finding shards)
 
