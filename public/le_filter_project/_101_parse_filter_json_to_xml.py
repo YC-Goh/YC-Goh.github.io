@@ -50,7 +50,5 @@ def main(input_folder: Path) -> et.Element:
 
 if __name__ == "__main__":
     itemfilter = main(filepaths["filter_maker"]["output"])
-    # print(json.dumps(itemfilter, indent=2))
-    # print(et.tostring(itemfilter, pretty_print=True).decode(), end="")
     with open(filepaths["filter_maker"]["output"].joinpath("filter.xml"), "wt") as file:
         file.write(et.tostring(itemfilter, pretty_print=True, encoding='utf-8').decode())
