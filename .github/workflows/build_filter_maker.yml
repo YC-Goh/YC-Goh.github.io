@@ -22,7 +22,7 @@ jobs:
       with:
         auto-update-conda: true
         python-version: ${{ matrix.python-version }}
-        mamba-version: "*"
+        miniforge-version: latest
         channels: conda-forge
         activate-environment: loot-filter-project
         environment-file: public/le_filter_project/loot-filter-project.yml
@@ -34,7 +34,7 @@ jobs:
       run: |
         cd public/le_filter_project
         mkdir --help
-        mkdir filter_maker/raw -m a+rwx -p
+        mkdir filter_maker/raw -p
         python _031_compile_filter_rules_excel.py
         pyinstaller --onefile --name "filter_maker_x86" main.py
     
