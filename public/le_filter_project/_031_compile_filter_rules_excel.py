@@ -63,8 +63,8 @@ if __name__ == "__main__":
     affix_frame = pd.read_csv(filepaths["affix_id"]["combined"].joinpath("affix.csv"), low_memory=False, encoding="utf-8")
     unique_frame = pd.read_csv(filepaths["unique_id"]["combined"].joinpath("unique.csv"), low_memory=False, encoding="utf-8")
     instruction_sheet = filepaths["project"].joinpath("_031_filter_rules_instructions.md")
-    affix_out_filepath = filepaths["filter_maker"]["raw"].joinpath("filter.xlsx")
     instruction_sheet = parse_markdown_to_structured_data(instruction_sheet)
+    affix_out_filepath = filepaths["filter_maker"]["raw"].joinpath("filter.xlsx")
     create_excel_from_structured_data(instruction_sheet, "Instructions", affix_out_filepath)
     with pd.ExcelWriter(affix_out_filepath, engine="openpyxl", mode="a", if_sheet_exists="replace") as xlfile:
         filter_options_sheet().to_excel(xlfile, index=False, sheet_name="Filter Options")

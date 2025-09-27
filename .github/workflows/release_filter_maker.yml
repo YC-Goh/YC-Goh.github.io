@@ -1,10 +1,13 @@
 # .github/workflows/build.yml
-name: Build Loot Filter Maker Executables
+name: Release Loot Filter Maker Executables on Tagged Release
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - "v*.*.*"
+  pull_request:
+    tags:
+      - "v*.*.*"
 
 jobs:
   build:
@@ -54,6 +57,14 @@ jobs:
     #   with:
     #     name: filter_maker_x86
     #     path: public/le_filter_project/dist/filter_maker_x86.exe
+    
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      with:
+        files: |
+          public/le_filter_project/readme.md
+          public/le_filter_project/filter_maker/raw/filter.xlsx
+          public/le_filter_project/dist/filter_maker_x86.exe
     
     # - name: Upload Linux Artifact
     #   if: matrix.os == 'ubuntu-latest'
