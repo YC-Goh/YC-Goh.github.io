@@ -1,0 +1,69 @@
+# .github/workflows/build.yml
+name: Build Executables
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python-version: [3.13]
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: conda-incubator/setup-miniconda@v3
+      with:
+        auto-update-conda: true
+        python-version: ${{ matrix.python-version }}
+        mamba-version: "*"
+        channels: conda-
+        activate-environment: loot-filter-project
+        environment-file: public/le_filter_project/loot-filter-project.yml
+        auto-activate-base: false
+    
+    - name: Build with PyInstaller (Windows)
+      if: matrix.os == 'windows-latest'
+      run: |
+        cd public/le_filter_project
+        pyinstaller --onefile --windowed --icon=icon.ico --name "filter_maker_x86" main.py
+    
+    - name: Build with PyInstaller (Linux)
+      if: matrix.os == 'ubuntu-latest'
+      run: |
+        cd public/le_filter_project
+        pyinstaller --onefile --name "filter_maker_linux" main.py
+    
+    - name: Build with PyInstaller (macOS)
+      if: matrix.os == 'macos-latest'
+      run: |
+        cd public/le_filter_project
+        pyinstaller --onefile --windowed --icon=icon.icns --name "filter_maker_macos" main.py
+    
+    - name: Upload Windows Artifact
+      if: matrix.os == 'windows-latest'
+      uses: actions/upload-artifact@v3
+      with:
+        name: filter_maker_x86
+        path: public/le_filter_project/dist/filter_maker_x86.exe
+    
+    - name: Upload Linux Artifact
+      if: matrix.os == 'ubuntu-latest'
+      uses: actions/upload-artifact@v3
+      with:
+        name: filter_maker_linux
+        path: public/le_filter_project/dist/filter_maker_linux
+    
+    - name: Upload macOS Artifact
+      if: matrix.os == 'macos-latest'
+      uses: actions/upload-artifact@v3
+      with:
+        name: filter_maker_macos
+        path: public/le_filter_project/dist/filter_maker_macos

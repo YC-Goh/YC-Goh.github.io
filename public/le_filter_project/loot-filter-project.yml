@@ -1,0 +1,16 @@
+name: loot-filter-project
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.12
+  - numpy
+  - pandas
+  - openpyxl
+  - xlrd
+  - requests
+  - bs4
+  - lxml
+  - regex
+  - Flask
+  - pillow
+  - pyinstaller

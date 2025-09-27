@@ -916,26 +916,6 @@
                 },
                 {
                   "Uniques": {
-                    "UniqueId": "418"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "417"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "419"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "409"
-                  }
-                },
-                {
-                  "Uniques": {
                     "UniqueId": "170"
                   }
                 },
@@ -1951,26 +1931,6 @@
                 {
                   "Uniques": {
                     "UniqueId": "219"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "418"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "417"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "419"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "409"
                   }
                 },
                 {
@@ -3635,26 +3595,6 @@
                 {
                   "Uniques": {
                     "UniqueId": "219"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "418"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "417"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "419"
-                  }
-                },
-                {
-                  "Uniques": {
-                    "UniqueId": "409"
                   }
                 },
                 {
@@ -9313,9 +9253,6 @@
               },
               "affixes": [
                 {
-                  "int": "504"
-                },
-                {
                   "int": "503"
                 },
                 {
@@ -9328,13 +9265,7 @@
                   "int": "669"
                 },
                 {
-                  "int": "87"
-                },
-                {
                   "int": "84"
-                },
-                {
-                  "int": "6"
                 },
                 {
                   "int": "103"
@@ -9370,13 +9301,7 @@
                   "int": "33"
                 },
                 {
-                  "int": "61"
-                },
-                {
                   "int": "37"
-                },
-                {
-                  "int": "15"
                 },
                 {
                   "int": "0"
@@ -9407,9 +9332,6 @@
                 },
                 {
                   "int": "71"
-                },
-                {
-                  "int": "70"
                 },
                 {
                   "int": "73"
@@ -10324,21 +10246,6 @@
                   "int": "104"
                 },
                 {
-                  "int": "1"
-                },
-                {
-                  "int": "17"
-                },
-                {
-                  "int": "80"
-                },
-                {
-                  "int": "13"
-                },
-                {
-                  "int": "24"
-                },
-                {
                   "int": "382"
                 },
                 {
@@ -10351,22 +10258,13 @@
                   "int": "760"
                 },
                 {
-                  "int": "74"
-                },
-                {
                   "int": "40"
                 },
                 {
                   "int": "29"
                 },
                 {
-                  "int": "51"
-                },
-                {
                   "int": "715"
-                },
-                {
-                  "int": "97"
                 },
                 {
                   "int": "60"
@@ -10379,9 +10277,6 @@
                 },
                 {
                   "int": "55"
-                },
-                {
-                  "int": "68"
                 },
                 {
                   "int": "54"
@@ -10406,7 +10301,7 @@
               "comparsion": "ANY",
               "comparsionValue": 1,
               "combinedComparsion": "MORE_OR_EQUAL",
-              "combinedComparsionValue": 12
+              "combinedComparsionValue": 15
             }
           },
           {
@@ -10551,9 +10446,6 @@
                   "int": "84"
                 },
                 {
-                  "int": "6"
-                },
-                {
                   "int": "103"
                 },
                 {
@@ -10567,12 +10459,6 @@
                 },
                 {
                   "int": "23"
-                },
-                {
-                  "int": "61"
-                },
-                {
-                  "int": "15"
                 },
                 {
                   "int": "718"
@@ -10626,9 +10512,6 @@
                   "int": "55"
                 },
                 {
-                  "int": "68"
-                },
-                {
                   "int": "54"
                 },
                 {
@@ -10645,7 +10528,7 @@
               "comparsion": "ANY",
               "comparsionValue": 1,
               "combinedComparsion": "MORE_OR_EQUAL",
-              "combinedComparsionValue": 12
+              "combinedComparsionValue": 15
             }
           },
           {
@@ -11314,8 +11197,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -11447,6 +11330,80 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "502"
+                },
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "26"
+                },
+                {
+                  "int": "71"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "73"
+                },
+                {
+                  "int": "633"
+                },
+                {
+                  "int": "623"
+                },
+                {
+                  "int": "766"
+                },
+                {
+                  "int": "825"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -11486,8 +11443,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -11589,6 +11546,65 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "65"
+                },
+                {
+                  "int": "66"
+                },
+                {
+                  "int": "945"
+                },
+                {
+                  "int": "26"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "824"
+                },
+                {
+                  "int": "29"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -11631,8 +11647,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -11743,6 +11759,71 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "502"
+                },
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "26"
+                },
+                {
+                  "int": "71"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "769"
+                },
+                {
+                  "int": "825"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "824"
+                },
+                {
+                  "int": "51"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -11797,8 +11878,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -11957,6 +12038,98 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "82"
+                },
+                {
+                  "int": "65"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "75"
+                },
+                {
+                  "int": "66"
+                },
+                {
+                  "int": "26"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "73"
+                },
+                {
+                  "int": "714"
+                },
+                {
+                  "int": "712"
+                },
+                {
+                  "int": "713"
+                },
+                {
+                  "int": "711"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "52"
+                },
+                {
+                  "int": "36"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "425"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "29"
+                },
+                {
+                  "int": "715"
+                },
+                {
+                  "int": "27"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -12002,8 +12175,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -12126,6 +12299,74 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "502"
+                },
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "26"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "710"
+                },
+                {
+                  "int": "675"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "36"
+                },
+                {
+                  "int": "31"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "715"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -12168,8 +12409,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -12289,6 +12530,74 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "502"
+                },
+                {
+                  "int": "505"
+                },
+                {
+                  "int": "28"
+                },
+                {
+                  "int": "677"
+                },
+                {
+                  "int": "676"
+                },
+                {
+                  "int": "679"
+                },
+                {
+                  "int": "678"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "36"
+                },
+                {
+                  "int": "1"
+                },
+                {
+                  "int": "31"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "715"
+                },
+                {
+                  "int": "27"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -12337,8 +12646,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -12476,6 +12785,80 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "502"
+                },
+                {
+                  "int": "505"
+                },
+                {
+                  "int": "331"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "192"
+                },
+                {
+                  "int": "419"
+                },
+                {
+                  "int": "416"
+                },
+                {
+                  "int": "572"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "52"
+                },
+                {
+                  "int": "1"
+                },
+                {
+                  "int": "31"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "382"
+                },
+                {
+                  "int": "715"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -12524,8 +12907,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -12651,6 +13034,74 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "502"
+                },
+                {
+                  "int": "505"
+                },
+                {
+                  "int": "331"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "71"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "73"
+                },
+                {
+                  "int": "419"
+                },
+                {
+                  "int": "416"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "52"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "382"
+                },
+                {
+                  "int": "715"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -12690,8 +13141,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -12766,6 +13217,47 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "26"
+                },
+                {
+                  "int": "70"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "382"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -12808,8 +13300,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -12929,6 +13421,71 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "100"
+                },
+                {
+                  "int": "12"
+                },
+                {
+                  "int": "18"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "766"
+                },
+                {
+                  "int": "825"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -12977,8 +13534,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -13113,6 +13670,80 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "9"
+                },
+                {
+                  "int": "100"
+                },
+                {
+                  "int": "12"
+                },
+                {
+                  "int": "32"
+                },
+                {
+                  "int": "18"
+                },
+                {
+                  "int": "93"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "65"
+                },
+                {
+                  "int": "66"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "824"
+                },
+                {
+                  "int": "29"
+                },
+                {
+                  "int": "55"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -13152,8 +13783,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -13270,6 +13901,71 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "9"
+                },
+                {
+                  "int": "100"
+                },
+                {
+                  "int": "12"
+                },
+                {
+                  "int": "18"
+                },
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "825"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "824"
+                },
+                {
+                  "int": "51"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -13321,8 +14017,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -13469,6 +14165,92 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "100"
+                },
+                {
+                  "int": "330"
+                },
+                {
+                  "int": "82"
+                },
+                {
+                  "int": "65"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "75"
+                },
+                {
+                  "int": "66"
+                },
+                {
+                  "int": "73"
+                },
+                {
+                  "int": "712"
+                },
+                {
+                  "int": "713"
+                },
+                {
+                  "int": "711"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "52"
+                },
+                {
+                  "int": "36"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "425"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "29"
+                },
+                {
+                  "int": "715"
+                },
+                {
+                  "int": "27"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -13514,8 +14296,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -13632,6 +14414,71 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "83"
+                },
+                {
+                  "int": "66"
+                },
+                {
+                  "int": "710"
+                },
+                {
+                  "int": "675"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "36"
+                },
+                {
+                  "int": "31"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "715"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -13674,8 +14521,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -13786,6 +14633,68 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "505"
+                },
+                {
+                  "int": "28"
+                },
+                {
+                  "int": "677"
+                },
+                {
+                  "int": "676"
+                },
+                {
+                  "int": "678"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "36"
+                },
+                {
+                  "int": "1"
+                },
+                {
+                  "int": "31"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "715"
+                },
+                {
+                  "int": "27"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -13834,8 +14743,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -13969,6 +14878,80 @@
               "minOnTheSameItem": 3,
               "comparsion": "ANY",
               "comparsionValue": 1,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "505"
+                },
+                {
+                  "int": "331"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "421"
+                },
+                {
+                  "int": "748"
+                },
+                {
+                  "int": "733"
+                },
+                {
+                  "int": "632"
+                },
+                {
+                  "int": "404"
+                },
+                {
+                  "int": "405"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "52"
+                },
+                {
+                  "int": "1"
+                },
+                {
+                  "int": "31"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "382"
+                },
+                {
+                  "int": "715"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14021,8 +15004,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14169,6 +15152,83 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "505"
+                },
+                {
+                  "int": "331"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "747"
+                },
+                {
+                  "int": "421"
+                },
+                {
+                  "int": "734"
+                },
+                {
+                  "int": "735"
+                },
+                {
+                  "int": "404"
+                },
+                {
+                  "int": "405"
+                },
+                {
+                  "int": "25"
+                },
+                {
+                  "int": "52"
+                },
+                {
+                  "int": "1"
+                },
+                {
+                  "int": "31"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "92"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "45"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "382"
+                },
+                {
+                  "int": "715"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -14205,8 +15265,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14296,6 +15356,53 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "9"
+                },
+                {
+                  "int": "12"
+                },
+                {
+                  "int": "18"
+                },
+                {
+                  "int": "34"
+                },
+                {
+                  "int": "80"
+                },
+                {
+                  "int": "10"
+                },
+                {
+                  "int": "19"
+                },
+                {
+                  "int": "7"
+                },
+                {
+                  "int": "382"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -14338,8 +15445,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14425,6 +15532,50 @@
               "minOnTheSameItem": 3,
               "comparsion": "ANY",
               "comparsionValue": 1,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "16"
+                },
+                {
+                  "int": "9"
+                },
+                {
+                  "int": "18"
+                },
+                {
+                  "int": "718"
+                },
+                {
+                  "int": "759"
+                },
+                {
+                  "int": "720"
+                },
+                {
+                  "int": "724"
+                },
+                {
+                  "int": "55"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14474,8 +15625,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14556,6 +15707,44 @@
           {
             "Condition": {
               "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "4"
+                },
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "9"
+                },
+                {
+                  "int": "18"
+                },
+                {
+                  "int": "759"
+                },
+                {
+                  "int": "720"
+                },
+                {
+                  "int": "724"
+                },
+                {
+                  "int": "55"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
                 "type": "SubTypeCondition"
               },
               "type": [
@@ -14595,8 +15784,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14652,6 +15841,35 @@
               "minOnTheSameItem": 3,
               "comparsion": "ANY",
               "comparsionValue": 1,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "718"
+                },
+                {
+                  "int": "717"
+                },
+                {
+                  "int": "721"
+                },
+                {
+                  "int": "64"
+                },
+                {
+                  "int": "643"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14698,8 +15916,8 @@
                 }
               ],
               "minOnTheSameItem": 1,
-              "comparsion": "MORE_OR_EQUAL",
-              "comparsionValue": 7,
+              "comparsion": "ANY",
+              "comparsionValue": 1,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }
@@ -14761,6 +15979,38 @@
               "minOnTheSameItem": 3,
               "comparsion": "ANY",
               "comparsionValue": 1,
+              "combinedComparsion": "ANY",
+              "combinedComparsionValue": 1
+            }
+          },
+          {
+            "Condition": {
+              "_attributes": {
+                "type": "AffixCondition"
+              },
+              "affixes": [
+                {
+                  "int": "72"
+                },
+                {
+                  "int": "12"
+                },
+                {
+                  "int": "18"
+                },
+                {
+                  "int": "717"
+                },
+                {
+                  "int": "720"
+                },
+                {
+                  "int": "55"
+                }
+              ],
+              "minOnTheSameItem": 1,
+              "comparsion": "MORE_OR_EQUAL",
+              "comparsionValue": 7,
               "combinedComparsion": "ANY",
               "combinedComparsionValue": 1
             }

@@ -546,18 +546,6 @@
             <UniqueId>219</UniqueId>
           </Uniques>
           <Uniques>
-            <UniqueId>418</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>417</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>419</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>409</UniqueId>
-          </Uniques>
-          <Uniques>
             <UniqueId>170</UniqueId>
           </Uniques>
           <Uniques>
@@ -1167,18 +1155,6 @@
           </Uniques>
           <Uniques>
             <UniqueId>219</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>418</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>417</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>419</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>409</UniqueId>
           </Uniques>
           <Uniques>
             <UniqueId>170</UniqueId>
@@ -2177,18 +2153,6 @@
           </Uniques>
           <Uniques>
             <UniqueId>219</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>418</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>417</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>419</UniqueId>
-          </Uniques>
-          <Uniques>
-            <UniqueId>409</UniqueId>
           </Uniques>
           <Uniques>
             <UniqueId>170</UniqueId>
@@ -5267,14 +5231,11 @@
         </Condition>
         <Condition i:type="AffixCondition">
           <affixes>
-            <int>504</int>
             <int>503</int>
             <int>670</int>
             <int>434</int>
             <int>669</int>
-            <int>87</int>
             <int>84</int>
-            <int>6</int>
             <int>103</int>
             <int>101</int>
             <int>16</int>
@@ -5286,9 +5247,7 @@
             <int>39</int>
             <int>93</int>
             <int>33</int>
-            <int>61</int>
             <int>37</int>
-            <int>15</int>
             <int>0</int>
             <int>82</int>
             <int>67</int>
@@ -5299,7 +5258,6 @@
             <int>99</int>
             <int>945</int>
             <int>71</int>
-            <int>70</int>
             <int>73</int>
             <int>341</int>
             <int>96</int>
@@ -5604,26 +5562,17 @@
             <int>36</int>
             <int>46</int>
             <int>104</int>
-            <int>1</int>
-            <int>17</int>
-            <int>80</int>
-            <int>13</int>
-            <int>24</int>
             <int>382</int>
             <int>824</int>
             <int>59</int>
             <int>760</int>
-            <int>74</int>
             <int>40</int>
             <int>29</int>
-            <int>51</int>
             <int>715</int>
-            <int>97</int>
             <int>60</int>
             <int>47</int>
             <int>56</int>
             <int>55</int>
-            <int>68</int>
             <int>54</int>
             <int>94</int>
             <int>85</int>
@@ -5635,7 +5584,7 @@
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
           <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
-          <combinedComparsionValue>12</combinedComparsionValue>
+          <combinedComparsionValue>15</combinedComparsionValue>
         </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
@@ -5696,14 +5645,11 @@
             <int>669</int>
             <int>672</int>
             <int>84</int>
-            <int>6</int>
             <int>103</int>
             <int>16</int>
             <int>100</int>
             <int>12</int>
             <int>23</int>
-            <int>61</int>
-            <int>15</int>
             <int>718</int>
             <int>717</int>
             <int>721</int>
@@ -5721,7 +5667,6 @@
             <int>60</int>
             <int>56</int>
             <int>55</int>
-            <int>68</int>
             <int>54</int>
             <int>85</int>
             <int>86</int>
@@ -5731,7 +5676,7 @@
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
           <combinedComparsion>MORE_OR_EQUAL</combinedComparsion>
-          <combinedComparsionValue>12</combinedComparsionValue>
+          <combinedComparsionValue>15</combinedComparsionValue>
         </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
@@ -6072,8 +6017,8 @@
             <int>825</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6127,6 +6072,35 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>4</int>
+            <int>34</int>
+            <int>330</int>
+            <int>83</int>
+            <int>26</int>
+            <int>71</int>
+            <int>70</int>
+            <int>73</int>
+            <int>633</int>
+            <int>623</int>
+            <int>766</int>
+            <int>825</int>
+            <int>25</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>RELIC</EquipmentType>
@@ -6150,8 +6124,8 @@
             <int>29</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6195,6 +6169,30 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>34</int>
+            <int>330</int>
+            <int>65</int>
+            <int>66</int>
+            <int>945</int>
+            <int>26</int>
+            <int>70</int>
+            <int>25</int>
+            <int>80</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>824</int>
+            <int>29</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>AMULET</EquipmentType>
@@ -6219,8 +6217,8 @@
             <int>824</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6267,6 +6265,32 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>330</int>
+            <int>83</int>
+            <int>26</int>
+            <int>71</int>
+            <int>70</int>
+            <int>769</int>
+            <int>825</int>
+            <int>25</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>824</int>
+            <int>51</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>RING</EquipmentType>
@@ -6295,8 +6319,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6359,6 +6383,41 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>330</int>
+            <int>82</int>
+            <int>65</int>
+            <int>83</int>
+            <int>75</int>
+            <int>66</int>
+            <int>26</int>
+            <int>70</int>
+            <int>73</int>
+            <int>714</int>
+            <int>712</int>
+            <int>713</int>
+            <int>711</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>80</int>
+            <int>92</int>
+            <int>425</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>29</int>
+            <int>715</int>
+            <int>27</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>BELT</EquipmentType>
@@ -6384,8 +6443,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6436,6 +6495,33 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>4</int>
+            <int>34</int>
+            <int>83</int>
+            <int>26</int>
+            <int>70</int>
+            <int>710</int>
+            <int>675</int>
+            <int>25</int>
+            <int>36</int>
+            <int>31</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>715</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>GLOVES</EquipmentType>
@@ -6460,8 +6546,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6511,6 +6597,33 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>505</int>
+            <int>28</int>
+            <int>677</int>
+            <int>676</int>
+            <int>679</int>
+            <int>678</int>
+            <int>25</int>
+            <int>36</int>
+            <int>1</int>
+            <int>31</int>
+            <int>80</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>715</int>
+            <int>27</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>BOOTS</EquipmentType>
@@ -6537,8 +6650,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6594,6 +6707,35 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>505</int>
+            <int>331</int>
+            <int>34</int>
+            <int>70</int>
+            <int>192</int>
+            <int>419</int>
+            <int>416</int>
+            <int>572</int>
+            <int>25</int>
+            <int>52</int>
+            <int>1</int>
+            <int>31</int>
+            <int>80</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>382</int>
+            <int>715</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>BODY_ARMOR</EquipmentType>
@@ -6620,8 +6762,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6673,6 +6815,33 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>502</int>
+            <int>505</int>
+            <int>331</int>
+            <int>34</int>
+            <int>71</int>
+            <int>70</int>
+            <int>73</int>
+            <int>419</int>
+            <int>416</int>
+            <int>25</int>
+            <int>52</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>382</int>
+            <int>715</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>HELMET</EquipmentType>
@@ -6696,8 +6865,8 @@
             <int>382</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6732,6 +6901,24 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>34</int>
+            <int>26</int>
+            <int>70</int>
+            <int>80</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>382</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>CATALYST</EquipmentType>
@@ -6756,8 +6943,8 @@
             <int>825</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6807,6 +6994,32 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>72</int>
+            <int>100</int>
+            <int>12</int>
+            <int>18</int>
+            <int>34</int>
+            <int>330</int>
+            <int>83</int>
+            <int>766</int>
+            <int>825</int>
+            <int>25</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>RELIC</EquipmentType>
@@ -6833,8 +7046,8 @@
             <int>55</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6889,6 +7102,35 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>72</int>
+            <int>9</int>
+            <int>100</int>
+            <int>12</int>
+            <int>32</int>
+            <int>18</int>
+            <int>93</int>
+            <int>34</int>
+            <int>330</int>
+            <int>65</int>
+            <int>66</int>
+            <int>25</int>
+            <int>80</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>824</int>
+            <int>29</int>
+            <int>55</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>AMULET</EquipmentType>
@@ -6912,8 +7154,8 @@
             <int>824</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -6962,6 +7204,32 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>72</int>
+            <int>9</int>
+            <int>100</int>
+            <int>12</int>
+            <int>18</int>
+            <int>330</int>
+            <int>83</int>
+            <int>825</int>
+            <int>25</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>824</int>
+            <int>51</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>RING</EquipmentType>
@@ -6989,8 +7257,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7049,6 +7317,39 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>100</int>
+            <int>330</int>
+            <int>82</int>
+            <int>65</int>
+            <int>83</int>
+            <int>75</int>
+            <int>66</int>
+            <int>73</int>
+            <int>712</int>
+            <int>713</int>
+            <int>711</int>
+            <int>25</int>
+            <int>52</int>
+            <int>36</int>
+            <int>80</int>
+            <int>92</int>
+            <int>425</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>29</int>
+            <int>715</int>
+            <int>27</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>BELT</EquipmentType>
@@ -7074,8 +7375,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7124,6 +7425,32 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>72</int>
+            <int>34</int>
+            <int>83</int>
+            <int>66</int>
+            <int>710</int>
+            <int>675</int>
+            <int>25</int>
+            <int>36</int>
+            <int>31</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>715</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>GLOVES</EquipmentType>
@@ -7148,8 +7475,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7196,6 +7523,31 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>505</int>
+            <int>28</int>
+            <int>677</int>
+            <int>676</int>
+            <int>678</int>
+            <int>25</int>
+            <int>36</int>
+            <int>1</int>
+            <int>31</int>
+            <int>80</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>715</int>
+            <int>27</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>BOOTS</EquipmentType>
@@ -7222,8 +7574,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7277,6 +7629,35 @@
           <minOnTheSameItem>3</minOnTheSameItem>
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>505</int>
+            <int>331</int>
+            <int>34</int>
+            <int>421</int>
+            <int>748</int>
+            <int>733</int>
+            <int>632</int>
+            <int>404</int>
+            <int>405</int>
+            <int>25</int>
+            <int>52</int>
+            <int>1</int>
+            <int>31</int>
+            <int>80</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>382</int>
+            <int>715</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7305,8 +7686,8 @@
             <int>715</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7365,6 +7746,36 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>505</int>
+            <int>331</int>
+            <int>34</int>
+            <int>747</int>
+            <int>421</int>
+            <int>734</int>
+            <int>735</int>
+            <int>404</int>
+            <int>405</int>
+            <int>25</int>
+            <int>52</int>
+            <int>1</int>
+            <int>31</int>
+            <int>80</int>
+            <int>92</int>
+            <int>10</int>
+            <int>45</int>
+            <int>19</int>
+            <int>7</int>
+            <int>382</int>
+            <int>715</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>HELMET</EquipmentType>
@@ -7387,8 +7798,8 @@
             <int>382</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7428,6 +7839,26 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>72</int>
+            <int>9</int>
+            <int>12</int>
+            <int>18</int>
+            <int>34</int>
+            <int>80</int>
+            <int>10</int>
+            <int>19</int>
+            <int>7</int>
+            <int>382</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>CATALYST</EquipmentType>
@@ -7452,8 +7883,8 @@
             <int>55</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7491,6 +7922,25 @@
           <minOnTheSameItem>3</minOnTheSameItem>
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>72</int>
+            <int>16</int>
+            <int>9</int>
+            <int>18</int>
+            <int>718</int>
+            <int>759</int>
+            <int>720</int>
+            <int>724</int>
+            <int>55</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7518,8 +7968,8 @@
             <int>55</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7556,6 +8006,23 @@
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>4</int>
+            <int>72</int>
+            <int>9</int>
+            <int>18</int>
+            <int>759</int>
+            <int>720</int>
+            <int>724</int>
+            <int>55</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
         <Condition i:type="SubTypeCondition">
           <type>
             <EquipmentType>ONE_HANDED_SCEPTRE</EquipmentType>
@@ -7579,8 +8046,8 @@
             <int>643</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7608,6 +8075,20 @@
           <minOnTheSameItem>3</minOnTheSameItem>
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>718</int>
+            <int>717</int>
+            <int>721</int>
+            <int>64</int>
+            <int>643</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7634,8 +8115,8 @@
             <int>55</int>
           </affixes>
           <minOnTheSameItem>1</minOnTheSameItem>
-          <comparsion>MORE_OR_EQUAL</comparsion>
-          <comparsionValue>7</comparsionValue>
+          <comparsion>ANY</comparsion>
+          <comparsionValue>1</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>
@@ -7665,6 +8146,21 @@
           <minOnTheSameItem>3</minOnTheSameItem>
           <comparsion>ANY</comparsion>
           <comparsionValue>1</comparsionValue>
+          <combinedComparsion>ANY</combinedComparsion>
+          <combinedComparsionValue>1</combinedComparsionValue>
+        </Condition>
+        <Condition i:type="AffixCondition">
+          <affixes>
+            <int>72</int>
+            <int>12</int>
+            <int>18</int>
+            <int>717</int>
+            <int>720</int>
+            <int>55</int>
+          </affixes>
+          <minOnTheSameItem>1</minOnTheSameItem>
+          <comparsion>MORE_OR_EQUAL</comparsion>
+          <comparsionValue>7</comparsionValue>
           <combinedComparsion>ANY</combinedComparsion>
           <combinedComparsionValue>1</combinedComparsionValue>
         </Condition>

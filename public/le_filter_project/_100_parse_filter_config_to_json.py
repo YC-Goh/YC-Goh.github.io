@@ -227,6 +227,6 @@ def main(input_file: Path) -> dict:
     return affixes
 
 if __name__ == "__main__":
-    rules = main(filepaths["filter_maker"]["input"].joinpath("filter_yc.xlsx"))
+    rules = main(filepaths["filter_maker"]["input"].joinpath("filter.xlsx"))
     with open(filepaths["filter_maker"]["output"].joinpath("filter.json"), "wt") as file:
         file.write(json.dumps(rules, indent=2))

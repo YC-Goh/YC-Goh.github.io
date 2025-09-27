@@ -42,13 +42,13 @@ def json_to_etree(element: et.Element, filter_json: dict) -> et.Element:
                         json_to_etree(sub_element, sub_sub_element_json)
     return element
 
-def main(input_folder: Path) -> et.Element:
-    filter_rules = json.loads(open(input_folder.joinpath("filter.json"), "rt").read())
+def main(input_file: Path) -> et.Element:
+    filter_rules = json.loads(open(input_file, "rt").read())
     itemfilter = et.Element("ItemFilter", nsmap=NSMAP)
     itemfilter = json_to_etree(itemfilter, filter_rules)
     return itemfilter
 
 if __name__ == "__main__":
-    itemfilter = main(filepaths["filter_maker"]["output"])
+    itemfilter = main(filepaths["filter_maker"]["output"].joinpath("filter.json"))
     with open(filepaths["filter_maker"]["output"].joinpath("filter.xml"), "wt") as file:
         file.write(et.tostring(itemfilter, pretty_print=True, encoding='utf-8').decode())

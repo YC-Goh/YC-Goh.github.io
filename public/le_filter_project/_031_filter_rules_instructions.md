@@ -49,7 +49,6 @@ To create more item affix rules, just create a new column and give it a name, an
 
 #   Common Patterns for Advanced Options
 
-1.  [Simple] Show items with N of X affixes using only affix group 1 with minimum affixes N.
-2.  [Simple] Show items with N affixes, each from its own pool using affix groups 1/2/.../N each with minimum affixes 1.
-3.  [Intermediate] Show items with N affixes in an expanding set using affix groups 1/2/.../N, where group 1 is the smallest set and minimum affix 1, up to group N being largest with minimum affixes N.
-4.  [Intermediate] Show items with exactly N affixes and no more from X affixes using affix group 1/2 with minimum affixes N for both, and affix group 1 selects X affixes and group 2 selects all affixes. Useful for finding 2-mod Exalted items.
+1.  Show items with N of X affixes using only affix group 1 with minimum affixes N.
+2.  Show items with N affixes, each from its own pool using affix groups 1/2/.../N each with minimum affixes 1.
+3.  Show items with N affixes in an expanding set using affix groups 1/2/.../N, where group 1 is the smallest set and minimum affix 1, up to group N being largest with minimum affixes N.
