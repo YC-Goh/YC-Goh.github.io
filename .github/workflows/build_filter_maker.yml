@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [windows-latest]
         python-version: ["3.13"]
 
     steps:
@@ -32,7 +32,7 @@ jobs:
       if: matrix.os == 'windows-latest'
       run: |
         cd public/le_filter_project
-        mkdir filter_maker/raw -m a+rwx -p
+        mkdir -ItemType Directory -Path filter_maker/raw -Force
         python _031_compile_filter_rules_excel.py
         pyinstaller --onefile --name "filter_maker_x86" main.py
     
