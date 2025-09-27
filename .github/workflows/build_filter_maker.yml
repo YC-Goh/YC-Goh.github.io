@@ -33,19 +33,19 @@ jobs:
       if: matrix.os == 'windows-latest'
       run: |
         cd public/le_filter_project
-        pyinstaller --onefile --windowed --icon=icon.ico --name "filter_maker_x86" main.py
+        pyinstaller --onefile --name "filter_maker_x86" main.py
     
-    - name: Build with PyInstaller (Linux)
-      if: matrix.os == 'ubuntu-latest'
-      run: |
-        cd public/le_filter_project
-        pyinstaller --onefile --name "filter_maker_linux" main.py
+    # - name: Build with PyInstaller (Linux)
+    #   if: matrix.os == 'ubuntu-latest'
+    #   run: |
+    #     cd public/le_filter_project
+    #     pyinstaller --onefile --name "filter_maker_linux" main.py
     
-    - name: Build with PyInstaller (macOS)
-      if: matrix.os == 'macos-latest'
-      run: |
-        cd public/le_filter_project
-        pyinstaller --onefile --windowed --icon=icon.icns --name "filter_maker_macos" main.py
+    # - name: Build with PyInstaller (macOS)
+    #   if: matrix.os == 'macos-latest'
+    #   run: |
+    #     cd public/le_filter_project
+    #     pyinstaller --onefile --name "filter_maker_macos" main.py
     
     - name: Upload Windows Artifact
       if: matrix.os == 'windows-latest'
@@ -54,16 +54,16 @@ jobs:
         name: filter_maker_x86
         path: public/le_filter_project/dist/filter_maker_x86.exe
     
-    - name: Upload Linux Artifact
-      if: matrix.os == 'ubuntu-latest'
-      uses: actions/upload-artifact@v4
-      with:
-        name: filter_maker_linux
-        path: public/le_filter_project/dist/filter_maker_linux
+    # - name: Upload Linux Artifact
+    #   if: matrix.os == 'ubuntu-latest'
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: filter_maker_linux
+    #     path: public/le_filter_project/dist/filter_maker_linux
     
-    - name: Upload macOS Artifact
-      if: matrix.os == 'macos-latest'
-      uses: actions/upload-artifact@v4
-      with:
-        name: filter_maker_macos
-        path: public/le_filter_project/dist/filter_maker_macos
+    # - name: Upload macOS Artifact
+    #   if: matrix.os == 'macos-latest'
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: filter_maker_macos
+    #     path: public/le_filter_project/dist/filter_maker_macos
