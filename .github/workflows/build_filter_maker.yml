@@ -33,7 +33,8 @@ jobs:
       shell: bash
       run: |
         cd public/le_filter_project
-        mkdir filter_maker/raw -chmod a+rwx -p
+        mkdir --help
+        mkdir filter_maker/raw -m a+rwx -p
         python _031_compile_filter_rules_excel.py
         pyinstaller --onefile --name "filter_maker_x86" main.py
     
