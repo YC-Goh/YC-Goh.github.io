@@ -22,22 +22,20 @@ jobs:
       with:
         auto-update-conda: true
         python-version: ${{ matrix.python-version }}
-        miniforge-version: latest
+        mamba-version: "*"
         channels: conda-forge
         conda-remove-defaults: "true"
         activate-environment: loot-filter-project
         environment-file: public/le_filter_project/loot-filter-project.yml
         auto-activate-base: false
-      shell: bash
-      run: |
-        conda info
-        conda list
-        conda activate loot-filter-project
     
     - name: Build with PyInstaller (Windows)
       if: matrix.os == 'windows-latest'
       shell: bash
       run: |
+        conda info
+        conda list
+        conda activate loot-filter-project
         cd public/le_filter_project
         mkdir --help
         mkdir filter_maker/raw -p
