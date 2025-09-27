@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python-version: [3.13]
+        python-version: ["3.13"]
 
     steps:
     - uses: actions/checkout@v3
@@ -24,7 +24,7 @@ jobs:
         auto-update-conda: true
         python-version: ${{ matrix.python-version }}
         mamba-version: "*"
-        channels: conda-
+        channels: conda-forge
         activate-environment: loot-filter-project
         environment-file: public/le_filter_project/loot-filter-project.yml
         auto-activate-base: false
