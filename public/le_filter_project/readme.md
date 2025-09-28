@@ -48,3 +48,14 @@ Once you complete your filters, run filter_maker_x86.exe. It will create a pair 
 ### Import to Game
 
 The XML files in output are the actual loot filters. For convenience, suggest you open them in Notepad or any other plaintext reader, then Select All, then copy to clipboard (Ctrl + C), then in-game, open the loot filter panel, click the "+", then select the last option "Paste from Clipboard".
+
+##  Planned Changes
+
+No guarantees, this depends on what little time I have to update this. It would also help a lot if Last Epoch continues being a profitable game so that it receives updates for many years to come, like PoE and Diablo.
+
+1.  Add tags to create rules showing COF bases for Runes of Ascendance.
+2.  Filtering on mod ranges for uniques.
+3.  Filtering on specific base types for items (single-item types only).
+4.  Rules for 2-mod items.
+5.  Extract the ID to symbols / colour mapping for reference.
+6.  Create GUI for application: stage 1 is probably just file selection options and maybe a table viewer to edit the Excel file, stage 2 would be a more full-fledged rules generator using player preferences, similar to how loot filter makers for PoE work.

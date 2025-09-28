@@ -43,11 +43,13 @@ jobs:
         cd public/le_filter_project
         mkdir filter_maker/raw -p
         python _031_compile_filter_rules_excel.py
+        python _110_parse_changelog.py
         pyinstaller --onefile --name "filter_maker_x86" main.py
     
     - name: Release
       uses: softprops/action-gh-release@v2
       with:
+        body_path: public/le_filter_project/changelog/${{ github.ref_name }}.md
         files: |
           public/le_filter_project/readme.md
           public/le_filter_project/filter_maker/raw/filter.xlsx

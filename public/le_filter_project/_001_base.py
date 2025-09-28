@@ -140,6 +140,7 @@ filepaths = {
     "item_id": filepaths["project"].joinpath("item_id"), 
     "unique_id": filepaths["project"].joinpath("unique_id"), 
     "condition_list": filepaths["project"].joinpath("condition_list"), 
+    "changelog": filepaths["project"].joinpath("changelog"), 
 }
 filepaths["filter_maker"] = {
     "raw": filepaths["filter_maker"].joinpath("raw"), 

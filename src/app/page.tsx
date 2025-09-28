@@ -33,9 +33,9 @@ export default function Page() {
                 <SectionTextBoxRightColumn>
                     Data Engineer
                     <br></br>
-                    Lecturer
-                    <br></br>
                     Sketch + Digital Artist
+                    <br></br>
+                    Lecturer
                 </SectionTextBoxRightColumn>
             </div>
         </PageTemplate>

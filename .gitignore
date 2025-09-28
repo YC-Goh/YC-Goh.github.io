@@ -180,6 +180,9 @@ node_modules/
 .next/
 next-env.d.ts
 
+# Hide archives
+src/**/archive
+
 # Hide compiled programs
 public/**/main
 

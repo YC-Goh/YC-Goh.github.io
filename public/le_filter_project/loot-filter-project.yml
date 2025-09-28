@@ -2,7 +2,7 @@ name: loot-filter-project
 channels:
   - conda-forge
 dependencies:
-  - python>=3.12
+  - python
   - numpy
   - pandas
   - openpyxl
@@ -10,6 +10,7 @@ dependencies:
   - requests
   - bs4
   - lxml
+  - pyyaml
   - regex
   - Flask
   - pillow

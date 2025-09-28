@@ -1,0 +1,11 @@
+1.0.00: 
+    description: |
+        First release
+        -   Download readme.md and read carefully.
+        -   Download filter.xlsx and filter_maker_x86.exe and copy / store them according to the readme.
+        -   Follow the readme to make your loot filter.
+        This does not require any internet or you to install any new programs. It should work entirely locally on your own machine. It also does not upload or download any data from the internet. If it does, something has gone seriously, seriously wrong and I would advise you to delete the program.
+    sub_releases:
+        -   1.0.00.00: First release.
+        -   1.0.00.01: v.00 failed. This resolves the issue but very rudimentary workflow.
+        -   1.0.00.02: v.01 successful. This updates workflow to write release notes.
