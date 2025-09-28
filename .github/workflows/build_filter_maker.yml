@@ -35,6 +35,7 @@ jobs:
         conda info
         conda list
         conda activate loot-filter-project
+        echo changelog/${{ github.ref_name }}.md
         cd public/le_filter_project
         mkdir --help
         mkdir filter_maker/raw -p
