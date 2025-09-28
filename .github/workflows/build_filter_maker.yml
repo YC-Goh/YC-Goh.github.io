@@ -22,7 +22,6 @@ jobs:
       with:
         auto-update-conda: true
         python-version: ${{ matrix.python-version }}
-        mamba-version: "*"
         channels: conda-forge
         conda-remove-defaults: "true"
         activate-environment: loot-filter-project
@@ -31,7 +30,7 @@ jobs:
     
     - name: Build with PyInstaller (Windows)
       if: matrix.os == 'windows-latest'
-      shell: bash
+      shell: bash -el {0}
       run: |
         conda info
         conda list
