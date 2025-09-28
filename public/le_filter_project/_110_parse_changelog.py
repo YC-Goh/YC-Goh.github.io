@@ -67,7 +67,7 @@ def generate_changelog_files(yaml_filepath, output_dir):
                 )
                 
                 # Create filename
-                filename = f"{sub_version}.md"
+                filename = f"filter.maker.{sub_version}.md"
                 filepath = os.path.join(output_dir, filename)
                 
                 # Write the markdown file

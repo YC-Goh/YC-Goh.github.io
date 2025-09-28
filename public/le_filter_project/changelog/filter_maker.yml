@@ -9,3 +9,4 @@
         -   1.0.00.00: First release.
         -   1.0.00.01: v.00 failed. This resolves the issue but very rudimentary workflow.
         -   1.0.00.02: v.01 successful. This updates workflow to write release notes.
+        -   1.0.00.03: v.02 failed. This updates the changelog generation script to output with correct file names.

@@ -40,6 +40,7 @@ jobs:
         mkdir --help
         mkdir filter_maker/raw -p
         python _031_compile_filter_rules_excel.py
+        python _110_parse_changelog.py
         pyinstaller --onefile --name "filter_maker_x86" main.py
     
     # - name: Build with PyInstaller (Linux)
