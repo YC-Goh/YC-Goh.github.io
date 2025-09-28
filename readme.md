@@ -38,3 +38,4 @@ Find releases compiled from projects: [here](https://github.com/YC-Goh/YC-Goh.gi
 |  Version  |  Notes  |
 |  ----  |  ----  |
 |  v.00  |  Init commit for version.  |
+|  v.01  |  Fix typos.  |
