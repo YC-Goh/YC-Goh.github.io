@@ -180,6 +180,9 @@ node_modules/
 .next/
 next-env.d.ts
 
+# Hide compiled programs
+public/**/main
+
 # Hide data
 public/**/raw/
 public/**/*.xlsx
