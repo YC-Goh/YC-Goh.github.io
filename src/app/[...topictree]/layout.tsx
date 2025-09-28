@@ -15,8 +15,8 @@ export default async function PageLayout({
     
     let page_title: string
     switch (topic) {
-        case "reads":
-            page_title = "Fun Reads"
+        case "fun":
+            page_title = "Fun Things"
             break;
         case "projects":
             page_title = "Projects"

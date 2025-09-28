@@ -17,7 +17,7 @@ export default function PageTemplate({
             </div>
             <div className="p-2 flex flex-row justify-center border-b-2 border-sky-100 divide-x-1 divide-sky-100">
                 <HeaderLink href="/">Home</HeaderLink>
-                <HeaderLink href="/reads">Reads</HeaderLink>
+                <HeaderLink href="/fun">Fun</HeaderLink>
                 <HeaderLink href="/projects">Projects</HeaderLink>
                 <HeaderLink href="https://github.com/yc-goh/yc-goh.github.io">Repo</HeaderLink>
             </div>

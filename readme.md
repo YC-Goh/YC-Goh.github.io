@@ -1,20 +1,33 @@
-# Hello!
+#   YC-Goh.GitHub.IO
 
-Welcome to the repo for my [personal website](https://yc-goh.github.io).
-This is being maintained entirely as a hobby side project / living portfolio / coding practice exercise.
-I will be trying to maintain this near-daily from now on.
+This is the repo for my [personal website](https://yc-goh.github.io).
 
-# GohYC#### / YC-Goh
+##  Sections
 
-This links together things under this username (where not already taken by others). 
-Everyone has their own private usernames, so similarly you will not find mine here.
+1.  Fun Stuff: Reading and watching recommendations.
+2.  Projects: Personal projects that are in better places.
 
-# AI Coding Buddy Usage
+##  Releases
 
-I will get there one day. 
-For now, the purpose of this project is to shore up my fundamental knowledge of JS / HTML / CSS under the Next.JS + TailwindCSS stack.
+Find releases compiled from projects: [here](https://github.com/YC-Goh/YC-Goh.github.io/releases).
 
-# Dynamic Content
+##  Versions
 
-I will get there one day.
-For now, this website is fully static and pre-rendered server-side.
+|  Version  |  Notes  |
+|  ----  |  ----  |
+|  1.0.00  |  Technically there was a lot of stuff going on before this "first release", but all of that is lost to time now.  |
+|  1.0.01  |  Minor updates to pages.  |
+
+###  Sub-Versions
+
+####    1.0.00
+
+|  Version  |  Notes  |
+|  ----  |  ----  |
+|  v.00  |  Proper first re-release, using Git tags.  |
+
+####    1.0.01
+
+|  Version  |  Notes  |
+|  ----  |  ----  |
+|  v.00  |  Init commit for version.  |
