@@ -18,8 +18,8 @@ export default async function PageLayout({
         case "reads":
             page_title = "Fun Reads"
             break;
-        case "data":
-            page_title = "Public Data"
+        case "projects":
+            page_title = "Projects"
             break;
         default:
             page_title = "Where Is This?"

@@ -6,6 +6,12 @@
 |   ----    |   ----    |   ----    |
 |   1.0.0   |   2025-09 |   First release. Program only, no user interface. Covers filtering uniques / sets (no filtering on mod range yet) and filtering items by affixes (no filtering on item sub-type yet). |
 
+##  Download
+
+Find all the releases: [here](https://github.com/YC-Goh/YC-Goh.github.io/releases).
+
+In case I dump other project releases in the future, filter maker releases are always `filter.maker.D.D.DD.DD`.
+
 ##  Introduction
 
 This is a personal project made because the in-game loot filter maker, while useful, lacked a lot of usability features like saving affix sets and copying rule conditions for re-use. If this loot filter maker works the way I need it to, I think there is a good chance that there are other players that this is useful for, hence this release.
@@ -23,14 +29,14 @@ Create a folder (any name), and in the folder keep filter_maker_x86.exe, and a f
 Visually, the folder should look like this
 
 [Folder]
-  |-  filter_maker_x86.exe
-  |-  filter_maker
-        |-  input
-              |-  [your completed XLSX filter files]
-        |-  output
-              |-  [compiled filter files]
-        |-  raw
-              |-  filter.xlsx
+-   filter_maker_x86.exe
+-   filter_maker
+    -   input
+        -   [your completed XLSX filter files]
+    -   output
+        -   [compiled filter files]
+    -   raw
+        -   filter.xlsx
 
 ### Create Filter
 
