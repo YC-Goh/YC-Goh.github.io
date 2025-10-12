@@ -39,3 +39,10 @@ Find releases compiled from projects: [here](https://github.com/YC-Goh/YC-Goh.gi
 |  ----  |  ----  |
 |  v.00  |  Init commit for version.  |
 |  v.01  |  Fix typos.  |
+|  v.02  |  Fix typos.  |
+
+####    1.0.03
+
+|  Version  |  Notes  |
+|  ----  |  ----  |
+|  v.00  |  Init commit for version.  |

@@ -30,6 +30,13 @@ def _affix_details_html_parser(html_filepath: str) -> dict:
             div_entry_applies_to = strip_ws(div_entry_applies_to.get_text(",", strip=True)).title()
             div_entry_applies_to = div_entry_applies_to.replace("\u00d7", "x")
             div_entry_applies_to = ",".join([re.compile(r"\[\d+\s*x\s*\d+\]").sub("", div_apply_applies).strip() for div_apply_applies in div_entry_applies_to.split(",")])
+        div_entries_related = div_entry.find_all("div", attrs={"class": "related-refs"})
+        if div_entries_related:
+            div_entry_related_ailment = ",".join([strip_ws(related_ailment.get_text(",", strip=True)).title() for div_entry_related in div_entries_related for related_ailment in div_entry_related.find_all("div", attrs={"class": "ailment-icon-name"})])
+            div_entry_related_ability = ",".join([strip_ws(related_ability.get_text(",", strip=True)).title() for div_entry_related in div_entries_related for related_ability in div_entry_related.find_all("div", attrs={"class": "ability-icon-name"})])
+        else:
+            div_entry_related_ailment = ""
+            div_entry_related_ability = ""
         div_entry_level = div_entry.find("div", attrs={"class": "item-req"})
         if div_entry_level:
             div_entry_level = strip_ws(div_entry_level.get_text(" ", strip=True)).title()
@@ -59,6 +66,8 @@ def _affix_details_html_parser(html_filepath: str) -> dict:
         div_entry_map[div_entry_id] = {
             "name": div_entry_name, 
             "tier_table": div_entry_tier_map, 
+            "related_ailment": div_entry_related_ailment, 
+            "related_ability": div_entry_related_ability, 
             "applies_to": div_entry_applies_to, 
             "level": div_entry_level, 
             "class": div_entry_class, 

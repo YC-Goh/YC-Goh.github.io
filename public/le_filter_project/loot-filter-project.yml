@@ -12,6 +12,7 @@ dependencies:
   - lxml
   - pyyaml
   - regex
-  - Flask
   - pillow
+  - pyside6
+  - qt6-wayland
   - pyinstaller
